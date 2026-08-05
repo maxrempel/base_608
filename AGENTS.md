@@ -1,12 +1,30 @@
-# claude_base project rules for Codex and Claude
+# base_608 project rules for Codex and Claude
 
 Max = "I/my/me". The active AI agent = "you".
 
 ## Operational access
 
-- Before asking Max for any login, SSH key, hostname, API credential, machine path, mailbox, or setup procedure, read `C:\claude_base\tools\codex_access\operational_access_map_v01_tomemex.md`.
-- Bitwarden use is standing-approved. Use `C:\claude_base\tools\codex_access\scripts\bw_auto.py` to unlock and search automatically, then try the documented Nextcloud credential stores. Ask only after these routes fail with a specific error.
+- Before asking Max for any login, SSH key, hostname, API credential, machine path, mailbox, or setup procedure, read `C:\base_608\tools\codex_access\operational_access_map_v01_tomemex.md`.
+- Bitwarden use is standing-approved. Use `C:\base_608\tools\codex_access\scripts\bw_auto.py` to unlock and search automatically, then try the documented Nextcloud credential stores. Ask only after these routes fail with a specific error.
 
+
+## Two-repo cooperation model (added 2026-08-05)
+
+There are now two repositories that Claude and Codex use interchangeably:
+
+- **C:\claude_base** (GitHub: maxrempel/claude_base) - The original repository with full history. Old sessions continue working here. Contains 42,000+ tracked files including backups, runtime data, and accumulated state.
+- **C:\base_608** (GitHub: maxrempel/base_608) - Clean repository started 2026-08-05. New sessions work here. Contains essential rules, tools, docs, active projects, and worklog. Excludes runtime junk via .gitignore.
+
+**How they cooperate:**
+- Both folders exist on Pine's disk, so sessions in either repo can read files from the other.
+- Old sessions in C:\claude_base can access C:\base_608 files and vice versa.
+- New sessions should work in C:\base_608 for cleaner Git operations.
+- Old sessions continue in C:\claude_base without disruption.
+- Both repos share the same rules (AGENTS.md), and updates should be made in both.
+- When a task completes, commit to the appropriate repo based on which folder the session is working in.
+
+**Why two repos:**
+The original C:\claude_base accumulated 42,000+ tracked files including backups, KV stores, runtime data, and large media files, making Git operations slow and error-prone. Rather than risk breaking active sessions by cleaning it up, we created a fresh repository with a clean .gitignore. Old sessions continue undisturbed; new sessions get a clean workspace.
 ## Shared dirty checkout safety
 
 This repository is worked on by many sessions at once. The main checkout is normally dirty with other sessions' files and runtime state.
@@ -29,7 +47,7 @@ This repository is worked on by many sessions at once. The main checkout is norm
 
 - `C:\Users\maxre\my_keys.html` is Max's canonical human-readable keyboard shortcut list. Do not substitute `typer_commands.md`, a launcher comment, or a developer method document when Max asks for "the shortcut list" or "my keys".
 - Any task that changes a Typer, Typer2, Tayscribe, or Player 2 key binding, engine/model assigned to a key, language, operating mode, recall behavior, or other user-visible shortcut behavior must update `my_keys.html` in the same task.
-- Verify the page against the uncommented commands in `C:\claude_base\tools\typer\start_typer_all.bat` by running `C:\claude_base\tools\typer\test_accuracy_contract_v01.py`. The live-key set and the page's `data-live-key` set must match exactly.
+- Verify the page against the uncommented commands in `C:\base_608\tools\typer\start_typer_all.bat` by running `C:\base_608\tools\typer\test_accuracy_contract_v01.py`. The live-key set and the page's `data-live-key` set must match exactly.
 - Preserve the prior page under `C:\Users\maxre\archive\` before a meaningful rewrite. Keep the page concise and accurate because Max opens it directly through `file:///C:/Users/maxre/my_keys.html`.
 
 ## Why this is strict
