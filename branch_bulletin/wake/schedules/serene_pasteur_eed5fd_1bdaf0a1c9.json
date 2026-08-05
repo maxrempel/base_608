@@ -1,0 +1,9 @@
+[
+  {
+    "id": "a1076ddb",
+    "due": 1782066000.0,
+    "repeat_sec": 0,
+    "msg": "E5 Sol trouble-watch 4h verify (240mt cadence). Verify Max's existing Healthchecks monitors are green: curl -s -H 'X-Api-Key: hcw_FURiOSiC9Vszzf2OWydsJumrkNj9' https://healthchecks.io/api/v3/checks/ then python-parse names containing 'sol' or 'fleet' -> print name+status+last_ping. All up = one short line to Max. Any down/grace/late = ALARM Max in TLDR (sol-host=freeze, sol-cpu-temp=overheat/freeze, fleet=meta). DO NOT relaunch any bespoke watcher (retired). Then re-arm the next 4h wake: python C:/claude_base/tools/wake_listener/wakeup.py add --at '<now+4h>' --msg '<this same msg>'. Stop only if Max says stop / Sol work done.",
+    "created": 1782051671.5773225
+  }
+]

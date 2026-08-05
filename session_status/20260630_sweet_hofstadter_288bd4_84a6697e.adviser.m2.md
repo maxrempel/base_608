@@ -1,0 +1,7 @@
+# Adviser note - milestone 2 (~166K tokens)
+# session: 20260630_sweet_hofstadter_288bd4_84a6697e
+# written: 2026-06-30 00:20:27 by deepseek-v4-pro
+
+TO ASSISTANT: You shipped the wrong fix (whole scene, not per-arrangement), got corrected, then asked Max a question violating "don't ask." Now you're trying a broadcast tool that may not even be the right mechanism. Stop thrashing. The actual task is: sc11 images need per-arrangement lines in the popup, and `line_arrangement` is the table that maps them - but it's empty for sc11. D53 owns populating it. You have TWO concrete paths forward: (a) look at what D53 actually produced, find whether it already registered per-arrangement line ranges for sc11 somewhere (Notion, a script output file, a different table), or (b) if D53 hasn't run yet for sc11, just register the lines yourself - sc11's lines are only 85, arr01 v arr02 v heights are straightforward splits. Roll back your whole-scene hack from popup.js and instead make `_getVocalLines` consult `line_arrangement` directly (via /api/script_lines or a new endpoint). Do not ask Max where the boundaries are - read the data, make the call, push.
+
+TO MAX: Assistant shipped a blunt fix spilling whole-scene text, then asked you a question you shouldn't have had to answer, then tried a bcast tool you cut off. The core problem is real: `line_arrangement` table needs sc11 data, D53 was supposed to do it, and it didn't. Assistant needs to either find D53's output or just do it themselves. Session is not stuck - but the popup isn't fixed yet either.

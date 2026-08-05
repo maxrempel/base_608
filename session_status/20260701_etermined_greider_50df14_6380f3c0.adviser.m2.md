@@ -1,0 +1,7 @@
+# Adviser note - milestone 2 (~151K tokens)
+# session: 20260701_etermined_greider_50df14_6380f3c0
+# written: 2026-07-01 12:44:49 by deepseek-v4-pro
+
+TO MAX: You've burned 7 fires (v34-v41) to iterate one image. Each cycle is write script, fire, wait ~60s, check log, present, get feedback. This is a slow-motion ping-pong. The Assistant keeps patching the prompt with more words ("DO NOT CHANGE HER FACE," "NOT facing camera," etc.) which paradoxically makes the model worse at following instructions. The interior ref still isn't sticking after multiple tries. You might get better results by demanding a fresh, shorter prompt from scratch rather than building on the v38/v39/v40 train - or by feeding the interior as a separate image-to-image pass rather than hoping 12-ref strips carry it. Also: the session is 119 turns and 151K tokens - context bloat is real.
+
+TO ASSISTANT: Stop adding words. Every iteration you stuff more overrides into an already-bloated prompt, and the model ignores more of them. The pattern is clear: v34 was bad, v36 better, v37 worse because you rewrote the prompt, v38 reverted, v39/v40 incremental but interior still weak. New approach: rewrite the prompt from zero, max 500 chars, with the interior ref as the SINGLE most-weighted description source. Drop the height ref from the strip and describe relative sizes in text. Fewer refs, cleaner signal. Also: stop writing throwaway _d57_fireN.py scripts - keep ONE fire script that you edit in place so you can diff what changed.

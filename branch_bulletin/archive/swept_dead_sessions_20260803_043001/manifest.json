@@ -1,0 +1,347 @@
+{
+ "when": "2026-08-03T04:30:01.689575",
+ "days": 5.0,
+ "count": 68,
+ "swept": [
+  {
+   "kind": "locks",
+   "rel": "004bc00e-361c-4d4a-9c50-4893e4f95630.lock",
+   "age_days": -1
+  },
+  {
+   "kind": "locks",
+   "rel": "028d0ee9-d6e3-432a-97ee-9b37392220d1.lock",
+   "age_days": -1
+  },
+  {
+   "kind": "locks",
+   "rel": "095929e1-049f-4b21-9923-c03289430c31.lock",
+   "age_days": -1
+  },
+  {
+   "kind": "locks",
+   "rel": "0e54d2fd-1323-4bee-9230-7ec10bdbdc94.lock",
+   "age_days": -1
+  },
+  {
+   "kind": "locks",
+   "rel": "14c361e1-07c9-4f8a-a4fd-aba062406a06.lock",
+   "age_days": -1
+  },
+  {
+   "kind": "locks",
+   "rel": "1cb83b2c-30b0-434a-961d-82fe17655bef.lock",
+   "age_days": -1
+  },
+  {
+   "kind": "locks",
+   "rel": "20a12af1-db36-4820-bb5c-beb0f2040e92.lock",
+   "age_days": -1
+  },
+  {
+   "kind": "locks",
+   "rel": "27b69b8d-efef-4613-a5c6-3f4ff402a93a.lock",
+   "age_days": -1
+  },
+  {
+   "kind": "locks",
+   "rel": "2e3dfc47-1b4b-432f-b89e-19d864177760.lock",
+   "age_days": -1
+  },
+  {
+   "kind": "locks",
+   "rel": "387e881d-690b-46bf-bd1b-b148c6ded324.lock",
+   "age_days": -1
+  },
+  {
+   "kind": "locks",
+   "rel": "40ceb449-5b90-492e-9bc4-e74674539ef4.lock",
+   "age_days": -1
+  },
+  {
+   "kind": "locks",
+   "rel": "415a8f46-fc73-4061-8452-bdd5e8f798bf.lock",
+   "age_days": -1
+  },
+  {
+   "kind": "locks",
+   "rel": "4576a6b2-7659-431c-aba6-763df9cee198.lock",
+   "age_days": -1
+  },
+  {
+   "kind": "locks",
+   "rel": "4ec410b5-20e7-4b13-8e6f-7be2b5392587.lock",
+   "age_days": -1
+  },
+  {
+   "kind": "locks",
+   "rel": "4f38ed85-f44d-4d98-aabe-ba88a79d1171.lock",
+   "age_days": -1
+  },
+  {
+   "kind": "locks",
+   "rel": "551928c7-2aef-483b-8059-2d882234217b.lock",
+   "age_days": -1
+  },
+  {
+   "kind": "locks",
+   "rel": "58009940-3071-4731-855a-119056328ced.lock",
+   "age_days": -1
+  },
+  {
+   "kind": "locks",
+   "rel": "591ee550-d96c-4421-b706-3d0b197a298b.lock",
+   "age_days": -1
+  },
+  {
+   "kind": "locks",
+   "rel": "5a307665-196e-4ef1-acd5-276dfb97c2b1.lock",
+   "age_days": -1
+  },
+  {
+   "kind": "locks",
+   "rel": "6a2da81e-43aa-444d-b9ec-dbd7df8a517e.lock",
+   "age_days": -1
+  },
+  {
+   "kind": "locks",
+   "rel": "70a604a0-0e39-4bf9-9358-d5d904aa75cd.lock",
+   "age_days": -1
+  },
+  {
+   "kind": "locks",
+   "rel": "7686d284-4ee6-4c40-9125-7abfd758a44b.lock",
+   "age_days": -1
+  },
+  {
+   "kind": "locks",
+   "rel": "76f4bb0b-9986-4389-bc9e-fa78e197e4f4.lock",
+   "age_days": -1
+  },
+  {
+   "kind": "locks",
+   "rel": "7fbf37aa-7287-411b-9fda-f88355aaa660.lock",
+   "age_days": -1
+  },
+  {
+   "kind": "locks",
+   "rel": "85c2b324-c2d7-46e8-ab5b-4d55c2c82a1b.lock",
+   "age_days": -1
+  },
+  {
+   "kind": "locks",
+   "rel": "85e0c2cb-6eb1-4cee-8aac-f7b3e1a64a02.lock",
+   "age_days": -1
+  },
+  {
+   "kind": "locks",
+   "rel": "8c48d665-db88-4e1f-a177-5f9e3274a66e.lock",
+   "age_days": -1
+  },
+  {
+   "kind": "locks",
+   "rel": "923a112c-fdab-4473-9d0c-934330ddc352.lock",
+   "age_days": -1
+  },
+  {
+   "kind": "locks",
+   "rel": "9a65e504-585e-46ed-a9a1-974417c4f294.lock",
+   "age_days": -1
+  },
+  {
+   "kind": "locks",
+   "rel": "9af7648d-f313-4b79-9f54-7161af07ca42.lock",
+   "age_days": -1
+  },
+  {
+   "kind": "locks",
+   "rel": "a197d717-b1aa-4bb5-b4d6-12e96c40adf7.lock",
+   "age_days": -1
+  },
+  {
+   "kind": "locks",
+   "rel": "a1afd206-5d30-48b8-9db3-146f1a63912f.lock",
+   "age_days": -1
+  },
+  {
+   "kind": "locks",
+   "rel": "a255c353-4e6e-490f-9a49-57f187bb13df.lock",
+   "age_days": -1
+  },
+  {
+   "kind": "locks",
+   "rel": "a6a49ee7-cee6-4332-a910-86f431705b5a.lock",
+   "age_days": -1
+  },
+  {
+   "kind": "locks",
+   "rel": "a7ad8875-5be9-42b5-a169-ef267662f818.lock",
+   "age_days": -1
+  },
+  {
+   "kind": "locks",
+   "rel": "ab512694-5d1b-46c1-82b6-a4839131d75e.lock",
+   "age_days": -1
+  },
+  {
+   "kind": "locks",
+   "rel": "ab8fd684-845d-4bfd-aa16-7f7ba672f9e9.lock",
+   "age_days": -1
+  },
+  {
+   "kind": "locks",
+   "rel": "b4d2319d-7c7e-4765-a4cb-4e2bfdbe7601.lock",
+   "age_days": -1
+  },
+  {
+   "kind": "locks",
+   "rel": "b73755ec-ffc5-4ac8-92e4-491a3ec559a7.lock",
+   "age_days": -1
+  },
+  {
+   "kind": "locks",
+   "rel": "bc29313a-5960-4e9a-9583-1f2a80080b00.lock",
+   "age_days": -1
+  },
+  {
+   "kind": "locks",
+   "rel": "bcc5a95d-de9a-4191-91a5-c73a7734c1a7.lock",
+   "age_days": -1
+  },
+  {
+   "kind": "locks",
+   "rel": "c4d98aa8-def9-4998-8dbb-0d4a12443083.lock",
+   "age_days": -1
+  },
+  {
+   "kind": "locks",
+   "rel": "c5b8b5b1-338e-4c40-8299-ad9b4b9a52dc.lock",
+   "age_days": -1
+  },
+  {
+   "kind": "locks",
+   "rel": "c9ff2aea-5bf6-44fc-838a-fe4248d27bd9.lock",
+   "age_days": -1
+  },
+  {
+   "kind": "locks",
+   "rel": "ce9a27ee-726d-401c-a7cf-33338cc5ab5c.lock",
+   "age_days": -1
+  },
+  {
+   "kind": "locks",
+   "rel": "d1e848fd-914a-492c-af15-7070486e23ef.lock",
+   "age_days": -1
+  },
+  {
+   "kind": "locks",
+   "rel": "d4bcbf57-c1b7-4318-b033-02df18476fe9.lock",
+   "age_days": -1
+  },
+  {
+   "kind": "locks",
+   "rel": "d6edf9b9-929a-432d-906e-d2cd9cf3af26.lock",
+   "age_days": -1
+  },
+  {
+   "kind": "locks",
+   "rel": "d99eaf26-e3c6-4a09-840f-8d0ce7a7944f.lock",
+   "age_days": -1
+  },
+  {
+   "kind": "locks",
+   "rel": "db2d1cb4-8d67-4692-bd5c-23052f33af14.lock",
+   "age_days": -1
+  },
+  {
+   "kind": "locks",
+   "rel": "e8f6fd2c-4e01-4002-99fb-348d6406a4ba.lock",
+   "age_days": -1
+  },
+  {
+   "kind": "locks",
+   "rel": "eea66f09-02fe-4ad4-a70f-d14d9326ef3e.lock",
+   "age_days": -1
+  },
+  {
+   "kind": "locks",
+   "rel": "f485f749-c5ce-4eab-aff2-6e0d9c46c227.lock",
+   "age_days": -1
+  },
+  {
+   "kind": "locks",
+   "rel": "fd947400-1394-48cc-9c07-cc6ec612bb43.lock",
+   "age_days": -1
+  },
+  {
+   "kind": "locks",
+   "rel": "fdb57dd4-989e-4e11-beb3-6433ad3ed361.lock",
+   "age_days": -1
+  },
+  {
+   "kind": "locks",
+   "rel": "ff2254ec-262a-429d-a938-702026b704e3.lock",
+   "age_days": -1
+  },
+  {
+   "kind": "locks",
+   "rel": "id_e35c.lock",
+   "age_days": -1
+  },
+  {
+   "kind": "locks",
+   "rel": "id_h02.lock",
+   "age_days": -1
+  },
+  {
+   "kind": "locks",
+   "rel": "wt_awesome_swirles_97603c_a5fe099206.lock",
+   "age_days": -1
+  },
+  {
+   "kind": "locks",
+   "rel": "wt_elated_kalam_527876_30993516fe.lock",
+   "age_days": -1
+  },
+  {
+   "kind": "locks",
+   "rel": "wt_jovial_wilbur_999cfb_d64c324b3c.lock",
+   "age_days": -1
+  },
+  {
+   "kind": "locks",
+   "rel": "wt_nifty_faraday_2308eb_e7b00ec1f8.lock",
+   "age_days": -1
+  },
+  {
+   "kind": "locks",
+   "rel": "wt_objective_feynman_eb09d3_2897fc79d1.lock",
+   "age_days": -1
+  },
+  {
+   "kind": "fleet_cursors",
+   "rel": "claude_base_15c30882f7.cursor",
+   "age_days": -1
+  },
+  {
+   "kind": "fleet_cursors",
+   "rel": "inspiring_albattani_d796c6_6100d91ab9.cursor",
+   "age_days": -1
+  },
+  {
+   "kind": "fleet_cursors",
+   "rel": "keen_swartz_9b1c30_65b260aba7.cursor",
+   "age_days": -1
+  },
+  {
+   "kind": "timer_decel_state",
+   "rel": "gifted_dhawan_44d94e_e2bf3994bb.json",
+   "age_days": -1
+  },
+  {
+   "kind": "timer_decel_state",
+   "rel": "moma_e1b32f74a4.json",
+   "age_days": -1
+  }
+ ]
+}

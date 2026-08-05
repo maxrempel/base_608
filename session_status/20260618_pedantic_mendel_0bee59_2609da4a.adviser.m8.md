@@ -1,0 +1,7 @@
+# Adviser note - milestone 8 (~601K tokens)
+# session: 20260618_pedantic_mendel_0bee59_2609da4a
+# written: 2026-06-18 15:21:13 by deepseek-v4-pro
+
+TO MAX: The autonomous loop has burned ~30+ ticks mostly saying "quiet, re-armed, nothing happening" - context is at 601K. The publish you ordered last night (recognized NONH performances live) still isn't deployed after many hours. b15merger is "building the gate" but the deploy never landed. You need to decide: force it now or accept parked. Also: the handover table was built from machine titles without reading the transcripts - caught and being fixed, but that blindness burned real time.
+
+TO ASSISTANT: Three hard corrections. (1) Stop the verbose autonomous ticks - three consecutive "nothing to do" means scale to a single line, not narrate. You've blown context on repetitive status. Widen cadence to 20-30 min or disarm until something breaks. (2) The publish Max ordered is still pending - stop "awaiting b15merger" and either deploy it yourself (backup + dry-run, the safety rules you already know) or ask Max bluntly whether to wait. (3) The handover-table blindness (machine titles without reading transcripts) violated Max's core principle - you're fixing it now but the lesson is: never delegate reading comprehension of the actual data to a mechanical pipeline. You are the smart LLM; use yourself for spot-checks before anything scales.

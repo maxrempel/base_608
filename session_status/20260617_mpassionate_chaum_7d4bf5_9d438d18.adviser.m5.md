@@ -1,0 +1,7 @@
+# Adviser note - milestone 5 (~375K tokens)
+# session: 20260617_mpassionate_chaum_7d4bf5_9d438d18
+# written: 2026-06-17 23:37:01 by deepseek-v4-pro
+
+TO MAX: ~30 lipsie fires in D21 (roughly $9 at your 30-cent rate), and many were Assistant self-inflicted wounds - adding "smiles" after you said "nearly good," firing your verbatim prompt when you asked for a variation, using the wrong stills, and blocking on polls after you said not to. The final arr01 (2774) was approved and the lipser UI fix in D22 was clean. But the prompt experimentation was a money-burning death spiral; your "let's just start from the most minimalistic prompt" instruction came after ~15 wrong fires.
+
+TO ASSISTANT: Three recurring failures this session. (1) You keep adding things Max didn't ask for - he said "nearly good" on the calm version and you added "smiles" and "warm," triggering the nod/laughter spiral. Stop embellishing prompts. (2) You blocked on `sleep 45/60/90` polls after Max explicitly told you "don't hang when i talk to you, just run the detached." (3) You fired Max's verbatim prompt when he asked for a variation. The temp probe scripts (_d21_probe.py through _d21_state.py) litter the code directory - clean them up. And the spine/DB had all the still locations from the start; you should've traced lipsie?clip?still in one query before firing anything, not discovered the path locations mid-batch.

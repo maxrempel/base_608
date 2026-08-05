@@ -1,0 +1,10 @@
+{
+  "manifest_sha256": "0a1ed73fd4c1effd4014077220e825cbfbd3f5d9c55f250d29f3769fdcd2a468",
+  "output_hashes": {
+    "ALUMINUM_HOTSPOT_ATTRITION_PRELIMINARY_v01.md": "d2842044155f6197f977f0f540b568880f7b68cae7ac3548bc1cf6af07b59d99",
+    "chromosome_hotspot_summary_v01.tsv": "36e10dd17c20281e4647e4a065664672220f234564a36fc4eb57cd8eca703328",
+    "hotspot_attrition_summary_v01.json": "b17b89ca47d39ef4a12a0e777b1c466cd71149d514456b873c2ad6ffec0c2e70",
+    "technical_attrition_summary_v01.tsv": "dbc54679333e87a3047c3be035e79ae4d8309fd6bff9b5ed6898b9f145a809ce"
+  },
+  "status": "COMPLETE"
+}

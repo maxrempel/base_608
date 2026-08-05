@@ -1,0 +1,12 @@
+{
+  "created_at": "2026-08-03T15:15:48.649314Z",
+  "max_chars": 12000,
+  "max_tokens": 4096,
+  "model": "deepseek-v4-flash",
+  "privacy": "private-authorized",
+  "retries": 2,
+  "run_dir": "C:\\claude_base\\worklog\\deepseek_offload\\rhd_synthetic_panel\\generator_review_v02",
+  "schema_version": 1,
+  "task_sha256": "81dcfaf4d580aaf862d19e268fc173f553b293992cea429c19f58a64bdb377ca",
+  "timeout": 180
+}

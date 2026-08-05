@@ -1,0 +1,7 @@
+# Welcome to Earth! A Guide for Aliens - GLOBALIZATION
+
+*From "Welcome to Earth! A Guide for Aliens" by Max Rempel, Ph.D.*
+
+Here is another example of a distortion of good ideas.
+
+Globalization is a very good idea. Global thinking, care about the future of the humanity and the ideas of global peace are very good. MIC hijacks these ideas using its typical tactics: it hijacks every global initiative, every organization and every grassroots globalization movement. It utilizes its administrative resources and secret finances to place its agents in control positions in all these large and distributed organizations. As MIC controls the globalization movements, it uses them to strengthen its own global control. For example, United Nations, one of the best ideas on Earth has become quite reactionary political force under strong influence of MIC. The activities of genuine desire to help poor nations by citizens of rich countries are misdirected by MIC towards further control and manipulation of the poor countries. As a result, the cultures of the world see now globalization as a synonym of Americanization and expansion of MIC control. Therefore, absurdly, national separatist movements are less corrupt and are more generally positive than globalists. One of obvious misuses of globalism is the process of creation of MIC's military bases around the globe. Thus very good ideas come out greatly distorted.

@@ -1,0 +1,12 @@
+{
+  "created_at": "2026-07-29T21:35:45.281873Z",
+  "max_chars": 12000,
+  "max_tokens": 4096,
+  "model": "deepseek-v4-flash",
+  "privacy": "private-authorized",
+  "retries": 2,
+  "run_dir": "C:\\claude_base\\worklog\\deepseek_offload\\tamza_zoom_rotation\\weekly_orchestrator_v01",
+  "schema_version": 1,
+  "task_sha256": "91326beb16fbb57f6cedb9ebd971d4f7ad59f684efb5bd6c38f9f2e518103700",
+  "timeout": 180
+}

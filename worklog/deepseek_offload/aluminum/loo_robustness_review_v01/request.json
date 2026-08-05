@@ -1,0 +1,12 @@
+{
+  "created_at": "2026-07-30T16:33:11.042522Z",
+  "max_chars": 12000,
+  "max_tokens": 4096,
+  "model": "deepseek-v4-flash",
+  "privacy": "private-authorized",
+  "retries": 2,
+  "run_dir": "C:\\claude_base\\worklog\\deepseek_offload\\aluminum\\loo_robustness_review_v01",
+  "schema_version": 1,
+  "task_sha256": "abd137417005b3c327cccd4d599389c2d30dbf3896517534adecfa551267b120",
+  "timeout": 180
+}

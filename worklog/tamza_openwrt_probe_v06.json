@@ -1,0 +1,304 @@
+[
+  {
+    "login_status": 200,
+    "logged_in": true,
+    "final_path": "/cgi-bin/luci/"
+  },
+  {
+    "overview_status": 200,
+    "overview_bytes": 4184
+  },
+  {
+    "ubus_list_ok": true,
+    "ubus_result_shape": [],
+    "ubus_object_count": 0,
+    "network_objects": []
+  },
+  {
+    "logical_interfaces": {
+      "wan": {
+        "rpc_ok": false,
+        "result_type": "NoneType"
+      },
+      "wan6": {
+        "rpc_ok": false,
+        "result_type": "NoneType"
+      }
+    }
+  },
+  {
+    "wan_devices": {}
+  },
+  {
+    "luci_network_devices_ok": true,
+    "luci_network_devices_type": "dict",
+    "luci_network_device_names": [
+      "br-lan",
+      "eth0",
+      "eth0.1",
+      "eth0.2",
+      "lo",
+      "tunrw",
+      "wlan0",
+      "wlan0-1",
+      "wlan1"
+    ],
+    "luci_network_devices": {
+      "eth0.1": {
+        "name": "eth0.1",
+        "up": true,
+        "type": 1,
+        "mtu": 1500
+      },
+      "wlan0": {
+        "name": "wlan0",
+        "up": true,
+        "type": 1,
+        "mtu": 1500
+      },
+      "eth0.2": {
+        "name": "eth0.2",
+        "up": true,
+        "type": 1,
+        "mtu": 1500
+      },
+      "lo": {
+        "name": "lo",
+        "up": true,
+        "type": 772,
+        "mtu": 65536
+      },
+      "br-lan": {
+        "name": "br-lan",
+        "up": true,
+        "type": 1,
+        "mtu": 1500
+      },
+      "wlan1": {
+        "name": "wlan1",
+        "up": true,
+        "type": 1,
+        "mtu": 1500
+      },
+      "wlan0-1": {
+        "name": "wlan0-1",
+        "up": true,
+        "type": 1,
+        "mtu": 1500
+      },
+      "eth0": {
+        "name": "eth0",
+        "up": true,
+        "type": 1,
+        "mtu": 1500
+      },
+      "tunrw": {
+        "name": "tunrw",
+        "up": true,
+        "mtu": 1500
+      }
+    },
+    "luci_network_device_fields": {
+      "eth0.1": [
+        "devtype",
+        "flags",
+        "ifindex",
+        "ip6addrs",
+        "ipaddrs",
+        "link",
+        "mac",
+        "master",
+        "mtu",
+        "name",
+        "parent",
+        "qlen",
+        "stats",
+        "type",
+        "up",
+        "wireless"
+      ],
+      "wlan0": [
+        "devtype",
+        "flags",
+        "ifindex",
+        "ip6addrs",
+        "ipaddrs",
+        "link",
+        "mac",
+        "master",
+        "mtu",
+        "name",
+        "qlen",
+        "stats",
+        "type",
+        "up",
+        "wireless"
+      ],
+      "eth0.2": [
+        "devtype",
+        "flags",
+        "ifindex",
+        "ip6addrs",
+        "ipaddrs",
+        "link",
+        "mac",
+        "mtu",
+        "name",
+        "parent",
+        "qlen",
+        "stats",
+        "type",
+        "up",
+        "wireless"
+      ],
+      "lo": [
+        "devtype",
+        "flags",
+        "ifindex",
+        "ip6addrs",
+        "ipaddrs",
+        "link",
+        "mtu",
+        "name",
+        "qlen",
+        "stats",
+        "type",
+        "up",
+        "wireless"
+      ],
+      "br-lan": [
+        "bridge",
+        "devtype",
+        "flags",
+        "id",
+        "ifindex",
+        "ip6addrs",
+        "ipaddrs",
+        "link",
+        "mac",
+        "mtu",
+        "name",
+        "ports",
+        "qlen",
+        "stats",
+        "stp",
+        "type",
+        "up",
+        "wireless"
+      ],
+      "wlan1": [
+        "devtype",
+        "flags",
+        "ifindex",
+        "ip6addrs",
+        "ipaddrs",
+        "link",
+        "mac",
+        "master",
+        "mtu",
+        "name",
+        "qlen",
+        "stats",
+        "type",
+        "up",
+        "wireless"
+      ],
+      "wlan0-1": [
+        "devtype",
+        "flags",
+        "ifindex",
+        "ip6addrs",
+        "ipaddrs",
+        "link",
+        "mac",
+        "master",
+        "mtu",
+        "name",
+        "qlen",
+        "stats",
+        "type",
+        "up",
+        "wireless"
+      ],
+      "eth0": [
+        "devtype",
+        "flags",
+        "ifindex",
+        "ip6addrs",
+        "ipaddrs",
+        "link",
+        "mac",
+        "mtu",
+        "name",
+        "qlen",
+        "stats",
+        "type",
+        "up",
+        "wireless"
+      ],
+      "tunrw": [
+        "devtype",
+        "flags",
+        "ip6addrs",
+        "ipaddrs",
+        "link",
+        "mtu",
+        "name",
+        "qlen",
+        "stats",
+        "up",
+        "wireless"
+      ]
+    }
+  },
+  {
+    "luci_rpc_method_list_ok": true,
+    "luci_rpc_methods": [
+      "getBoardJSON",
+      "getDHCPLeases",
+      "getDUIDHints",
+      "getHostHints",
+      "getNetworkDevices",
+      "getWirelessDevices"
+    ]
+  },
+  {
+    "bandwidth_endpoints": [
+      {
+        "interface": "eth0",
+        "status": 200,
+        "bytes": 3091,
+        "content_type": "text/html",
+        "looks_like_stats": false
+      },
+      {
+        "interface": "eth1",
+        "status": 200,
+        "bytes": 3091,
+        "content_type": "text/html",
+        "looks_like_stats": false
+      },
+      {
+        "interface": "eth2",
+        "status": 200,
+        "bytes": 3091,
+        "content_type": "text/html",
+        "looks_like_stats": false
+      },
+      {
+        "interface": "wan",
+        "status": 200,
+        "bytes": 3088,
+        "content_type": "text/html",
+        "looks_like_stats": false
+      },
+      {
+        "interface": "wan6",
+        "status": 200,
+        "bytes": 3091,
+        "content_type": "text/html",
+        "looks_like_stats": false
+      }
+    ]
+  }
+]

@@ -1,0 +1,107 @@
+{
+ "when": "2026-07-02T07:09:02.036638",
+ "days": 5.0,
+ "count": 20,
+ "swept": [
+  {
+   "kind": "fleet_cursors",
+   "rel": "agitated_swartz_fdf03c_4fb7d90479.cursor",
+   "age_days": -1
+  },
+  {
+   "kind": "fleet_cursors",
+   "rel": "awesome_bell_a6ad80_0c4552845f.cursor",
+   "age_days": -1
+  },
+  {
+   "kind": "fleet_cursors",
+   "rel": "beautiful_payne_d1f541_22ddb95249.cursor",
+   "age_days": -1
+  },
+  {
+   "kind": "fleet_cursors",
+   "rel": "beautiful_villani_5507cf_acacc7e5d8.cursor",
+   "age_days": -1
+  },
+  {
+   "kind": "fleet_cursors",
+   "rel": "bold_tharp_56d611_606e42e6e8.cursor",
+   "age_days": -1
+  },
+  {
+   "kind": "fleet_cursors",
+   "rel": "bold_villani_1a66b0_490a25e9e1.cursor",
+   "age_days": -1
+  },
+  {
+   "kind": "fleet_cursors",
+   "rel": "cranky_euclid_9c3e48_ba87873507.cursor",
+   "age_days": -1
+  },
+  {
+   "kind": "fleet_cursors",
+   "rel": "dreamy_liskov_ad0649_ef94c984ca.cursor",
+   "age_days": -1
+  },
+  {
+   "kind": "fleet_cursors",
+   "rel": "festive_banach_022a79_f3a2bcb7f3.cursor",
+   "age_days": -1
+  },
+  {
+   "kind": "fleet_cursors",
+   "rel": "funny_vaughan_d38b1d_df34b3daec.cursor",
+   "age_days": -1
+  },
+  {
+   "kind": "fleet_cursors",
+   "rel": "hungry_mayer_737e63_a320889512.cursor",
+   "age_days": -1
+  },
+  {
+   "kind": "fleet_cursors",
+   "rel": "inspiring_almeida_cc66dc_8d8574ae0e.cursor",
+   "age_days": -1
+  },
+  {
+   "kind": "fleet_cursors",
+   "rel": "musing_kare_7ff037_ee79acc242.cursor",
+   "age_days": -1
+  },
+  {
+   "kind": "fleet_cursors",
+   "rel": "nervous_spence_f619f8_d8b59296e2.cursor",
+   "age_days": -1
+  },
+  {
+   "kind": "fleet_cursors",
+   "rel": "optimistic_aryabhata_1e4639_e7fd9b4839.cursor",
+   "age_days": -1
+  },
+  {
+   "kind": "fleet_cursors",
+   "rel": "optimistic_spence_cc1b7b_a6bf86059e.cursor",
+   "age_days": -1
+  },
+  {
+   "kind": "fleet_cursors",
+   "rel": "pedantic_jones_221df1_c719e4c368.cursor",
+   "age_days": -1
+  },
+  {
+   "kind": "fleet_cursors",
+   "rel": "serene_swanson_f7566a_69a16852f0.cursor",
+   "age_days": -1
+  },
+  {
+   "kind": "fleet_cursors",
+   "rel": "thirsty_bohr_12fb75_2e2e13acd6.cursor",
+   "age_days": -1
+  },
+  {
+   "kind": "timer_decel_state",
+   "rel": "kenefick_87cb8545ff.json",
+   "age_days": -1
+  }
+ ]
+}

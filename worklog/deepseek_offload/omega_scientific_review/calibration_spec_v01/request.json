@@ -1,0 +1,12 @@
+{
+  "created_at": "2026-08-03T06:46:25.609017Z",
+  "max_chars": 12000,
+  "max_tokens": 4096,
+  "model": "deepseek-v4-flash",
+  "privacy": "private-authorized",
+  "retries": 2,
+  "run_dir": "C:\\claude_base\\worklog\\deepseek_offload\\omega_scientific_review\\calibration_spec_v01",
+  "schema_version": 1,
+  "task_sha256": "ff123c1025b8c97640143291d088e8191c939be6bea4ca4e3c89557ad76d19c1",
+  "timeout": 180
+}

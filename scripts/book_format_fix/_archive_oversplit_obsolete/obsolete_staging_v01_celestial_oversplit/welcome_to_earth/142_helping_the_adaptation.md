@@ -1,0 +1,5 @@
+# Welcome to Earth! A Guide for Aliens - HELPING THE ADAPTATION
+
+*From "Welcome to Earth! A Guide for Aliens" by Max Rempel, Ph.D.*
+
+I understand that the mission of the humans in the colony is very high and noble. Some humans who are suitable for the job may find it a bit too much responsibility to bear. They may find it more comfortable to treat the assignment as a job. Here is an analogy from my life and life of emigrants. One thing is to emigrate forever and another thing is to go abroad for a job. I rejected political emigration for many reasons and found leaving Russia for a job acceptable. Many emigrants were bold enough to leave to unknown world via political emigration channels. These were mostly Jewish emigrants, who were invited by Israel, but many of them changed their destination to America. It required certain boldness of character and also certain desperation to leave. I may suggest to choose less desperate people, their psyche is healthier, they typically have more integrity. This is why invitation for a job is more appropriate. I hope you understand the logic.

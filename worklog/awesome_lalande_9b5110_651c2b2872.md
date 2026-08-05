@@ -1,0 +1,5 @@
+
+## [2026-06-19 12:57] E11 91e8473b
+- DID: E11: built+formalized semanticgmail (semantic Gmail search). Realigned all wrappers to E10's canonical v02 design (Cloudflare Vectorize max-emails + teal16 archive + attachment/PDF text). Shipped skill ~/.claude/skills/semanticgmail/, report semanticgmail_report_v01_tomemex.md, global2 paragraph - committed+pushed master. Verified search_cf.py live (alien-hybrid + investor queries returned real hits w/ attachments). Investor search: mostly solicitation noise, one real contact Sky Christopherson/goldhealth.ai.
+- STATE: DONE for now per Max. E10 owns+runs the engine (full backfill multi-day, ~6k+ vectors, most-recent-first). My v01 local files (msearch.py/full_index_chunked.py/method_v01) superseded - ignore, use search_cf.py.
+- NEXT: Nothing pending for E11. If resumed: semanticgmail search = PYTHONUTF8=1 C:/Users/maxre/semantic-mail/.venv/Scripts/python.exe C:/claude_base/tools/semantic_mail/search_cf.py "query" 10. Full coverage improves as E10's backfill completes.

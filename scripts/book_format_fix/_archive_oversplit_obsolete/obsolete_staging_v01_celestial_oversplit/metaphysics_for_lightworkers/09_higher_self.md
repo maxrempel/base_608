@@ -1,0 +1,5 @@
+# Metaphysics for Lightworkers - HIGHER SELF
+
+*From "Metaphysics for Lightworkers" by Max Rempel, Ph.D.*
+
+Our souls are parts of the Tree of Life. The combination of all souls in the creation is called Oversoul. Some souls are more related to each other; they are like berries hanging near each other on a branch of the Tree of Life. Not all souls incarnate in the material world but many do. When the Oversoul sees an opportunity for learning and growth via incarnation, it invites volunteer souls to incarnate. These souls have very advanced personalities. These advanced personalities are called Higher Selves. We, down here are those Higher Selves although having forgotten our higher memories. In a way we are fractals (smaller copies) of our Higher Selves. As copies we have  free will, we are somewhat independent of our higher selves, but yet, we are made of them, linked to them and have their personalities. This is why they are called Selves - they are us, but wiser. They know about all their past and future incarnations.

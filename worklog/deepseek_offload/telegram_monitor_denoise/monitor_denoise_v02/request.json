@@ -1,0 +1,12 @@
+{
+  "created_at": "2026-07-30T20:00:10.419761Z",
+  "max_chars": 12000,
+  "max_tokens": 4096,
+  "model": "deepseek-v4-flash",
+  "privacy": "private-authorized",
+  "retries": 2,
+  "run_dir": "C:\\claude_base\\worklog\\deepseek_offload\\telegram_monitor_denoise\\monitor_denoise_v02",
+  "schema_version": 1,
+  "task_sha256": "939058eb0330be50cae0c2e5d276452a0bea26cf476b0a84e778a35934b9857c",
+  "timeout": 180
+}

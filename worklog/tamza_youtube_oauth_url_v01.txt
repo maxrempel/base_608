@@ -1,0 +1,1 @@
+https://accounts.google.com/o/oauth2/v2/auth?client_id=848471352356-eurb4ptl2cb2egl0batuuipbn5t4cc8o.apps.googleusercontent.com&redirect_uri=http%3A%2F%2F127.0.0.1%3A59108&response_type=code&scope=https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fyoutube&access_type=offline&prompt=consent+select_account

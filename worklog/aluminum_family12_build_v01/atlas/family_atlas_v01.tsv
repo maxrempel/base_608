@@ -1,0 +1,13 @@
+family_id	child_id	mother_id	father_id	population	superpopulation	chromosomes_admitted	completion_state	biological_interpretation	total_accepted_elements	total_annotation_elements	total_mapq60_callable_positions	total_mapq60_child_supported_alleles	total_mapq60_npa_leads	total_mapq60_seen_in_parent	total_mapq60_strict_survivors	total_primary_callable_positions	total_primary_child_supported_alleles	total_primary_npa_leads	total_primary_seen_in_parent	total_primary_strand_strict_leads
+1341	NA07048	NA07055	NA07034	CEU	EUR	22	complete_chr1_to_chr22	not_validated	3419	3661	279269	938	0	938	0	795902	2813	2	2811	2
+BB23	HG02280	HG02308	HG02307	ACB	AFR	22	complete_chr1_to_chr22	none_observed_under_screen	3419	3661	273409	1322	0	1322	0	775832	3737	0	3737	0
+BD28	HG03834	HG03832	HG03833	BEB	SAS	22	complete_chr1_to_chr22	none_observed_under_screen	3419	3661	275113	1002	0	1002	0	786588	2882	0	2882	0
+CLM30	HG01355	HG01354	HG01353	CLM	AMR	22	complete_chr1_to_chr22	none_observed_under_screen	3419	3661	307583	1076	0	1076	0	810929	2990	0	2990	0
+GB88	HG02883	HG02882	HG02881	GWD	AFR	22	complete_chr1_to_chr22	none_observed_under_screen	3419	3661	265707	1315	0	1315	0	774395	3628	0	3628	0
+PEL019	HG01952	HG01951	HG01950	PEL	AMR	22	complete_chr1_to_chr22	not_validated	3419	3661	270555	925	0	925	0	789022	2514	1	2513	1
+PK06	HG02492	HG02491	HG02490	PJL	SAS	22	complete_chr1_to_chr22	not_validated	3419	3661	293617	1101	0	1101	0	798665	2840	3	2837	0
+PK16	HG02683	HG02682	HG02681	PJL	SAS	22	complete_chr1_to_chr22	not_validated	3419	3661	266208	834	0	834	0	783639	2632	1	2631	1
+PR04	HG00642	HG00641	HG00640	PUR	AMR	22	complete_chr1_to_chr22	not_validated	3419	3661	279518	910	0	910	0	797122	2766	2	2764	1
+PR26	HG01087	HG01086	HG01085	PUR	AMR	22	complete_chr1_to_chr22	not_validated	3419	3661	244298	769	1	768	1	760962	2718	4	2714	4
+SH028	HG00502	HG00501	HG00500	CHS	EAS	22	complete_chr1_to_chr22	not_validated	3419	3661	280694	993	0	993	0	796072	2767	2	2765	0
+Y028	NA18914	NA18912	NA18913	YRI	AFR	22	complete_chr1_to_chr22	not_validated	3419	3661	267748	1130	0	1130	0	772261	3589	1	3588	1

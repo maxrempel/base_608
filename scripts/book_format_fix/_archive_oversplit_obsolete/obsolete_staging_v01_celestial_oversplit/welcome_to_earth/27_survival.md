@@ -1,0 +1,13 @@
+# Welcome to Earth! A Guide for Aliens - SURVIVAL
+
+*From "Welcome to Earth! A Guide for Aliens" by Max Rempel, Ph.D.*
+
+A big part of human experience is surviving. We can live without oxygen for about 2 minutes, without water for about 2 days and without food for about 2 weeks. The shelter is also essential.  In a cold climate in the winter, the shelter provides warmth, in a warm climate in the summer shelter protect from heat. We need clothing and washing. Ancient humans in some cultures didn't wash much, but there were possibly fewer infections. These days in this densely populated world washing is a necessity. Antibiotics are also necessary for survival. Typically we have to use antibiotics about once a year to treat bacterial infections. Procreation and raising children requires clean living conditions and medical assistance.
+
+Earth's gravity and magnetic fields are essential for health. Without gravity, human bones deteriorate. Sufficient exercise is also essential. Sunlight in moderation is also necessary for health. We function best when air is fresh and natural. Chizhevskiy discovered that ionization of the air is essential for health. Best ionization is a natural one.
+
+As I mentioned in poor countries food is sparse. In technological countries, food is often used in excess causing obesity and sickness, but still, it is not easily available. It costs money and effort is required to get it.
+
+So a large part of our life is spent on earning the money and using it for food, housing and other essential needs of existence. In all societies technological and non-technological, there is a possibility for free time. Sometimes people use it and often do not. Some people are always on the run, functioning in a survival mode.
+
+This need for constant care of self and others makes people constantly move and interact with other people. Feeding a family and living together is more economical than eating and living separately. This is why prosperity brings loneliness. In Russia, China, India and Brazil people leave together much more than in America. In America, people live and eat separately and many suffer from loneliness. In Russia and Brazil people touch each other almost constantly. In English speaking countries even couples rarely touch each other. Maybe this is why Reiki and healing touch are so effective in America - people need to be touched with love. So add a loving touch to the list of our needs. I should also need to add sleep to our needs. It is taken for granted, but sleep requires protected space and quiet. We normally sleep at night. Randomness in sleep is unhealthy for humans.

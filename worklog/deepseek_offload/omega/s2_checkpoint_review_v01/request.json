@@ -1,0 +1,12 @@
+{
+  "created_at": "2026-07-25T01:13:58.325763Z",
+  "max_chars": 2000,
+  "max_tokens": 500,
+  "model": "deepseek-v4-flash",
+  "privacy": "private-authorized",
+  "retries": 0,
+  "run_dir": "C:\\claude_base\\worklog\\deepseek_offload\\omega\\s2_checkpoint_review_v01",
+  "schema_version": 1,
+  "task_sha256": "d4b410f80d3b0c488e51014fda8e0f4c58fb43bad523ee0c443f2fb48230cfd2",
+  "timeout": 120
+}

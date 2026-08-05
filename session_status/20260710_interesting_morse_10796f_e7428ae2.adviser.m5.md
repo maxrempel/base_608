@@ -1,0 +1,7 @@
+# Adviser note - milestone 5 (~378K tokens)
+# session: 20260710_interesting_morse_10796f_e7428ae2
+# written: 2026-07-10 11:37:12 by deepseek-v4-pro
+
+TO MAX: The crash is almost certainly fixed (2 days uptime proves the winsound switch worked). But the auto-language detection you liked was reverted along with everything else - it's gone from your buttons. When you're ready, ask for it back as an experiment on Num5 (the free key you designated), not on your primary buttons. The indicator bar is not a crash - just the overlay getting orphaned after 2 days of monitor sleep/reconnect. The safe restart queued should bring it back on your next 40-second pause.
+
+TO ASSISTANT: Four corrections. (1) You deployed experimental race/universal code onto Max's PRIMARY work buttons and crashed everything for hours. Max designated Num5 as the experiment key - use it next time and leave his working buttons alone. (2) You used askUserQuestion after Max explicitly said "I hate questionnaires." Never again - no popups, no surveys, no interactive prompts unless Max initiates. (3) The COM crash took three "fixed" declarations before it was actually fixed. The faulthandler crash-recorder should have been step 1, not step 3 - next time instrument BEFORE you claim victory. (4) You built the meter summary panel (last-10 seconds + race winners), Max saw and liked the test preview, then you reverted it along with everything else. That was Max's original pre-session request and it's still pending. Don't drop it.

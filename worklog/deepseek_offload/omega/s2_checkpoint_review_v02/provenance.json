@@ -1,0 +1,59 @@
+{
+  "api_url": "https://api.deepseek.com/chat/completions",
+  "attempts": 1,
+  "balance_after_usd": 15.39,
+  "balance_before_usd": 15.39,
+  "balance_delta_reconciliation_usd": 0.0,
+  "computed_cost_usd": 0.0001089368,
+  "cost_components_usd": {
+    "cache_hit_usd": 7.168e-07,
+    "cache_miss_usd": 3.5e-06,
+    "output_usd": 0.00010472
+  },
+  "credential_in_request_body_or_files": false,
+  "credential_source": "C:\\Users\\maxre\\Nextcloud\\zSyncMain\\ssh\\deepseek_api_key_20260226.txt",
+  "deidentification_check": {
+    "findings": [],
+    "passed": true
+  },
+  "elapsed_seconds": 5.075,
+  "finish_reason": "stop",
+  "finished_at": "2026-07-25T01:14:46.619978Z",
+  "max_output_tokens": 4096,
+  "max_result_chars": 2000,
+  "model": "deepseek-v4-flash",
+  "price_version": "DeepSeek official pricing, 2026-07-24",
+  "prices_per_million_tokens_usd": {
+    "cache_hit": 0.0028,
+    "cache_miss": 0.14,
+    "output": 0.28
+  },
+  "privacy_class": "private-authorized",
+  "provider": "deepseek-direct-api",
+  "response_id": "112a4d23-e8d7-4eaa-bcaa-949944434457",
+  "result_chars": 264,
+  "result_sha256": "c22af8fe98c2fa611b402aea6b8fc1a6b496ef5b071fd5bc23c7103e245c820b",
+  "result_truncated": false,
+  "retry_policy": "1 retries only for network, HTTP 429, and HTTP 5xx",
+  "returned_model": "deepseek-v4-flash",
+  "schema_version": 1,
+  "started_at": "2026-07-25T01:14:41.544725Z",
+  "status": "completed",
+  "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402",
+  "system_prefix_sha256": "00ed5f32a7874102fe3c61425598fec983f12ceb8ed5e7a03012dde844c30758",
+  "task_sha256": "20f0b70cfb2512c166167d03d83ddb88f869ab1c9b8dd15cd77f78a5488de06e",
+  "timeout_seconds_per_attempt": 120,
+  "usage": {
+    "completion_tokens": 374,
+    "completion_tokens_details": {
+      "reasoning_tokens": 322
+    },
+    "prompt_cache_hit_tokens": 256,
+    "prompt_cache_miss_tokens": 25,
+    "prompt_tokens": 281,
+    "prompt_tokens_details": {
+      "cached_tokens": 256
+    },
+    "total_tokens": 655
+  }
+}

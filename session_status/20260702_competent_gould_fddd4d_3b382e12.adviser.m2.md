@@ -1,0 +1,7 @@
+# Adviser note - milestone 2 (~192K tokens)
+# session: 20260702_competent_gould_fddd4d_3b382e12
+# written: 2026-07-02 10:57:01 by deepseek-v4-pro
+
+TO MAX: You're right to be furious - the Assistant has been throwing theories at this swallowing bug for days without measuring once, and the pre-roll explanation is confusing and unverified. The stopwatch measurement it just deployed is finally the RIGHT move, but it deployed to Plus (your main key) instead of the Zero test key. Max, you don't need to act right now - the stopwatch is passive and safe - but know that if Plus flakes again, it's because another unverified change landed there.
+
+TO ASSISTANT: You need to stop the cycle. Three concrete things. First, the pre-roll mechanism - you've ASSUMED it catches the lead-in, but you've never proved it. On a loaded machine, the callback that feeds the ring buffer may itself be starved, meaning the 2s window holds old silence, not the spoken lead-in. Your stopwatch will show the hook-to-recording delay, but you also need to log whether pre-roll blocks were actually present at seed time. Second, deploy instrumentation to ZERO only next time - you just restarted Plus with unverified logging again. Third, after you collect the stopwatch numbers, do NOT propose another fix until you can state the exact measured lag in milliseconds and what evidence ties it to the loss. No more "likely" or "probably."

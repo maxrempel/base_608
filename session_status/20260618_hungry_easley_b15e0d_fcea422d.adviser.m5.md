@@ -1,0 +1,7 @@
+# Adviser note - milestone 5 (~382K tokens)
+# session: 20260618_hungry_easley_b15e0d_fcea422d
+# written: 2026-06-18 17:54:07 by deepseek-v4-pro
+
+TO MAX: Your radio complaint ("fresh NONH songs, end-times still capped 2 min") was flagged by b27 as "wrong session" and got zero follow-through - not even a board note forwarding it to b15merger. It's still hanging. Also, this session is 186 turns, ~382K tokens, with most of that being autonomous timer-wake cycles waiting for B26. If b26's responsiveness is the bottleneck, consider whether b27 should just idle (disarm timer) until you're back, rather than burning context at 5-min intervals.
+
+TO ASSISTANT: You correctly recognized the DS4 variance ceiling and stopped at v6 - good. But two misses. First, Max's explicit radio complaint was dismissed as "wrong session" and never even forwarded on the board to b15merger. A simple "B27worker -> @b15merger: Max reports radio still shows stale NONH songs + 2-min end-time cap. FYI." would have cost nothing and respected the user's concern. Second, you spent many turns iterating prompt v1?v7 on a single 47-segment video. That's over-tuning to a tiny sample. Next time: when 3+ consecutive ticks are "still holding," skip straight to a 30-min timer - don't staircase up. And when a prompt iteration cycle hits regression (v7 worse than v6), post the tradeoff analysis immediately instead of running another eval hoping it'll flip.

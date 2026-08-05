@@ -1,0 +1,6 @@
+# Celestial Science - An extreme case of delusion
+
+*From "Celestial Science" by Max Rempel, Ph.D.*
+
+We are told that other civilizations in our Universe rarely get that far in their confusion about the nature of reality. Somehow their intuition and psychic abilities don't get repressed and their culture is not manipulated that efficiently, to make them believe that there is nothing out there. We are constantly being reminded by channeled communications that other civilizations of the Universe, ,follow with amazement our recent development since we represent for them a unique case, maybe a unique civilization-wide psychiatric case of materialistic delusion. Apparently there are other races like Reptilians who are despising God128 but none of them is confused to the extent of rejecting the existence of the spirit world.
+Again, it is important to understand that we are not that devoid of the ability for perceiving spirit world. As we just mentioned, we  do visit the spirit reams in dreams every night, but there is something artificial, possibly an artificial brain structure that very effectively makes us forget our experience during the moments of waking up. Those who are able to overcome this artificial limitation either become great intuitives or psychiatric patients.

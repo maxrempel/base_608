@@ -1,0 +1,12 @@
+{
+  "created_at": "2026-07-30T04:10:30.617352Z",
+  "max_chars": 12000,
+  "max_tokens": 4096,
+  "model": "deepseek-v4-flash",
+  "privacy": "private-authorized",
+  "retries": 2,
+  "run_dir": "C:\\claude_base\\worklog\\deepseek_offload\\moma\\producer_identity_v02",
+  "schema_version": 1,
+  "task_sha256": "610a9745a88b3b9066ec38c68694167c8453244cf671a6cce2b4c3cf3d5f16e1",
+  "timeout": 180
+}

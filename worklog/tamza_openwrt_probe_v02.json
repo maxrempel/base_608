@@ -1,0 +1,60 @@
+[
+  {
+    "login_status": 200,
+    "logged_in": true,
+    "final_path": "/cgi-bin/luci/"
+  },
+  {
+    "overview_status": 200,
+    "overview_bytes": 4184
+  },
+  {
+    "ubus_list_ok": true,
+    "network_objects": []
+  },
+  {
+    "logical_interfaces": {}
+  },
+  {
+    "wan_devices": {}
+  },
+  {
+    "bandwidth_endpoints": [
+      {
+        "interface": "eth0",
+        "status": 200,
+        "bytes": 3091,
+        "content_type": "text/html",
+        "looks_like_stats": false
+      },
+      {
+        "interface": "eth1",
+        "status": 200,
+        "bytes": 3091,
+        "content_type": "text/html",
+        "looks_like_stats": false
+      },
+      {
+        "interface": "eth2",
+        "status": 200,
+        "bytes": 3091,
+        "content_type": "text/html",
+        "looks_like_stats": false
+      },
+      {
+        "interface": "wan",
+        "status": 200,
+        "bytes": 3088,
+        "content_type": "text/html",
+        "looks_like_stats": false
+      },
+      {
+        "interface": "wan6",
+        "status": 200,
+        "bytes": 3091,
+        "content_type": "text/html",
+        "looks_like_stats": false
+      }
+    ]
+  }
+]

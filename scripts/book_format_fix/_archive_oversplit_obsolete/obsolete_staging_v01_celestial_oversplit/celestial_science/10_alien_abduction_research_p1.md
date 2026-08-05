@@ -1,0 +1,14 @@
+# Celestial Science - Alien Abduction Research (Part 1 of 3)
+
+*From "Celestial Science" by Max Rempel, Ph.D.*
+
+The theme of alien abductions is especially important because it ties our genetic past and our genetic future. The more I learn about alien abductions, the more I realize that they are the key to the understanding our origins and who we are. Understanding the motives for the alien abductions surprisingly is also the key to many problems of our present and to what we may expect in the near future.
+It is hard to estimate the scale of alien abductions. Many abductees are not aware of them, some prefer to ignore them, some are aware, but prefer not to report them even anonymously fearing the leaks. Nonetheless, few reasonably designed and reasonably sized polls in 1990s estimated that alien abductions involved few percent of the population - these were the respondents that were aware of their abductions and are not afraid to report them in economized polls.
+"... polls suggest that 3 or even 4 percent of the general population have been abducted ... One such poll that fosters this idea is the oft-quoted "Roper poll." Based on this poll, a report by abduction researchers Hopkins, Jacobs, and Westrum (1992) concluded that aliens had abducted almost four million Americans. The Roper organization allows for other questions to be tacked onto the end of its own regular polls. A representative sample of almost 6,000 were surveyed. Respondents were not directly asked if they had ever been abducted by aliens; instead, they were given a series of indicator questions about whether they had ever undergone the following experiences:
+- Waking up paralyzed with a sense of a strange person or presence or something else in the room.
+- Experiencing a period of time of an hour or more, in which you were apparently lost, but you could not remember why, or where you had been.
+- Seeing unusual lights or balls of light in a room without knowing what was causing them, or where they came from.
+- Finding puzzling scars on your body but neither you nor anyone else remembering how you received them or where you got them.
+- Feeling that you were actually flying through the air, although you didn't know why or how.21,22
+A "yes" answer to four out of the five questions was taken as evidence of alien abduction. The 62-page report, with its introduction by John Mack, was ... defended by Hopkins and Jacobs on the basis that they were experienced researchers who had worked with nearly 500 abductees. ... this evidence was interpreted to conclude that up to 4 million Americans and 185 million earthlings have been abducted by aliens. The findings were mailed to over 100,000 ... mental health professionals in the United States. Error: Reference source not found
+There are subtle indications that the rates of abductions dropped in recent years, after about the year 2002.

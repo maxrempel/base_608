@@ -1,0 +1,9 @@
+[
+  {
+    "id": "d684ed7f",
+    "due": 1784303344.2636218,
+    "repeat_sec": 0,
+    "msg": "CALIBRATE typer clamped-auto language threshold from REAL data (Max's request 2026-07-16). The current _CLAMP_RU_MARGIN=0.15 in C:/claude_base/tools/typer/typer_e25c.py is a hand-tuned guess, NOT statistical. To make it literate: grep 'clamp-auto:' in C:/claude_base/tools/typer/typer_runtime_e25c_auto.log for the ru/en avg_logprob gaps, correlate each by timestamp with the delivered text in C:/Users/maxre/Downloads/typer_dictation_log.txt to label true language (English vs Russian), plot the ru-en gap distribution per class, and set _CLAMP_RU_MARGIN to the cost-weighted optimal threshold (Max prefers wrongly-keep-English over wrongly-flip-to-Russian). Deploy via restart_typer_safe.py (40s idle). Plus/F9 = clamped auto; Num2 = English fallback.",
+    "created": 1784231344.2636664
+  }
+]

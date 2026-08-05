@@ -1,0 +1,28 @@
+{
+  "atlas": "Aluminum",
+  "monte_carlo_draws": 100000,
+  "monte_carlo_seeds": [
+    20260728,
+    20260729
+  ],
+  "output_hashes": {
+    "ALUMINUM_HOTSPOT_ATTRITION_PRELIMINARY_v01.md": "d2842044155f6197f977f0f540b568880f7b68cae7ac3548bc1cf6af07b59d99",
+    "chromosome_hotspot_summary_v01.tsv": "36e10dd17c20281e4647e4a065664672220f234564a36fc4eb57cd8eca703328",
+    "hotspot_attrition_summary_v01.json": "b17b89ca47d39ef4a12a0e777b1c466cd71149d514456b873c2ad6ffec0c2e70",
+    "technical_attrition_summary_v01.tsv": "dbc54679333e87a3047c3be035e79ae4d8309fd6bff9b5ed6898b9f145a809ce"
+  },
+  "scientific_gates_changed": false,
+  "source_atlas_root": "C:\\claude_base\\worklog\\aluminum_family12_build_v01\\atlas",
+  "source_manifest_sha256": "fa6f33f5f15fd7289e0fbc5e8686c81f24ba028dabc75e3f98aafe7f8fefa5ff",
+  "source_output_hashes": {
+    "ALUMINUM_PRELIMINARY_v01.md": "74e9db4b649a544fed99094150d90ac3dc14efd80c4636554681fdf907959f8d",
+    "candidate_occurrences_v01.tsv": "abde2e62e7add2f0d34a79f8ac4c0a8a053cbbf7283c84aa9ff24a8115a15655",
+    "chromosome_atlas_v01.tsv": "58fb902cd141b946fb52283c1b41eae030fbd1e797e72bfa6ef78a7d5500ac1a",
+    "family_atlas_v01.tsv": "df9d86eaae173d56178cdf95500b7f6a123a3220c8051b73f0b36f2c01c9266e",
+    "population_summary_v01.tsv": "21af030c87cf53205d581c91909c4ebf9afab8bf0522b806f3633c7b5e5c875e",
+    "recurrence_v01.tsv": "07fa849574c4644789dd6d46a6d16535be0c7e264b1b4ffa9f9b58ac784613a2",
+    "validation_report_v01.json": "45b21c0d8009c9f484d4e0a04c0ebe9d0ab656359855d6704a1d73d5b7b15fbd"
+  },
+  "status": "PRELIMINARY",
+  "version": "v01"
+}

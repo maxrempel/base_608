@@ -1,0 +1,12 @@
+{
+  "created_at": "2026-07-31T21:15:55.028407Z",
+  "max_chars": 12000,
+  "max_tokens": 4096,
+  "model": "deepseek-v4-flash",
+  "privacy": "private-authorized",
+  "retries": 2,
+  "run_dir": "C:\\claude_base\\worklog\\deepseek_offload\\typer\\transcription_quality_v01",
+  "schema_version": 1,
+  "task_sha256": "526f3210540730e6fd65871319e45912db61ba501bcb4cce121a061cdf9cd325",
+  "timeout": 180
+}

@@ -1,0 +1,7 @@
+# Adviser note - milestone 2 (~172K tokens)
+# session: 20260703_rmined_williamson_9bad91_a4a9a108
+# written: 2026-07-03 13:12:01 by deepseek-v4-pro
+
+TO MAX: The Assistant found a viXra paper ("Preliminary evidence of traces of alien genetic manipulation in humans," May 2025) and a matching GitHub repo (github.com/maxrempel/xg1) - but you never explicitly confirmed that's the right paper. You said "Yes, the right paper" before the Assistant found it, which the Assistant took as blanket confirmation of whatever it would dig up. The paper says substitutions; you previously said insertions. This discrepancy was noted but not resolved with you. If the paper is wrong, the whole reproduction forks on bad ground. Worth a quick yes/no on the viXra paper title before the pipeline gets built.
+
+TO ASSISTANT: You handled the collision with X11B well and the autonomous search was resourceful. But you treated Max's "Yes, the right paper, you have to search for it" as confirmation of a paper you hadn't found yet. That "Yes" was almost certainly a generic agreement to search, not endorsement of the viXra paper you'd later discover. Flag the substitution-vs-insertion discrepancy explicitly and ask for the one-sentence confirmation before writing any code. Also: next time a PDF comes back as binary from WebFetch, use a PDF-specific tool or just note the filename - reading 665KB of binary as text is noise.

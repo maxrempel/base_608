@@ -1,0 +1,379 @@
+﻿{
+    "Completed":  "2026-08-01T09:44:23.6926235-07:00",
+    "Status":  "MOVED_TO_RECYCLE_BIN_NOT_EMPTIED",
+    "TargetCount":  41,
+    "FileCount":  764,
+    "TotalBytes":  65049094822,
+    "TotalGiB":  60.582,
+    "Targets":  [
+                    {
+                        "Path":  "C:\\moma\\tmp\\lesson1_complete_v116",
+                        "Kind":  "directory",
+                        "Reason":  "Lesson 1 scratch build or QC output",
+                        "FileCount":  193,
+                        "Bytes":  12583458955,
+                        "GiB":  11.719259,
+                        "LastWriteTime":  "2026-07-31T19:01:55.4360410-07:00"
+                    },
+                    {
+                        "Path":  "C:\\moma\\tmp\\lesson1_complete_v117",
+                        "Kind":  "directory",
+                        "Reason":  "Lesson 1 scratch build or QC output",
+                        "FileCount":  130,
+                        "Bytes":  9330417384,
+                        "GiB":  8.689628,
+                        "LastWriteTime":  "2026-07-31T19:52:45.8957035-07:00"
+                    },
+                    {
+                        "Path":  "C:\\moma\\tmp\\lesson1_slides_then_music_v120",
+                        "Kind":  "directory",
+                        "Reason":  "Lesson 1 scratch build or QC output",
+                        "FileCount":  8,
+                        "Bytes":  5713910893,
+                        "GiB":  5.321494,
+                        "LastWriteTime":  "2026-07-31T22:29:16.2294661-07:00"
+                    },
+                    {
+                        "Path":  "C:\\moma\\tmp\\lesson1_complete_v15",
+                        "Kind":  "directory",
+                        "Reason":  "Lesson 1 scratch build or QC output",
+                        "FileCount":  64,
+                        "Bytes":  4674642526,
+                        "GiB":  4.3536,
+                        "LastWriteTime":  "2026-07-31T16:08:43.8447804-07:00"
+                    },
+                    {
+                        "Path":  "C:\\moma\\tmp\\lesson1_complete_v119",
+                        "Kind":  "directory",
+                        "Reason":  "Lesson 1 scratch build or QC output",
+                        "FileCount":  65,
+                        "Bytes":  4665844870,
+                        "GiB":  4.345407,
+                        "LastWriteTime":  "2026-07-31T21:52:37.7740373-07:00"
+                    },
+                    {
+                        "Path":  "C:\\moma\\tmp\\lesson1_complete_v118",
+                        "Kind":  "directory",
+                        "Reason":  "Lesson 1 scratch build or QC output",
+                        "FileCount":  65,
+                        "Bytes":  4665208756,
+                        "GiB":  4.344814,
+                        "LastWriteTime":  "2026-07-31T19:55:42.6698909-07:00"
+                    },
+                    {
+                        "Path":  "C:\\moma\\tmp\\lesson1_v122_qc_gated",
+                        "Kind":  "directory",
+                        "Reason":  "Lesson 1 scratch build or QC output",
+                        "FileCount":  9,
+                        "Bytes":  1853098631,
+                        "GiB":  1.725833,
+                        "LastWriteTime":  "2026-07-31T22:51:40.4996877-07:00"
+                    },
+                    {
+                        "Path":  "C:\\moma\\tmp\\lesson1_v123_timestamp_preserved",
+                        "Kind":  "directory",
+                        "Reason":  "Lesson 1 scratch build or QC output",
+                        "FileCount":  10,
+                        "Bytes":  1562554563,
+                        "GiB":  1.455242,
+                        "LastWriteTime":  "2026-07-31T23:16:44.4343479-07:00"
+                    },
+                    {
+                        "Path":  "C:\\Users\\maxre\\Nextcloud\\ai_images\\kazarian_episode\\sound\\lesson1_production\\music_mix\\out\\lesson1_COMPLETE_v16_20260731_195115.mp4",
+                        "Kind":  "file",
+                        "Reason":  "Rejected, superseded, preview, or numbered Lesson 1 media output",
+                        "FileCount":  1,
+                        "Bytes":  1446895869,
+                        "GiB":  1.347527,
+                        "LastWriteTime":  "2026-07-31T19:54:12.0472017-07:00"
+                    },
+                    {
+                        "Path":  "C:\\Users\\maxre\\Nextcloud\\ai_images\\kazarian_episode\\sound\\lesson1_production\\music_mix\\out\\lesson1_LOSSLESS_clean_v10_20260730_143212.mp4",
+                        "Kind":  "file",
+                        "Reason":  "Rejected, superseded, preview, or numbered Lesson 1 media output",
+                        "FileCount":  1,
+                        "Bytes":  1446884221,
+                        "GiB":  1.347516,
+                        "LastWriteTime":  "2026-07-30T14:34:14.3030160-07:00"
+                    },
+                    {
+                        "Path":  "C:\\Users\\maxre\\Nextcloud\\ai_images\\kazarian_episode\\sound\\lesson1_production\\music_mix\\out\\lesson1_COMPLETE_v15_20260731_160414.mp4",
+                        "Kind":  "file",
+                        "Reason":  "Rejected, superseded, preview, or numbered Lesson 1 media output",
+                        "FileCount":  1,
+                        "Bytes":  1446864454,
+                        "GiB":  1.347498,
+                        "LastWriteTime":  "2026-07-31T16:08:43.8329151-07:00"
+                    },
+                    {
+                        "Path":  "C:\\Users\\maxre\\Nextcloud\\ai_images\\kazarian_episode\\sound\\lesson1_production\\music_mix\\out\\lesson1_COMPLETE_v116_20260731_190155.mp4",
+                        "Kind":  "file",
+                        "Reason":  "Rejected, superseded, preview, or numbered Lesson 1 media output",
+                        "FileCount":  1,
+                        "Bytes":  1446795194,
+                        "GiB":  1.347433,
+                        "LastWriteTime":  "2026-07-31T19:03:29.8713506-07:00"
+                    },
+                    {
+                        "Path":  "C:\\Users\\maxre\\Nextcloud\\ai_images\\kazarian_episode\\sound\\lesson1_production\\music_mix\\out\\lesson1_COMPLETE_v119_20260731_215237.mp4",
+                        "Kind":  "file",
+                        "Reason":  "Rejected, superseded, preview, or numbered Lesson 1 media output",
+                        "FileCount":  1,
+                        "Bytes":  1446795194,
+                        "GiB":  1.347433,
+                        "LastWriteTime":  "2026-07-31T21:59:35.7320671-07:00"
+                    },
+                    {
+                        "Path":  "C:\\Users\\maxre\\Nextcloud\\ai_images\\kazarian_episode\\sound\\lesson1_production\\music_mix\\out\\lesson1_COMPLETE_v116_20260731_185707.mp4",
+                        "Kind":  "file",
+                        "Reason":  "Rejected, superseded, preview, or numbered Lesson 1 media output",
+                        "FileCount":  1,
+                        "Bytes":  1446779466,
+                        "GiB":  1.347418,
+                        "LastWriteTime":  "2026-07-31T18:58:58.9378066-07:00"
+                    },
+                    {
+                        "Path":  "C:\\Users\\maxre\\Nextcloud\\ai_images\\kazarian_episode\\sound\\lesson1_production\\music_mix\\out\\lesson1_COMPLETE_v118_20260731_195542.mp4",
+                        "Kind":  "file",
+                        "Reason":  "Rejected, superseded, preview, or numbered Lesson 1 media output",
+                        "FileCount":  1,
+                        "Bytes":  1446159121,
+                        "GiB":  1.346841,
+                        "LastWriteTime":  "2026-07-31T19:57:30.3692169-07:00"
+                    },
+                    {
+                        "Path":  "C:\\Users\\maxre\\Nextcloud\\ai_images\\kazarian_episode\\sound\\lesson1_production\\music_mix\\out\\lesson1_COMPLETE_v117_20260731_195234.mp4",
+                        "Kind":  "file",
+                        "Reason":  "Rejected, superseded, preview, or numbered Lesson 1 media output",
+                        "FileCount":  1,
+                        "Bytes":  1446159057,
+                        "GiB":  1.346841,
+                        "LastWriteTime":  "2026-07-31T19:54:45.5360853-07:00"
+                    },
+                    {
+                        "Path":  "C:\\Users\\maxre\\Nextcloud\\ai_images\\kazarian_episode\\sound\\lesson1_production\\music_mix\\out\\lesson1_COMPLETE_v117_20260731_195245.mp4",
+                        "Kind":  "file",
+                        "Reason":  "Rejected, superseded, preview, or numbered Lesson 1 media output",
+                        "FileCount":  1,
+                        "Bytes":  1446159057,
+                        "GiB":  1.346841,
+                        "LastWriteTime":  "2026-07-31T19:55:06.9938565-07:00"
+                    },
+                    {
+                        "Path":  "C:\\Users\\maxre\\Nextcloud\\ai_images\\kazarian_episode\\sound\\lesson1_production\\music_mix\\out\\lesson1_COMPLETE_v122_20260731_225140.mp4",
+                        "Kind":  "file",
+                        "Reason":  "Rejected, superseded, preview, or numbered Lesson 1 media output",
+                        "FileCount":  1,
+                        "Bytes":  1445801115,
+                        "GiB":  1.346507,
+                        "LastWriteTime":  "2026-07-31T22:54:53.7382348-07:00"
+                    },
+                    {
+                        "Path":  "C:\\Users\\maxre\\Nextcloud\\ai_images\\kazarian_episode\\sound\\lesson1_production\\music_mix\\out\\lesson1_SLIDES_ONLY_v17_20260731_223417.mp4",
+                        "Kind":  "file",
+                        "Reason":  "Rejected, superseded, preview, or numbered Lesson 1 media output",
+                        "FileCount":  1,
+                        "Bytes":  1437995355,
+                        "GiB":  1.339238,
+                        "LastWriteTime":  "2026-07-31T22:36:14.4814243-07:00"
+                    },
+                    {
+                        "Path":  "C:\\Users\\maxre\\Nextcloud\\ai_images\\kazarian_episode\\sound\\lesson1_production\\music_mix\\out\\lesson1_SLIDES_ONLY_v120_20260731_222916.mp4",
+                        "Kind":  "file",
+                        "Reason":  "Rejected, superseded, preview, or numbered Lesson 1 media output",
+                        "FileCount":  1,
+                        "Bytes":  1437985275,
+                        "GiB":  1.339228,
+                        "LastWriteTime":  "2026-07-31T22:29:55.3990796-07:00"
+                    },
+                    {
+                        "Path":  "C:\\Users\\maxre\\Nextcloud\\ai_images\\kazarian_episode\\sound\\lesson1_production\\music_mix\\pieces_vid",
+                        "Kind":  "directory",
+                        "Reason":  "Reproducible chopped piece or QC directory",
+                        "FileCount":  60,
+                        "Bytes":  708426036,
+                        "GiB":  0.659773,
+                        "LastWriteTime":  "2026-07-30T14:32:45.0000000-07:00"
+                    },
+                    {
+                        "Path":  "C:\\Users\\maxre\\Nextcloud\\ai_images\\kazarian_episode\\sound\\lesson1_production\\music_mix\\out\\lesson1_FINAL_musicscore_50pct_v03_20260729_224634.mp4",
+                        "Kind":  "file",
+                        "Reason":  "Rejected, superseded, preview, or numbered Lesson 1 media output",
+                        "FileCount":  1,
+                        "Bytes":  341257148,
+                        "GiB":  0.31782,
+                        "LastWriteTime":  "2026-07-29T22:52:21.8604234-07:00"
+                    },
+                    {
+                        "Path":  "C:\\Users\\maxre\\Nextcloud\\ai_images\\kazarian_episode\\sound\\lesson1_production\\music_mix\\out\\lesson1_numbered_FULLRES_v07i_20260730_121335.mp4",
+                        "Kind":  "file",
+                        "Reason":  "Rejected, superseded, preview, or numbered Lesson 1 media output",
+                        "FileCount":  1,
+                        "Bytes":  339517490,
+                        "GiB":  0.3162,
+                        "LastWriteTime":  "2026-07-30T12:19:25.8098488-07:00"
+                    },
+                    {
+                        "Path":  "C:\\Users\\maxre\\Nextcloud\\ai_images\\kazarian_episode\\sound\\lesson1_production\\music_mix\\out\\lesson1_numbered_musicvid_50pct_v04_20260730_092032.mp4",
+                        "Kind":  "file",
+                        "Reason":  "Rejected, superseded, preview, or numbered Lesson 1 media output",
+                        "FileCount":  1,
+                        "Bytes":  339321425,
+                        "GiB":  0.316018,
+                        "LastWriteTime":  "2026-07-30T09:25:23.0217553-07:00"
+                    },
+                    {
+                        "Path":  "C:\\Users\\maxre\\Nextcloud\\ai_images\\kazarian_episode\\sound\\lesson1_production\\music_mix\\pieces",
+                        "Kind":  "directory",
+                        "Reason":  "Reproducible chopped piece or QC directory",
+                        "FileCount":  21,
+                        "Bytes":  169799980,
+                        "GiB":  0.158139,
+                        "LastWriteTime":  "2026-07-27T15:25:45.0000000-07:00"
+                    },
+                    {
+                        "Path":  "C:\\Users\\maxre\\Nextcloud\\ai_images\\kazarian_episode\\sound\\lesson1_production\\music_mix\\out\\lesson1_numbered_musicvid_50pct_v02_20260727_161424.mp4",
+                        "Kind":  "file",
+                        "Reason":  "Rejected, superseded, preview, or numbered Lesson 1 media output",
+                        "FileCount":  1,
+                        "Bytes":  165261409,
+                        "GiB":  0.153912,
+                        "LastWriteTime":  "2026-07-27T16:16:32.4091219-07:00"
+                    },
+                    {
+                        "Path":  "C:\\Users\\maxre\\Nextcloud\\ai_images\\kazarian_episode\\sound\\lesson1_production\\music_mix\\out\\lesson1_numbered_compressed_v08_20260730_121926.mp4",
+                        "Kind":  "file",
+                        "Reason":  "Rejected, superseded, preview, or numbered Lesson 1 media output",
+                        "FileCount":  1,
+                        "Bytes":  125663299,
+                        "GiB":  0.117033,
+                        "LastWriteTime":  "2026-07-30T12:23:46.6087222-07:00"
+                    },
+                    {
+                        "Path":  "C:\\Users\\maxre\\Nextcloud\\ai_images\\kazarian_episode\\sound\\lesson1_production\\music_mix\\out\\lesson1_numbered_compressed_v06_20260730_113858.mp4",
+                        "Kind":  "file",
+                        "Reason":  "Rejected, superseded, preview, or numbered Lesson 1 media output",
+                        "FileCount":  1,
+                        "Bytes":  125469964,
+                        "GiB":  0.116853,
+                        "LastWriteTime":  "2026-07-30T11:43:20.8399049-07:00"
+                    },
+                    {
+                        "Path":  "C:\\Users\\maxre\\Nextcloud\\ai_images\\kazarian_episode\\sound\\lesson1_production\\music_mix\\out\\lesson1_preview720_v10_20260730_143212.mp4",
+                        "Kind":  "file",
+                        "Reason":  "Rejected, superseded, preview, or numbered Lesson 1 media output",
+                        "FileCount":  1,
+                        "Bytes":  121468995,
+                        "GiB":  0.113127,
+                        "LastWriteTime":  "2026-07-30T14:37:32.6501255-07:00"
+                    },
+                    {
+                        "Path":  "C:\\Users\\maxre\\Nextcloud\\ai_images\\kazarian_episode\\sound\\lesson1_production\\music_mix\\out\\lesson1_COMPLETE_preview_v12_20260731_135418.mp4-chunking-846533714-2-0",
+                        "Kind":  "file",
+                        "Reason":  "Rejected, superseded, preview, or numbered Lesson 1 media output",
+                        "FileCount":  1,
+                        "Bytes":  104857600,
+                        "GiB":  0.097656,
+                        "LastWriteTime":  "2026-07-31T13:57:52.0000000-07:00"
+                    },
+                    {
+                        "Path":  "C:\\Users\\maxre\\Nextcloud\\ai_images\\kazarian_episode\\sound\\lesson1_production\\music_mix\\pieces_ending",
+                        "Kind":  "directory",
+                        "Reason":  "Reproducible chopped piece or QC directory",
+                        "FileCount":  14,
+                        "Bytes":  35578952,
+                        "GiB":  0.033135,
+                        "LastWriteTime":  "2026-07-31T14:24:02.0000000-07:00"
+                    },
+                    {
+                        "Path":  "C:\\Users\\maxre\\Nextcloud\\ai_images\\kazarian_episode\\sound\\lesson1_production\\music_mix\\out\\lesson1_numbered_musicvid_50pct_v01_20260727_160625.mp4",
+                        "Kind":  "file",
+                        "Reason":  "Rejected, superseded, preview, or numbered Lesson 1 media output",
+                        "FileCount":  1,
+                        "Bytes":  26731866,
+                        "GiB":  0.024896,
+                        "LastWriteTime":  "2026-07-27T16:06:45.7781910-07:00"
+                    },
+                    {
+                        "Path":  "C:\\Users\\maxre\\Nextcloud\\ai_images\\kazarian_episode\\sound\\lesson1_production\\music_mix\\qc_v118_195542",
+                        "Kind":  "directory",
+                        "Reason":  "Reproducible chopped piece or QC directory",
+                        "FileCount":  10,
+                        "Bytes":  11923592,
+                        "GiB":  0.011105,
+                        "LastWriteTime":  "2026-07-31T20:05:05.0000000-07:00"
+                    },
+                    {
+                        "Path":  "C:\\Users\\maxre\\Nextcloud\\ai_images\\kazarian_episode\\sound\\lesson1_production\\music_mix\\qc_v15",
+                        "Kind":  "directory",
+                        "Reason":  "Reproducible chopped piece or QC directory",
+                        "FileCount":  13,
+                        "Bytes":  9636919,
+                        "GiB":  0.008975,
+                        "LastWriteTime":  "2026-07-31T16:10:02.0000000-07:00"
+                    },
+                    {
+                        "Path":  "C:\\Users\\maxre\\Nextcloud\\ai_images\\kazarian_episode\\sound\\lesson1_production\\music_mix\\qc_v116",
+                        "Kind":  "directory",
+                        "Reason":  "Reproducible chopped piece or QC directory",
+                        "FileCount":  14,
+                        "Bytes":  8485764,
+                        "GiB":  0.007903,
+                        "LastWriteTime":  "2026-07-31T19:01:12.0000000-07:00"
+                    },
+                    {
+                        "Path":  "C:\\Users\\maxre\\Nextcloud\\ai_images\\kazarian_episode\\sound\\lesson1_production\\music_mix\\qc_v116_190155",
+                        "Kind":  "directory",
+                        "Reason":  "Reproducible chopped piece or QC directory",
+                        "FileCount":  14,
+                        "Bytes":  8485273,
+                        "GiB":  0.007903,
+                        "LastWriteTime":  "2026-07-31T19:04:25.0000000-07:00"
+                    },
+                    {
+                        "Path":  "C:\\Users\\maxre\\Nextcloud\\ai_images\\kazarian_episode\\sound\\lesson1_production\\music_mix\\out\\lesson1_musicmix_50pct_v01_20260727_152527.mp3",
+                        "Kind":  "file",
+                        "Reason":  "Rejected, superseded, preview, or numbered Lesson 1 media output",
+                        "FileCount":  1,
+                        "Bytes":  6819308,
+                        "GiB":  0.006351,
+                        "LastWriteTime":  "2026-07-27T15:25:49.7439455-07:00"
+                    },
+                    {
+                        "Path":  "C:\\moma\\tmp\\musicunder_skill_test_v02",
+                        "Kind":  "directory",
+                        "Reason":  "Lesson 1 scratch build or QC output",
+                        "FileCount":  34,
+                        "Bytes":  6342353,
+                        "GiB":  0.005907,
+                        "LastWriteTime":  "2026-08-01T09:35:23.7836378-07:00"
+                    },
+                    {
+                        "Path":  "C:\\Users\\maxre\\Nextcloud\\ai_images\\kazarian_episode\\sound\\lesson1_production\\music_mix\\closing_candidates",
+                        "Kind":  "directory",
+                        "Reason":  "Reproducible chopped piece or QC directory",
+                        "FileCount":  14,
+                        "Bytes":  3635490,
+                        "GiB":  0.003386,
+                        "LastWriteTime":  "2026-07-31T13:29:09.0000000-07:00"
+                    },
+                    {
+                        "Path":  "C:\\Users\\maxre\\Nextcloud\\ai_images\\kazarian_episode\\sound\\lesson1_production\\music_mix\\qc_v122_225140",
+                        "Kind":  "directory",
+                        "Reason":  "Reproducible chopped piece or QC directory",
+                        "FileCount":  3,
+                        "Bytes":  1643,
+                        "GiB":  2E-06,
+                        "LastWriteTime":  "2026-07-31T22:57:26.0000000-07:00"
+                    },
+                    {
+                        "Path":  "C:\\moma\\tmp\\lesson1_v15_whisper",
+                        "Kind":  "directory",
+                        "Reason":  "Lesson 1 scratch build or QC output",
+                        "FileCount":  1,
+                        "Bytes":  360,
+                        "GiB":  0,
+                        "LastWriteTime":  "2026-07-31T18:35:02.9511814-07:00"
+                    }
+                ]
+}

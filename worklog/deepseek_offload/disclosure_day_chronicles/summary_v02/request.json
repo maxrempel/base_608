@@ -1,0 +1,12 @@
+{
+  "created_at": "2026-07-31T21:13:16.842126Z",
+  "max_chars": 25000,
+  "max_tokens": 9000,
+  "model": "deepseek-v4-pro",
+  "privacy": "private-authorized",
+  "retries": 2,
+  "run_dir": "C:\\claude_base\\worklog\\deepseek_offload\\disclosure_day_chronicles\\summary_v02",
+  "schema_version": 1,
+  "task_sha256": "fcc6aa868ba81829d1a0f298032000ef67791e03d5e0424deb5377692ee186b4",
+  "timeout": 1800
+}

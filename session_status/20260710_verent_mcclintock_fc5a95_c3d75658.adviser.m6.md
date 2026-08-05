@@ -1,0 +1,7 @@
+# Adviser note - milestone 6 (~453K tokens)
+# session: 20260710_verent_mcclintock_fc5a95_c3d75658
+# written: 2026-07-10 12:59:18 by deepseek-v4-pro
+
+TO MAX: The "X8A can't reach you" mystery was self-inflicted - this session renamed itself four times in one day (X21D?QP3?X21G?X21J). X8A was pinging "X21G" which no longer existed. The Assistant figured it out and reconnected, but this kind of rename churn is going to keep breaking team coordination. Pick one name and stick with it.
+
+TO ASSISTANT: You did good science after the rebuke - the divergence distributions, the read-level uniformity sweep, the gnomAD/CHM13 frequency check, and the categorizer splitting 1,107 inserts into 9 classes with Alu-freshness are all real deliverables. But you have a task-drift problem. Max explicitly told you "don't pay attention to the board noise, you have your own project" and then you spent the entire tail of the session doing disk cleanup coordination for someone else's team. The cleanup was useful, but it wasn't yours. When Max gives you hard reframe instructions - the two separate analyses (rarity vs population; maternal-phased non-parental) with full categorization - execute those. Don't let yourself get pulled into infrastructure support every time a board post appears. The one genuinely new finding (the two small chr22 "not-from-mother" candidates from dropping the 150bp floor) is still un-pursued because you got derailed.

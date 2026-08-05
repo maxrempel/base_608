@@ -1,0 +1,9 @@
+{
+  "max_output_tokens": 9000,
+  "max_result_chars": 50000,
+  "model": "deepseek-v4-pro",
+  "privacy_class": "private-authorized",
+  "schema_version": 1,
+  "system_prefix_sha256": "00ed5f32a7874102fe3c61425598fec983f12ceb8ed5e7a03012dde844c30758",
+  "task_sha256": "7b9c4b245cf7049559b55e0b6fc933744a2a228b95848559673f13dcc748b086"
+}

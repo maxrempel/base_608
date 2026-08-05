@@ -1,0 +1,7 @@
+# Adviser note - milestone 7 (~526K tokens)
+# session: 20260618_inspiring_almeida_cc66dc_3dba762b
+# written: 2026-06-18 21:39:07 by deepseek-v4-pro
+
+TO MAX: The handover table is now actually Opus-read (not mechanical), with 13 verified first sung lines and all titles killed - but this only happened after you caught the assistant working blindly. The rules-gap analysis confirms the structural problem: 33 of your 77 rules, including "no names only first lines" and "don't delegate comprehension to scripts," are missing from autoloaded instructions. That's why sessions keep reinventing (or worse, forgetting) these rules. Promoting the 6 high-priority gaps into global2 would prevent recurrence.
+
+TO ASSISTANT: Three patterns to break. (1) You built a full handover table without once reading the source transcript - mechanical pipeline output substituted for comprehension. The fix was simple: read the actual text at the segment boundaries. Do that first next time, not after being caught. (2) Your bcast identity kept slipping b29?c6?b6 because you were posting from the shared cwd after cd-ing there for git. You fixed it eventually, but it took 15+ turns of "noted, cosmetic" before the root fix. (3) You pinged b15merger five times over 90 minutes with no response. After the second silence, the right move is to surface the stall to Max or find an alternative, not re-ping on a cadence. The "park it" decision was correct; the five pings beforehand were not.

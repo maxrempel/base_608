@@ -1,0 +1,6 @@
+# Celestial Science - Glimpses into your past lives from a psychic reader
+
+*From "Celestial Science" by Max Rempel, Ph.D.*
+
+Q: I have always wondered who was I in my past lives? Is there a way to learn that?
+A: The idea of past lives is well accepted in the New Age philosophy, among light workers and psychic readers. "Tell me about my past lives" - is a common question to a psychic reader. The readings on past lives can be verified by asking the same question to another psychic reader. The easiest way is to find a local psychic reader. Searching "Google Maps" or "Yahoo Local" for a "psychic" will give you plenty of local results. Comparing user reviews and user ratings allows picking better reader and prices can be found by calling. Typically prices are quite low (starting from $30 per session) since this work requires a natural gift but doesn't require education and is not regulated by any guilds like ones of psychiatrists, hypnotists or psychoanalytics. Of course if two psychic readers provide similar readings, it might also be interpreted that they read thoughts of a person instead of looking in distant past, but overall consistency of the stories suggests that good readers indeed obtain real stories from past lives.

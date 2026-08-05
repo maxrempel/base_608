@@ -1,0 +1,20 @@
+{
+  "credential_in_command": false,
+  "credential_source": "provider.py child environment",
+  "elapsed_seconds": 11.12,
+  "exit_code": 0,
+  "finished_at": "2026-07-24T23:42:59.257420Z",
+  "model": "deepseek-v4-flash",
+  "privacy_class": "public",
+  "provider": "deepseek",
+  "result_chars": 603,
+  "result_path": "C:\\claude_base\\worklog\\deepseek_offload\\verification\\runner_smoke_v02\\result.md",
+  "result_sha256": "30f74194698b4d643c0a2261e97e4352aecfb2bdd1af21cef8b27ad0b2c14849",
+  "result_truncated": false,
+  "schema_version": 1,
+  "started_at": "2026-07-24T23:42:48.137199Z",
+  "status": "completed",
+  "task_path": "C:\\claude_base\\worklog\\deepseek_offload\\verification\\runner_smoke_v02\\task.md",
+  "task_sha256": "6a04a18992de5cfb5185375ccbf7af6e9d546c35287174682ac081497aef0fb3",
+  "working_directory": "C:\\claude_base"
+}

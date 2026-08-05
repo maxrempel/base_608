@@ -1,0 +1,5 @@
+Return at most 350 words. Scientific review only.
+
+Thirteen approved local 1000 Genomes GRCh38 WGS controls have exact sequencing provenance but zero independent serology or molecular RHD truth labels. Computational predictions from Erythrogene, RBCeq, or the same WGS must not count as truth. No participant locus has been queried. Delly v1.2.6 and RHtyper source/package identities are pinned, but RHtyper is not installed. A participant-file identity checksum is being sealed independently.
+
+State: (1) why no positive/negative calibration pilot may run; (2) the minimum truth-control manifest fields and fail-closed gate; (3) the smallest targeted acquisition specification of exactly two GRCh38 short-read WGS truth controls, one conventional RHD-positive and one homozygous whole-RHD deletion, with heterozygous deletion and hybrid/partial as preferred extras; (4) false-positive and false-negative observables; (5) why two tools on the same reads are not independent validation. No commands, clinical claims, wet lab, or participant inference.

@@ -1,0 +1,182 @@
+{
+ "when": "2026-07-11T04:30:02.049822",
+ "days": 5.0,
+ "count": 35,
+ "swept": [
+  {
+   "kind": "fleet_cursors",
+   "rel": "admiring_diffie_13ddd6_d30b6f2947.cursor",
+   "age_days": -1
+  },
+  {
+   "kind": "fleet_cursors",
+   "rel": "admiring_maxwell_8cadba_1cdd2f036a.cursor",
+   "age_days": -1
+  },
+  {
+   "kind": "fleet_cursors",
+   "rel": "agitated_cannon_76e842_2139d3455a.cursor",
+   "age_days": -1
+  },
+  {
+   "kind": "fleet_cursors",
+   "rel": "agitated_fermat_7ec333_572720ad24.cursor",
+   "age_days": -1
+  },
+  {
+   "kind": "fleet_cursors",
+   "rel": "angry_curran_b4079a_781f6e6b4c.cursor",
+   "age_days": -1
+  },
+  {
+   "kind": "fleet_cursors",
+   "rel": "beautiful_bhaskara_0b8970_cb6254e9df.cursor",
+   "age_days": -1
+  },
+  {
+   "kind": "fleet_cursors",
+   "rel": "cool_shannon_03aa67_4c35e9b3f8.cursor",
+   "age_days": -1
+  },
+  {
+   "kind": "fleet_cursors",
+   "rel": "determined_williamson_9bad91_8e75311ec8.cursor",
+   "age_days": -1
+  },
+  {
+   "kind": "fleet_cursors",
+   "rel": "jolly_austin_dd9aa0_67d182ea47.cursor",
+   "age_days": -1
+  },
+  {
+   "kind": "fleet_cursors",
+   "rel": "jovial_nash_31405a_c5b453309a.cursor",
+   "age_days": -1
+  },
+  {
+   "kind": "fleet_cursors",
+   "rel": "kind_carson_2cc207_bf642012b9.cursor",
+   "age_days": -1
+  },
+  {
+   "kind": "fleet_cursors",
+   "rel": "moma_e1b32f74a4.cursor",
+   "age_days": -1
+  },
+  {
+   "kind": "fleet_cursors",
+   "rel": "nice_maxwell_b61025_7aec330ebe.cursor",
+   "age_days": -1
+  },
+  {
+   "kind": "fleet_cursors",
+   "rel": "nostalgic_goodall_740a49_657da746ca.cursor",
+   "age_days": -1
+  },
+  {
+   "kind": "fleet_cursors",
+   "rel": "objective_faraday_7e53f8_070a71d3ba.cursor",
+   "age_days": -1
+  },
+  {
+   "kind": "fleet_cursors",
+   "rel": "objective_feynman_eb09d3_2897fc79d1.cursor",
+   "age_days": -1
+  },
+  {
+   "kind": "fleet_cursors",
+   "rel": "practical_yalow_a19094_4238ec8065.cursor",
+   "age_days": -1
+  },
+  {
+   "kind": "fleet_cursors",
+   "rel": "quizzical_lewin_4fa47e_a5a6553310.cursor",
+   "age_days": -1
+  },
+  {
+   "kind": "fleet_cursors",
+   "rel": "relaxed_dijkstra_f7ccbd_a68c9fc1a2.cursor",
+   "age_days": -1
+  },
+  {
+   "kind": "fleet_cursors",
+   "rel": "serene_bardeen_4aa03c_06f5a95720.cursor",
+   "age_days": -1
+  },
+  {
+   "kind": "fleet_cursors",
+   "rel": "sleepy_feistel_3e6add_0818ecd777.cursor",
+   "age_days": -1
+  },
+  {
+   "kind": "fleet_cursors",
+   "rel": "strange_swartz_4aa048_c7117734d7.cursor",
+   "age_days": -1
+  },
+  {
+   "kind": "fleet_cursors",
+   "rel": "youthful_rosalind_f7c6ed_d709288570.cursor",
+   "age_days": -1
+  },
+  {
+   "kind": "timer_decel_state",
+   "rel": "04_voice_enhance_d1e8b38fa0.json",
+   "age_days": -1
+  },
+  {
+   "kind": "timer_decel_state",
+   "rel": "agitated_fermat_7ec333_572720ad24.json",
+   "age_days": -1
+  },
+  {
+   "kind": "timer_decel_state",
+   "rel": "branch_bulletin_e9c804dd79.json",
+   "age_days": -1
+  },
+  {
+   "kind": "timer_decel_state",
+   "rel": "gallant_sanderson_862563_6ecca92c42.json",
+   "age_days": -1
+  },
+  {
+   "kind": "timer_decel_state",
+   "rel": "modest_hopper_ac3259_200ce43f89.json",
+   "age_days": -1
+  },
+  {
+   "kind": "timer_decel_state",
+   "rel": "modest_murdock_f1ec2f_ef7c31a5b0.json",
+   "age_days": -1
+  },
+  {
+   "kind": "timer_decel_state",
+   "rel": "recursing_jemison_10c3c5_cb6511c283.json",
+   "age_days": -1
+  },
+  {
+   "kind": "timer_decel_state",
+   "rel": "serene_bardeen_4aa03c_06f5a95720.json",
+   "age_days": -1
+  },
+  {
+   "kind": "timer_decel_state",
+   "rel": "serene_moser_405c05_ca9ca53286.json",
+   "age_days": -1
+  },
+  {
+   "kind": "timer_decel_state",
+   "rel": "sweet_kepler_a528fd_901f468ea7.json",
+   "age_days": -1
+  },
+  {
+   "kind": "timer_decel_state",
+   "rel": "timer_decel_d588e450c5.json",
+   "age_days": -1
+  },
+  {
+   "kind": "timer_decel_state",
+   "rel": "unruffled_bardeen_0ee172_2e3934ac17.json",
+   "age_days": -1
+  }
+ ]
+}

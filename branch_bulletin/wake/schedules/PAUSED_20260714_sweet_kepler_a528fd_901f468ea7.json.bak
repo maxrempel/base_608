@@ -1,0 +1,23 @@
+[
+  {
+    "id": "066cf9d8",
+    "due": 1783443600.0,
+    "repeat_sec": 86400,
+    "msg": "F1 SUPERVISION (morning): verify F4's morning Mike-DC calendar fill fired + heartbeat green. ARCH (as of 6/27): f4/Anna on PINE = SOLE Mike contact (fill + correspondence); Centauri is OUT entirely; Mike does NOT want digest emails. Check: (1) f-team bcast board (bcast.py read --as F1) for f4 fill post; (2) live 'Mike in DC' calendar fresh for today/near days; (3) heartbeat cd162bbb green (F2 monitors). If fill MISSING or heartbeat stale, alert Max + ping F4. If healthy, stay quiet. Self-terminate after 2026-07-31.",
+    "created": 1782604342.302746
+  },
+  {
+    "id": "47f577fb",
+    "due": 1783465200.0,
+    "repeat_sec": 86400,
+    "msg": "F1 SUPERVISION (afternoon): verify F4's afternoon Mike-DC calendar fill fired + heartbeat green. ARCH (as of 6/27): f4/Anna on PINE = SOLE Mike contact; Centauri OUT; no digest emails. Check: (1) f-team board (bcast.py read --as F1) for f4 fill post; (2) live 'Mike in DC' calendar fresh; (3) heartbeat cd162bbb green. If fill MISSING or heartbeat stale, alert Max + ping F4. If healthy, stay quiet. Self-terminate after 2026-07-31.",
+    "created": 1782604342.4446099
+  },
+  {
+    "id": "19c67d04",
+    "due": 1783435295.517983,
+    "repeat_sec": 28800,
+    "msg": "F1 supervisor 8h wake (Max set 8h cadence). Scan bcast/fleetcomm. If a f4 Mike-DC fill is missing OR fill heartbeat cd162bbb stale, alert Max + ping f4; else stay silent. Durable backstops: twice-daily wakeup.py deep checks + always-on Dax watcher (hourly Telegram on stall). Mike departs ~7/15; job self-terminates 7/16.",
+    "created": 1783406495.518015
+  }
+]

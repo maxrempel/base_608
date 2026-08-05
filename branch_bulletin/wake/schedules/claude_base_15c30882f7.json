@@ -1,0 +1,23 @@
+[
+  {
+    "id": "fbc77d60",
+    "due": 1785971737.3996003,
+    "repeat_sec": 1800,
+    "msg": "Recurring Taygeta fault-isolation check. Inspect reboot and current health, continue the Pine-idle-triggered 35-percent duty-cycle hardware-versus-software test program, preserve evidence, and report verified failures through email and Telegram. Do not return or condemn hardware without reproducible evidence.",
+    "created": 1785779137.3996444
+  },
+  {
+    "id": "a512bd59",
+    "due": 1786138200.0,
+    "repeat_sec": 604800,
+    "msg": "Verify the scheduled Mike Events San Diego/major LA update ran after the Friday token reset. Follow the compact canonical method at C:\\claude_base_worktrees\\mike_events_v03\\tools\\mike_dc_calendar\\mike_sd_la_calendar_method_v04_tomemex.md. Be duplicate-safe: only perform the update if the normal Codex automation did not complete. Do not poll for the reset. Use brokered DeepSeek for token-heavy research and Codex only for supervision, connectors, and compact verification.",
+    "created": 1785787489.8510766
+  },
+  {
+    "id": "f8f62be2",
+    "due": 1785991907.1033483,
+    "repeat_sec": 21600,
+    "msg": "Monitor audit: verify all three expense trackers are updating. Check DeepSeek collector freshness (C:\\claude_base\\tools\\deepseek_cost_projector\\deepseek_balance.js updated timestamp), Codex allowance freshness (C:\\claude_base\\tools\\codex_cost_projector\\allowance_history.js), and Claude collector state (C:\\claude_base\\tools\\claude_cost_projector\\collector_state.json). If Claude state is login_required, tell Max the monitor Chrome profile needs a one-time claude.ai login. If any collector has failed repeatedly, investigate and fix.",
+    "created": 1785948707.103391
+  }
+]

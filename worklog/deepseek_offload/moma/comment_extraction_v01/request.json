@@ -1,0 +1,12 @@
+{
+  "created_at": "2026-07-29T06:02:38.764811Z",
+  "max_chars": 12000,
+  "max_tokens": 4096,
+  "model": "deepseek-v4-flash",
+  "privacy": "private-authorized",
+  "retries": 2,
+  "run_dir": "C:\\claude_base\\worklog\\deepseek_offload\\moma\\comment_extraction_v01",
+  "schema_version": 1,
+  "task_sha256": "faa9d46abd6c7f62d893b4a0fefdd1a618373e5313d809fc1b9a90798589e153",
+  "timeout": 180
+}

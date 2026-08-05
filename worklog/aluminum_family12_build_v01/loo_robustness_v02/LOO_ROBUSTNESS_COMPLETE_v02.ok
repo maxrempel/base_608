@@ -1,0 +1,11 @@
+{
+  "biological_validation": "NO",
+  "checksums_sha256": "5aa5b926a6e262a30b47fda5ea10bcc104a3374d67e6f32e1fa0607f7ef0c318",
+  "date": "2026-07-30",
+  "families": 12,
+  "primary_parent_absent_loose_leads": 16,
+  "primary_strand_survivors": 10,
+  "scientific_gates_changed": false,
+  "status": "COMPLETE",
+  "version": "v02"
+}

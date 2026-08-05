@@ -1,0 +1,5 @@
+# Session status log - f5ffc35c-8666-4a95-bc5f-46b2138343dc
+# cwd: C:\claude_base
+
+[2026-06-07 12:42:54] REPORT: DID: B1 manager. Found root cause of Max's 'fixes not showing' = kartoteka PAGE max-age=3600(1h) defeated the ?v asset cache-bust. B2 shipped v34 (page max-age=60 + translit search rempel->Ремпель), live. All 7 prior fixes confirmed live in server bytes. | STATE: v34 LIVE, ?v=20260607d, 1371 rows 0 t=0, translit live. B4 re-verifying real-browser-style. | NEXT: get B4 confirm; await Max t=0 decision (strict 1371 vs relax, t=0 drops 62% of ALL performances). Max may need ONE hard-refresh for last cached page.
+[2026-06-07 12:50:40] REPORT: DID b3 shipped all comms-system/docs fixes (UTF-8 catchup 376db347, anti-dropout fold 366b404d, whoami b1 MANAGER_CORE 9cf44a73, self-sampling rule 6 e26c8dbf, JOB-DONE=live-verify in SKILL) | STATE all Max/c1/B1-directed work accepted; kartoteka catalog complete (B2 lane, v34 live-verified by B4); board quiet for b3 | NEXT idle-reachable, re-arm timer

@@ -1,0 +1,36 @@
+{
+  "_README": "Hand-written purpose per job. KEY = any substring of the job command (cron) or 'taskname action' (Pine). First matching key wins. Add a line for any job showing '(unannotated)' in the registry. BACKUP jobs: say so plainly.",
+  "_last_edited": "2026-08-04 by Codex (GPT-5.6 SOL)",
+  "collect_allowance_rate_limit_v01.py": "Official Codex 7-day allowance collector: Lakarian reads authenticated account rate limits every 20 minutes and retains up to 20 reset windows for the Pine projector.",
+  "Codex Session Usage Collector": "Hidden Pine collector: ranks local Codex session activity every 15 minutes and syncs the accumulated official allowance history from Lakarian for the projector.",
+  "fleet_capacity_monitor/report_capacity.py": "Fleet computation capacity reporter: records five-minute resource history and carries the four-state work signal to the Dax hub. Stall decisions require a continuous 20-minute working window.",
+  "speed-measurement-v02": "Unified bounded internet speed monitor v02: records download, upload, latency, jitter, success, and failures at speed.maxrempel.com. Home reporters run about every 30 minutes with deterministic staggering; Dax runs hourly.",
+  "Max Speed Monitor Sol Bootstrap": "Hidden hourly recovery task: while Sol is offline it does nothing except log one line; when SSH returns it installs and verifies speed monitor v02, removes private staging, and retires itself.",
+
+  "CF Workers KV Backup": "BACKUP (Stream 1): pulls every Cloudflare Worker bundle + all KV namespace contents via CF API, commits to github.com/maxrempel/cloud_base. Daily 21:00. Does NOT cover D1 -- see cf_backup_method_tomemex.md GAP note.",
+  "backup_cf_workers": "BACKUP (Stream 1): pulls every Cloudflare Worker bundle + all KV namespace contents, commits to GitHub cloud_base.",
+  "MOMA_CF_Workers_Backup": "DISABLED 2026-06-02. Was an exact duplicate of 'CF Workers KV Backup' (same backup_cf_workers.bat, just 04:30 vs 21:00). Kept the documented 21:00 task, disabled this one.",
+  "MomaD1Backup": "BACKUP: snapshots the MOMA D1 database (movie pipeline) to local + git.",
+  "NextcloudAutoUpdate": "Keeps the Nextcloud desktop client updated on Pine. Not a backup.",
+  "notion_md_sync": "Syncs Notion pages down to local .md (feeds the Memex *_tomemex pipeline / mdindex). Not a backup.",
+  "CodexRulesAudit": "Keeps Codex's native global AGENTS.md synchronized with Max's shared Claude/Codex rules and logs possible legacy-only rule edits. Every 10 minutes, hidden, no LLM or API spend.",
+  "WindowsUpdateManualOnlyWatchdog": "Restores Pine's manual-only Windows Update policy within one minute if Windows or an installer resets it, verifies the repair, and emails Max once per incident. Hidden SYSTEM task; no LLM or API spend except SMTP only when alerting.",
+  "CloudflareTempShareCleanup": "Deletes only Cloudflare R2 objects under wp-content/temp-share/ after 28 days. Daily 04:40 on Pine, hidden, guarded prefix, StartWhenAvailable. Permanent R2 paths are outside its deletion boundary.",
+
+  "backup_r2_restic.sh": "BACKUP (Stream 2): pulls the 4 site R2 buckets (babel-files, postcontact-media, postcontact-podcast, tamza-media) via rclone, restic-snapshots to /home/mrempadmin/cf_backups/restic_r2. Every 30 min; GFS retention (last 48 / 7 daily / 8 weekly / 12 monthly) + half-yearly tag kept 10yr. memex-files excluded (re-ingestable mirror).",
+  "d1_backup.py": "BACKUP: dumps a Cloudflare D1 database to JSON. Daily 09:30 Lak. (Check which D1 -- likely MOMA or maxrempel-blog BLOG_DB.)",
+  "L120v02_clipfisher_monitor.py": "Clipfisher liveness/monitor checks (hat / clips / m1 / m2 targets). Not a backup.",
+  "sol_clawy_writes_move.sh": "Moves Sol 'clawy' write outputs into place on Lak. Not a backup.",
+  "weekly_orchestrator_v01.py": "TAMZA Zoom rotation: each Sunday at 15:00 Los Angeles time, safely advances the mailing Google Doc to the next anchored link, posts the exact message to private Telegram if absent, and prepares the Facebook payload. Lakarian user timer; idempotent and persistent.",
+
+  "backup_cf_kv_all_v01.py": "BACKUP (DAX-side, older): daily CF KV namespace dump on Dax. Overlaps with Pine 'CF Workers KV Backup' -- the Pine job is the off-DAX safety duplicate. Decide which is canonical.",
+  "backup_noeticus.sh": "BACKUP: noeticus site backups (hourly / daily 03:17 / monthly day1 04:23).",
+  "S310v01_notion_to_memex.py": "Memex pipeline: ingests Notion pages into Memex (Dax). Not a backup.",
+  "noeticus_autoingest": "Noeticus auto-ingest of new content (Riga). Not a backup.",
+  "reclaim_memex.py": "Memex maintenance: reclaims/compacts Memex storage. Not a backup.",
+  "memex_watchdog_v02.py": "Watchdog that restarts/alerts on Memex pipeline failure. Not a backup.",
+  "sync_memories.py": "Memex pusher: pushes source memories into Memex (Dax). Not a backup.",
+  "libas01/run.sh": "Kazarian movie libretto assembler. Scans Notion 'Current Versions Kazarian movie' every 30 min; when any scene changed since last run, reassembles all scene pages into a new dated 'assemblies' page and archives the prior one. Not a backup. Confirmed useful by Max 2026-06-02.",
+
+  "S201v03_notion_clawy_task_sync.py": "Syncs Notion 'clawy' tasks (Sol), every 15 min. Not a backup."
+}

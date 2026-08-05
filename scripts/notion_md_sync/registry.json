@@ -1,0 +1,29 @@
+{
+  "files": [
+    {
+      "name": "global_CLAUDE",
+      "path": "C:\\Users\\maxre\\Nextcloud\\claude_md_synced\\global_CLAUDE.md",
+      "notion_page_id": "3670316f-5560-81cd-b362-d974914706c0"
+    },
+    {
+      "name": "global2",
+      "path": "C:\\Users\\maxre\\Nextcloud\\claude_md_synced\\global2.md",
+      "notion_page_id": "3670316f-5560-8189-acba-e9b4385f5a94"
+    },
+    {
+      "name": "MEMORY_claude_base",
+      "path": "C:\\Users\\maxre\\.claude\\projects\\C--claude-base\\memory\\MEMORY.md",
+      "notion_page_id": "3670316f-5560-8142-bf04-e5b12f9ef574"
+    },
+    {
+      "name": "moma_CLAUDE",
+      "path": "C:\\moma\\CLAUDE.md",
+      "notion_page_id": "3670316f-5560-8181-8eb0-e6ff53146a34"
+    }
+  ],
+  "archive_dir": "C:\\Users\\maxre\\Nextcloud\\claude_md_synced\\archive",
+  "log_path": "C:\\cloud_base\\logs\\notion_md_sync.log",
+  "state_path": "C:\\cloud_base\\scripts\\notion_md_sync\\state.json",
+  "token_path": "C:\\Users\\maxre\\Nextcloud\\zSyncMain\\ssh\\notion_internal_token_20260319.txt",
+  "conflict_window_seconds": 300
+}

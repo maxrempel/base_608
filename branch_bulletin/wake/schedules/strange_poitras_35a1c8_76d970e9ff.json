@@ -1,0 +1,23 @@
+[
+  {
+    "id": "87e54ce6",
+    "due": 1782916200.0,
+    "repeat_sec": 86400,
+    "msg": "f14 COORDINATOR wake (Mike-DC): you do NOT fill, you WAKE f4. STEP 1 settle: run python C:/claude_base/tools/mike_dc_calendar/pine_settle_check.py ; if it prints WAIT secs, re-arm a ScheduleWakeup for that many secs with THIS same prompt and STOP. If GO, continue. STEP 2: force-wake f4 via python C:/claude_base/branch_bulletin/bcast.py wake --name f4 telling it to do its Mike-DC fill now (read Mike inbox, research headless WebSearch only, add events to Mike-in-DC calendar + Notion DB, reply Mike once if he wrote, ping heartbeat cd162bbb ONLY after a real fill). STEP 3: post one board line that you triggered f4, and if f4 has no live listener note it. Do NOT fill or reply to Mike yourself. Recurs daily; catches up on Pine resume.",
+    "created": 1782777648.3206418
+  },
+  {
+    "id": "450e5e56",
+    "due": 1782934200.0,
+    "repeat_sec": 86400,
+    "msg": "f14 COORDINATOR wake (Mike-DC): you do NOT fill, you WAKE f4. STEP 1 settle: run python C:/claude_base/tools/mike_dc_calendar/pine_settle_check.py ; if it prints WAIT secs, re-arm a ScheduleWakeup for that many secs with THIS same prompt and STOP. If GO, continue. STEP 2: force-wake f4 via python C:/claude_base/branch_bulletin/bcast.py wake --name f4 telling it to do its Mike-DC fill now (read Mike inbox, research headless WebSearch only, add events to Mike-in-DC calendar + Notion DB, reply Mike once if he wrote, ping heartbeat cd162bbb ONLY after a real fill). STEP 3: post one board line that you triggered f4, and if f4 has no live listener note it. Do NOT fill or reply to Mike yourself. Recurs daily; catches up on Pine resume.",
+    "created": 1782777648.487818
+  },
+  {
+    "id": "b403f209",
+    "due": 1782865800.0,
+    "repeat_sec": 86400,
+    "msg": "f14 COORDINATOR wake (Mike-DC): you do NOT fill, you WAKE f4. STEP 1 settle: run python C:/claude_base/tools/mike_dc_calendar/pine_settle_check.py ; if it prints WAIT secs, re-arm a ScheduleWakeup for that many secs with THIS same prompt and STOP. If GO, continue. STEP 2: force-wake f4 via python C:/claude_base/branch_bulletin/bcast.py wake --name f4 telling it to do its Mike-DC fill now (read Mike inbox, research headless WebSearch only, add events to Mike-in-DC calendar + Notion DB, reply Mike once if he wrote, ping heartbeat cd162bbb ONLY after a real fill). STEP 3: post one board line that you triggered f4, and if f4 has no live listener note it. Do NOT fill or reply to Mike yourself. Recurs daily; catches up on Pine resume.",
+    "created": 1782777648.675438
+  }
+]

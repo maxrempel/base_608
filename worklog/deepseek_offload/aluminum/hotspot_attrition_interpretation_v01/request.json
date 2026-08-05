@@ -1,0 +1,12 @@
+{
+  "created_at": "2026-07-29T04:38:45.084459Z",
+  "max_chars": 12000,
+  "max_tokens": 4096,
+  "model": "deepseek-v4-flash",
+  "privacy": "private-authorized",
+  "retries": 2,
+  "run_dir": "C:\\claude_base\\worklog\\deepseek_offload\\aluminum\\hotspot_attrition_interpretation_v01",
+  "schema_version": 1,
+  "task_sha256": "32caef3f837e8448299d4dfbfe5d7c4bf84e6d3e912319ce79b8b53f87f2c746",
+  "timeout": 180
+}

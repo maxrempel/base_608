@@ -1,0 +1,12 @@
+{
+  "created_at": "2026-07-28T08:06:46.971881Z",
+  "max_chars": 12000,
+  "max_tokens": 4096,
+  "model": "deepseek-v4-flash",
+  "privacy": "private-authorized",
+  "retries": 2,
+  "run_dir": "C:\\claude_base\\worklog\\deepseek_offload\\omega\\s2_s3_detector_sensitivity_pilot_v01",
+  "schema_version": 1,
+  "task_sha256": "444ba9edb7e151ad095346f90db38d0aec89371666e1dbd815de780181e66dd1",
+  "timeout": 180
+}

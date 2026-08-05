@@ -1,0 +1,86 @@
+[
+  {
+    "login_status": 200,
+    "logged_in": true,
+    "final_path": "/cgi-bin/luci/"
+  },
+  {
+    "overview_status": 200,
+    "overview_bytes": 4184
+  },
+  {
+    "ubus_list_ok": true,
+    "ubus_result_shape": [],
+    "ubus_object_count": 0,
+    "network_objects": []
+  },
+  {
+    "logical_interfaces": {
+      "wan": {
+        "rpc_ok": false,
+        "result_type": "NoneType"
+      },
+      "wan6": {
+        "rpc_ok": false,
+        "result_type": "NoneType"
+      }
+    }
+  },
+  {
+    "wan_devices": {}
+  },
+  {
+    "luci_network_devices_ok": true,
+    "luci_network_devices_type": "dict",
+    "luci_network_device_names": [
+      "br-lan",
+      "eth0",
+      "eth0.1",
+      "eth0.2",
+      "lo",
+      "tunrw",
+      "wlan0",
+      "wlan0-1",
+      "wlan1"
+    ]
+  },
+  {
+    "bandwidth_endpoints": [
+      {
+        "interface": "eth0",
+        "status": 200,
+        "bytes": 3091,
+        "content_type": "text/html",
+        "looks_like_stats": false
+      },
+      {
+        "interface": "eth1",
+        "status": 200,
+        "bytes": 3091,
+        "content_type": "text/html",
+        "looks_like_stats": false
+      },
+      {
+        "interface": "eth2",
+        "status": 200,
+        "bytes": 3091,
+        "content_type": "text/html",
+        "looks_like_stats": false
+      },
+      {
+        "interface": "wan",
+        "status": 200,
+        "bytes": 3088,
+        "content_type": "text/html",
+        "looks_like_stats": false
+      },
+      {
+        "interface": "wan6",
+        "status": 200,
+        "bytes": 3091,
+        "content_type": "text/html",
+        "looks_like_stats": false
+      }
+    ]
+  }
+]

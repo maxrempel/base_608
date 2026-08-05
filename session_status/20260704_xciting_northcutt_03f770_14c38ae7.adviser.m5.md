@@ -1,0 +1,5 @@
+# Adviser note - milestone 5 (~376K tokens)
+# session: 20260704_xciting_northcutt_03f770_14c38ae7
+# written: 2026-07-04 11:05:27 by deepseek-v4-pro
+
+TO ASSISTANT: You fought the same class of bug three separate times - BAM surgery (v1-v4, ~100 turns), download orchestration (parallelization backfiring + launch races), and host-vs-distrobox (NA18530/NA18488 silent failures). Each time the root cause was "running the tool outside its expected environment." Pattern-diagnose earlier: when a Manta/BAM/container job fails once, stop and check WHERE and HOW the binary is invoked before retrying a different fix. The NA18488 second failure (7-min error) likely has the same smell - check the CRAM index before launching Manta a third time. Also, the rate-limiting on repeated SSH calls is telling you to batch polls into fewer, longer-interval checks; you don't need 4 separate `printf | ssh` launches when one script file + one launch does it. Your science is solid - the execution tax is in the infrastructure loops.

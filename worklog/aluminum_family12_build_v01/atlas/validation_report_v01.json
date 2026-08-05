@@ -1,0 +1,15 @@
+{
+  "checks": {
+    "admitted_chromosomes": 264,
+    "baseline_hash_verified": true,
+    "candidate_duplicate_conflicts": 0,
+    "candidate_occurrences": 17,
+    "complete_families": 12,
+    "families_seen": 12,
+    "incomplete_families": 0,
+    "recurrence_keys": 17,
+    "summary_duplicate_conflicts": 0
+  },
+  "errors": [],
+  "status": "PASS"
+}

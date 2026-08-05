@@ -1,0 +1,59 @@
+{
+  "api_url": "https://api.deepseek.com/chat/completions",
+  "attempts": 1,
+  "balance_after_usd": 15.39,
+  "balance_before_usd": 15.39,
+  "balance_delta_reconciliation_usd": 0.0,
+  "computed_cost_usd": 2.016e-05,
+  "cost_components_usd": {
+    "cache_hit_usd": 0.0,
+    "cache_miss_usd": 8.68e-06,
+    "output_usd": 1.148e-05
+  },
+  "credential_in_request_body_or_files": false,
+  "credential_source": "C:\\Users\\maxre\\Nextcloud\\zSyncMain\\ssh\\deepseek_api_key_20260226.txt",
+  "deidentification_check": {
+    "findings": [],
+    "passed": true
+  },
+  "elapsed_seconds": 1.827,
+  "finish_reason": "stop",
+  "finished_at": "2026-07-25T01:09:06.951285Z",
+  "max_output_tokens": 100,
+  "max_result_chars": 1000,
+  "model": "deepseek-v4-flash",
+  "price_version": "DeepSeek official pricing, 2026-07-24",
+  "prices_per_million_tokens_usd": {
+    "cache_hit": 0.0028,
+    "cache_miss": 0.14,
+    "output": 0.28
+  },
+  "privacy_class": "public",
+  "provider": "deepseek-direct-api",
+  "response_id": "14473e74-3130-46c2-b354-ec3341416d48",
+  "result_chars": 10,
+  "result_sha256": "4ab9e57afa1bf169ceb11961782a8db6c4985ae6dd12ef0ca5d63274e31bf2ce",
+  "result_truncated": false,
+  "retry_policy": "2 retries only for network, HTTP 429, and HTTP 5xx",
+  "returned_model": "deepseek-v4-flash",
+  "schema_version": 1,
+  "started_at": "2026-07-25T01:09:05.124285Z",
+  "status": "completed",
+  "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402",
+  "system_prefix_sha256": "00ed5f32a7874102fe3c61425598fec983f12ceb8ed5e7a03012dde844c30758",
+  "task_sha256": "bbb178724011d023d146833507e271141eef48b7e4993a1be387d81050940637",
+  "timeout_seconds_per_attempt": 180,
+  "usage": {
+    "completion_tokens": 41,
+    "completion_tokens_details": {
+      "reasoning_tokens": 35
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 62,
+    "prompt_tokens": 62,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "total_tokens": 103
+  }
+}

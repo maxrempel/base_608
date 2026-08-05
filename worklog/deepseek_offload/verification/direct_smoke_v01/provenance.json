@@ -1,0 +1,59 @@
+{
+  "api_url": "https://api.deepseek.com/chat/completions",
+  "attempts": 1,
+  "balance_after_usd": 15.64,
+  "balance_before_usd": 15.64,
+  "balance_delta_reconciliation_usd": 0.0,
+  "computed_cost_usd": 4.186e-05,
+  "cost_components_usd": {
+    "cache_hit_usd": 0.0,
+    "cache_miss_usd": 1.134e-05,
+    "output_usd": 3.052e-05
+  },
+  "credential_in_request_body_or_files": false,
+  "credential_source": "C:\\Users\\maxre\\Nextcloud\\zSyncMain\\ssh\\deepseek_api_key_20260226.txt",
+  "deidentification_check": {
+    "findings": [],
+    "passed": true
+  },
+  "elapsed_seconds": 2.335,
+  "finish_reason": "stop",
+  "finished_at": "2026-07-24T23:48:23.724703Z",
+  "max_output_tokens": 200,
+  "max_result_chars": 1000,
+  "model": "deepseek-v4-flash",
+  "price_version": "DeepSeek official pricing, 2026-07-24",
+  "prices_per_million_tokens_usd": {
+    "cache_hit": 0.0028,
+    "cache_miss": 0.14,
+    "output": 0.28
+  },
+  "privacy_class": "public",
+  "provider": "deepseek-direct-api",
+  "response_id": "3aa94e4d-57d5-40e1-812b-e7fc2d776c6b",
+  "result_chars": 53,
+  "result_sha256": "f7eba8b705f084f2c3f51f90c533da2c63aa81047608682370db80a9b7ef7fbb",
+  "result_truncated": false,
+  "retry_policy": "2 retries only for network, HTTP 429, and HTTP 5xx",
+  "returned_model": "deepseek-v4-flash",
+  "schema_version": 1,
+  "started_at": "2026-07-24T23:48:21.389252Z",
+  "status": "completed",
+  "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402",
+  "system_prefix_sha256": "00ed5f32a7874102fe3c61425598fec983f12ceb8ed5e7a03012dde844c30758",
+  "task_sha256": "fecb5a8fe0dd0fab7e8451ba7cb4c2858195e16058df1f08e067c2b954dd6567",
+  "timeout_seconds_per_attempt": 180,
+  "usage": {
+    "completion_tokens": 109,
+    "completion_tokens_details": {
+      "reasoning_tokens": 84
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 81,
+    "prompt_tokens": 81,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "total_tokens": 190
+  }
+}

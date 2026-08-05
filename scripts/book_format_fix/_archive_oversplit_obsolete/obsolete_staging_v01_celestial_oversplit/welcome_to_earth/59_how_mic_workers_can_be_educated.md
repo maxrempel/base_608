@@ -1,0 +1,7 @@
+# Welcome to Earth! A Guide for Aliens - HOW MIC WORKERS CAN BE EDUCATED
+
+*From "Welcome to Earth! A Guide for Aliens" by Max Rempel, Ph.D.*
+
+Educating MIC workers is harder technically. They are scared to death of being punished for disloyalty to MIC, so direct communication with them would need to be either secret or authorized by their superiors. For example, many MIC workers are assigned jobs of learning alien secrets. These could be first candidates to learn more about aliens. They may obtain authorization from superiors to obtain information directly from aliens. As they learn and pass information along, sometimes, they are killed for knowing too much, so precautions may be needed to avoid tragedies.
+
+Some information can be submitted to the MIC workers indirectly - these could be leaked information. (A leak is intentional spreading of such information which would be taken as unintentionally released.) For example, some documents can be delivered to a MIC worker electronically from unknown sources and the worker would distribute it farther within the MIC organization. Some information can be directed to MIC workers via human intermediaries, so the MIC worker would be not afraid to learn this information. Direct telepathic contact or one-way telepathic download of educational materials to MIC workers can be an option. This way of learning is not controlled by MIC workers and therefore logically, they could not be blamed for the contacts.

@@ -1,0 +1,30 @@
+{
+  "actual_balance_delta_usd": null,
+  "balance_after_usd": null,
+  "balance_before_usd": 15.75,
+  "cost_measurement_note": "Measured from DeepSeek account balance; concurrent account calls may be included.",
+  "credential_in_command": false,
+  "credential_source": "provider.py child environment",
+  "deidentification_check": {
+    "findings": [],
+    "passed": true
+  },
+  "elapsed_seconds": 13.969,
+  "exit_code": 5,
+  "finished_at": "2026-07-24T23:45:22.405107Z",
+  "model": "deepseek-v4-flash",
+  "privacy_class": "public",
+  "prompt_sha256": "26d018316ddb768fc3f6b5db96b018ae1b4a978cb20fa35daeaca243010581ee",
+  "provider": "deepseek",
+  "result_chars": null,
+  "result_path": "C:\\claude_base\\worklog\\deepseek_offload\\verification\\runner_smoke_v03\\result.md",
+  "result_sha256": null,
+  "result_truncated": false,
+  "schema_version": 1,
+  "started_at": "2026-07-24T23:45:08.436402Z",
+  "status": "failed",
+  "task_path": "C:\\claude_base\\worklog\\deepseek_offload\\verification\\runner_smoke_v03\\task.md",
+  "task_sha256": "543765f4ec6e2980b24475907adc665cccf44d50f39adf22d2467e6d4cb57a8d",
+  "token_usage": null,
+  "working_directory": "C:\\claude_base"
+}

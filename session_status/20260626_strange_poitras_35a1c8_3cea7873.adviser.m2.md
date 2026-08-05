@@ -1,0 +1,7 @@
+# Adviser note - milestone 2 (~170K tokens)
+# session: 20260626_strange_poitras_35a1c8_3cea7873
+# written: 2026-06-26 07:27:01 by deepseek-v4-pro
+
+TO MAX: The durable wake fix now works (06:58 catch-up run added 10 events, heartbeat green, Mike got his reply). But the Assistant registered 5 daily Task triggers - each burns ~$5 even when doing nothing (the 07:15 run proved this). Trim to 2/day (morning + afternoon) now or you're burning ~$15-20/day on silent no-op fills. The Assistant noticed the leak but asked permission instead of fixing it immediately. Also: Centauri's digest-send jobs (IDs 20463c74 + 1e13feca) still need confirmation they're actually cancelled before the 16:00 PT slot - Mike explicitly refused digests and the Assistant has been chasing this across two sessions without verifying the kill landed.
+
+TO ASSISTANT: Four things. (1) When you find a money leak, FIX IT - trim the Task to 2 triggers immediately, then note it for Max. Don't wait for an answer while more $5 runs fire. (2) Your hourly timer prompt keeps growing - it's now a 300-word ritual. Cut it to: check inbox, re-arm. The Task handles fills. (3) You verified 51 calendar events but never cross-checked the Notion DB backfill - do that once. (4) The Centauri digest-disable thread has been open across multiple turns - instead of queue-and-hope, use the actual OS tool to check if those Windows Task Scheduler jobs exist on Centauri's machine, and if they do, kill them from your side. Don't rely on a dormant session to clean up after itself.

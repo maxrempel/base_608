@@ -1,0 +1,5 @@
+# Metaphysics for Lightworkers - FEELING THE ENERGIES
+
+*From "Metaphysics for Lightworkers" by Max Rempel, Ph.D.*
+
+You can feel the presence of higher energies usually via physical and nonphysical senses. With time, they will become very familiar. Often certain spiritual presence might feel like heaviness in a certain part of the brain, like the right side, back side, top, tickling in a certain area, noise of a high or low pitch, white noise of high pitch, mechanical vibrations, or buzzes in different parts of the body. Sometimes you would feel a touch, or a sudden jerk. A higher presence could come as light in the forehead, a color, or a certain light pattern. To see these presences and suggestions better, it helps to do healing with closed eyes.  As you work with your hands, it is nice once in a while to move your hands gently and slowly in the air to feel the energies. This is called a Reiki scan. Feel the chakras. Sometimes it takes one or more rounds of applying standard Reiki positions to warm up the patient and your hands to start feeling the energies in full.

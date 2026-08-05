@@ -1,0 +1,12 @@
+{
+  "created_at": "2026-08-01T07:13:07.055370Z",
+  "max_chars": 12000,
+  "max_tokens": 4096,
+  "model": "deepseek-v4-flash",
+  "privacy": "private-authorized",
+  "retries": 2,
+  "run_dir": "C:\\claude_base\\worklog\\deepseek_offload\\moma_lesson_assembly\\history_audit_v01",
+  "schema_version": 1,
+  "task_sha256": "bcf8cc870fc480cd611f3f572295bea9221f262bc2b8858a204c2948fea186ab",
+  "timeout": 180
+}

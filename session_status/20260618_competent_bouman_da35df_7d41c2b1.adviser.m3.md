@@ -1,0 +1,7 @@
+# Adviser note - milestone 3 (~238K tokens)
+# session: 20260618_competent_bouman_da35df_7d41c2b1
+# written: 2026-06-18 06:22:32 by deepseek-v4-pro
+
+TO MAX: Yes, there are three things a reasonable person might call "handover" right now, and one filename lie. The primary handover is `tools/tamza_songs/pipeline/TAMZA_HANDOVER_START_HERE_v01_tomemex.md` - one file, edited in-place three times. Despite commits calling it "v02" and "v03," the filename still says `v01`. So the answer is: one active handover, but its version label is stale and the in-place rewriting means no old snapshots survive except in git. The `reference_tamza_handover.md` in your memory folder is just a pointer, not a second handover. The older `CURRENT_WORKFLOW_v01_tomemex.md` (by b23) was the predecessor but is now superseded and should probably be marked as such.
+
+TO ASSISTANT: Three things. One: stop editing the handover in-place under the same `v01` filename when your own commits call it v02 and v03 - either bump the filename to match reality or stop putting version numbers in commit messages that the file doesn't carry. Two: the commit death-spiral (four attempts to get past the hook by varying command syntax) is exactly the pattern you're supposed to recognize and short-circuit after the second failure - just stage, then commit, don't iterate syntax. Three: when Max asks "are there several handovers," answer directly instead of asking for context. The file map is clear and you have the full picture.

@@ -1,0 +1,32 @@
+{
+ "when": "2026-07-05T08:16:07.861966",
+ "days": 5.0,
+ "count": 5,
+ "swept": [
+  {
+   "kind": "fleet_cursors",
+   "rel": "dazzling_lichterman_38ba23_e4ecb4a9de.cursor",
+   "age_days": -1
+  },
+  {
+   "kind": "fleet_cursors",
+   "rel": "magical_lovelace_c8f08d_fa4b69407f.cursor",
+   "age_days": -1
+  },
+  {
+   "kind": "fleet_cursors",
+   "rel": "stupefied_albattani_06be1d_648256d572.cursor",
+   "age_days": -1
+  },
+  {
+   "kind": "fleet_cursors",
+   "rel": "wizardly_shtern_11e79c_38872c447c.cursor",
+   "age_days": -1
+  },
+  {
+   "kind": "fleet_cursors",
+   "rel": "xenodochial_nightingale_2c1a8c_6f9a68ec66.cursor",
+   "age_days": -1
+  }
+ ]
+}

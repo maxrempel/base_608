@@ -1,0 +1,52 @@
+{
+ "when": "2026-07-12T07:52:13.287026",
+ "days": 5.0,
+ "count": 9,
+ "swept": [
+  {
+   "kind": "fleet_cursors",
+   "rel": "eager_carson_668dc2_5c8d957db7.cursor",
+   "age_days": -1
+  },
+  {
+   "kind": "fleet_cursors",
+   "rel": "practical_nightingale_98adcd_76076bafd8.cursor",
+   "age_days": -1
+  },
+  {
+   "kind": "fleet_cursors",
+   "rel": "recursing_jemison_10c3c5_cb6511c283.cursor",
+   "age_days": -1
+  },
+  {
+   "kind": "fleet_cursors",
+   "rel": "sweet_kepler_a528fd_901f468ea7.cursor",
+   "age_days": -1
+  },
+  {
+   "kind": "fleet_cursors",
+   "rel": "unruffled_mayer_13bd3b_adae7d940d.cursor",
+   "age_days": -1
+  },
+  {
+   "kind": "fleet_cursors",
+   "rel": "zealous_jemison_bdd0f1_4bf05f189a.cursor",
+   "age_days": -1
+  },
+  {
+   "kind": "timer_decel_state",
+   "rel": "determined_williamson_9bad91_8e75311ec8.json",
+   "age_days": -1
+  },
+  {
+   "kind": "timer_decel_state",
+   "rel": "relaxed_dijkstra_f7ccbd_a68c9fc1a2.json",
+   "age_days": -1
+  },
+  {
+   "kind": "timer_decel_state",
+   "rel": "sleepy_feistel_3e6add_0818ecd777.json",
+   "age_days": -1
+  }
+ ]
+}

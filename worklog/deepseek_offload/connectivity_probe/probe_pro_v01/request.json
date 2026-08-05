@@ -1,0 +1,12 @@
+{
+  "created_at": "2026-08-04T01:03:32.488877Z",
+  "max_chars": 12000,
+  "max_tokens": 500,
+  "model": "deepseek-v4-pro",
+  "privacy": "public",
+  "retries": 2,
+  "run_dir": "C:\\claude_base\\worklog\\deepseek_offload\\connectivity_probe\\probe_pro_v01",
+  "schema_version": 1,
+  "task_sha256": "919d2f5d4a0978e608ce72cc82f011f73c0848107a1c74344f21734eca1ce090",
+  "timeout": 600
+}

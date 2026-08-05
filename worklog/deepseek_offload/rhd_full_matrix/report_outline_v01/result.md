@@ -1,0 +1,10 @@
+- Question: Does normalized depth classify RHD whole-gene deletion vs intact in blinded synthetic validation?
+- Datasets: 180 total, 60 each at 15x/30x/45x, comprising 90 structural-truth deletions and 90 matched intact shams.
+- Pilot reuse: six pilot datasets reused for tuning; remaining participant processing kept closed to preserve blinding.
+- Primary signal: normalized depth; RHtyper ancillary calls limited to non-genotype zero/uncallable states.
+- Delly role: breakpoint evidence/visualization only, not used for deletion/intact classification.
+- Attrition: staged filtering with per-stage retention [RESULT]; final evaluable set [RESULT].
+- Performance: 3x3 truth-by-call matrices per depth; Wilson 95% CIs for sensitivity/specificity [RESULT].
+- Readiness: depth-ordering check and precommitted gates; gate outcome [RESULT].
+- Reproducibility: literal pipeline rerun failed [RESULT]; canonical pilot semantic replay passed [RESULT].
+- Limitations: no external molecular truth available; participants processed closed; scope limited to synthetic validation.

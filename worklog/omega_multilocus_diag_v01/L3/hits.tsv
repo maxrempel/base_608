@@ -1,0 +1,2 @@
+chrom	pos	sides	Lanchor_overhang	Ranchor_overhang	n_junc_contigs	verdict	representation	inserted_length_bp
+chr22	30087493	Ranchor	0	49	1	half_1sided	terminal_half_chimera	0

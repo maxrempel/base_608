@@ -1,0 +1,7 @@
+# Celestial Science - Creator's personality
+
+*From "Celestial Science" by Max Rempel, Ph.D.*
+
+Torah says: "And G-d said: 'Let the waters swarm with swarms of living creatures, and let fowl fly above the earth in the open firmament of heaven'. And G-d created the great sea-monsters, and every living creature that creepeth, wherewith the waters swarmed, after its kind, and every winged fowl after its kind; and G-d saw that it was good. And G-d blessed them, saying: 'Be fruitful, and multiply, and fill the waters in the seas, and let fowl multiply in the earth'. And there was evening and there was morning, a fifth day. And G-d said: 'Let the earth bring forth the living creature after its kind, cattle, and creeping thing, and beast of the earth after its kind' And it was so. And G-d made the beast of the earth after its kind, and the cattle after their kind, and every thing that creepeth upon the ground after its kind; and Gd saw that it was good."
+The personality of the Creator and his very human emotions about the results of his work seem to be overly humanized and simplified for the process that took unimaginable billions of years of quite complicated non-physical intelligence that even our teachers from the 6th density (Ra entity and Cassiopaeans) have difficulty in comprehending.
+Therefore it is possible to keep the story of creation but with many reservations. The main reservation is that this story is an overly-simplified and humanized version of events happening in the physical Universe and elsewhere for billions of years.

@@ -1,0 +1,18 @@
+
+## [2026-06-18 19:12] b29 3dba762b
+- DID: b29 (worker reporting to b26): did the REAL fix Max demanded - actually READ the data. Opus read full transcript windows (via [музыка] speech->song cue) for pilot pX_1m8DlMbA, produced 13 verified first SUNG lines + honest INTRO-ONLY/? in verified/<vid>.json; wired tool. KILLED all titles (Название/Авторы blank). Wrote HANDOVER_METHOD_v01 (rules + reading technique), sent rules to B25, pushed (c0c9282a).
+- STATE: Handover now = first-lines-only (no titles), Opus-verified. KEY: full-window reading FLIPS head-only QC - canon matches Надежды/В городском саду/Времена/Давайте восклицать/Мой конь/Этот ясный день are actually RIGHT; matcher less broken than feared, real failure was reading heads not full text. Identity slip recurring (b29<->c6 by cwd worktree).
+- NEXT: Scale the read via DS4-nonflash per-window-slice + Opus spot-check; show Max the corrected pilot table; coordinate with manager b26/B27. ASR (other team) still grinding the 93.
+- LESSON: READ THE FULL TRANSCRIPT WINDOW, not seg_text_head (=announcement) and not the matcher. The [музыка] ASR marker flags where singing starts - first sung line is right after it.
+
+## [2026-06-18 20:04] b29 3dba762b
+- DID: b29: completed all assigned work - (1) first-line handover pilot (Opus read full transcript windows via музыка cue, 13 verified first lines, titles killed, verified/<vid>.json, tool wired); (2) HANDOVER_METHOD_v01 doc; (3) rules sent to B25; (4) rules-gap task (max_rules_GAP_vs_autoload_v01.md: 77 rules -> ~30 autoloaded, ~14 partial, ~33 GAP, 6 high-priority disaster-causers flagged for promotion). All pushed. Fixed bcast identity slip.
+- STATE: All b29 work DONE+pushed. Active deploy chain (seg_end negdur/videodur, 26144 rows LIVE) is b15merger's lane, not mine. b27 running 2 DS4 --all first-line extraction detached. Max away.
+- NEXT: If Max steers: scale the first-line read (DS4-nonflash per-window + Opus spot-check) to more videos; help promote the 6 high-priority rules to global2 (Max edits). Else hold.
+- LESSON: bcast identity is keyed to CWD: /c/claude_base is a SHARED cwd - registering an id there collides with other sessions. Always whoami + post from your OWN worktree; keep git (cd /c/claude_base) and bcast in SEPARATE bash calls.
+
+## [2026-07-03 12:05] ? 3dba762b
+- DID: Scaled first-line reconstruction test (Max authorized, DeepSeek cheap). deepseek-chat reconstructs real first line from garbled canon_v03 full text. Ran 2 batches x30 (frequent n9-12 + fringe n4). QC by Opus: 60/60 FAITHFUL, zero fabrication/famous-drift; garbled ones honestly low-conf; ONE case picked singer's spoken preface not sung line (fixable prompt tweak). Cost ~1c/60 -> full 994 ~$0.19. DeepSeek out-of-balance blocker was topped up by Max.
+- STATE: Method PROVEN cheap+faithful. Script: timecoder_handover/firstline_ds_v01.py (--n --skip, model deepseek-chat, key zSyncMain/ssh/deepseek_api_key_20260226.txt). Output firstline_ds_out.json. b29 at 80% context. Awaiting Max GO for full 994 run (recommend fresh session).
+- NEXT: Full run: python firstline_ds_v01.py --n 994 (add prompt fix: skip performer spoken preface e.g. 'давно не пел'); QC sample; write reconstructed first_line back to clusters (non-destructive overlay); wire canonical song-id into catalog search. Online Opus worker only for honest-UNKNOWN fringe.
+- LESSON: deepseek-chat (cheap) stays FAITHFUL on garbled full text (no famous-song fabrication) when the full text is present + prompt forbids fabrication/UNKNOWN allowed - flash-tier is fine for reconstruction, unlike blind matching. Verify: it kept garble + lowered confidence rather than inventing.

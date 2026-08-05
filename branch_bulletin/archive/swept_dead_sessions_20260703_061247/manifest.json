@@ -1,0 +1,127 @@
+{
+ "when": "2026-07-03T06:12:47.170855",
+ "days": 5.0,
+ "count": 24,
+ "swept": [
+  {
+   "kind": "fleet_cursors",
+   "rel": "agitated_hawking_4a5146_c7841b58b7.cursor",
+   "age_days": -1
+  },
+  {
+   "kind": "fleet_cursors",
+   "rel": "amazing_hoover_b7b9dd_fa9b7b7b3c.cursor",
+   "age_days": -1
+  },
+  {
+   "kind": "fleet_cursors",
+   "rel": "compassionate_swanson_faa37b_5eb9eff2c3.cursor",
+   "age_days": -1
+  },
+  {
+   "kind": "fleet_cursors",
+   "rel": "cranky_zhukovsky_9a388b_a68aaaedc4.cursor",
+   "age_days": -1
+  },
+  {
+   "kind": "fleet_cursors",
+   "rel": "elastic_antonelli_fcac29_d5a2a72976.cursor",
+   "age_days": -1
+  },
+  {
+   "kind": "fleet_cursors",
+   "rel": "fervent_chebyshev_5b4987_b85b47ca57.cursor",
+   "age_days": -1
+  },
+  {
+   "kind": "fleet_cursors",
+   "rel": "intelligent_boyd_7c0c82_f43e62e8a2.cursor",
+   "age_days": -1
+  },
+  {
+   "kind": "fleet_cursors",
+   "rel": "peaceful_keller_4c17e4_f8f28f459c.cursor",
+   "age_days": -1
+  },
+  {
+   "kind": "fleet_cursors",
+   "rel": "practical_nightingale_98adcd_76076bafd8.cursor",
+   "age_days": -1
+  },
+  {
+   "kind": "fleet_cursors",
+   "rel": "recursing_jemison_10c3c5_cb6511c283.cursor",
+   "age_days": -1
+  },
+  {
+   "kind": "fleet_cursors",
+   "rel": "reverent_volhard_be5d05_9acef91dfa.cursor",
+   "age_days": -1
+  },
+  {
+   "kind": "fleet_cursors",
+   "rel": "silly_aryabhata_3dcfd5_21097261ff.cursor",
+   "age_days": -1
+  },
+  {
+   "kind": "fleet_cursors",
+   "rel": "sweet_kepler_a528fd_901f468ea7.cursor",
+   "age_days": -1
+  },
+  {
+   "kind": "fleet_cursors",
+   "rel": "tender_banach_89a92a_f01c604f3a.cursor",
+   "age_days": -1
+  },
+  {
+   "kind": "fleet_cursors",
+   "rel": "trusting_noether_bfa7db_6dcc472f9b.cursor",
+   "age_days": -1
+  },
+  {
+   "kind": "fleet_cursors",
+   "rel": "vigilant_black_fdaba1_2c7db2fd8a.cursor",
+   "age_days": -1
+  },
+  {
+   "kind": "timer_decel_state",
+   "rel": "beautiful_villani_5507cf_acacc7e5d8.json",
+   "age_days": -1
+  },
+  {
+   "kind": "timer_decel_state",
+   "rel": "bold_tharp_56d611_606e42e6e8.json",
+   "age_days": -1
+  },
+  {
+   "kind": "timer_decel_state",
+   "rel": "bold_villani_1a66b0_490a25e9e1.json",
+   "age_days": -1
+  },
+  {
+   "kind": "timer_decel_state",
+   "rel": "elastic_antonelli_fcac29_d5a2a72976.json",
+   "age_days": -1
+  },
+  {
+   "kind": "timer_decel_state",
+   "rel": "hungry_mayer_737e63_a320889512.json",
+   "age_days": -1
+  },
+  {
+   "kind": "timer_decel_state",
+   "rel": "nervous_spence_f619f8_d8b59296e2.json",
+   "age_days": -1
+  },
+  {
+   "kind": "timer_decel_state",
+   "rel": "serene_swanson_f7566a_69a16852f0.json",
+   "age_days": -1
+  },
+  {
+   "kind": "timer_decel_state",
+   "rel": "vigilant_black_fdaba1_2c7db2fd8a.json",
+   "age_days": -1
+  }
+ ]
+}

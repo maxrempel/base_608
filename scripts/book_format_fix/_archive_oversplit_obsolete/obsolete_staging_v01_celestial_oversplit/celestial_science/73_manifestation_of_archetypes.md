@@ -1,0 +1,6 @@
+# Celestial Science - Manifestation of archetypes
+
+*From "Celestial Science" by Max Rempel, Ph.D.*
+
+Is such a non-physical creation possible? We are told by many celestial sources that yes, indeed this is quite possible and often used by advanced beings. Bashar mentioned a few times that there are beings among us that are materialize temporarily here for obtaining human experience or for influencing our development. Other sources also mention materialization and de-materialization as a common natural or technological ability of some extraterrestrials. Even our humans are reported to possess or at least experiment with the technologies (naturally secret Montauk and related projects) that were partially successful in materializing thoughts and transporting humans from one location to another not only in space but also in time.
+Relevant to origination of humanoids on different planets, it may be helpful to differentiate between one way materialization of thoughts and two way process or de-materialization of a being in one location in space and time and materialization in another. The one-way process is sometimes referred to as manifestation of materialization of thoughts, or ideas, or archetypes. The second (two-step) process is a form of space travel or time travel.

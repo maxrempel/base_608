@@ -1,0 +1,6 @@
+[2026-08-05T14:06:49.337103] start
+[2026-08-05T14:06:54.911914] url: https://base.sfari.org/institution-details
+[2026-08-05T14:06:54.935708] RESULT: institution form still present (not yet submitted)
+[2026-08-05T14:06:54.969154] refilled EIN
+[2026-08-05T14:06:55.009079] re-selected Non-profit
+[2026-08-05T16:04:57.057298] browser closed by user

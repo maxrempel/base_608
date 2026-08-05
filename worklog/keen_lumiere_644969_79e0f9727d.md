@@ -1,0 +1,5 @@
+
+## [2026-06-24 14:14] D43 390c18bd
+- DID: Fixed sc10 spot9 'reel absent' bug: junk reels 2783/2789 injected phantom 5-line span [24,25,26,27,28] into reel_membership layout via Sources A(seed)+C(vocal_line regex) which lacked junk filters. Added junk-guard (startswith('junk') catches 'junk'+'junked') to both. Commits 5951ffe + cf7bb20 on master. Restarted slideshow_server 8790 (PID 38040). VERIFIED: spot9 now derives canonical [24,25,26,27] = approved reel 2935, exact auto-match no pin. L28 belongs to spot10 (merge sp109ddb58dbea L28-L29).
+- STATE: spot9 fixed+verified+pushed+live. spot2 fixed earlier session. Board corrected. My _d43_*.py scratch cleaned; _d21_/_spot11_/_frame* untracked scratch left (possibly other sessions).
+- NEXT: Max branching+compacting now. NEXT (new branch): recheck EVERY spot + whole storyboard for elegance/inherited bugs from the rebuild - review reel_membership + buildSpotLayout code. Canonical merge source of truth = merge_ops.all_for_scene('sc10'); reel auto-matches when its line_hash == active merge_hash, newest wins, NO pins (Max law).

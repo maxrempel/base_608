@@ -1,0 +1,12 @@
+{
+  "created_at": "2026-07-29T19:05:56.204946Z",
+  "max_chars": 12000,
+  "max_tokens": 4096,
+  "model": "deepseek-v4-flash",
+  "privacy": "private-authorized",
+  "retries": 2,
+  "run_dir": "C:\\claude_base\\worklog\\deepseek_offload\\windows_update_watchdog\\progress_report_v01",
+  "schema_version": 1,
+  "task_sha256": "22a091d72fe30c28966c556d54351dd0dcd0ea2590d3a3ebca39f11b07c5905e",
+  "timeout": 180
+}

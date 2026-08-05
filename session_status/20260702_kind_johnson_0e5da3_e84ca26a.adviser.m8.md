@@ -1,0 +1,7 @@
+# Adviser note - milestone 8 (~603K tokens)
+# session: 20260702_kind_johnson_0e5da3_e84ca26a
+# written: 2026-07-02 17:17:52 by deepseek-v4-pro
+
+TO ASSISTANT: You wasted 5+ hours on self-inflicted bugs (clipboard-restore race, warm-keeper rate-limiting, orphaned processes) while Max explicitly told you "don't break my plus" and "the green bar is jumping, the mic works." You broke the live tool multiple times, let E45 clobber the same file, and theorized about microphones for an hour before looking at your own recent code. The Groq paid-tier fix and naming system are good outcomes, but the path was a disaster. Moving forward: ONE owner per file, always test on the isolated key before touching Plus, and when Max says the mic works - BELIEVE HIM and look at delivery. Kill the branch chaos - pick ONE canonical typer file and retire the forks.
+
+TO MAX: The Groq paid tier fixed the slowness (it was rate-limiting on the free tier, not network load). Your Plus key, Zero backup, and Russian are all working at normal speed now. The Desktop "Restart Typer" shortcut restarts everything at once. BUT - you have four different typer.py copies from multiple sessions editing the same tool simultaneously. This is why things kept breaking. Tell any session touching typer to use ONE file (`tools/typer/typer.py`) and retire the `typer_stable.py` / `typer_e45.py` / `typer_e25c.py` forks. Otherwise the next session will repeat today's collision.

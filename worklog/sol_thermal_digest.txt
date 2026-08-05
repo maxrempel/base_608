@@ -1,0 +1,18 @@
+SOL THERMAL DIGEST  updated 23:06:54
+latest: [23:06:54] freezes=4 (bc=5) round=11 bad_total=1 temp=+57.0 up=up 23 minutes last_boot=BOOT 2026-06-17_22:43:40
+max_temp_seen: 76.0C
+--- ALARMS (new boots / corruption / temp>=80) ---
+[21:27:42] NEW-FREEZE bc=4 lastboot=BOOT 2026-06-17_21:27:31 temp=+68.0
+[21:33:38] NEW-CORRUPTION bad_total=3 (was 2) temp=+69.0
+[21:36:22] SSH-DEAD
+[21:37:12] NEW-FREEZE bc=5 lastboot=BOOT 2026-06-17_21:36:26 temp=+52.0
+[22:20:31] NEW-CORRUPTION bad_total=1 (was 0) temp=+61.0
+[22:26:38] SSH-DEAD
+[22:27:29] NEW-FREEZE bc=1 lastboot=BOOT 2026-06-17_22:26:55 temp=+66.0
+[22:31:04] SSH-DEAD
+[22:31:54] NEW-FREEZE bc=2 lastboot=BOOT 2026-06-17_22:31:03 temp=+61.0
+[22:35:30] SSH-DEAD
+[22:36:20] NEW-FREEZE bc=3 lastboot=BOOT 2026-06-17_22:35:21 temp=+61.0
+[22:39:43] NEW-FREEZE bc=4 lastboot=BOOT 2026-06-17_22:39:35 temp=+73.0
+[22:43:57] NEW-FREEZE bc=5 lastboot=BOOT 2026-06-17_22:43:40 temp=+50.0
+

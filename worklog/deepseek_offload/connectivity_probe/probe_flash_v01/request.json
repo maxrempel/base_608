@@ -1,0 +1,12 @@
+{
+  "created_at": "2026-08-04T01:02:57.609113Z",
+  "max_chars": 12000,
+  "max_tokens": 500,
+  "model": "deepseek-v4-flash",
+  "privacy": "public",
+  "retries": 2,
+  "run_dir": "C:\\claude_base\\worklog\\deepseek_offload\\connectivity_probe\\probe_flash_v01",
+  "schema_version": 1,
+  "task_sha256": "172fd8f8913bc687a86dfb6b9e682d2cd45864b642fae6139fab0f86668d32ed",
+  "timeout": 180
+}

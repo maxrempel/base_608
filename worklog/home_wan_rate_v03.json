@@ -1,0 +1,8 @@
+{
+  "schema": "home-wan-rate-v03",
+  "observed_at": "2026-07-29T16:37:25+00:00",
+  "interface": "eth0.2",
+  "sample_seconds": 3.361,
+  "download_mbps": 0.07,
+  "upload_mbps": 0.043
+}

@@ -1,0 +1,3 @@
+chrom	pos	sides	Lanchor_overhang	Ranchor_overhang	n_junc_contigs	verdict	representation	inserted_length_bp
+chr22	30028944	Lanchor	82	0	1	half_1sided	terminal_half_chimera	0
+chr22	30028240	Lanchor+Ranchor	0	0	1	INSERTION_2sided	internal_cigar_insertion	120

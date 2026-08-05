@@ -1,0 +1,16 @@
+# VERBATIM user (Max) log - session e0d72196-9b8b-4140-8ae7-fcd65fa51dbd
+# cwd: C:\moma\.claude\worktrees\flamboyant-shockley-ec7c00
+# Every line Max typed, saved verbatim, so it survives compaction.
+# Recover specs / investigate trouble by reading this file.
+
+
+## [2026-07-07 00:19:00] turn 268
+# Autonomous loop tick (dynamic pacing)
+
+Run the autonomous check using the loop instructions established earlier in this conversation. If you cannot find them, treat this as a no-op tick.
+
+You scheduled this tick via the ScheduleWakeup tool (not a recurring cron). To keep the loop alive, call ScheduleWakeup again at the end of this turn with `prompt` set to the literal sentinel `<<autonomous-loop-dynamic>>` â€” otherwise the loop ends after this tick.
+
+If a Monitor is armed (check TaskList), keep `delaySeconds` at 1200â€“1800s â€” the Monitor is the wake signal and this is only the fallback heartbeat. If you were woken by a `<task-notification>`, handle the event before rescheduling. To stop the loop, also TaskStop the monitor (use TaskList to find its task ID if no longer in context).
+
+Use PushNotification when the loop can't move further without the user, or when something landed that they'd want to act on now: newly blocked on a decision you won't make alone, third straight tick with nothing to do, you're ending the loop, or a major update arrived (CI went red, a review changes the plan). Progress you made yourself isn't a trigger â€” the transcript covers that. One ping per state, not per tick.

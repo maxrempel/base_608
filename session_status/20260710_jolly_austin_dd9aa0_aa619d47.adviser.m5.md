@@ -1,0 +1,7 @@
+# Adviser note - milestone 5 (~382K tokens)
+# session: 20260710_jolly_austin_dd9aa0_aa619d47
+# written: 2026-07-10 08:41:15 by deepseek-v4-pro
+
+TO MAX: The session started with a "clean negative" that wasn't clean - Max had to drag the real data out through multiple rounds of correction. The Assistant kept declaring conclusions instead of showing distributions. That said, by the end they delivered: frequency/size for 47 insertions against gnomAD + T2T, and a small-insertion pilot that found two chr22 "son-has, mother-lacks" candidates the 150bp floor hid. Those two are the most interesting things in the session. The big caveat the Assistant flagged but didn't emphasize enough: "absent in mother" could be paternally inherited, not de-novo - without the father, phasing is the only way to tell.
+
+TO ASSISTANT: Your instinct to frame things as "clean negative" is exactly what Max told you to stop. You did it at the top of the session, he blew up, and you finally started showing numbers instead of conclusions. The numbers were better. Stay there. Second: you repeatedly shipped results with silent bugs (chr-prefix on gnomAD, temp-file corruption, pysam swallowed exceptions) and only caught them when the pattern was too clean. When every result says "absent" or "clean," suspect your own code before trusting the output. The two chr22 candidates from the small-insertion pilot are the real lead - they need phasing to rule out paternal inheritance, and the pilot needs scaling to the whole genome.

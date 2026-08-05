@@ -1,0 +1,59 @@
+{
+  "api_url": "https://api.deepseek.com/chat/completions",
+  "attempts": 1,
+  "balance_after_usd": 10.71,
+  "balance_before_usd": 10.71,
+  "balance_delta_reconciliation_usd": 0.0,
+  "computed_cost_usd": 0.000171825,
+  "cost_components_usd": {
+    "cache_hit_usd": 0.0,
+    "cache_miss_usd": 3.8715e-05,
+    "output_usd": 0.00013311
+  },
+  "credential_in_request_body_or_files": false,
+  "credential_source": "C:\\Users\\maxre\\Nextcloud\\zSyncMain\\ssh\\deepseek_api_key_20260226.txt",
+  "deidentification_check": {
+    "findings": [],
+    "passed": true
+  },
+  "elapsed_seconds": 4.405,
+  "finish_reason": "stop",
+  "finished_at": "2026-08-04T01:03:37.004147Z",
+  "max_output_tokens": 500,
+  "max_result_chars": 12000,
+  "model": "deepseek-v4-pro",
+  "price_version": "DeepSeek official pricing, 2026-07-24",
+  "prices_per_million_tokens_usd": {
+    "cache_hit": 0.003625,
+    "cache_miss": 0.435,
+    "output": 0.87
+  },
+  "privacy_class": "public",
+  "provider": "deepseek-direct-api",
+  "response_id": "9fb51fe5-2471-4c3a-a075-b0bc0d7f30a6",
+  "result_chars": 74,
+  "result_sha256": "f44760a8185fb9c7285c4b38d43983f6d94c13e51cfc607348e329dd04427998",
+  "result_truncated": false,
+  "retry_policy": "2 retries only for network, HTTP 429, and HTTP 5xx",
+  "returned_model": "deepseek-v4-pro",
+  "schema_version": 1,
+  "started_at": "2026-08-04T01:03:32.599040Z",
+  "status": "completed",
+  "system_fingerprint": "fp_9954b31ca7_prod0820_fp8_kvcache_20260402",
+  "system_prefix_sha256": "00ed5f32a7874102fe3c61425598fec983f12ceb8ed5e7a03012dde844c30758",
+  "task_sha256": "5fd243be4048cb3b4fc4e928755267389e56c0a7634ef6ce09ccfc89cda4faa5",
+  "timeout_seconds_per_attempt": 600,
+  "usage": {
+    "completion_tokens": 153,
+    "completion_tokens_details": {
+      "reasoning_tokens": 127
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 89,
+    "prompt_tokens": 89,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "total_tokens": 242
+  }
+}

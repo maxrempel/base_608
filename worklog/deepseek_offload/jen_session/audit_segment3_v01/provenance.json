@@ -1,0 +1,37 @@
+{
+  "api_url": "https://api.deepseek.com/chat/completions",
+  "attempts": 1,
+  "balance_after_usd": null,
+  "balance_before_usd": 11.48,
+  "balance_delta_reconciliation_usd": null,
+  "computed_cost_usd": null,
+  "cost_components_usd": null,
+  "credential_in_request_body_or_files": false,
+  "credential_source": "C:\\Users\\maxre\\Nextcloud\\zSyncMain\\ssh\\deepseek_api_key_20260226.txt",
+  "deidentification_check": {
+    "findings": [],
+    "passed": true
+  },
+  "elapsed_seconds": 58.625,
+  "finished_at": "2026-07-31T21:44:11.408120Z",
+  "max_output_tokens": 8000,
+  "max_result_chars": 4000,
+  "model": "deepseek-v4-flash",
+  "price_version": "DeepSeek official pricing, 2026-07-24",
+  "prices_per_million_tokens_usd": {
+    "cache_hit": 0.0028,
+    "cache_miss": 0.14,
+    "output": 0.28
+  },
+  "privacy_class": "private-authorized",
+  "provider": "deepseek-direct-api",
+  "result_sha256": null,
+  "retry_policy": "2 retries only for network, HTTP 429, and HTTP 5xx",
+  "schema_version": 1,
+  "started_at": "2026-07-31T21:43:12.782851Z",
+  "status": "failed",
+  "system_prefix_sha256": "00ed5f32a7874102fe3c61425598fec983f12ceb8ed5e7a03012dde844c30758",
+  "task_sha256": "bd2fb1eb2e2c57480d5fede7b8383fecb49396628396f4792df6ed0c6fae3cef",
+  "timeout_seconds_per_attempt": 1800,
+  "usage": null
+}

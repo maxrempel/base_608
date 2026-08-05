@@ -1,0 +1,174 @@
+#!/bin/sh
+# ============================================================================
+# claude_base pre-commit guard  (Max rule: NO heavy files in git; SCRIPTED)
+# ----------------------------------------------------------------------------
+# Blocks any commit that stages a file over the size limit. This is the
+# permanent fix for the recurring "git add -A swept a huge output file into
+# git and blocked GitHub push for the whole team" disaster:
+#   - 2026-07-13 commit 5a868a71 (QP3): 3 TSVs 337/221/54MB -> push blocked 13h
+#   - 2026-07-12 commit 72daa8cb (X12B): ~4200-file sweep, illegal long paths
+# GitHub hard-rejects blobs >100MB; we stop at 50MB to catch it early.
+# Enforced for ALL sessions/worktrees via core.hooksPath=.githooks .
+# ============================================================================
+LIMIT_MB=50
+LIMIT=$((LIMIT_MB * 1024 * 1024))
+
+# Guard A additions (2026-07-16, E45): the 50MB rule let a LOT of bloat through -
+# ~1GB of CUDA wheels, a 237MB .msi, and dozens of 18-22MB backup-snapshot .json
+# files all sit under 50MB per-file yet poison history forever. So we add:
+#   - a DATA-file soft cap (5MB) for the dump-prone extensions,
+#   - an outright ban on "never source" binary/media/data extensions (any size),
+#   - a TOTAL staged-bytes cap (catches many mid files in one sweep).
+DATA_CAP_MB=5
+DATA_CAP=$((DATA_CAP_MB * 1024 * 1024))
+DATA_EXT="tsv csv json ndjson bed fa fasta gz bz2 xz parquet"
+BAN_EXT="whl msi exe dll iso bam bai cram crai sam fastq fq sqlite sqlite3 db mp4 mov mkv wav mp3 flac zip tar 7z rar dmg pt pth onnx bin pack"
+TOTAL_CAP_MB=80
+TOTAL_CAP=$((TOTAL_CAP_MB * 1024 * 1024))
+
+lc_ext() { printf '%s' "${1##*.}" | tr 'A-Z' 'a-z'; }
+
+data_offenders=$(
+  git diff --cached --name-only --diff-filter=ACM | while IFS= read -r f; do
+    ext=$(lc_ext "$f")
+    case " $DATA_EXT " in *" $ext "*)
+      sz=$(git cat-file -s ":$f" 2>/dev/null) || continue
+      if [ "$sz" -gt "$DATA_CAP" ]; then
+        printf '    %6s MB   %s\n' "$((sz / 1024 / 1024))" "$f"
+      fi ;;
+    esac
+  done
+)
+
+banned=$(
+  git diff --cached --name-only --diff-filter=ACM | while IFS= read -r f; do
+    ext=$(lc_ext "$f")
+    case " $BAN_EXT " in *" $ext "*) printf '    .%s   %s\n' "$ext" "$f" ;; esac
+  done
+)
+
+total=$(
+  git diff --cached --name-only --diff-filter=ACM | while IFS= read -r f; do
+    git cat-file -s ":$f" 2>/dev/null || echo 0
+  done | awk '{s+=$1} END{print s+0}'
+)
+
+offenders=$(
+  git diff --cached --name-only --diff-filter=ACM | while IFS= read -r f; do
+    sz=$(git cat-file -s ":$f" 2>/dev/null) || continue
+    if [ "$sz" -gt "$LIMIT" ]; then
+      printf '    %6s MB   %s\n' "$((sz / 1024 / 1024))" "$f"
+    fi
+  done
+)
+
+# ---- Guard 2: mass-add sweep (the 'git add -A in shared checkout' landmine) ----
+# QP3 (1251 files) and X12B (4200 files) both swept the whole dirty shared tree.
+# A normal session commit is a handful of files; hundreds = almost always an
+# accidental 'git add -A'. Block with an override for genuine bulk imports.
+MAX_FILES=300
+nfiles=$(git diff --cached --name-only --diff-filter=ACM | wc -l | tr -d ' ')
+if [ "$nfiles" -gt "$MAX_FILES" ]; then
+  echo ""
+  echo "=================================================================="
+  echo "  COMMIT BLOCKED - $nfiles files staged (soft limit ${MAX_FILES})."
+  echo ""
+  echo "  This many files is almost always an accidental 'git add -A' that"
+  echo "  swept up other sessions' scratch files in the shared checkout -"
+  echo "  exactly what jammed the whole team on 2026-07-12/13."
+  echo ""
+  echo "  Fix it: stage ONLY the files you actually changed, by name:"
+  echo "     git reset            # unstage everything"
+  echo "     git add path/to/your/file1 path/to/your/file2 ..."
+  echo ""
+  echo "  Genuine bulk import (you are certain): git commit --no-verify"
+  echo "=================================================================="
+  echo ""
+  exit 1
+fi
+
+if [ -n "$offenders" ]; then
+  echo ""
+  echo "=================================================================="
+  echo "  COMMIT BLOCKED - oversized file(s) staged (limit ${LIMIT_MB}MB):"
+  echo ""
+  echo "$offenders"
+  echo ""
+  echo "  Heavy data/outputs must NOT live in git (Max standing rule)."
+  echo "  Fix it:"
+  echo "     git restore --staged <file>       # unstage the big file"
+  echo "     move it to a heavy-outputs folder OUTSIDE the repo,"
+  echo "     and add its path/pattern to .gitignore so it can't return."
+  echo ""
+  echo "  Almost always this is an accidental 'git add -A' sweep -"
+  echo "  stage ONLY your own named files, never 'git add -A' in the"
+  echo "  shared main worktree."
+  echo ""
+  echo "  Genuine override (you are certain): git commit --no-verify"
+  echo "=================================================================="
+  echo ""
+  exit 1
+fi
+
+if [ -n "$banned" ]; then
+  echo ""
+  echo "=================================================================="
+  echo "  COMMIT BLOCKED - binary/media/data file type(s) never belong in git:"
+  echo ""
+  echo "$banned"
+  echo ""
+  echo "  These (wheels, installers, models, media, archives, DB files) are"
+  echo "  regenerable/downloadable and bloat history forever. Move them to a"
+  echo "  heavy-files folder OUTSIDE the repo and add the pattern to .gitignore."
+  echo ""
+  echo "  Genuine override (you are certain): git commit --no-verify"
+  echo "=================================================================="
+  echo ""
+  exit 1
+fi
+
+if [ -n "$data_offenders" ]; then
+  echo ""
+  echo "=================================================================="
+  echo "  COMMIT BLOCKED - oversized DATA file(s) (limit ${DATA_CAP_MB}MB for"
+  echo "  dump-prone types: $DATA_EXT):"
+  echo ""
+  echo "$data_offenders"
+  echo ""
+  echo "  These are almost always generated output or versioned backup"
+  echo "  snapshots (the 18-22MB tamza *.json dumps, genome *.tsv, etc.)."
+  echo "  Keep them OUTSIDE git; .gitignore the folder so they can't return."
+  echo ""
+  echo "  Genuine override (you are certain): git commit --no-verify"
+  echo "=================================================================="
+  echo ""
+  exit 1
+fi
+
+if [ "${total:-0}" -gt "$TOTAL_CAP" ]; then
+  echo ""
+  echo "=================================================================="
+  echo "  COMMIT BLOCKED - total staged size $((total / 1024 / 1024))MB exceeds ${TOTAL_CAP_MB}MB."
+  echo ""
+  echo "  Even with no single huge file, this much data in one commit is"
+  echo "  almost always an accidental sweep of outputs/scratch. Stage only"
+  echo "  the source files you actually changed."
+  echo ""
+  echo "  Genuine override (you are certain): git commit --no-verify"
+  echo "=================================================================="
+  echo ""
+  exit 1
+fi
+
+# ---- Guard B: DeepSeek second gate (fail-open; catches gray-area junk) ----
+# Runs only if a python is available and there is something non-trivial to check.
+# The script itself fails OPEN on no-key/offline/timeout, so this never wedges.
+HOOK_DIR=$(dirname "$0")
+if [ -f "$HOOK_DIR/ds_commit_review.py" ]; then
+  PYBIN=$(command -v python || command -v python3 || command -v py)
+  if [ -n "$PYBIN" ]; then
+    "$PYBIN" "$HOOK_DIR/ds_commit_review.py" || exit $?
+  fi
+fi
+
+exit 0

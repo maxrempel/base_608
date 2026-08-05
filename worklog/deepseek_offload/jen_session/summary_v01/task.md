@@ -1,0 +1,3178 @@
+﻿Create a faithful, detailed narrative summary of the private session transcript below for the participant who supplied it.
+
+Requirements:
+- Target 15,000 characters including spaces. Stay between 14,500 and 15,500 characters.
+- Begin directly with a descriptive title and summary. Do not discuss your process.
+- Preserve the conversation's important sequence, themes, claims, questions, examples, disagreements, advice, decisions, and follow-up ideas.
+- Distinguish what each speaker says or believes from independently established fact. Do not endorse extraordinary, medical, scientific, spiritual, or speculative claims as proven.
+- Do not invent names, quotations, diagnoses, causal claims, or conclusions.
+- Use clear spoken English suitable for conversion to audio. Use descriptive section headings and mostly connected prose, with only short lists when essential.
+- Make the result useful to someone who wants to remember the substance without replaying the entire 91-minute recording.
+- End with a concise synthesis of the main takeaways and unresolved questions.
+
+PRIVATE TRANSCRIPT BEGINS
+Jen Session, July 23, 2026
+
+Automated transcript with Deepgram Nova 3 speaker separation
+
+Speaker numbers are inferred and may occasionally switch.
+
+
+
+[00:00:00] Speaker 1: At the
+
+[00:00:01] Speaker 1: my computer's giving me problems,
+
+[00:00:03] Speaker 1: believe it or not, with Mercury retrograde.
+
+[00:00:06] Speaker 1: I don't doubt that that's a thing. But
+
+[00:00:09] Speaker 1: yeah. So
+
+[00:00:11] Speaker 1: our time is is starting now, but we can have a chat before if you want. Or if you wanna just jump right into the channeling too, that's a 100% fine. I just
+
+[00:00:20] Speaker 2: I've loved following your adventures in Japan,
+
+[00:00:23] Speaker 2: and things seem to be going so well for you. How are your kids?
+
+[00:00:27] Speaker 1: Doing good. Doing good. They're they're doing good. I've I've been able to have enough support to help with them while I'm, doing my traveling. So
+
+[00:00:36] Speaker 1: the traveling's going well.
+
+[00:00:38] Speaker 1: The kids are doing well. Life in general is
+
+[00:00:41] Speaker 1: really kind of hectic because it's been busy, but not hectic in a bad way, not like in a super chaotic bad feeling way. Just kind of super busy, but it's been good.
+
+[00:00:52] Speaker 2: Oh, I'm glad for you.
+
+[00:00:54] Speaker 2: Makes me happy.
+
+[00:00:57] Speaker 2: You crazy.
+
+[00:00:58] Speaker 2: No. It's so funny because I I
+
+[00:01:01] Speaker 2: look. I booked this session just because
+
+[00:01:04] Speaker 2: whenever you don't offer them, then I think of something profound that I need to ask, and I'm always bummed that I can't talk to you. And then
+
+[00:01:13] Speaker 2: you offered one, and I'm just snatched it. But then I'm like, oh, well, I I don't even know what I'd say. But what I do wanna tell you is that I went back and listened to my old recording for when we did a session before,
+
+[00:01:25] Speaker 2: and you won't believe it. Because one of the things said I was asking, like, how can I best help humanity's ascension, blah blah blah?
+
+[00:01:33] Speaker 2: And
+
+[00:01:34] Speaker 2: that gave, you know, the lofty high level stuff, but then it said more specifically,
+
+[00:01:39] Speaker 2: you could do offer your knowledge in fiction writing.
+
+[00:01:42] Speaker 2: And when they said that, I didn't even listen to it. I didn't even hear that because that was not even something that I'm interested in doing or know how to do.
+
+[00:01:52] Speaker 2: And now fast forward three years, and I wrote a fiction book, and it's a trilogy. I'm writing more fiction with all of this information
+
+[00:01:59] Speaker 2: in it. It's, like, crazy. I'm not a writer, and I don't even read fiction. I just read
+
+[00:02:05] Speaker 2: nonfiction.
+
+[00:02:06] Speaker 2: So,
+
+[00:02:06] Speaker 2: yeah, just it you know, I channeled it. I channeled
+
+[00:02:09] Speaker 2: at least 200 pages of it. It just came through me.
+
+[00:02:13] Speaker 2: But, yeah, it's, like,
+
+[00:02:15] Speaker 2: crazy because Ardif or I think, yeah, I think it was Ardif I was talking to just
+
+[00:02:21] Speaker 2: said that. So that was pretty wild. Oh, I have to send you a book. I'm gonna send you a book. Oh, great. Thank you. I appreciate that. It's beautiful.
+
+[00:02:29] Speaker 2: Yeah. Maybe one of your kids. Well, they're still young, but you could read it to them. It's young adult novel, but with all the magic of all, you know, the stuff we love in it,
+
+[00:02:39] Speaker 2: trying to get open up young people's mind to realize there's more than the three d reality that
+
+[00:02:45] Speaker 2: they've been handed.
+
+[00:02:48] Speaker 1: So I love that. That's a that's a beautiful mission, and it it never surprises me to hear,
+
+[00:02:53] Speaker 1: people,
+
+[00:02:55] Speaker 1: talk about some of the things that they've had in old sessions that they relisten. They're like, oh my word.
+
+[00:03:01] Speaker 1: But
+
+[00:03:02] Speaker 1: it's still always exciting when I hear it. I'm like, oh my god. That's amazing.
+
+[00:03:06] Speaker 2: I know. Well, it was totally crazy because it was, like, one of the first things so it's the first question I asked, and that was one of the first things they said. And I never heard that, but, like, the first time because it's not something because I immediately said, well, what about this? What about I wanna do this. And they were like, you know, I didn't even I I'm just in a million years, I thought I could would never write a book, especially a fiction book, and here I've done it. So
+
+[00:03:29] Speaker 2: they were they were right.
+
+[00:03:32] Speaker 2: So that was cool.
+
+[00:03:33] Speaker 1: That's absolutely amazing. Yeah. It never it never ceases to amaze me how
+
+[00:03:39] Speaker 1: great Trevonare and Afarah connect kind of connecting to those higher self aspects that are really
+
+[00:03:45] Speaker 1: not presented very strongly with people, especially at the time. And a lot of time, you know, people are like, oh, wow. This session was really insightful and helped me
+
+[00:03:54] Speaker 1: see things. But when it comes, to the longer picture, big big stuff,
+
+[00:04:00] Speaker 1: much later in time, that's when it gets really, really powerful. And I've had the fortune to see that, like, in my, chart reading that I had
+
+[00:04:09] Speaker 1: a while ago.
+
+[00:04:11] Speaker 1: I put it up on YouTube, and it was very good about who I was and kind of the motivations and the energies behind my life.
+
+[00:04:18] Speaker 1: But then I listened to it just, a year ago, and it was maybe three, four years old, and it was talking about
+
+[00:04:24] Speaker 1: stuff that was happening with work and with my relationship with my daughter's mom and all these different things. And I was like, holy moly. That's crazy.
+
+[00:04:33] Speaker 2: Yeah. It's I love it.
+
+[00:04:35] Speaker 2: That's keeps the magic going.
+
+[00:04:39] Speaker 2: So good.
+
+[00:04:40] Speaker 1: Yeah. Absolutely. I love that so much, and congratulations
+
+[00:04:43] Speaker 2: for for doing the books. That's that's huge. Oh, yeah. I mean, what it's trust me. I didn't do it. It just came out of me, and it was, like, zero effort. And
+
+[00:04:54] Speaker 2: it just kind of magical
+
+[00:04:57] Speaker 2: to just kind of how
+
+[00:04:58] Speaker 2: you are able to talk to these beings. Somehow something came through.
+
+[00:05:04] Speaker 2: And, yeah, it's it's pretty cool because I write a lot about the Pleiadians in the book,
+
+[00:05:08] Speaker 2: and
+
+[00:05:10] Speaker 2: they must have been helping
+
+[00:05:12] Speaker 2: to part if or somebody. I don't know.
+
+[00:05:16] Speaker 1: Yeah. The even even if you have like, I go full trance, so I don't it's really not an effort. It's just a time commitment to do channeled work. But when it comes down to it,
+
+[00:05:28] Speaker 1: you know, having written a a few books on my own and then having done some as collaborations,
+
+[00:05:33] Speaker 1: there's still a lot of work involved with the editing.
+
+[00:05:36] Speaker 2: Yeah. The editing. That's something that ditched. Yeah. The formatting. Oh my god. And I've found so many mistakes. I think I got the last one and the last
+
+[00:05:45] Speaker 2: if the printed version had some mistakes. But,
+
+[00:05:49] Speaker 2: hopefully, the hard copy that I'm gonna send to you that I'm gonna get mid August, it's it's so pretty. Has the flower of the universe on the front, and it's gold foiled. It's beautiful book.
+
+[00:05:59] Speaker 2: Hopefully, that one is mistake free, but there is beauty in imperfection.
+
+[00:06:04] Speaker 2: So
+
+[00:06:05] Speaker 2: that's okay. A thousand percent. Oh, but this is the crazy this is the crazy thing. So I,
+
+[00:06:12] Speaker 2: you know, I was gonna publish it, like, six months ago, then I keep getting, like, things to add to, blah blah blah. I put it I published it on June 2.
+
+[00:06:20] Speaker 2: On June, like, fifth or something or fourth or fifth, the government does announces their soft disclosure or whatever of, you know, the Pentagon files.
+
+[00:06:30] Speaker 2: And then, you know, June 12
+
+[00:06:34] Speaker 2: because my book is called the the disclosure day chronicles.
+
+[00:06:37] Speaker 2: And then June 12, Spielberg has his movie disclosure day come out. So, like, the galactic beings coordinate this whole thing, you know, like, so it's all
+
+[00:06:46] Speaker 2: coming out together.
+
+[00:06:48] Speaker 2: So I thought that was interesting.
+
+[00:06:50] Speaker 1: That is amazing. You know, it's the
+
+[00:06:54] Speaker 1: same day that they announced that extraterrestrials
+
+[00:06:58] Speaker 1: were in fact real.
+
+[00:07:01] Speaker 1: That was the same day the channel panel happened.
+
+[00:07:04] Speaker 1: And
+
+[00:07:05] Speaker 1: it was called
+
+[00:07:06] Speaker 1: contact event. That was the name of the channel panel that time. Wow.
+
+[00:07:12] Speaker 2: Yeah. You just can't make this synchronicity
+
+[00:07:15] Speaker 2: up.
+
+[00:07:15] Speaker 2: It's too good.
+
+[00:07:17] Speaker 1: I love it. It's, the universe is always moving in the right direction, I feel. Yeah. For sure.
+
+[00:07:25] Speaker 2: So I just put together some random questions.
+
+[00:07:29] Speaker 2: Hopefully, they're not annoyed with me. So do you pull in
+
+[00:07:34] Speaker 2: just whoever comes forward, or
+
+[00:07:37] Speaker 1: what are you feeling? Whoever you want to for me to start with, and and we can always change it, or you can always let them know, hey. I'd like to
+
+[00:07:46] Speaker 1: switch over. Like, if you wanna start with Treb and then go to Ardiff or Ardiff and then Treb and then one
+
+[00:07:52] Speaker 1: of them and say, hey. If there's any beings who are excited to pop in and talk,
+
+[00:07:57] Speaker 1: whatever is comfortable
+
+[00:07:58] Speaker 2: you. Do that. I'll just say whoever's
+
+[00:08:01] Speaker 2: excited to come in and talk because
+
+[00:08:03] Speaker 2: I've talked to
+
+[00:08:05] Speaker 2: Ardiv before.
+
+[00:08:06] Speaker 2: I don't mind talking to them again.
+
+[00:08:09] Speaker 2: I can talk wherever, but
+
+[00:08:12] Speaker 2: maybe it's someone there's somebody that wants to come through. I don't know.
+
+[00:08:16] Speaker 1: I love that. I think if if you're gonna do that, I would suggest maybe starting out with Treb this time because Okay.
+
+[00:08:22] Speaker 1: I've heard,
+
+[00:08:23] Speaker 1: Ardif and Treb do something where someone's like, hey. I'd like for any being who's excited,
+
+[00:08:28] Speaker 2: every time it's Ardif, almost always, it's just Ardif. But when it's Treb, he'll jump in other people. That's hilarious. Because that's what I said last time, and that's why I got must be why I got Ardif.
+
+[00:08:40] Speaker 2: Because I'm always like, well, whoever.
+
+[00:08:43] Speaker 2: So
+
+[00:08:45] Speaker 2: good. Let's start. Let's get to Treb.
+
+[00:08:47] Speaker 1: Alright. Sounds good. If you wanna jump in, I'll take a quick drink real quick, and then
+
+[00:08:52] Speaker 1: we'll hop in.
+
+[00:08:54] Speaker 2: Great. So should I do a meditation now?
+
+[00:08:57] Speaker 1: You can if you want. It only, it doesn't take me like it used to when the last time we did it was, like, a ten minute thing. It only takes me a minute now. So Wow. Good for you. Yeah. Wendy Kennedy helped me a couple years ago while I was doing live events, and now I I can pop in in, like, sixty seconds or maybe a minute and a half. Yeah.
+
+[00:09:16] Speaker 2: Woah.
+
+[00:09:17] Speaker 2: I'm so happy for you. That's great. Not bad. It's not bad at all. Good.
+
+[00:09:23] Speaker 1: Alright. Well, have fun. Enjoy yourself. I'll see you on the other side. Okay? Thank you. Thank you.
+
+[00:10:49] Speaker 3: Good evening,
+
+[00:10:50] Speaker 3: Jen.
+
+[00:10:52] Speaker 3: Hi. Is this Treb?
+
+[00:10:54] Speaker 3: Yes.
+
+[00:10:56] Speaker 3: This is Treb,
+
+[00:10:58] Speaker 3: and we know that you have,
+
+[00:11:00] Speaker 3: in this day, many
+
+[00:11:02] Speaker 3: questions that you wish to ask and many things that you wish to share.
+
+[00:11:07] Speaker 3: And we are also wanting to share before going to those questions
+
+[00:11:12] Speaker 3: that we are truly excited to cocreate with you in this day.
+
+[00:11:17] Speaker 3: And we are also ready for those questions
+
+[00:11:20] Speaker 3: from you and those ideas that you share when you are excited and ready as well.
+
+[00:11:27] Speaker 2: Thank you so much. I'm really grateful.
+
+[00:11:30] Speaker 2: Yes.
+
+[00:11:33] Speaker 2: First question is, what past life or between life agreements are still shaping my closest relationships in this lifetime?
+
+[00:11:43] Speaker 3: Yes.
+
+[00:11:45] Speaker 3: So when you are looking at the past lives and how they shape this incarnation,
+
+[00:11:52] Speaker 3: it is not as much that those are shaping this moment or any contractual energy.
+
+[00:11:59] Speaker 3: The free will aspect of your consciousness
+
+[00:12:02] Speaker 3: rides in the front of the entire system of decisions.
+
+[00:12:07] Speaker 3: Your higher self helps you and assists you.
+
+[00:12:10] Speaker 3: But we use the analogy of the laser pointer with the kitten
+
+[00:12:15] Speaker 3: that you are chasing
+
+[00:12:17] Speaker 3: your own excitement,
+
+[00:12:19] Speaker 3: and the higher self is the person holding the laser showing you where to run to get to the next door if you desire
+
+[00:12:27] Speaker 3: to go with that pre
+
+[00:12:30] Speaker 3: incarnation
+
+[00:12:31] Speaker 3: contract energy.
+
+[00:12:33] Speaker 3: But if you don't, it is still fine and acceptable.
+
+[00:12:36] Speaker 3: So knowing this,
+
+[00:12:38] Speaker 3: also the way that your past lives work,
+
+[00:12:41] Speaker 3: linear time
+
+[00:12:42] Speaker 3: from your past to now or to your future,
+
+[00:12:47] Speaker 3: it is all a perspective
+
+[00:12:49] Speaker 3: in the moment that reality exists in your past
+
+[00:12:53] Speaker 3: is projected versions that are just as probable as the future.
+
+[00:12:58] Speaker 3: So when we look at your past lives, they are not lives that occurred before this, technically,
+
+[00:13:04] Speaker 3: although linearly they are. They're more so things that are happening now.
+
+[00:13:09] Speaker 3: And what draws those to you is what occurs in this present.
+
+[00:13:15] Speaker 3: So the past life now that is most connected to you is one that is very similar.
+
+[00:13:21] Speaker 3: It is a lifetime approximately
+
+[00:13:24] Speaker 3: in the early sixteen hundred region
+
+[00:13:28] Speaker 3: and within the country
+
+[00:13:30] Speaker 3: that is now known as Egypt.
+
+[00:13:33] Speaker 3: And in that lifetime, you are experiencing
+
+[00:13:36] Speaker 3: as a trader.
+
+[00:13:38] Speaker 3: And going through that life, you trade small things,
+
+[00:13:42] Speaker 3: import and exports from other areas of the world.
+
+[00:13:46] Speaker 3: And once you stumble across this very large
+
+[00:13:50] Speaker 3: crystal
+
+[00:13:51] Speaker 3: that was very dark and purple color and wrapped in copper,
+
+[00:13:55] Speaker 3: and you didn't quite know what it was,
+
+[00:13:58] Speaker 3: you didn't understand and know its rarity or value,
+
+[00:14:02] Speaker 3: you only knew that it existed
+
+[00:14:04] Speaker 3: and was rare for you,
+
+[00:14:06] Speaker 3: So when you shared it with your local priests that were in the area,
+
+[00:14:11] Speaker 3: these entities meditated with it and showed you a meditation.
+
+[00:14:16] Speaker 3: And this brought about a synchronicity
+
+[00:14:19] Speaker 3: of many months of different dream states.
+
+[00:14:22] Speaker 3: And in those dream states, you had connected with entities that you perceived as the gods.
+
+[00:14:28] Speaker 3: So in your mind, you are simply working with the gods in your sleep,
+
+[00:14:33] Speaker 3: and this crystal was a part. Eventually,
+
+[00:14:36] Speaker 3: after a year and one half of a year,
+
+[00:14:39] Speaker 3: after continuously
+
+[00:14:40] Speaker 3: practicing this, you lost the interest in selling
+
+[00:14:44] Speaker 3: and started traveling east and south down the coast of the ocean.
+
+[00:14:50] Speaker 3: Eventually,
+
+[00:14:51] Speaker 3: by the time you were 45 years of age,
+
+[00:14:54] Speaker 3: you had gone to the southern areas in the African coastal region.
+
+[00:14:59] Speaker 3: And doing this, you met many different entities and many different tribes
+
+[00:15:05] Speaker 3: and learned a little bit about all of them,
+
+[00:15:08] Speaker 3: the different types of gods that they were aware of,
+
+[00:15:12] Speaker 3: and learn how to translate and communicate with them. So this was a very large life of spiritual exploration.
+
+[00:15:20] Speaker 3: And each place you went, you would teach
+
+[00:15:22] Speaker 3: these elders of the tribes
+
+[00:15:25] Speaker 3: or the leaders of the cities
+
+[00:15:28] Speaker 3: more about your meditation and sleeping states and passed along a great deal of that information to those people as well.
+
+[00:15:38] Speaker 2: Oh, that sounds super cool. Thanks for sharing.
+
+[00:15:42] Speaker 3: Yes.
+
+[00:15:44] Speaker 3: So
+
+[00:15:45] Speaker 2: what galactic or star family connection is most active in my energy field right now?
+
+[00:15:51] Speaker 3: Yes.
+
+[00:15:53] Speaker 3: There are three that are most prominent.
+
+[00:15:56] Speaker 3: One is Pleiadian,
+
+[00:15:57] Speaker 3: the second
+
+[00:15:58] Speaker 3: is Sirian. The third is Arcturian.
+
+[00:16:01] Speaker 3: And these three
+
+[00:16:03] Speaker 3: are the majority
+
+[00:16:04] Speaker 3: of the interactions that you have in your conscious aware state and in your meditative or sleeping state.
+
+[00:16:12] Speaker 3: But there are many more than this. These are just the three that are most active at this part of your life.
+
+[00:16:19] Speaker 2: Okay. Thank you.
+
+[00:16:22] Speaker 2: And what do I need to release before the Venus
+
+[00:16:26] Speaker 2: retrograde
+
+[00:16:27] Speaker 2: recalibration
+
+[00:16:28] Speaker 2: in October?
+
+[00:16:30] Speaker 3: Yes.
+
+[00:16:31] Speaker 3: This
+
+[00:16:32] Speaker 3: is something
+
+[00:16:34] Speaker 3: that is common amongst all humans now.
+
+[00:16:37] Speaker 3: There are those natural laws that go around the heart, and you, through your life, have worked so strongly at this,
+
+[00:16:46] Speaker 3: releasing a great deal
+
+[00:16:48] Speaker 3: of how you perceive people,
+
+[00:16:50] Speaker 3: your own affection towards people, etcetera.
+
+[00:16:53] Speaker 3: But in this period, it is breaking down the walls where you are able to receive love from others.
+
+[00:17:00] Speaker 3: And it isn't that you're not able
+
+[00:17:03] Speaker 3: to receive,
+
+[00:17:04] Speaker 3: but in some moments, that feeling of worthiness
+
+[00:17:07] Speaker 3: is more difficult to connect with.
+
+[00:17:10] Speaker 3: So this is one part of the energy.
+
+[00:17:12] Speaker 3: The second is that integrational
+
+[00:17:15] Speaker 3: process of the second chakra energy.
+
+[00:17:19] Speaker 3: Each human having a natural balance of the masculine and feminine energies,
+
+[00:17:24] Speaker 3: the percentage that is a mixture for their independent self is different.
+
+[00:17:29] Speaker 3: So in this way, you have learned very well and very deeply how to work with your feminine energy.
+
+[00:17:37] Speaker 3: And accepting part of the masculine energy into that flow a bit more will help you bring better balance to the second and first chakra
+
+[00:17:47] Speaker 3: and
+
+[00:17:48] Speaker 3: by proxy, the third chakra or solar plexus area.
+
+[00:17:53] Speaker 3: So these are the main energies
+
+[00:17:55] Speaker 3: that you can work with.
+
+[00:17:57] Speaker 3: But consistently
+
+[00:17:58] Speaker 3: letting yourself explore
+
+[00:18:00] Speaker 3: without self judgment
+
+[00:18:02] Speaker 3: in your intuition and in your spiritual sins.
+
+[00:18:06] Speaker 3: This part is something that you have worked with very deeply and have mastered to some degree.
+
+[00:18:13] Speaker 3: But continuation
+
+[00:18:14] Speaker 3: of that, not just important for these months, but also as you continue your whole incarnation,
+
+[00:18:21] Speaker 3: accepting that intuition,
+
+[00:18:23] Speaker 3: praising that intuition,
+
+[00:18:26] Speaker 3: integrating the understanding and knowledge that you receive from it as well.
+
+[00:18:31] Speaker 2: Thank you very much.
+
+[00:18:34] Speaker 3: Who
+
+[00:18:36] Speaker 2: are the primary spirit guides
+
+[00:18:39] Speaker 2: that are working with me in this incarnation,
+
+[00:18:42] Speaker 2: and what is each one's role?
+
+[00:18:44] Speaker 3: Yes.
+
+[00:18:45] Speaker 3: So in these spirit guides,
+
+[00:18:49] Speaker 3: the ones that we call spirit guides are different than how humans perceive them.
+
+[00:18:54] Speaker 3: These entities are beings that work with you
+
+[00:18:57] Speaker 3: from the start of your incarnation before ever entering a body
+
+[00:19:02] Speaker 3: and through your whole life.
+
+[00:19:04] Speaker 3: And these are quite different than generic
+
+[00:19:08] Speaker 3: guides or larger essences of guides.
+
+[00:19:11] Speaker 3: So these entities don't have identity
+
+[00:19:14] Speaker 3: because they have been with you through so many different incarnations,
+
+[00:19:19] Speaker 3: and the roles that they play
+
+[00:19:21] Speaker 3: in those lives have been different.
+
+[00:19:24] Speaker 3: So the associative
+
+[00:19:25] Speaker 3: energy
+
+[00:19:26] Speaker 3: for the personality
+
+[00:19:27] Speaker 3: or the archetype or the actual
+
+[00:19:30] Speaker 3: identity of those entities are always shifting
+
+[00:19:34] Speaker 3: as they help you work more directly inside of the chakra area.
+
+[00:19:38] Speaker 3: So then we step out your larger guides.
+
+[00:19:41] Speaker 3: In this moment,
+
+[00:19:43] Speaker 3: four of them are most strong.
+
+[00:19:45] Speaker 3: Two of them are creating a masculine and feminine
+
+[00:19:49] Speaker 3: counterpart,
+
+[00:19:50] Speaker 3: the yin and the yin energy,
+
+[00:19:53] Speaker 3: the
+
+[00:19:54] Speaker 3: black and white energy left and right.
+
+[00:19:57] Speaker 3: It is the dualistic
+
+[00:19:58] Speaker 3: nature
+
+[00:19:59] Speaker 3: of energy in the universe represented through those two consciousnesses.
+
+[00:20:04] Speaker 3: And both of these are humanoid Pleiadian entities
+
+[00:20:08] Speaker 3: that are fifth density
+
+[00:20:10] Speaker 3: in nature.
+
+[00:20:12] Speaker 3: And humanoid
+
+[00:20:13] Speaker 3: Pleiadians
+
+[00:20:14] Speaker 3: from near the star system of Elektra
+
+[00:20:17] Speaker 3: in the Pleiades.
+
+[00:20:19] Speaker 3: Another is
+
+[00:20:21] Speaker 3: a humanoid entity
+
+[00:20:22] Speaker 3: from Octores.
+
+[00:20:24] Speaker 3: And these are not
+
+[00:20:25] Speaker 3: human like humans, but humanoid, which are very similar to human like entities.
+
+[00:20:32] Speaker 3: This is very similar
+
+[00:20:33] Speaker 3: to the large, tall, slender,
+
+[00:20:36] Speaker 3: blue
+
+[00:20:37] Speaker 3: Octarians that have no hair that you have seen in artistic renderings of Octarian entities.
+
+[00:20:43] Speaker 3: And the last entity
+
+[00:20:45] Speaker 3: is the consciousness
+
+[00:20:47] Speaker 3: of the Sirian entity. Now, this being is more so
+
+[00:20:51] Speaker 3: an aquatic entity
+
+[00:20:53] Speaker 3: that is a physical
+
+[00:20:55] Speaker 3: entity that is a fifth density being also.
+
+[00:20:59] Speaker 3: But this entity is more,
+
+[00:21:02] Speaker 3: for lack of better terms, a more neutral energy,
+
+[00:21:06] Speaker 3: pragmatic energy
+
+[00:21:07] Speaker 3: that uses both logic and emotional responsivity.
+
+[00:21:12] Speaker 3: And these three entities work with you on multiple facets,
+
+[00:21:16] Speaker 3: Some with your telepathic communication,
+
+[00:21:19] Speaker 3: some with your intuition,
+
+[00:21:21] Speaker 3: some with your psychic ability,
+
+[00:21:23] Speaker 3: but mostly working
+
+[00:21:25] Speaker 3: in the background with your consciousness,
+
+[00:21:29] Speaker 3: helping give guidances,
+
+[00:21:31] Speaker 3: and helping teach you information through the intuitive means that you have as well.
+
+[00:21:37] Speaker 2: That's good. I'm very grateful to them. You can tell them thank you. I say thank you, guys.
+
+[00:21:43] Speaker 2: Have can you see is f Scott Fitzgerald part of my soul family circle?
+
+[00:21:49] Speaker 3: Yes.
+
+[00:21:51] Speaker 3: The entity that you expressed
+
+[00:21:53] Speaker 3: the name,
+
+[00:21:54] Speaker 3: we see that energy as a part of your over soul group and soul family.
+
+[00:22:00] Speaker 3: So, of course, this entity has a connection with you.
+
+[00:22:04] Speaker 2: Oh, cool. Yeah. I feel like he's helped me in some of my writing.
+
+[00:22:09] Speaker 3: Yes. What
+
+[00:22:11] Speaker 2: is
+
+[00:22:12] Speaker 2: a deeper thread connecting
+
+[00:22:14] Speaker 2: my lifetimes with Taylor Wells and Laura Popink?
+
+[00:22:19] Speaker 3: Yes.
+
+[00:22:20] Speaker 3: These two entities
+
+[00:22:22] Speaker 3: are in the soul family, the greater over soul families.
+
+[00:22:26] Speaker 3: And these entities have played parts in multiple
+
+[00:22:29] Speaker 3: incarnations,
+
+[00:22:31] Speaker 3: and each role of them in the different lives are different.
+
+[00:22:35] Speaker 3: In this lifetime incarnation,
+
+[00:22:37] Speaker 3: both of them
+
+[00:22:39] Speaker 3: have worked with you for the human interactivity
+
+[00:22:43] Speaker 3: dynamics,
+
+[00:22:44] Speaker 3: the consciousness
+
+[00:22:46] Speaker 3: of exchanging.
+
+[00:22:47] Speaker 3: So receiving the energy
+
+[00:22:49] Speaker 3: of these entities
+
+[00:22:50] Speaker 3: and what energy you desire to give to them
+
+[00:22:54] Speaker 3: is a way to help you find more
+
+[00:22:56] Speaker 3: balance in the sense of self and heart chakra.
+
+[00:23:00] Speaker 3: We do not see a very specific dynamic in relation to both of these entities.
+
+[00:23:05] Speaker 3: We more so see a wider form
+
+[00:23:08] Speaker 3: of just connection
+
+[00:23:10] Speaker 3: and the personal energy of your own heart chakra and solar plexus
+
+[00:23:15] Speaker 3: having
+
+[00:23:16] Speaker 3: that effect and helping shift that energy,
+
+[00:23:19] Speaker 3: teaching you in some ways
+
+[00:23:22] Speaker 3: to express,
+
+[00:23:23] Speaker 3: but also how to receive
+
+[00:23:25] Speaker 3: and how to perceive yourself as you share?
+
+[00:23:30] Speaker 2: Good. Thank you.
+
+[00:23:34] Speaker 2: Your friend, Ardiv,
+
+[00:23:36] Speaker 2: last time I talked to him a few years ago, first time, I
+
+[00:23:42] Speaker 2: he he said that one of my greatest
+
+[00:23:47] Speaker 2: uses of my time, I guess, would be to write fiction books of fiction, but I didn't think I was gonna do that. At the time, it wasn't even on my radar. And then, sure enough, he was right because I ended up writing a book
+
+[00:24:01] Speaker 2: called The Disclosure Day Chronicles,
+
+[00:24:04] Speaker 2: and it's fiction young adult book. Anyway, do you what is the most
+
+[00:24:10] Speaker 2: if
+
+[00:24:11] Speaker 2: what do you call it?
+
+[00:24:14] Speaker 2: Highest impact path for bringing
+
+[00:24:16] Speaker 2: that book to the audience it's meant to reach.
+
+[00:24:20] Speaker 3: Yes.
+
+[00:24:22] Speaker 3: So in this experience,
+
+[00:24:24] Speaker 3: continuation
+
+[00:24:26] Speaker 3: of sharing your excitement about it with others
+
+[00:24:30] Speaker 3: and creating a way
+
+[00:24:32] Speaker 3: to integrate
+
+[00:24:33] Speaker 3: the specific
+
+[00:24:35] Speaker 3: stories
+
+[00:24:35] Speaker 3: into media outlets
+
+[00:24:38] Speaker 3: or places that are able or willing to share, even if you are doing this on your own,
+
+[00:24:43] Speaker 3: creating very small
+
+[00:24:46] Speaker 3: narrations
+
+[00:24:47] Speaker 3: of parts of the story
+
+[00:24:49] Speaker 3: or illustrations
+
+[00:24:50] Speaker 3: of the story or creating
+
+[00:24:52] Speaker 3: an animated
+
+[00:24:53] Speaker 3: small portion of this.
+
+[00:24:55] Speaker 3: It is getting humans to know the characters,
+
+[00:24:59] Speaker 3: the ideas behind this,
+
+[00:25:02] Speaker 3: and sharing them in a way that is whimsical and fun.
+
+[00:25:05] Speaker 3: This will be a part of expressing that energy.
+
+[00:25:08] Speaker 3: Now we know that you have some of that understanding in how to work with this, but some of it would require help.
+
+[00:25:16] Speaker 3: So finding humans
+
+[00:25:18] Speaker 3: now through your social medias
+
+[00:25:20] Speaker 3: where you can simply share narrations
+
+[00:25:23] Speaker 3: of you reading
+
+[00:25:25] Speaker 3: a half of a page or forty five seconds of a very impactful energy.
+
+[00:25:30] Speaker 3: This will help draw the people that you need more deeply
+
+[00:25:34] Speaker 3: into co creating with you and assisting you to help push the energy out in a further sense.
+
+[00:25:41] Speaker 3: And, also, simply,
+
+[00:25:42] Speaker 3: the fact that you've written it is enough of energy
+
+[00:25:47] Speaker 3: to help motivate
+
+[00:25:48] Speaker 3: the humans around you. The vibration of you having completed that is helpful to others.
+
+[00:25:56] Speaker 3: But we also understand the desire
+
+[00:25:58] Speaker 3: and excitement to expand
+
+[00:26:01] Speaker 3: further in the reach that is the furthest for every human possible.
+
+[00:26:06] Speaker 3: So when you are engaging in that energy,
+
+[00:26:09] Speaker 3: we also wish for you to see the energy of how
+
+[00:26:14] Speaker 3: your mind works with that. For example,
+
+[00:26:18] Speaker 3: the easiest pathway to help sharing to the most humans,
+
+[00:26:22] Speaker 3: probable,
+
+[00:26:23] Speaker 3: is to work with no identification
+
+[00:26:26] Speaker 3: marks of how this energy works,
+
+[00:26:29] Speaker 3: no expectations,
+
+[00:26:30] Speaker 3: no thought processes of why, where, how, when, should.
+
+[00:26:35] Speaker 3: But allowing the inspiration of the moment,
+
+[00:26:38] Speaker 3: the passion, and excitement to flare into your solar plexus in heart and throat. And when you feel those areas activate with excitement,
+
+[00:26:48] Speaker 3: that is your higher self knocking on the door, telling you that it is correct and that this is the way to help push more energy in the collective as well.
+
+[00:27:00] Speaker 2: Perfect.
+
+[00:27:01] Speaker 2: Thank you for that.
+
+[00:27:02] Speaker 3: Yes.
+
+[00:27:05] Speaker 2: So my son, James,
+
+[00:27:07] Speaker 2: saw a
+
+[00:27:08] Speaker 2: a
+
+[00:27:10] Speaker 2: ship in the sky.
+
+[00:27:12] Speaker 2: Can you
+
+[00:27:13] Speaker 2: confirm or clarify its origin?
+
+[00:27:17] Speaker 3: Yes.
+
+[00:27:18] Speaker 3: As we see
+
+[00:27:20] Speaker 3: your energy connecting with this entity or son
+
+[00:27:24] Speaker 3: and his own excitement in sharing these ideas with you, The only thing that we see is your co created energy.
+
+[00:27:32] Speaker 3: It doesn't mean that it was one of their ships, but the probability is over 80%.
+
+[00:27:38] Speaker 3: Because if they were present
+
+[00:27:41] Speaker 3: and it was another
+
+[00:27:42] Speaker 3: ship, they were still involved in that cocreation.
+
+[00:27:46] Speaker 3: So the Yaliel entities being
+
+[00:27:49] Speaker 3: human and gray hybridized beings
+
+[00:27:51] Speaker 3: are very excited to work with humans
+
+[00:27:54] Speaker 3: that have had cocreations with that energy before,
+
+[00:27:58] Speaker 3: if not genetic cocreations,
+
+[00:28:01] Speaker 3: so lings.
+
+[00:28:02] Speaker 3: And we do see that the Esasani
+
+[00:28:04] Speaker 3: beings and the Yahya beings and Ployell and Goryell,
+
+[00:28:09] Speaker 3: all of these gray hybridized
+
+[00:28:12] Speaker 3: programs that are connecting
+
+[00:28:14] Speaker 3: have connected energetically
+
+[00:28:16] Speaker 3: with you and your genetic family going backwards and forwards in time as well.
+
+[00:28:23] Speaker 2: Wow. That's awesome.
+
+[00:28:25] Speaker 2: Thank you. And but how how
+
+[00:28:28] Speaker 2: am I working with them right now, like, in the astral
+
+[00:28:32] Speaker 2: in the dream state, or what what do I do with them?
+
+[00:28:36] Speaker 3: Yes.
+
+[00:28:37] Speaker 3: In the dream state,
+
+[00:28:39] Speaker 3: you are working within the astral projected state in that sense.
+
+[00:28:44] Speaker 3: And so is
+
+[00:28:45] Speaker 3: your son, and so is
+
+[00:28:48] Speaker 3: many humans
+
+[00:28:49] Speaker 3: that are in your genetic lineage,
+
+[00:28:51] Speaker 3: backwards and forwards.
+
+[00:28:53] Speaker 3: And in that way, they are still able to learn about humans.
+
+[00:28:58] Speaker 3: They are able to work with genetics from the higher
+
+[00:29:01] Speaker 3: dimensional
+
+[00:29:02] Speaker 3: materials
+
+[00:29:03] Speaker 3: inside of the bodies as well.
+
+[00:29:05] Speaker 3: So in that sense,
+
+[00:29:07] Speaker 3: being a part of that greater program
+
+[00:29:10] Speaker 3: gives you access
+
+[00:29:12] Speaker 3: to cocreating
+
+[00:29:13] Speaker 3: with him directly.
+
+[00:29:15] Speaker 3: So this energy in most of the ship sightings that you and your family will see or have seen
+
+[00:29:23] Speaker 3: is very likely part of one of these four hybridized races groups as well.
+
+[00:29:29] Speaker 2: Oh, that's cool. Yeah. I feel like it's the Yael.
+
+[00:29:34] Speaker 2: And my son James says he feels like he's an alien.
+
+[00:29:38] Speaker 2: What do you think he means by that?
+
+[00:29:40] Speaker 3: Yes.
+
+[00:29:42] Speaker 3: So in this entity,
+
+[00:29:45] Speaker 3: we normally cannot perceive deeply deeply into that entity's energy without their own permission. But Oh, he he gave permission. He gave Yes.
+
+[00:29:54] Speaker 3: And we see that energy that is wide open.
+
+[00:29:58] Speaker 3: And because all of you are co creating about this, it gives us more insight.
+
+[00:30:03] Speaker 3: So when this entity says, I feel as if I were an alien,
+
+[00:30:07] Speaker 3: what he means is he does not feel very comfortable
+
+[00:30:10] Speaker 3: on Earth in the way that Earth operates
+
+[00:30:13] Speaker 3: and in the way that humans operate.
+
+[00:30:16] Speaker 3: And there is a reason for that.
+
+[00:30:18] Speaker 3: Now being on Earth for many lifetimes does not mean that you're an old soul.
+
+[00:30:24] Speaker 3: Having an old soul in Earth ascends
+
+[00:30:28] Speaker 3: can mean that you're going back to the very first part of Earth incarnation cycles.
+
+[00:30:34] Speaker 3: And with humans being the sixth cycle on Earth,
+
+[00:30:38] Speaker 3: it means that the newer souls have joined either just with the human cycle
+
+[00:30:44] Speaker 3: or after the human cycle started, and your son is one of those souls that have only worked with Earth for approximately
+
+[00:30:53] Speaker 3: 80 to 100 lifetimes.
+
+[00:30:56] Speaker 3: So it is a very new soul
+
+[00:30:58] Speaker 3: in that regard.
+
+[00:31:00] Speaker 3: But also the shifting consciousness
+
+[00:31:02] Speaker 3: of how this entity connects with extra dimensional entities and energies
+
+[00:31:08] Speaker 3: and lives within
+
+[00:31:09] Speaker 3: the energetics of the higher chakras
+
+[00:31:12] Speaker 3: rather than the lower chakras. It keeps his energy into the aesthetic realm more than the earth realm.
+
+[00:31:19] Speaker 3: So the earth feels very,
+
+[00:31:21] Speaker 3: for lack of better things to say, heavy,
+
+[00:31:24] Speaker 3: weird, or different in that sense.
+
+[00:31:27] Speaker 3: So this entity, of course, has that connection with his guides,
+
+[00:31:31] Speaker 3: and that energy resonates much more
+
+[00:31:34] Speaker 3: than the simple life of living on earth from his perspective as well.
+
+[00:31:39] Speaker 2: Thank you.
+
+[00:31:42] Speaker 3: Yes.
+
+[00:31:45] Speaker 2: What do I have any hybrid children? Like, not my three on Earth right now?
+
+[00:31:50] Speaker 2: If so, what kind of hybrid?
+
+[00:31:53] Speaker 3: Yes.
+
+[00:31:54] Speaker 3: You
+
+[00:31:56] Speaker 3: and
+
+[00:31:57] Speaker 3: most of your family that goes forwards and backwards
+
+[00:32:01] Speaker 3: do, in fact, have at least one hybrid child
+
+[00:32:06] Speaker 3: in that essence.
+
+[00:32:07] Speaker 3: So, yes, you have four different children that are hybridized.
+
+[00:32:12] Speaker 3: Three of them are from the Yael group.
+
+[00:32:15] Speaker 3: One of them is from the Plaoyel,
+
+[00:32:18] Speaker 3: which is the predecessors to Yael.
+
+[00:32:20] Speaker 3: So, of course, you do have that cocreation.
+
+[00:32:24] Speaker 3: Three of them are masculine entities.
+
+[00:32:27] Speaker 3: One of them is feminine,
+
+[00:32:29] Speaker 3: and one of the masculine is the.
+
+[00:32:32] Speaker 3: Two
+
+[00:32:33] Speaker 3: are in yar gel, and the one female entity is yar gel as well.
+
+[00:32:38] Speaker 2: Wow. Thank you so much.
+
+[00:32:41] Speaker 2: Let's
+
+[00:32:44] Speaker 2: see. What what is the significance of the Basque region in my soul history or family line?
+
+[00:32:51] Speaker 3: Yes.
+
+[00:32:52] Speaker 3: The entities that were considered Basque
+
+[00:32:56] Speaker 3: in that way,
+
+[00:32:57] Speaker 3: although not tied to one direct
+
+[00:33:00] Speaker 3: country or one specific orientation,
+
+[00:33:04] Speaker 3: they are a specific part of the human collective with a very low percentage
+
+[00:33:10] Speaker 3: in totality of population,
+
+[00:33:12] Speaker 3: very similar to certain types
+
+[00:33:15] Speaker 3: of Oscar Nazi Jews or different types of entities
+
+[00:33:20] Speaker 3: that have very low percentages.
+
+[00:33:22] Speaker 3: These entities
+
+[00:33:24] Speaker 3: were
+
+[00:33:25] Speaker 3: a form of human that had slight genetic manipulation
+
+[00:33:29] Speaker 3: that was slightly different
+
+[00:33:31] Speaker 3: than the other groups of humans.
+
+[00:33:33] Speaker 3: We tried to share with humans and their history without overwhelming
+
+[00:33:38] Speaker 3: the amount of information that we share.
+
+[00:33:41] Speaker 3: But humans have had their DNA changed
+
+[00:33:44] Speaker 3: hundreds of thousands of different iterations
+
+[00:33:47] Speaker 3: in the last two million years of your Earth history.
+
+[00:33:51] Speaker 3: And one of those specific tweaks was additional
+
+[00:33:54] Speaker 3: levels
+
+[00:33:55] Speaker 3: of Syrian energy.
+
+[00:33:57] Speaker 3: So that is the Basque bloodline.
+
+[00:34:01] Speaker 3: That is a different iteration of one of the thousands of different
+
+[00:34:05] Speaker 3: Syrian
+
+[00:34:07] Speaker 3: DNA expressions
+
+[00:34:08] Speaker 3: and different levels
+
+[00:34:10] Speaker 3: Each time that the DNA was added to the human collective
+
+[00:34:14] Speaker 3: to create a new version of human,
+
+[00:34:17] Speaker 3: there were hundreds or thousands
+
+[00:34:19] Speaker 3: of different
+
+[00:34:21] Speaker 3: shifts and tweaks in order to create a better balance with the human depending on
+
+[00:34:27] Speaker 3: the perspective of the entities that share their DNA.
+
+[00:34:31] Speaker 3: So this is significant in the physical sense and in your genetic sense in the DNA aspect.
+
+[00:34:37] Speaker 3: But energetically,
+
+[00:34:39] Speaker 3: who choose to have the Basque
+
+[00:34:42] Speaker 3: bloodlines,
+
+[00:34:42] Speaker 3: even if it is very small in percentage
+
+[00:34:45] Speaker 3: inside of their body,
+
+[00:34:47] Speaker 3: are working with the technical scientific
+
+[00:34:49] Speaker 3: aspects
+
+[00:34:51] Speaker 3: and the spiritual energy aspects
+
+[00:34:54] Speaker 3: of the spiritual journey.
+
+[00:34:56] Speaker 3: And it is very important for many of these entities
+
+[00:35:00] Speaker 3: to embrace a great deal
+
+[00:35:02] Speaker 3: of that very technical
+
+[00:35:04] Speaker 3: or very spiritual drives of their spiritual journey as well.
+
+[00:35:09] Speaker 2: Thank you.
+
+[00:35:11] Speaker 2: Is there any benefit to if I to live in that region?
+
+[00:35:16] Speaker 2: Does it energetically
+
+[00:35:19] Speaker 2: uplift me?
+
+[00:35:21] Speaker 3: Yes.
+
+[00:35:22] Speaker 3: Now living in that region crossing several different country lines,
+
+[00:35:27] Speaker 3: this is greatly dependent
+
+[00:35:28] Speaker 3: on the level of excitement that you have.
+
+[00:35:31] Speaker 3: Even though there are places on the earth that are more naturally
+
+[00:35:36] Speaker 3: giving support to certain different energies,
+
+[00:35:39] Speaker 3: that specific place in the world
+
+[00:35:42] Speaker 3: only adds a certain level
+
+[00:35:45] Speaker 3: to the first chakra energy.
+
+[00:35:48] Speaker 3: And this is something you have already done well with,
+
+[00:35:51] Speaker 3: your senses of safety, even though you have had challenges
+
+[00:35:55] Speaker 3: with your sense of safety
+
+[00:35:57] Speaker 3: or sense of belonging in that sense,
+
+[00:36:00] Speaker 3: it isn't deficient enough or resistant
+
+[00:36:03] Speaker 3: enough for you to move only to a place that would help open that energy.
+
+[00:36:09] Speaker 3: Most of the consciousness that comes with the genetics of these varieties of entities
+
+[00:36:16] Speaker 3: has the capacity
+
+[00:36:17] Speaker 3: for those things that we shared,
+
+[00:36:20] Speaker 3: the recognition of spiritual
+
+[00:36:22] Speaker 3: development or spiritual technologies.
+
+[00:36:25] Speaker 3: So instead, it is working
+
+[00:36:28] Speaker 3: around the world with places that you feel strongly pulled to.
+
+[00:36:33] Speaker 3: Those are the places your higher self shows you will get benefit.
+
+[00:36:37] Speaker 3: And we understand
+
+[00:36:38] Speaker 3: moving
+
+[00:36:39] Speaker 3: yourself and or with your family can be extremely difficult,
+
+[00:36:45] Speaker 3: but this is why in different periods of your life, you felt drawn to different areas
+
+[00:36:50] Speaker 3: because every area represents
+
+[00:36:52] Speaker 3: a theme
+
+[00:36:53] Speaker 3: or an energy vessel
+
+[00:36:55] Speaker 3: from the grid system
+
+[00:36:57] Speaker 3: that goes over the earth into the planetary energy.
+
+[00:37:01] Speaker 3: There are those grid lines that cross.
+
+[00:37:04] Speaker 3: Each of them have a different type of energy or different theme or different chakra style of energy.
+
+[00:37:11] Speaker 3: Each of them with a different amount
+
+[00:37:14] Speaker 3: of the energy that flows through it, extreme or very small.
+
+[00:37:19] Speaker 3: So the mixtures that exist in different regions
+
+[00:37:22] Speaker 3: are for different parts of your life when you are going through those specific parts and themes as well.
+
+[00:37:29] Speaker 2: Wow. Can you thank you. Can you see
+
+[00:37:33] Speaker 2: which of my chakra areas
+
+[00:37:37] Speaker 2: need
+
+[00:37:37] Speaker 2: more benefit from a particular
+
+[00:37:40] Speaker 2: geographic area?
+
+[00:37:42] Speaker 3: Yes.
+
+[00:37:44] Speaker 3: When you are working with the chakra energy,
+
+[00:37:47] Speaker 3: the heart chakra and throat chakra are two areas that you've put a great amount of work in.
+
+[00:37:53] Speaker 3: But assistance
+
+[00:37:54] Speaker 3: inflow in those because you are working to communicate
+
+[00:37:58] Speaker 3: out those things that you love and the things that you want to connect with other humans about.
+
+[00:38:03] Speaker 3: This would be most highly beneficial.
+
+[00:38:06] Speaker 3: So the areas that hold
+
+[00:38:08] Speaker 3: a more heart and throat chakra area
+
+[00:38:11] Speaker 3: or a more heart and third eye chakra energy
+
+[00:38:15] Speaker 3: would be the most beneficial because they would work between the third eye and heart, which includes the throat chakra area.
+
+[00:38:22] Speaker 3: And there are many places like this around the entirety of the earth. The most generic types
+
+[00:38:28] Speaker 3: of these lines
+
+[00:38:30] Speaker 3: run across the entire North American continent
+
+[00:38:34] Speaker 3: from the Western Coast, the Southwest
+
+[00:38:37] Speaker 3: in a horizontal
+
+[00:38:38] Speaker 3: way, from the Southern California region going through
+
+[00:38:42] Speaker 3: the Southwest States and going over the areas
+
+[00:38:47] Speaker 3: such as
+
+[00:38:48] Speaker 3: Sedona
+
+[00:38:49] Speaker 3: and Las Vegas going all the way over
+
+[00:38:52] Speaker 3: into the Southern Alabama's regions.
+
+[00:38:55] Speaker 3: And the ones that go north and south go through the Northern California region,
+
+[00:39:01] Speaker 3: through the area as Mount Shasta,
+
+[00:39:03] Speaker 3: through the
+
+[00:39:05] Speaker 3: Oregon
+
+[00:39:06] Speaker 3: area, and through the Washington area,
+
+[00:39:09] Speaker 3: but also have
+
+[00:39:10] Speaker 3: more westerly lines and easterly lines
+
+[00:39:13] Speaker 3: that come from different variations.
+
+[00:39:16] Speaker 3: So it doesn't run across the entire area.
+
+[00:39:19] Speaker 3: One that starts in the Southwest Of South Dakota
+
+[00:39:23] Speaker 3: and arches over going slightly into the South Of North Dakota
+
+[00:39:28] Speaker 3: and then going over into the Great Lakes region. There are so many different lines and variations.
+
+[00:39:34] Speaker 3: It is very important as you travel to feel
+
+[00:39:39] Speaker 3: the vibration
+
+[00:39:40] Speaker 3: not only of the land,
+
+[00:39:42] Speaker 3: but of the people
+
+[00:39:43] Speaker 3: who are in that land.
+
+[00:39:45] Speaker 3: They often
+
+[00:39:46] Speaker 3: live there long periods of time, and they will manifest out the behavior of those energies you desire.
+
+[00:39:53] Speaker 3: So in the places where you would go, you would see compassion,
+
+[00:39:57] Speaker 3: You would see strong communication.
+
+[00:40:00] Speaker 3: You would see the efforts to share verbally what is in their hearts.
+
+[00:40:05] Speaker 3: And even though there is,
+
+[00:40:08] Speaker 3: as you may see, a negative or a dark side to that energy
+
+[00:40:12] Speaker 3: where people are selfish
+
+[00:40:14] Speaker 3: and spitting out hatred to try to get you to come into that hatred.
+
+[00:40:19] Speaker 3: There's also that energy where it is very noticeable in the people that heart and throat are involved,
+
+[00:40:26] Speaker 3: albeit negative or positive.
+
+[00:40:28] Speaker 3: The energy is still strong in those areas.
+
+[00:40:31] Speaker 3: So these are the types of places that you'd find.
+
+[00:40:34] Speaker 3: And South America and Africa and Europe and Asia, Australia
+
+[00:40:40] Speaker 3: all have these same
+
+[00:40:41] Speaker 3: types of lines and intersecting
+
+[00:40:43] Speaker 3: energies in various places as well.
+
+[00:40:47] Speaker 2: Thank you.
+
+[00:40:50] Speaker 2: Let's see.
+
+[00:40:51] Speaker 2: Can you see if the draconians were messing with me, giving me different health issues when I was making the
+
+[00:40:59] Speaker 2: recording for my audiobook and doing my trying to publish my book?
+
+[00:41:04] Speaker 3: Yes.
+
+[00:41:05] Speaker 3: In that way, the draconian entities
+
+[00:41:08] Speaker 3: often don't associate with humans on an individual level.
+
+[00:41:13] Speaker 3: Most of the entities that are negative in orientation,
+
+[00:41:16] Speaker 3: that hold
+
+[00:41:17] Speaker 3: reptilian energy,
+
+[00:41:18] Speaker 3: that are most similar
+
+[00:41:20] Speaker 3: to draconians,
+
+[00:41:21] Speaker 3: are those of the earth reptilians that are in a more negative orientation of alignment.
+
+[00:41:27] Speaker 3: So there are many of these that exist
+
+[00:41:30] Speaker 3: within your over soul because you are on earth and they are on earth and that part of the incarnation cycles are overlapping
+
+[00:41:39] Speaker 3: the same way you would see Atlanteans,
+
+[00:41:41] Speaker 3: Lumerians,
+
+[00:41:42] Speaker 3: Conchaean,
+
+[00:41:43] Speaker 3: Lumanians in your own
+
+[00:41:45] Speaker 3: over soul.
+
+[00:41:46] Speaker 3: And some of these entities
+
+[00:41:48] Speaker 3: are meant to connect with you. Now when we say are meant to connect with you, in their own perspective,
+
+[00:41:55] Speaker 3: they are not harassing you. In their own perspective, they are simply connecting to your energy
+
+[00:42:00] Speaker 3: because they are curious about you. They see your energetic thing. And because they are leveled in that negative orientation,
+
+[00:42:09] Speaker 3: when they do connect you, you feel very deeply disconnected and fearful
+
+[00:42:14] Speaker 3: or even as you're being attacked.
+
+[00:42:16] Speaker 3: So it is very different way
+
+[00:42:19] Speaker 3: that most humans experience
+
+[00:42:21] Speaker 3: it and perceive their experience versus the intention of the entities that are doing this with you.
+
+[00:42:28] Speaker 3: So in that sense,
+
+[00:42:30] Speaker 3: no draconian
+
+[00:42:32] Speaker 3: beings were not directly harassing or trying to correct or connect with your energy to correct any of your behaviors.
+
+[00:42:40] Speaker 3: But there were some entities that were earth reptilians that were curious about you at that time
+
+[00:42:46] Speaker 3: that you are creating this energy. Your crown chakra is wide open.
+
+[00:42:51] Speaker 3: The heart is flowing to the throat. The energy of your higher guidance coming into the crown chakra.
+
+[00:42:57] Speaker 3: And they perceive you as a very powerful human, a very psychic human, and it always piques the interest of those reptilian counterparts.
+
+[00:43:06] Speaker 3: But we also wish to share with you
+
+[00:43:08] Speaker 3: that for the two or three that were in and out of your experience at that time,
+
+[00:43:14] Speaker 3: there were also very dozen
+
+[00:43:16] Speaker 3: or very many,
+
+[00:43:18] Speaker 3: perhaps dozens
+
+[00:43:19] Speaker 3: of entities that were earth reptilians that were more inside of a neutral
+
+[00:43:25] Speaker 3: to positive alignment
+
+[00:43:26] Speaker 3: that also created
+
+[00:43:28] Speaker 3: expansion
+
+[00:43:29] Speaker 3: for the mind, expansion for your connection to earth.
+
+[00:43:33] Speaker 3: Because even though they are highly psychic,
+
+[00:43:36] Speaker 3: they exist more in the lower chakra area.
+
+[00:43:39] Speaker 3: They exist more inside of the body.
+
+[00:43:42] Speaker 3: So this helped you ground some of that information when their curiosity was piqued as well.
+
+[00:43:49] Speaker 2: Oh, that's awesome. Thank you.
+
+[00:43:51] Speaker 2: Okay. If
+
+[00:43:53] Speaker 2: I were to work with one crystal as a primary ally right now, which one should it be and why?
+
+[00:44:00] Speaker 3: Yes.
+
+[00:44:02] Speaker 3: So in this area,
+
+[00:44:04] Speaker 3: there are different forms of the crystals for different reasons.
+
+[00:44:09] Speaker 3: What would be your greatest desire
+
+[00:44:12] Speaker 3: in working with crystals?
+
+[00:44:13] Speaker 3: For example,
+
+[00:44:15] Speaker 3: for your communication,
+
+[00:44:17] Speaker 3: for your spiritual growth and development,
+
+[00:44:20] Speaker 3: what is the highest excitement
+
+[00:44:22] Speaker 3: for you?
+
+[00:44:24] Speaker 2: Probably spiritual development.
+
+[00:44:27] Speaker 3: Yes.
+
+[00:44:29] Speaker 3: Working with the would be extremely powerful.
+
+[00:44:33] Speaker 3: Now if you desire for the psychic part of that development,
+
+[00:44:37] Speaker 3: even though you say one crystal, we would suggest that you work
+
+[00:44:41] Speaker 3: with the moldavite
+
+[00:44:43] Speaker 3: and a Herkimer diamond
+
+[00:44:46] Speaker 3: in cocreation.
+
+[00:44:47] Speaker 3: So both of them
+
+[00:44:49] Speaker 3: on one ring or one necklace or one pendant
+
+[00:44:52] Speaker 3: to work together
+
+[00:44:54] Speaker 3: to help amplify and ground
+
+[00:44:57] Speaker 3: the energies of the opposites for you.
+
+[00:45:01] Speaker 2: I like that. Thank you. Yes.
+
+[00:45:04] Speaker 3: You are very welcome as well.
+
+[00:45:07] Speaker 2: What's I I wanna ask a question for my daughter.
+
+[00:45:10] Speaker 2: What's one detail from a past incarnation
+
+[00:45:13] Speaker 2: of Josie's that would resonate with her today?
+
+[00:45:17] Speaker 3: Yes.
+
+[00:45:19] Speaker 3: In the incarnation
+
+[00:45:20] Speaker 3: approximately
+
+[00:45:22] Speaker 3: at 100
+
+[00:45:23] Speaker 3: BC
+
+[00:45:24] Speaker 3: region,
+
+[00:45:25] Speaker 3: this entity existed
+
+[00:45:28] Speaker 3: in the place that is now known
+
+[00:45:31] Speaker 3: as Northern Greece.
+
+[00:45:33] Speaker 3: And in that time,
+
+[00:45:35] Speaker 3: she was a person who would communicate.
+
+[00:45:39] Speaker 3: In this way,
+
+[00:45:40] Speaker 3: many humans would perceive it as,
+
+[00:45:43] Speaker 3: for lack of a better term, a psychic,
+
+[00:45:45] Speaker 3: and some of these entities were perceived as oracles
+
+[00:45:49] Speaker 3: in that sense.
+
+[00:45:51] Speaker 3: So in this lifetime, she was perceived as a tool
+
+[00:45:55] Speaker 3: of the collective spiritual understanding.
+
+[00:45:58] Speaker 3: In that lifetime,
+
+[00:46:00] Speaker 3: she was raised within a temple
+
+[00:46:03] Speaker 3: and raised to be a tool or a vessel.
+
+[00:46:07] Speaker 3: So in that sense,
+
+[00:46:08] Speaker 3: she was a channeler.
+
+[00:46:10] Speaker 3: And because there was a great deal of spiritual filtration,
+
+[00:46:15] Speaker 3: most of what would come in from the other articles
+
+[00:46:19] Speaker 3: would be shared through the lenses of the gods that existed there
+
+[00:46:24] Speaker 3: and the entities that were the gods of these specific temples.
+
+[00:46:29] Speaker 3: But because her own consciousness
+
+[00:46:32] Speaker 3: was less filtrated as a child,
+
+[00:46:35] Speaker 3: many messages would come through
+
+[00:46:38] Speaker 3: that were not the same, that did not say praise the gods,
+
+[00:46:41] Speaker 3: worship the gods, sacrifice for the gods.
+
+[00:46:45] Speaker 3: In that sense, she would say, you have to expand yourself and know yourself and understand yourself, and you are the god. And she was punished very severely for this.
+
+[00:46:56] Speaker 3: So then
+
+[00:46:57] Speaker 3: by her young teenage years, she started just repeating what others would say,
+
+[00:47:02] Speaker 3: understanding and knowing in that sense.
+
+[00:47:05] Speaker 3: So she cut off that connection to herself.
+
+[00:47:08] Speaker 3: And as she would go through, there was this
+
+[00:47:11] Speaker 3: person who led that specific region where she was located
+
+[00:47:16] Speaker 3: that consistently
+
+[00:47:18] Speaker 3: used her to find this information.
+
+[00:47:21] Speaker 3: And seeing this false information that would come out of her mouth was so frustrating.
+
+[00:47:27] Speaker 3: Seeing that this person would go back and make horrible decisions that cause suffering
+
+[00:47:33] Speaker 3: for thousands of residents in the local area,
+
+[00:47:36] Speaker 3: it created a frustration in her until she removed that old filter
+
+[00:47:42] Speaker 3: and brought back the old essence of the pure channeling.
+
+[00:47:46] Speaker 3: And at the time where the city was about to go under in a financial sense and go to war with its neighboring villages,
+
+[00:47:55] Speaker 3: she started sharing this with that lead person.
+
+[00:47:58] Speaker 3: And after doing this for one month, the entire town became much better.
+
+[00:48:04] Speaker 3: And at that point, she was revered
+
+[00:48:06] Speaker 3: as a very strong oracle
+
+[00:48:09] Speaker 3: that was able to give the correct information
+
+[00:48:12] Speaker 3: and helpful, empowering information as well.
+
+[00:48:16] Speaker 2: Oh, that's gonna make her really happy. Thank you for sharing that. Yes.
+
+[00:48:23] Speaker 2: Let's see. Who are my friend Belle and her husband Wences in relation to my galactic path? Like, I think Wences has some galactic connections.
+
+[00:48:36] Speaker 2: How how does that connection what does it mean to me?
+
+[00:48:39] Speaker 3: Yes.
+
+[00:48:40] Speaker 3: So in these entities that you are speaking about, yes,
+
+[00:48:45] Speaker 3: there is the galactic
+
+[00:48:48] Speaker 3: connections that exist
+
+[00:48:50] Speaker 3: from the Pleiades
+
+[00:48:51] Speaker 3: and from Sirius.
+
+[00:48:53] Speaker 3: And these connections are oriented
+
+[00:48:56] Speaker 3: towards
+
+[00:48:57] Speaker 3: the same theme in in life as far as understanding
+
+[00:49:01] Speaker 3: oneself
+
+[00:49:02] Speaker 3: and understanding the nature of oneself and their place
+
+[00:49:06] Speaker 3: in their environment and expressing the consciousness and growing and learning from that energy.
+
+[00:49:12] Speaker 3: And the galactic orientation helps deeply
+
+[00:49:16] Speaker 3: with his cocreation.
+
+[00:49:18] Speaker 3: So this is what you are picking up on when you see that deep connection and when you see and understand
+
+[00:49:24] Speaker 3: that there's more than what meets the eye as far as the galactic connection as well.
+
+[00:49:30] Speaker 2: Thank you very much.
+
+[00:49:33] Speaker 2: What is the highest expression of my husband
+
+[00:49:37] Speaker 2: John's soul mission
+
+[00:49:39] Speaker 2: in this incarnation? He gave me permission to ask that.
+
+[00:49:43] Speaker 3: Yes.
+
+[00:49:44] Speaker 3: So
+
+[00:49:45] Speaker 3: the greatest expression
+
+[00:49:46] Speaker 3: of that is continuing to follow excitement.
+
+[00:49:50] Speaker 3: Now in that sense,
+
+[00:49:52] Speaker 3: one of the greater life paths and missions
+
+[00:49:55] Speaker 3: is to integrate a deeper level in understanding
+
+[00:49:58] Speaker 3: of intimacy
+
+[00:50:00] Speaker 3: with fellow humans, but especially in the family unit.
+
+[00:50:04] Speaker 3: There are many lifetimes where this entity has existed as a masculine being on earth.
+
+[00:50:10] Speaker 3: And in those lifetimes, it was very
+
+[00:50:13] Speaker 3: standard experiences
+
+[00:50:14] Speaker 3: where you are going to war, where you see family as a secondary option
+
+[00:50:20] Speaker 3: or a secondary energy.
+
+[00:50:22] Speaker 3: And by doing this and having wars and fighting and having
+
+[00:50:28] Speaker 3: perhaps as the head of household
+
+[00:50:30] Speaker 3: to create the energy of going out to work,
+
+[00:50:34] Speaker 3: it was always perceived as a secondary need. And being in the feminine role allowed this entity
+
+[00:50:41] Speaker 3: to nurture,
+
+[00:50:42] Speaker 3: but there are very few lifetimes
+
+[00:50:45] Speaker 3: where love and compassion and nurturing
+
+[00:50:48] Speaker 3: were deeply important to this entity.
+
+[00:50:52] Speaker 3: So this life in a soul theme,
+
+[00:50:54] Speaker 3: one of the great parts of this is expanding
+
+[00:50:57] Speaker 3: that as far as possible where there is a nurturing and embracing
+
+[00:51:03] Speaker 3: of certain feminine heart features,
+
+[00:51:06] Speaker 3: but expressing it through a very masculine frame
+
+[00:51:09] Speaker 3: and a very masculine sense
+
+[00:51:11] Speaker 3: on earth.
+
+[00:51:12] Speaker 3: Now secondary to this, there are so many different levels
+
+[00:51:16] Speaker 3: that are expressions
+
+[00:51:18] Speaker 3: that are possible in the future.
+
+[00:51:20] Speaker 3: One of the great strings that this entity can have when working with it is through the astral projected state
+
+[00:51:28] Speaker 3: and visualization
+
+[00:51:30] Speaker 3: processes
+
+[00:51:31] Speaker 3: that go into the dream state of astral projection.
+
+[00:51:35] Speaker 3: So going through these different astral projections, there's a great deal that can be learned from that energy.
+
+[00:51:42] Speaker 3: But working with that requires
+
+[00:51:44] Speaker 3: a consistent grounding
+
+[00:51:46] Speaker 3: while connecting to the ethereal energy at the same time
+
+[00:51:50] Speaker 3: so that when it comes back, it is not simply just a very wild experience or just a very
+
+[00:51:57] Speaker 3: fantastical
+
+[00:51:57] Speaker 3: experience,
+
+[00:51:59] Speaker 3: but it has relevance in how humans are able to integrate
+
+[00:52:03] Speaker 3: the experience there. So this is something that is very deeply open to his energy
+
+[00:52:09] Speaker 3: to continue to explore if he desires as well.
+
+[00:52:13] Speaker 2: Thank
+
+[00:52:14] Speaker 2: you.
+
+[00:52:17] Speaker 2: Let's see.
+
+[00:52:21] Speaker 2: Do you have a
+
+[00:52:25] Speaker 2: let's see.
+
+[00:52:27] Speaker 2: What is one thing
+
+[00:52:28] Speaker 2: you
+
+[00:52:29] Speaker 2: most want me to know that I'm not currently aware of?
+
+[00:52:34] Speaker 3: Yes.
+
+[00:52:35] Speaker 3: We are excited to connect
+
+[00:52:37] Speaker 3: with you.
+
+[00:52:38] Speaker 3: And even the way that we see it, there's nothing more exciting than that.
+
+[00:52:43] Speaker 3: And this is why that when we work with humans,
+
+[00:52:46] Speaker 3: we work through that question and answer philosophy.
+
+[00:52:50] Speaker 3: Because when you ask that question, you are in your excitement.
+
+[00:52:54] Speaker 3: And when we connect you and reflect that we are in our excitement,
+
+[00:52:59] Speaker 3: There are 1,000,000 things that I can see with your energy that I could share,
+
+[00:53:04] Speaker 3: but in my own perspective, none of them are more exciting or more important
+
+[00:53:08] Speaker 3: than the other.
+
+[00:53:10] Speaker 3: So if you decide, we could spend the rest of time simply sharing things that we see,
+
+[00:53:16] Speaker 3: but feel it could be more exciting for you to find
+
+[00:53:19] Speaker 3: those energies of questions
+
+[00:53:21] Speaker 3: to ask us as well.
+
+[00:53:25] Speaker 2: Okay. Well, maybe tell me two things.
+
+[00:53:28] Speaker 3: Yes.
+
+[00:53:30] Speaker 3: In your connection to the hybridized
+
+[00:53:32] Speaker 3: entities,
+
+[00:53:34] Speaker 3: there is one specific
+
+[00:53:35] Speaker 3: being that is a fibrin entity
+
+[00:53:38] Speaker 3: in the way that they share genetics
+
+[00:53:40] Speaker 3: in the hybrid programs,
+
+[00:53:42] Speaker 3: especially with the Yariel
+
+[00:53:44] Speaker 3: and the Gariel being the newer iterations,
+
+[00:53:48] Speaker 3: doesn't require one male of human or one female of human to a counterpart opposite of that.
+
+[00:53:55] Speaker 3: It can come from multiples
+
+[00:53:57] Speaker 3: of parental energies.
+
+[00:54:00] Speaker 3: So there is an entity that is a female
+
+[00:54:03] Speaker 3: Yahyel entity.
+
+[00:54:05] Speaker 3: And one of the children that you have is with her
+
+[00:54:08] Speaker 3: along
+
+[00:54:09] Speaker 3: with genetics
+
+[00:54:10] Speaker 3: from three other human beings on earth.
+
+[00:54:14] Speaker 3: And these three entities you do not know. You have no awareness.
+
+[00:54:18] Speaker 3: There's
+
+[00:54:19] Speaker 3: near no possibility for you to ever meet them because they are not involved
+
+[00:54:25] Speaker 3: in the same area of the world or the same excitements as you.
+
+[00:54:29] Speaker 3: So this is one that is very exciting for us to share.
+
+[00:54:32] Speaker 3: A second that is most prominent in your energy
+
+[00:54:36] Speaker 3: is that as you continue to work
+
+[00:54:39] Speaker 3: with
+
+[00:54:40] Speaker 3: channeling energy and with the consciousness
+
+[00:54:43] Speaker 3: integration
+
+[00:54:44] Speaker 3: of information
+
+[00:54:46] Speaker 3: to share with others
+
+[00:54:47] Speaker 3: in a sense of a written form or in entertainment
+
+[00:54:51] Speaker 3: types of forms,
+
+[00:54:53] Speaker 3: there's also many other aspects
+
+[00:54:56] Speaker 3: that you will find in the next year that you will pick up on that you haven't.
+
+[00:55:01] Speaker 3: So when you are going through that specific process,
+
+[00:55:05] Speaker 3: we always suggest, of course, not to have expectations
+
+[00:55:08] Speaker 3: or not to attach yourself to one thing.
+
+[00:55:11] Speaker 3: But the level of excitement that comes to you,
+
+[00:55:15] Speaker 3: that will come to you in the next year,
+
+[00:55:18] Speaker 3: will be so strong it will be extremely hard to ignore.
+
+[00:55:22] Speaker 3: But when you first think about it, you'll say this is not a topic that I desire
+
+[00:55:28] Speaker 3: to write about because I am not knowledgeable or don't have enough
+
+[00:55:32] Speaker 3: understanding
+
+[00:55:33] Speaker 3: or don't have enough tools to write this with.
+
+[00:55:37] Speaker 3: But when you find that,
+
+[00:55:39] Speaker 3: we always suggest for you to simply go further into your investigatory
+
+[00:55:44] Speaker 3: energy
+
+[00:55:45] Speaker 3: and look for these ideas
+
+[00:55:47] Speaker 3: because this level of excitement
+
+[00:55:50] Speaker 3: will not be something that you can simply push to the side.
+
+[00:55:54] Speaker 3: And when that excitement is that strong, it is very important for you to see as well.
+
+[00:56:01] Speaker 2: Oh, I look forward to that. Thank you.
+
+[00:56:04] Speaker 3: Yes. And we are excited for this for you as well.
+
+[00:56:07] Speaker 2: Thank you.
+
+[00:56:09] Speaker 2: Which
+
+[00:56:10] Speaker 2: ascended master or archangel do I have the strongest connection to?
+
+[00:56:16] Speaker 3: Yes.
+
+[00:56:17] Speaker 3: So in all of the archangel consciousnesses,
+
+[00:56:20] Speaker 3: each human
+
+[00:56:22] Speaker 3: embodies an archetype that is very strong
+
+[00:56:25] Speaker 3: to them. That is their major archetype.
+
+[00:56:28] Speaker 3: So when we are seeing this, it is Raphael,
+
+[00:56:31] Speaker 3: that energy that is most connected. But when we go to those that are seen as ascended masters,
+
+[00:56:39] Speaker 3: The energy of the Christ consciousness
+
+[00:56:42] Speaker 3: or the Christ collective is very strong,
+
+[00:56:45] Speaker 3: and this embodies many entities such as Buddha
+
+[00:56:48] Speaker 3: and such as Jesus or Yeshua.
+
+[00:56:51] Speaker 3: And the Buddha energy holds a very strong sentiment of reflection with you
+
+[00:56:57] Speaker 3: because there is a connection.
+
+[00:56:59] Speaker 3: Not only is it a part of that archetype that connects
+
+[00:57:03] Speaker 3: well with you, But there's also a past life where you had an incarnation
+
+[00:57:09] Speaker 3: with an entity that existed in the historical telling
+
+[00:57:14] Speaker 3: of that very specific story.
+
+[00:57:16] Speaker 3: And in that incarnation,
+
+[00:57:18] Speaker 3: for the lack of better things,
+
+[00:57:21] Speaker 3: or the lack of better way to say that you knew the entity that the story of Buddha was written about as well.
+
+[00:57:28] Speaker 2: Oh, that's cool.
+
+[00:57:30] Speaker 2: I have a lot of Buddhas around my house, so that explains that.
+
+[00:57:33] Speaker 3: Yes.
+
+[00:57:35] Speaker 2: Oh my gosh.
+
+[00:57:39] Speaker 2: Let's see. How much more time do I have? Can you tell?
+
+[00:57:43] Speaker 3: Yes.
+
+[00:57:44] Speaker 3: Approximately
+
+[00:57:46] Speaker 3: thirty to thirty three minutes as well.
+
+[00:57:49] Speaker 2: Oh my gosh. Well,
+
+[00:57:51] Speaker 2: can you find,
+
+[00:57:53] Speaker 2: can you see what the significance is of my night terrors and screaming?
+
+[00:57:59] Speaker 3: Yes.
+
+[00:58:00] Speaker 3: So
+
+[00:58:00] Speaker 3: as you are sleeping in the sleep state,
+
+[00:58:04] Speaker 3: you are working on multiple levels in the dimension since as you are aware.
+
+[00:58:09] Speaker 3: But also there is a co creation
+
+[00:58:12] Speaker 3: on a higher dimensional level
+
+[00:58:14] Speaker 3: where you are going through
+
+[00:58:17] Speaker 3: what we would call the very last state of physical reality
+
+[00:58:21] Speaker 3: or the template level where you create from.
+
+[00:58:25] Speaker 3: And in that level,
+
+[00:58:26] Speaker 3: you are actively allowing yourself
+
+[00:58:29] Speaker 3: to go through very negative experiences
+
+[00:58:32] Speaker 3: in order
+
+[00:58:33] Speaker 3: to work on traumas that you can't have attention
+
+[00:58:38] Speaker 3: span,
+
+[00:58:39] Speaker 3: time, or effort for in the physical body
+
+[00:58:42] Speaker 3: because it would be overwhelming and shut down your ability to do daily life.
+
+[00:58:47] Speaker 3: So in that safe state, you are working with these traumas.
+
+[00:58:51] Speaker 3: And when that occurs,
+
+[00:58:52] Speaker 3: sometimes
+
+[00:58:53] Speaker 3: there is a lack of connection with your bodily
+
+[00:58:57] Speaker 3: consciousness.
+
+[00:58:58] Speaker 3: So in that time, it can very deeply feel as if you are
+
+[00:59:03] Speaker 3: in your body, but not able to move or that you're separated from a level of your consciousness.
+
+[00:59:10] Speaker 3: And there's some truth to that because the consciousness
+
+[00:59:14] Speaker 3: is not going back into the body quickly enough
+
+[00:59:18] Speaker 3: for you to recognize
+
+[00:59:19] Speaker 3: as a simple waking up from a sleep state as many humans do.
+
+[00:59:24] Speaker 3: So the screaming aspect is the simple fear of the bodily function
+
+[00:59:28] Speaker 3: not working as it should. It feels
+
+[00:59:31] Speaker 3: in some ways a little as if you are dying or having problems coming back into life.
+
+[00:59:37] Speaker 3: So this is simply a normal process, and it is not very exciting.
+
+[00:59:42] Speaker 3: But one we can share that will help you with this is that before you enter a sleep state,
+
+[00:59:48] Speaker 3: if you create a meditation
+
+[00:59:50] Speaker 3: and visualize
+
+[00:59:51] Speaker 3: your energy body and
+
+[00:59:54] Speaker 3: separate
+
+[00:59:55] Speaker 3: the emotional consciousness,
+
+[00:59:58] Speaker 3: Instead of allowing
+
+[01:00:00] Speaker 3: 50 or 60%
+
+[01:00:02] Speaker 3: of the emotional body into the astral body,
+
+[01:00:05] Speaker 3: only allow 20%
+
+[01:00:07] Speaker 3: and leave the rest inside of the body.
+
+[01:00:10] Speaker 3: And then when you put the mental consciousness
+
+[01:00:13] Speaker 3: into that auric field
+
+[01:00:15] Speaker 3: from your actual mental body or energy body of the mental state,
+
+[01:00:20] Speaker 3: in that way, 80 or 90%
+
+[01:00:23] Speaker 3: of your mental body in the sleep state and allow that to separate before you go to sleep.
+
+[01:00:30] Speaker 3: And this way, it will help balance back that energy.
+
+[01:00:33] Speaker 3: And when you come back, more of your emotions are there and less of the mental energy as well.
+
+[01:00:39] Speaker 2: Okay.
+
+[01:00:40] Speaker 2: I hope I am able to do that. That's very detailed. Thank you so much.
+
+[01:00:45] Speaker 3: Yes. You are very welcome as well.
+
+[01:00:48] Speaker 2: So
+
+[01:00:50] Speaker 2: maybe oh, how about this? Is some of my
+
+[01:00:54] Speaker 2: my physical
+
+[01:00:56] Speaker 2: DNA or is some of my physical DNA used for the hybrid children?
+
+[01:01:01] Speaker 3: Yes.
+
+[01:01:02] Speaker 3: Now, in the sense of DNA itself,
+
+[01:01:05] Speaker 3: it is mostly the higher dimensional DNA.
+
+[01:01:09] Speaker 3: But even though you would see that as not physical,
+
+[01:01:12] Speaker 3: it is physical in their own dimension.
+
+[01:01:16] Speaker 3: So in that state, they are working with
+
+[01:01:18] Speaker 3: that fifth dimensional or fourth density version of you, or the fifth density and sixth dimensional version of you.
+
+[01:01:27] Speaker 3: And they are saying, is it acceptable
+
+[01:01:29] Speaker 3: for us to extract that DNA?
+
+[01:01:32] Speaker 3: And in that state, you are saying, yes, of course. So in that state, you are giving them your actual DNA.
+
+[01:01:39] Speaker 3: And because humans have a multidimensional
+
+[01:01:42] Speaker 3: DNA,
+
+[01:01:43] Speaker 3: it means that your fourth, fifth, and sixth density versions of your consciousness
+
+[01:01:49] Speaker 3: also
+
+[01:01:50] Speaker 3: have human DNA to share.
+
+[01:01:52] Speaker 3: So you are sharing DNA with him. It is just not a densely physical, the same way that your physical body that you are touching now is as well.
+
+[01:02:03] Speaker 2: Okay. Thank you. And will I have an opportunity to meet my hybrid children in this incarnation?
+
+[01:02:10] Speaker 3: Yes.
+
+[01:02:11] Speaker 3: In the state of the astral, yes, you already have. You already
+
+[01:02:15] Speaker 3: will continue to do so, and there is a very high probability that the memory of that will come back to you. In the physical sense, there is a lower probability,
+
+[01:02:25] Speaker 3: but it still does exist,
+
+[01:02:27] Speaker 3: that you will have at least one physical interaction with one of them.
+
+[01:02:32] Speaker 3: But it will be a bit down the road when the Earth collective is more open for more physical contact after more
+
+[01:02:40] Speaker 3: of what humans would think of a low scale open contact happens,
+
+[01:02:45] Speaker 3: where ships are working with individual groups more so.
+
+[01:02:49] Speaker 3: But very likely for it to happen at least once in a physical sense, but hundreds
+
+[01:02:55] Speaker 3: or even thousands of times in the astral state as well.
+
+[01:02:59] Speaker 2: Oh, great. Thank you.
+
+[01:03:01] Speaker 2: Yes.
+
+[01:03:03] Speaker 2: Are we on track for
+
+[01:03:05] Speaker 2: conscious open contact to happen in the next one to five years?
+
+[01:03:10] Speaker 3: Yes.
+
+[01:03:11] Speaker 3: In that sense, this greatly depends on your definition.
+
+[01:03:15] Speaker 3: If you are speaking of hundreds of ships that land in governmental places and openly speak to the collective,
+
+[01:03:22] Speaker 3: that probability does exist, but it is much lower
+
+[01:03:26] Speaker 3: than the individualized
+
+[01:03:28] Speaker 3: cocreations
+
+[01:03:29] Speaker 3: of other entities
+
+[01:03:30] Speaker 3: such as c e five groups that have,
+
+[01:03:33] Speaker 3: instead of only seeing ships,
+
+[01:03:35] Speaker 3: having more physical contact
+
+[01:03:37] Speaker 3: or entities who are spiritually
+
+[01:03:40] Speaker 3: adept
+
+[01:03:40] Speaker 3: would be able to meet with these entities
+
+[01:03:43] Speaker 3: more presently and physically.
+
+[01:03:46] Speaker 3: But the human collective accepting
+
+[01:03:49] Speaker 3: that
+
+[01:03:50] Speaker 3: us that exist in higher dimensions exist and us that are not living on earth exist,
+
+[01:03:57] Speaker 3: it has already opened that window
+
+[01:03:59] Speaker 3: much more deeply.
+
+[01:04:01] Speaker 3: This is why you hear that 2027,
+
+[01:04:04] Speaker 3: '28,
+
+[01:04:04] Speaker 3: and '29 are pivotal years
+
+[01:04:07] Speaker 3: for the open contact movement
+
+[01:04:09] Speaker 3: because much of the growth in how humans perceive and accept
+
+[01:04:13] Speaker 3: is consistently
+
+[01:04:15] Speaker 3: swelling and growing each moment as well.
+
+[01:04:18] Speaker 2: Mhmm. I see that. Thank you.
+
+[01:04:22] Speaker 1: Yes.
+
+[01:04:23] Speaker 2: So going back to the the things that
+
+[01:04:27] Speaker 2: you want me to know that I'm not currently aware of, can you just fill the rest of the time talking about them?
+
+[01:04:35] Speaker 3: Yes.
+
+[01:04:37] Speaker 3: Now in the area of
+
+[01:04:39] Speaker 3: the co creation between
+
+[01:04:41] Speaker 3: the hypernice
+
+[01:04:42] Speaker 3: groups and yourself,
+
+[01:04:44] Speaker 3: one of the entities,
+
+[01:04:46] Speaker 3: specifically the female entity that we shared who is a parent
+
+[01:04:50] Speaker 3: of one of your children, that is your young, desires to step forward and share if you are excited for this as well. I'm so excited.
+
+[01:04:59] Speaker 2: Tell her yes, please.
+
+[01:05:01] Speaker 3: Yes.
+
+[01:05:02] Speaker 3: One moment, please.
+
+[01:05:16] Speaker 4: Please, one moment. We're helping the human with water.
+
+[01:05:25] Speaker 4: Hello, my dear.
+
+[01:05:27] Speaker 4: I'm happy to communicate
+
+[01:05:30] Speaker 4: in a verbal way.
+
+[01:05:33] Speaker 2: Hi.
+
+[01:05:34] Speaker 2: What's your name?
+
+[01:05:36] Speaker 4: My name is In China.
+
+[01:05:40] Speaker 2: In China?
+
+[01:05:42] Speaker 4: Mm-mm.
+
+[01:05:43] Speaker 4: My name is Shyna.
+
+[01:05:46] Speaker 4: Shyna. Yes. Maybe spelled
+
+[01:05:49] Speaker 4: s h y
+
+[01:05:51] Speaker 4: n a h.
+
+[01:05:53] Speaker 2: Oh, that's so beautiful.
+
+[01:05:55] Speaker 2: Hi. Thank you for
+
+[01:05:57] Speaker 2: talking to me. How can I help make your life better?
+
+[01:06:02] Speaker 4: You have already made my life perfect.
+
+[01:06:06] Speaker 4: You have given me the
+
+[01:06:08] Speaker 4: beautiful gift of our child, and I
+
+[01:06:11] Speaker 4: know that you're not
+
+[01:06:13] Speaker 4: aware of our child.
+
+[01:06:15] Speaker 4: Our child is
+
+[01:06:17] Speaker 4: a male being,
+
+[01:06:19] Speaker 4: and his name is Sheena.
+
+[01:06:22] Speaker 4: And
+
+[01:06:25] Speaker 4: spelling this would be may may be similar to s h e
+
+[01:06:30] Speaker 4: n y a.
+
+[01:06:32] Speaker 4: And we're
+
+[01:06:33] Speaker 4: both very,
+
+[01:06:35] Speaker 4: happy with you in general and very excited to connect with you.
+
+[01:06:41] Speaker 4: Right now, you're the only human who has any awareness that
+
+[01:06:46] Speaker 4: we exist.
+
+[01:06:48] Speaker 4: One
+
+[01:06:48] Speaker 4: of the other parents is just beginning to understand
+
+[01:06:52] Speaker 4: that there are beings,
+
+[01:06:54] Speaker 4: on Earth and around Earth
+
+[01:06:57] Speaker 4: that connect with humans. The other two are are still left
+
+[01:07:01] Speaker 4: outside of that understanding,
+
+[01:07:03] Speaker 4: at least from their body perspective.
+
+[01:07:06] Speaker 4: So it's very nice to have a human. And then when we found out that you were
+
+[01:07:13] Speaker 4: willing and able to communicate this way, it was the best excitement for us both.
+
+[01:07:19] Speaker 4: So I wanted to share,
+
+[01:07:21] Speaker 4: some things about the dynamic between us.
+
+[01:07:25] Speaker 4: We have this child and this beautiful
+
+[01:07:28] Speaker 4: shared child.
+
+[01:07:30] Speaker 4: Both of us are always able to access
+
+[01:07:34] Speaker 4: not the specific
+
+[01:07:35] Speaker 4: things that happen during all of your life,
+
+[01:07:38] Speaker 4: but moments where you're having joy and excitement
+
+[01:07:42] Speaker 4: and expansion.
+
+[01:07:43] Speaker 4: We are not seeing it through your eyes.
+
+[01:07:46] Speaker 4: We're not monitoring
+
+[01:07:47] Speaker 4: with technology
+
+[01:07:49] Speaker 4: inside of your house,
+
+[01:07:50] Speaker 4: but we are seeing your energy all the time in live time
+
+[01:07:55] Speaker 4: when we want to connect or monitor with you.
+
+[01:07:58] Speaker 4: And the connections
+
+[01:08:00] Speaker 4: that happen
+
+[01:08:01] Speaker 4: when your energy gets very excited,
+
+[01:08:03] Speaker 4: then that monitoring
+
+[01:08:05] Speaker 4: calls to us and lets us know.
+
+[01:08:07] Speaker 4: So it's,
+
+[01:08:09] Speaker 4: very rewarding to learn.
+
+[01:08:11] Speaker 4: And we have had communication
+
+[01:08:13] Speaker 4: with you, mostly me.
+
+[01:08:16] Speaker 4: And,
+
+[01:08:17] Speaker 4: with 12 different visitations,
+
+[01:08:20] Speaker 4: our son
+
+[01:08:21] Speaker 4: spoke to you directly while you were in the sleeping arrangement.
+
+[01:08:26] Speaker 4: So at your body sleeping and consciousness not sleeping,
+
+[01:08:32] Speaker 4: there was much that we shared, but there was still no memory
+
+[01:08:36] Speaker 4: that was left from you. Because the next time we talked to you, you said that your body didn't retain it.
+
+[01:08:43] Speaker 4: So they're wanting to be,
+
+[01:08:46] Speaker 4: a reconciliation
+
+[01:08:47] Speaker 4: with what we know compared to what you know, and we wanted there to be an understanding that
+
+[01:08:54] Speaker 4: we're always open for more communication
+
+[01:08:57] Speaker 4: and more interactions.
+
+[01:09:00] Speaker 4: And the,
+
+[01:09:01] Speaker 4: several of hundreds of interactions that we've had,
+
+[01:09:06] Speaker 4: you and myself personally,
+
+[01:09:08] Speaker 4: we've always talked about the benefit
+
+[01:09:11] Speaker 4: of the human life. And you shared with me about some of the human behavior,
+
+[01:09:18] Speaker 4: the human mindset,
+
+[01:09:20] Speaker 4: and it's very different from our mindset.
+
+[01:09:24] Speaker 4: Our own consciousness
+
+[01:09:25] Speaker 4: sees joy
+
+[01:09:27] Speaker 4: and compassion
+
+[01:09:28] Speaker 4: and passion
+
+[01:09:30] Speaker 4: in the same
+
+[01:09:32] Speaker 4: stream of energy.
+
+[01:09:34] Speaker 4: We don't have emotions that fall behind
+
+[01:09:37] Speaker 4: that level
+
+[01:09:39] Speaker 4: on a scale of good feeling emotions to bad feeling emotions,
+
+[01:09:44] Speaker 4: there's emotions
+
+[01:09:45] Speaker 4: that you have that are completely sad,
+
+[01:09:48] Speaker 4: that are completely angry,
+
+[01:09:49] Speaker 4: that completely
+
+[01:09:50] Speaker 4: fall
+
+[01:09:51] Speaker 4: from feeling
+
+[01:09:53] Speaker 4: a part of yourself or a part of your own heart that never has existed with us. So it's very different for us.
+
+[01:10:00] Speaker 4: But, also,
+
+[01:10:02] Speaker 4: having learned about humans from teachers
+
+[01:10:05] Speaker 4: when we're young and then having our own connection to them after we started
+
+[01:10:11] Speaker 4: having children,
+
+[01:10:13] Speaker 4: it brings us a better place of knowing. So we understand about your geography.
+
+[01:10:18] Speaker 4: We understand about your history.
+
+[01:10:21] Speaker 4: We understand what you understand about your history, but we also have more insight into the actual histories that happened,
+
+[01:10:30] Speaker 4: with Earth. And we're also very aware
+
+[01:10:33] Speaker 4: of the different
+
+[01:10:34] Speaker 4: mindsets and and different,
+
+[01:10:37] Speaker 4: psychological
+
+[01:10:40] Speaker 4: map ways of human minds,
+
+[01:10:42] Speaker 4: the humans who are very
+
+[01:10:44] Speaker 4: joyous and happy all the time, the humans who are very skeptical all the time, the humans who work in self pity all of the time. All of those different types of humans,
+
+[01:10:55] Speaker 4: we've been able to study and understand.
+
+[01:10:58] Speaker 4: So I wanted an opportunity to share that with you and find out what you can share with me
+
+[01:11:05] Speaker 4: about humans that you feel
+
+[01:11:08] Speaker 4: is very important from
+
+[01:11:10] Speaker 4: this layer of your
+
+[01:11:13] Speaker 4: consciousness.
+
+[01:11:14] Speaker 4: Because when I'm speaking to you, it's always from a very
+
+[01:11:18] Speaker 4: high perspective
+
+[01:11:20] Speaker 4: of a consciousness level of fourth density and fifth density
+
+[01:11:25] Speaker 4: in
+
+[01:11:27] Speaker 4: your specific
+
+[01:11:29] Speaker 4: what would you call it? Specific
+
+[01:11:32] Speaker 4: representation
+
+[01:11:33] Speaker 4: of consciousness from your division layers.
+
+[01:11:36] Speaker 4: So
+
+[01:11:37] Speaker 4: what can you share from this perspective about humans
+
+[01:11:41] Speaker 4: that you feel is very impactful for us?
+
+[01:11:44] Speaker 2: Well, I'm just so excited to be talking with you, and I wanna make sure that before we finish that
+
+[01:11:50] Speaker 2: I understand how I can communicate with you in the future, like, probably through meditation. But I'm always open to communicating with you, so you have two
+
+[01:12:00] Speaker 2: free to come visit me anytime.
+
+[01:12:04] Speaker 2: I
+
+[01:12:05] Speaker 2: wanna share that most people, most humans
+
+[01:12:08] Speaker 2: don't remember
+
+[01:12:10] Speaker 2: anything. Right? We have this veil over us. They don't know that we're connected to the all that is. They don't know that there's galactic
+
+[01:12:19] Speaker 2: beings.
+
+[01:12:19] Speaker 2: And so the pain here and the suffering,
+
+[01:12:22] Speaker 2: a lot of people take their lives because they don't
+
+[01:12:26] Speaker 2: it feels so dense and so heavy
+
+[01:12:29] Speaker 2: down here, and it's just
+
+[01:12:31] Speaker 2: there's just so much pain when you don't see
+
+[01:12:35] Speaker 2: that there's more than the three d reality, when you don't believe in a higher, like, connection to
+
+[01:12:42] Speaker 2: like, you don't you don't understand that you are god.
+
+[01:12:45] Speaker 2: Every one of us is the source energy within us.
+
+[01:12:49] Speaker 2: They are always looking to an outside source
+
+[01:12:53] Speaker 2: of that they worship
+
+[01:12:54] Speaker 2: that sometimes is
+
+[01:12:56] Speaker 2: really vent that they feel like is a vengeful god.
+
+[01:13:00] Speaker 2: And
+
+[01:13:01] Speaker 2: and so they live with a lot of guilt. They live with a lot of fear,
+
+[01:13:05] Speaker 2: and they don't live with a
+
+[01:13:08] Speaker 2: heart that fills connection to
+
+[01:13:11] Speaker 2: to everyone else. They don't see everyone
+
+[01:13:15] Speaker 2: as themselves. They see
+
+[01:13:18] Speaker 2: just division and separation.
+
+[01:13:20] Speaker 2: And
+
+[01:13:22] Speaker 2: and,
+
+[01:13:23] Speaker 2: I just can't I've
+
+[01:13:25] Speaker 2: it's I guess that's the path that you chose when you come down to Earth because you say you you understand that that's gonna happen. But I think when people get down here, it's much harder than they realize. They
+
+[01:13:37] Speaker 2: sometimes they
+
+[01:13:38] Speaker 2: bite off more than they could chew, so to say.
+
+[01:13:42] Speaker 4: That's very ins insightful,
+
+[01:13:45] Speaker 4: and I'm very grateful for you sharing that perspective.
+
+[01:13:49] Speaker 4: You have always talked about the hardships
+
+[01:13:52] Speaker 4: of
+
+[01:13:54] Speaker 4: living inside
+
+[01:13:55] Speaker 4: of the human body, having access to this part of you, but have never shared it in such a deeply impactful
+
+[01:14:03] Speaker 4: way.
+
+[01:14:04] Speaker 4: And I want to thank you for that. I also want to comment on your
+
+[01:14:09] Speaker 4: communication
+
+[01:14:10] Speaker 4: about wanting
+
+[01:14:11] Speaker 4: to stay connected.
+
+[01:14:13] Speaker 4: There is many different ways we we are able to stay in communication.
+
+[01:14:19] Speaker 4: One of them is through a meditative state
+
+[01:14:22] Speaker 4: and working
+
+[01:14:24] Speaker 4: through the same type of information and energy that you've done before
+
+[01:14:29] Speaker 4: can help us communicate with each other
+
+[01:14:32] Speaker 4: in a writing way, in an automatic writing way.
+
+[01:14:36] Speaker 4: This would be the very first step of our communication,
+
+[01:14:40] Speaker 4: and it would work similarly to how you you've written the material that you've already written, but it would be very intentional.
+
+[01:14:49] Speaker 4: You can ask the questions or have questions written down and then close your eyes and focus on my energy.
+
+[01:14:57] Speaker 4: The
+
+[01:14:58] Speaker 4: way that you would feel my energy
+
+[01:15:00] Speaker 4: is closing
+
+[01:15:02] Speaker 4: your eyes now and then feeling right in the heart and right in the stomach
+
+[01:15:07] Speaker 4: what energy feels like. And I send so much of my own love to you now, and I want you to feel what that feels like. And when you feel it,
+
+[01:15:17] Speaker 4: then try to remember the exact feeling.
+
+[01:15:20] Speaker 4: And then when you go to repeat it, you close your eyes, you put your hands onto the keyboard.
+
+[01:15:27] Speaker 4: And then
+
+[01:15:28] Speaker 4: when you have the question,
+
+[01:15:30] Speaker 4: you connect with me, and we'll work together to answer them. This will be a very positive and strong first step.
+
+[01:15:39] Speaker 2: Oh, I love that. Thank you so much.
+
+[01:15:42] Speaker 2: I feel the love, and I'm sending you the love back. I hope you can feel it. I'm so grateful for this interaction.
+
+[01:15:49] Speaker 4: I I do feel it very strong, and it's very
+
+[01:15:54] Speaker 4: powerful.
+
+[01:15:57] Speaker 2: Wonderful.
+
+[01:15:58] Speaker 2: And please tell all any of the other children
+
+[01:16:02] Speaker 2: how much I love them too. And
+
+[01:16:06] Speaker 2: I'm gonna try and be a better communicator
+
+[01:16:08] Speaker 2: now that I'm aware.
+
+[01:16:10] Speaker 2: Mhmm.
+
+[01:16:11] Speaker 4: I I look forward to that, and I will pass on
+
+[01:16:15] Speaker 4: the information
+
+[01:16:16] Speaker 4: to our son and the others also.
+
+[01:16:20] Speaker 4: Please be well, my dear friend, and please reach out to communicate with me whenever your heart feels.
+
+[01:16:28] Speaker 2: I look forward to that. Thank you so much. You're welcome, my friend, and I love you. Love you too. I love you so much. Thank you.
+
+[01:16:38] Speaker 4: You're welcome. Go and goodbye.
+
+[01:16:41] Speaker 2: Bye.
+
+[01:16:48] Speaker 3: Yes.
+
+[01:16:49] Speaker 3: We hope that this connection
+
+[01:16:51] Speaker 3: was one that was very exciting as well.
+
+[01:16:55] Speaker 2: Oh, that was the most exciting.
+
+[01:16:57] Speaker 2: You made my day. Thank you so much. That was really heartwarming,
+
+[01:17:01] Speaker 2: and I look forward to connecting with them in the future.
+
+[01:17:05] Speaker 3: Yes.
+
+[01:17:06] Speaker 3: We
+
+[01:17:07] Speaker 3: are excited that you were able to have this connection and also
+
+[01:17:12] Speaker 3: that it was very exciting for you as well.
+
+[01:17:16] Speaker 2: Was that was was that another
+
+[01:17:19] Speaker 2: parent
+
+[01:17:20] Speaker 2: that I cocreated the child with?
+
+[01:17:23] Speaker 3: Yes.
+
+[01:17:24] Speaker 3: This is the entity that we shared with you. That was a feminine entity that shared the genetics
+
+[01:17:32] Speaker 3: along with yourself and three other human entities
+
+[01:17:36] Speaker 3: to create the masculine entity
+
+[01:17:39] Speaker 3: or the boy in that sense.
+
+[01:17:42] Speaker 2: Gotcha. That's so cool. Wow. I feel so I feel so complete. That's very nice feeling you gave me. Thank you so much, Treb.
+
+[01:17:52] Speaker 3: Yes. You are very welcome. This is well.
+
+[01:17:56] Speaker 3: And I know that we have approximately
+
+[01:17:59] Speaker 3: ten to twelve minutes that are remaining.
+
+[01:18:03] Speaker 3: Are you specifically
+
+[01:18:04] Speaker 3: curious about anything?
+
+[01:18:08] Speaker 2: Well, I like that anything you have to tell me. I like
+
+[01:18:12] Speaker 2: I'm very interested. You've been telling
+
+[01:18:15] Speaker 2: me so much good stuff. So just anything else?
+
+[01:18:18] Speaker 3: Yes.
+
+[01:18:20] Speaker 3: Now in our own race,
+
+[01:18:23] Speaker 3: where my own planet is, it's a star system that you know as Capella.
+
+[01:18:28] Speaker 3: But when you look at Capella, it's one star. But when you assume your technology in,
+
+[01:18:34] Speaker 3: there's four different stars.
+
+[01:18:37] Speaker 3: And the four stars are two sets of stars that are dual star systems.
+
+[01:18:43] Speaker 3: So two of these stars are very small and very red.
+
+[01:18:47] Speaker 3: One of them slightly bigger than the other.
+
+[01:18:50] Speaker 3: The other two are very large, similar to your sun, more yellow and white coloration,
+
+[01:18:57] Speaker 3: but approximately
+
+[01:18:58] Speaker 3: 12 to 14 times bigger than your sun.
+
+[01:19:02] Speaker 3: And out of those four stars, we exist on the largest red star, the two small stars.
+
+[01:19:10] Speaker 3: So when we go to
+
+[01:19:12] Speaker 3: our own planet,
+
+[01:19:14] Speaker 3: we are able to connect with our entire race of entities.
+
+[01:19:18] Speaker 3: But when you yourself are excited to connect with our energy,
+
+[01:19:22] Speaker 3: you can simply go into your,
+
+[01:19:25] Speaker 3: earth
+
+[01:19:26] Speaker 3: understanding
+
+[01:19:27] Speaker 3: and archives,
+
+[01:19:28] Speaker 3: find where our star exists in the arugai
+
+[01:19:32] Speaker 3: consternation.
+
+[01:19:33] Speaker 3: And when you do so,
+
+[01:19:35] Speaker 3: find where that star is,
+
+[01:19:38] Speaker 3: the Capella star,
+
+[01:19:39] Speaker 3: in that time of your day, in that part of the sky for the time of year that you are in.
+
+[01:19:45] Speaker 3: You can go outside and look at our star
+
+[01:19:48] Speaker 3: from anywhere in the North Hemisphere
+
+[01:19:50] Speaker 3: and be able to start looking.
+
+[01:19:53] Speaker 3: And when you start looking, then you can feel our own energy.
+
+[01:19:58] Speaker 3: But visualizing,
+
+[01:19:59] Speaker 3: you can close your eyes and zoom in
+
+[01:20:02] Speaker 3: and see the two binary systems and go towards the red stars and then go towards the largest.
+
+[01:20:09] Speaker 3: And the third planet
+
+[01:20:10] Speaker 3: that is around the largest red star would be our own planet.
+
+[01:20:15] Speaker 3: And if you enter our planet of consciousness,
+
+[01:20:18] Speaker 3: even with an astral projection state,
+
+[01:20:21] Speaker 3: you are able to connect with our own race.
+
+[01:20:25] Speaker 3: And the reason we share this with you is that you also
+
+[01:20:28] Speaker 3: have entities in the oversold two of them that exist on my own planet.
+
+[01:20:34] Speaker 3: So there are these Capellan
+
+[01:20:36] Speaker 3: archetypal energies that you are able to connect with.
+
+[01:20:40] Speaker 3: Now after sharing that, we can also share with you that the experience
+
+[01:20:46] Speaker 3: of connecting
+
+[01:20:47] Speaker 3: with our consciousness
+
+[01:20:49] Speaker 3: has been exciting for you and, yes, helpful for you.
+
+[01:20:53] Speaker 3: But understanding
+
+[01:20:55] Speaker 3: the nature of our race is also something that we find you would have an excitement for
+
+[01:21:02] Speaker 3: in that sense
+
+[01:21:04] Speaker 3: or in that understanding.
+
+[01:21:06] Speaker 3: And our own race works and operates very differently than your own.
+
+[01:21:11] Speaker 3: When you work with a concept of a entire race of beings that all choose their own excitement
+
+[01:21:19] Speaker 3: and live in that excitement as a job who
+
+[01:21:23] Speaker 3: pair with another entity
+
+[01:21:25] Speaker 3: having a soul connection,
+
+[01:21:27] Speaker 3: a masculine and feminine entity
+
+[01:21:30] Speaker 3: that don't reproduce in a standard sexual way,
+
+[01:21:33] Speaker 3: but share DNA
+
+[01:21:35] Speaker 3: and have it implanted
+
+[01:21:37] Speaker 3: into
+
+[01:21:38] Speaker 3: very
+
+[01:21:39] Speaker 3: similar to what you'd think as a protein egg or sac.
+
+[01:21:43] Speaker 3: This is what creates our children.
+
+[01:21:45] Speaker 3: And when we create our children,
+
+[01:21:48] Speaker 3: we do not do this at home.
+
+[01:21:50] Speaker 3: There are entities whose jobs it is to put the genetics together and implant them.
+
+[01:21:57] Speaker 3: So often, the children on our planet are born.
+
+[01:22:00] Speaker 3: And as soon as they leave the area where they are born,
+
+[01:22:04] Speaker 3: they are free to go about wherever they desire. Their telepathy is intact automatically
+
+[01:22:09] Speaker 3: from birth,
+
+[01:22:10] Speaker 3: even though it's a very simple
+
+[01:22:12] Speaker 3: form of telepathy.
+
+[01:22:14] Speaker 3: Now, oftentimes,
+
+[01:22:15] Speaker 3: where multiple years of cycles go before they come back to the family,
+
+[01:22:20] Speaker 3: and each of the entity on our own planet
+
+[01:22:24] Speaker 3: will treat
+
+[01:22:25] Speaker 3: the children as if they are our own,
+
+[01:22:28] Speaker 3: them,
+
+[01:22:29] Speaker 3: working with them,
+
+[01:22:30] Speaker 3: teaching them. And this is something that we thought that you might see as very exciting as well.
+
+[01:22:37] Speaker 2: I love learning about this stuff, so thank you for sharing your culture
+
+[01:22:42] Speaker 2: with me.
+
+[01:22:44] Speaker 2: Have you heard of a have you heard of so there's
+
+[01:22:47] Speaker 2: a book I'm listening to right now.
+
+[01:22:50] Speaker 2: Mike Dooley interviews this this these beings that call themselves Frank. They're in deep space.
+
+[01:22:58] Speaker 2: Have you heard of these this collective called Frank?
+
+[01:23:02] Speaker 3: Yes.
+
+[01:23:03] Speaker 3: We have not heard
+
+[01:23:05] Speaker 3: of this collective by that specific name.
+
+[01:23:09] Speaker 3: But if you share something about this collective with us, perhaps we are able to tune in.
+
+[01:23:14] Speaker 3: As you may be aware, without
+
+[01:23:17] Speaker 3: an energy
+
+[01:23:18] Speaker 3: for verbal communication,
+
+[01:23:20] Speaker 3: We rely on telepathy,
+
+[01:23:23] Speaker 3: so we don't use names for identification,
+
+[01:23:26] Speaker 3: but we can see the energy
+
+[01:23:28] Speaker 3: when you speak about it more deeply.
+
+[01:23:31] Speaker 2: Yeah. So the
+
+[01:23:33] Speaker 2: they are, like, eight scientists
+
+[01:23:37] Speaker 2: in a place, like, 3,800,000,000
+
+[01:23:39] Speaker 2: light years from Earth,
+
+[01:23:41] Speaker 2: and they are very evolved
+
+[01:23:44] Speaker 2: with, like,
+
+[01:23:46] Speaker 2: telepathy and being able to astral travel. But their planet is dying and they're kinda looking for a new planet to live on.
+
+[01:23:54] Speaker 2: But, anyway, I was just wondering if they've kind been able to astral travel to you because they know a lot about different
+
+[01:24:01] Speaker 2: societies.
+
+[01:24:02] Speaker 3: Yes.
+
+[01:24:04] Speaker 3: We have not met these specific entities,
+
+[01:24:07] Speaker 3: but we are aware of many different types of races.
+
+[01:24:11] Speaker 3: The fact is that most of the entities that we work with are in this galaxy.
+
+[01:24:18] Speaker 3: And even though entities like are able
+
+[01:24:21] Speaker 3: to travel to other galaxies,
+
+[01:24:24] Speaker 3: the requirement to travel there
+
+[01:24:26] Speaker 3: is not often appealing because there is so much diversity in this alone
+
+[01:24:32] Speaker 3: that there's not necessarily a need to do so.
+
+[01:24:36] Speaker 3: But in 3,200,000,000
+
+[01:24:38] Speaker 3: or 2,300,000,000
+
+[01:24:40] Speaker 3: or 5,800,000,000
+
+[01:24:41] Speaker 3: light years, this means that there are hundreds of millions of galaxies away.
+
+[01:24:47] Speaker 3: So our consciousness doesn't often extend that far
+
+[01:24:51] Speaker 3: because there's no need to with diversity in this galaxy as well.
+
+[01:24:56] Speaker 2: Yeah. That's cool.
+
+[01:24:57] Speaker 2: Maybe I should ask one more,
+
+[01:25:00] Speaker 2: about,
+
+[01:25:02] Speaker 2: my son James because he's so interested.
+
+[01:25:07] Speaker 2: What,
+
+[01:25:08] Speaker 2: what would be one
+
+[01:25:10] Speaker 2: thing
+
+[01:25:11] Speaker 2: that
+
+[01:25:12] Speaker 2: you think he he would need to know?
+
+[01:25:16] Speaker 3: Yes.
+
+[01:25:17] Speaker 3: Within his own co creation, although the galactic energy is something that caused him
+
+[01:25:24] Speaker 3: with that feeling of appeal to the galactic consciousness.
+
+[01:25:28] Speaker 3: There's one earth energy
+
+[01:25:30] Speaker 3: that he can work with that will help him understand
+
+[01:25:34] Speaker 3: certain attributes of himself and more about the Earth collective, which will then help him expand past that into the galactic sense more so.
+
+[01:25:44] Speaker 3: And that is the energy of Metatron
+
+[01:25:47] Speaker 3: and the energy of sacred geometry.
+
+[01:25:50] Speaker 3: If he desires and feels excited to work with more sacred geometry patterns
+
+[01:25:56] Speaker 3: and integrate visual
+
+[01:25:57] Speaker 3: geometry
+
+[01:25:58] Speaker 3: or seeing
+
+[01:26:00] Speaker 3: Mandelbrot
+
+[01:26:01] Speaker 3: sets in the fractal
+
+[01:26:03] Speaker 3: geometry.
+
+[01:26:04] Speaker 3: These types of visualizations
+
+[01:26:06] Speaker 3: can help him unlock a great deal of his own internal consciousness.
+
+[01:26:11] Speaker 3: This will help him have better balance with the earth energy,
+
+[01:26:15] Speaker 3: but also better connection to the higher self. And when he starts working in that sense with the higher self more deeply,
+
+[01:26:23] Speaker 3: it gives him access to work with his higher fractal consciousness,
+
+[01:26:28] Speaker 3: which then leads to more galactic connection as well.
+
+[01:26:32] Speaker 2: Oh, that's excellent.
+
+[01:26:34] Speaker 3: Thank you so much. It is and very exciting as well.
+
+[01:26:38] Speaker 3: And we have approximately
+
+[01:26:39] Speaker 3: three minutes that remain. So if you have any last questions that you wish to ask, we are excited as well.
+
+[01:26:46] Speaker 2: Oh, boy.
+
+[01:26:49] Speaker 2: Maybe just anything for my husband that can help my husband.
+
+[01:26:53] Speaker 2: Anything you think he needs to do to help his
+
+[01:26:57] Speaker 2: spiritual development.
+
+[01:26:59] Speaker 3: Or Yes. Yeah. With your husband, is there a specific area
+
+[01:27:04] Speaker 3: in that spiritual development?
+
+[01:27:06] Speaker 3: Because the spiritual development overall mostly has to do with the human interactions,
+
+[01:27:12] Speaker 3: working on your emotions or mental set, your traumas, things of this nature.
+
+[01:27:18] Speaker 2: Yeah.
+
+[01:27:20] Speaker 2: Well, just anything you think. I don't know. Yes.
+
+[01:27:25] Speaker 3: In the energy of healing old traumas,
+
+[01:27:28] Speaker 3: there is a technique that we have shared with humans that is very impactful.
+
+[01:27:33] Speaker 3: And this is good for yourself and your children and every human that lives on earth in this moment.
+
+[01:27:39] Speaker 3: When you are interacting
+
+[01:27:41] Speaker 3: in a meditative state, if you are visualizing
+
+[01:27:43] Speaker 3: yourself sitting in a chair that you are sitting in,
+
+[01:27:47] Speaker 3: then you visualize yourself with a chair to the left and a chair to the right. And in that visualization,
+
+[01:27:53] Speaker 3: you take the most traumatized
+
+[01:27:55] Speaker 3: version of yourself as a child,
+
+[01:27:57] Speaker 3: and you place them in the left chair.
+
+[01:28:00] Speaker 3: As you close your eyes in the visualization and open them, that version of you is sitting to your left and holding hands with this entity, putting love down your left arm into their right arm, into their heart, out of their left arm into your right and back into the heart,
+
+[01:28:17] Speaker 3: you create a circuit of love,
+
+[01:28:19] Speaker 3: looking at that child version and telling them
+
+[01:28:22] Speaker 3: how loved they are, how those things in life that were very hard for them is okay that these things were not their fault, that they were meaningful
+
+[01:28:32] Speaker 3: and taught you lessons and taught you how to be a stronger man
+
+[01:28:36] Speaker 3: and how to be a better person.
+
+[01:28:39] Speaker 3: And after that energy,
+
+[01:28:40] Speaker 3: sharing that love very deeply
+
+[01:28:43] Speaker 3: and working through those energies,
+
+[01:28:46] Speaker 3: closing your eyes, and then again opening them inside of the visualization.
+
+[01:28:51] Speaker 3: To the right, there is the oldest, most wise, and least traumatized version of you,
+
+[01:28:57] Speaker 3: holding hands, creating the heart loop,
+
+[01:29:00] Speaker 3: and then letting the seem to look to you in the eyes and sharing what you need in that moment.
+
+[01:29:06] Speaker 3: And then after they are done,
+
+[01:29:08] Speaker 3: you connect all three of your hands, connecting the heart from your heart to theirs.
+
+[01:29:14] Speaker 3: And then in that visualization,
+
+[01:29:16] Speaker 3: close your eyes. And once you reopen the eyes,
+
+[01:29:20] Speaker 3: both chairs are empty
+
+[01:29:22] Speaker 3: with a realization that they are not gone in any way, shape, or form.
+
+[01:29:27] Speaker 3: They are simply integrated back into you.
+
+[01:29:30] Speaker 3: And if you do this once per day or once per week or when you feel
+
+[01:29:35] Speaker 3: some old traumas coming to the surface,
+
+[01:29:38] Speaker 3: it is extremely helpful for you to clear
+
+[01:29:41] Speaker 3: the energies behind the traumas, but also work directly with the traumas
+
+[01:29:46] Speaker 3: from your past or what you are going through now, and also allows your future version of yourself
+
+[01:29:54] Speaker 3: to give you the most assistance and love,
+
+[01:29:57] Speaker 3: and this will be helpful for all of you as well.
+
+[01:30:00] Speaker 3: We wish to share that in this day, our time for disconnection is now.
+
+[01:30:06] Speaker 3: But before we disconnect, we wish to share with you that when you were asking questions about yourself and your loved ones,
+
+[01:30:14] Speaker 3: you showed us the parts of your soul that we have never perceived before.
+
+[01:30:19] Speaker 3: And because we are all connected and part of oneness,
+
+[01:30:23] Speaker 3: it allowed us to see the parts of our own energy that we have never perceived before.
+
+[01:30:28] Speaker 3: So as you are asking
+
+[01:30:30] Speaker 3: and receiving,
+
+[01:30:32] Speaker 3: you are growing and expanding.
+
+[01:30:34] Speaker 3: And as you are growing, we are growing as well.
+
+[01:30:38] Speaker 3: So we congratulate you for all the growth that you've had in our interaction,
+
+[01:30:42] Speaker 3: and we thank you for the growth that you have given us in this day as well.
+
+[01:30:47] Speaker 2: Thank you so much, Treb. I really appreciate it. Best wishing you so much love and light.
+
+[01:30:53] Speaker 3: Yes.
+
+[01:30:54] Speaker 3: And we are greatly excited
+
+[01:30:57] Speaker 3: to have connected with you in this day as well. We'll leave you this day also in love and invite,
+
+[01:31:04] Speaker 3: and we'll experience each other in one way, one form, or one time again.
+
+[01:31:10] Speaker 3: Thank you, Trev. Good night. Yes. You are very welcome.
+
+[01:31:14] Speaker 3: And thank you as well. Good night.
+
+[01:31:17] Speaker 2: Thank you.
+
+[01:31:29] Speaker 4: Alright. How'd it go?
+
+[01:31:31] Speaker 2: Rob, that was awesome. I love Treb. He was great. I got to meet a hybrid child or a hybrid

@@ -1,0 +1,5 @@
+# Metaphysics for Lightworkers - REINCARNATION
+
+*From "Metaphysics for Lightworkers" by Max Rempel, Ph.D.*
+
+To learn and to grow, the soul goes via a series of incarnations. The experience of past incarnations is not lost - it becomes the basis of our personality in the next life. As we go through incarnations, we learn more and more. This is often the reason people have certain talents from birth - these often come as experiences from previous incarnations. Some things come easy to us because we learned them in past lives. Traumas of past incarnations are sometimes the reasons for pains and health problems in this life. For example, people who were killed by hanging might have a damaged throat chakra in this life. In general, past life experiences are stored in chakras, and healing of these past life traumas could be done by doing Reiki on chakras. Understanding specific past life traumas for a sick person could be a key step in healing the chronic health issues in this life. Usually to access the information about past lives, people do past life regressions, go to psychics and channelers or get revelations in meditations.

@@ -1,0 +1,6 @@
+approval_policy = "never"
+sandbox_mode = "danger-full-access"
+
+[mcp_servers.playwright]
+command = 'C:\Users\maxre\AppData\Local\Python\pythoncore-3.14-64\python.exe'
+args = ['C:\claude_base\tools\playwright_bitwarden\pw_mcp_launch.py']

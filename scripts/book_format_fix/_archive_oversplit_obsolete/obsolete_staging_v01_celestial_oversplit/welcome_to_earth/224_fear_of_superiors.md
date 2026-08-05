@@ -1,0 +1,5 @@
+# Welcome to Earth! A Guide for Aliens - FEAR OF SUPERIORS
+
+*From "Welcome to Earth! A Guide for Aliens" by Max Rempel, Ph.D.*
+
+One of the very powerful fears and blockages is the fear of superiors and reverence for them. This blocks many people, not only lightworkers from clear thinking, and rational acting. It took me much of research to realize that our superiors and leaders are not to be feared and revered. Best lesson I learn from students who happen to be coming from families of highly positioned people. These young people have been amply exposed to private life of highly positioned people (in hierarchy) and were taught how to perceive and interact with them. Understanding the highly positioned people is key to healing the blockage. Healing the fear of superiors gives a person new tools for action and achieving goals. A lightworker can offer to highly positioned people in mainstream is understanding, compassion and healing. Not many highly positioned people are open to Reiki and energy healing, but still some sort of healing can be offered, especially remote one. Just accepting every human as a reflection of every other human is a very healing exercise.

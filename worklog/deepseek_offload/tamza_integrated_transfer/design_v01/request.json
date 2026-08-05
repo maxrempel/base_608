@@ -1,0 +1,12 @@
+{
+  "created_at": "2026-07-29T16:24:03.083140Z",
+  "max_chars": 12000,
+  "max_tokens": 4096,
+  "model": "deepseek-v4-flash",
+  "privacy": "private-authorized",
+  "retries": 2,
+  "run_dir": "C:\\claude_base\\worklog\\deepseek_offload\\tamza_integrated_transfer\\design_v01",
+  "schema_version": 1,
+  "task_sha256": "9fd69f36d5dff33cb54fa1f29a4b4fbebdab691f77b53c161b6c203a5a72b1bf",
+  "timeout": 180
+}

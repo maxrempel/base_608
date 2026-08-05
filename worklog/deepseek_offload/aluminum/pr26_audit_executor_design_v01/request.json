@@ -1,0 +1,12 @@
+{
+  "created_at": "2026-07-30T02:52:02.292695Z",
+  "max_chars": 12000,
+  "max_tokens": 4096,
+  "model": "deepseek-v4-pro",
+  "privacy": "private-authorized",
+  "retries": 2,
+  "run_dir": "C:\\claude_base\\worklog\\deepseek_offload\\aluminum\\pr26_audit_executor_design_v01",
+  "schema_version": 1,
+  "task_sha256": "328f54fd9b0b9d535b6f23a398ad1ae2466cbf4db688c3ef31db79f408712845",
+  "timeout": 180
+}

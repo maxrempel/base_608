@@ -1,0 +1,12 @@
+{
+  "created_at": "2026-08-03T08:10:27.382586Z",
+  "max_chars": 12000,
+  "max_tokens": 4096,
+  "model": "deepseek-v4-flash",
+  "privacy": "private-authorized",
+  "retries": 2,
+  "run_dir": "C:\\claude_base\\worklog\\deepseek_offload\\alusieve\\consensus54_method_review_v01",
+  "schema_version": 1,
+  "task_sha256": "f801b3956c06254af75a8af483bf735ede6f26e33d0e7671c8d1a9046e6a920a",
+  "timeout": 180
+}

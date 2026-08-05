@@ -1,0 +1,12 @@
+{
+  "created_at": "2026-07-31T18:18:59.497543Z",
+  "max_chars": 12000,
+  "max_tokens": 4096,
+  "model": "deepseek-v4-flash",
+  "privacy": "private-authorized",
+  "retries": 2,
+  "run_dir": "C:\\claude_base\\worklog\\deepseek_offload\\dna_vibe\\live_commentary_v01",
+  "schema_version": 1,
+  "task_sha256": "23a99b5090ac79e9cc5afe8f4df1654c828687945ed2f481ddada58ccbe50362",
+  "timeout": 180
+}

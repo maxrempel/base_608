@@ -1,0 +1,5 @@
+# Adviser note - milestone 3 (~230K tokens)
+# session: 20260805_art_return_policy_74dc0f_47fbeebd
+# written: 2026-08-05 00:27:17 by deepseek-v4-pro
+
+CLEAN - no action needed

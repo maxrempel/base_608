@@ -1,0 +1,6 @@
+# Celestial Science - Belief in God versus knowledge about God
+
+*From "Celestial Science" by Max Rempel, Ph.D.*
+
+Now, in 2011, the current mainstream scientific point of view is that the belief in God is not verifiable since it can not be tested experimentally. But there is an opposite, very ancient point of view that communication with higher realms is possible and there are individuals talented in that. In old times, these individuals were called saints, prophets, shamans and gurus. Now they are called mediums and channelers. Since channeling is indeed a way of communication with higher spheres (as we outline throughout this book) the belief in God is not unverifiable anymore. We now have channels for asking questions about God and getting the answers beings of higher realms which are closer to God than we are, and to whom God is less of enigma.
+"You will better understand the Love that pervades everything around you, and your place with God and from whence you came and where you are going. Religion will not come into it, as you will find your God within along with all knowledge.[.] Where we are all headed for, everything exists within the Light, and in absolute harmony. You may have to feel it to believe it, but it will take your breathe away when you do. No longer will you feel separated from the Source of All That Is. "110

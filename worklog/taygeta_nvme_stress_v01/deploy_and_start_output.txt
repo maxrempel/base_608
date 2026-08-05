@@ -1,0 +1,18 @@
+Reading package lists...
+Building dependency tree...
+Reading state information...
+fio is already the newest version (3.36-1ubuntu0.1).
+0 upgraded, 0 newly installed, 0 to remove and 0 not upgraded.
+● taygeta-nvme-read-stress-v01.service - Taygeta 13-hour read-only NVMe stress test v01
+     Loaded: loaded (/etc/systemd/system/taygeta-nvme-read-stress-v01.service; disabled; preset: enabled)
+     Active: active (running) since Wed 2026-07-29 16:42:19 PDT; 5s ago
+   Main PID: 5390 (python3)
+      Tasks: 4 (limit: 33919)
+     Memory: 48.8M (peak: 48.8M)
+        CPU: 824ms
+     CGroup: /system.slice/taygeta-nvme-read-stress-v01.service
+             ├─5390 python3 /usr/local/sbin/taygeta_nvme_read_stress_v01.py
+             ├─5395 /usr/bin/fio --name=taygeta_nvme_read_stress --filename=/dev/nvme0n1 --readonly --rw=read --bs=1M --ioengine=libaio --iodepth=32 --direct=1 --numjobs=1 --time_based --runtime=46800 --group_reporting=1 --invalidate=1 --write_bw_log=/var/log/taygeta_nvme_read_stress_v01/20260729T234219Z/fio --log_avg_msec=60000 --output-format=normal --output=/var/log/taygeta_nvme_read_stress_v01/20260729T234219Z/fio_output.txt
+             └─5421 /usr/bin/fio --name=taygeta_nvme_read_stress --filename=/dev/nvme0n1 --readonly --rw=read --bs=1M --ioengine=libaio --iodepth=32 --direct=1 --numjobs=1 --time_based --runtime=46800 --group_reporting=1 --invalidate=1 --write_bw_log=/var/log/taygeta_nvme_read_stress_v01/20260729T234219Z/fio --log_avg_msec=60000 --output-format=normal --output=/var/log/taygeta_nvme_read_stress_v01/20260729T234219Z/fio_output.txt
+
+Jul 29 16:42:19 taygeta systemd[1]: Started taygeta-nvme-read-stress-v01.service - Taygeta 13-hour read-only NVMe stress test v01.

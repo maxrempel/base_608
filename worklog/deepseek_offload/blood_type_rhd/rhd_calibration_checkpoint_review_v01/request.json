@@ -1,0 +1,12 @@
+{
+  "created_at": "2026-08-03T14:49:59.411860Z",
+  "max_chars": 12000,
+  "max_tokens": 4096,
+  "model": "deepseek-v4-flash",
+  "privacy": "private-authorized",
+  "retries": 2,
+  "run_dir": "C:\\claude_base\\worklog\\deepseek_offload\\blood_type_rhd\\rhd_calibration_checkpoint_review_v01",
+  "schema_version": 1,
+  "task_sha256": "30a376d069e4222f2c1be0b1b6728cc4ca82280122c0cf0c294bfd3739e87d3b",
+  "timeout": 180
+}

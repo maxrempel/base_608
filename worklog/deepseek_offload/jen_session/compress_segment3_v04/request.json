@@ -1,0 +1,12 @@
+{
+  "created_at": "2026-07-31T21:40:26.488431Z",
+  "max_chars": 5000,
+  "max_tokens": 8000,
+  "model": "deepseek-v4-pro",
+  "privacy": "private-authorized",
+  "retries": 2,
+  "run_dir": "C:\\claude_base\\worklog\\deepseek_offload\\jen_session\\compress_segment3_v04",
+  "schema_version": 1,
+  "task_sha256": "79228bcddb574792c57a951af66effd9f972d93b96c538155cb13cf7bda2eda8",
+  "timeout": 1800
+}

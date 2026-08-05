@@ -1,0 +1,12 @@
+{
+  "created_at": "2026-07-28T08:04:12.954057Z",
+  "max_chars": 12000,
+  "max_tokens": 4096,
+  "model": "deepseek-v4-flash",
+  "privacy": "private-authorized",
+  "retries": 2,
+  "run_dir": "C:\\claude_base\\worklog\\deepseek_offload\\npa_credible_table\\same_batch_control_inventory_v01",
+  "schema_version": 1,
+  "task_sha256": "0debd59e1a2dbc85cb24b2958b6af3e4b270122ef32d2850030e0f5e2fa952c7",
+  "timeout": 180
+}

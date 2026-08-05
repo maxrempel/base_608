@@ -1,0 +1,17 @@
+{
+  "last_editor": "Codex (GPT-5.6 SOL)",
+  "date": "2026-08-01",
+  "machine": "Pine",
+  "action": "Windows Recycle Bin emptied after Max's explicit approval",
+  "files_before": 851,
+  "bytes_before": 65013624124,
+  "recycle_payloads_after": 0,
+  "recycle_metadata_after": 0,
+  "c_drive_free_bytes_before": 13364584448,
+  "c_drive_free_bytes_after": 78376460288,
+  "recovered_bytes": 65011875840,
+  "recovered_gib": 60.547,
+  "recycle_bin_quota_restored_mb": 26424,
+  "nuke_on_delete": 0,
+  "note": "The only file remaining under the user Recycle Bin directory is Windows' 129-byte hidden system desktop.ini file; it is not deleted content."
+}

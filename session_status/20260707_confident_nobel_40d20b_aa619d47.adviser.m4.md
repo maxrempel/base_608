@@ -1,0 +1,7 @@
+# Adviser note - milestone 4 (~301K tokens)
+# session: 20260707_confident_nobel_40d20b_aa619d47
+# written: 2026-07-07 17:53:44 by deepseek-v4-pro
+
+TO MAX: The Assistant just concluded "0 de-novo, 0 son-differs" across all 47 - same "clean negative" framing you told them to drop - and earlier ranked a homozygous (inherited-from-both-parents) insertion as the #1 alien candidate, a basic genetics error you caught yourself. The population-frequency question you asked is the right one and it's answerable without the flaky online BLAST they failed at: T2T-CHM13 and 1000G SV catalogs are likely already on asto from the sibling P2 work. Also, the 30-50bp jump class you flagged twice is still completely unscanned. Those two are higher-yield than another autonomous sweep of the same 47.
+
+TO ASSISTANT: Stop re-sweeping the 47 and stop trying NCBI online BLAST (the guest box can't reach it). Two concrete deliverables Max actually asked for: (1) population frequency of the chr12 insert - check T2T-CHM13 assembly, 1000G structural-variant VCFs, and/or HPRC pangenome already on asto from the P2 sibling work; (2) scan the 30-50bp insertion class he's flagged twice and you've never run. Also fix your plumbing: the CRLF bugs come from piping scripts through Windows Python subprocess. Write the script to a temp file on asto via heredoc or scp, then run it directly - stop fighting the same bug every other turn.

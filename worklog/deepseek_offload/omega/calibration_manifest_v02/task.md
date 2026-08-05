@@ -1,0 +1,11 @@
+# OMEGA calibration manifest compact drafting task
+
+Last edited: 2026-08-02 by Codex (GPT-5.6 SOL)
+
+Draft a concise fail-closed OMEGA calibration manifest and blocker table. Never invent data, tolerances, controls, or outcomes.
+
+Frozen requirements: blinded real positives plus matched shams; short, medium, and long insertion strata; unique plus repeat or low-mappability contexts; separately denominated stages for truth admitted, parser candidate, Omun accepted, exact left junction, exact right junction, payload or length reconstructed, and sham accepted, with a reason for every loss. Biological readiness requires at least 80% overall locus recovery, no tested size/context stratum at zero, zero accepted shams, and stable mapper-boundary recovery. Exact-junction claims require at least 80% within an already-prespecified coordinate tolerance. Length claims require at least 90% correct on known lengths within an already-prespecified tolerance and zero false-exact calls. Missing tolerances are blockers. Any code repair creates a new version and replays the identical blinded panel.
+
+Verified inventory: the 32-real-positive GIAB HG002 panel is already unblinded, has only 300 bp and larger events, no frozen unique/repeat/mappability strata, no matched shams, and previously yielded 0/32 correct exact lengths with 2 false exact calls. The 3-real plus 3-sham cultured-control panel is already unblinded and repeatedly reused; it yielded 1/3 locus-window and junction-class recovery, 0/3 exact coordinate plus complete payload, and 0/3 shams. Its assemblies are terminal half-contigs, not independent full-spanning truth, and a prior stop decision forbids more tuning on it. Synthetic tests are software diagnostics, not lawful real-positive substitutes. Retained sources contain no explicit exact-junction coordinate tolerance and no complete independent blinded panel satisfying size, context, truth, and sham requirements.
+
+Return under 900 words: recommended TSV columns and row statuses; blocker rows with evidence, owner, exit test, and active bypass; smallest valid future pilot description without choosing loci; and an explicit runnable-versus-blocked decision. Do not include coordinates, identities, reads, sequences, or credentials.

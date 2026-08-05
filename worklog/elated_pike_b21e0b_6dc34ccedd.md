@@ -1,0 +1,5 @@
+
+## [2026-07-05 12:56] ? e72b305a
+- DID: Fixed 'Bitwarden disappears from Playwright Chromium'. Root cause: all Claude sessions share ONE persistent profile; a profile hosts one Chromium at a time, so concurrent sessions collided ('Browser already in use') and fell back to an extension-less isolated profile; stale locks wedged it too. Built launcher shim C:/claude_base/tools/playwright_bitwarden/pw_mcp_launch.py (OS file-lock: winner owns logged-in profile + clears stale locks; loser gets --isolated profile that STILL loads the Bitwarden extension via --load-extension in pw_mcp_config.json). Rewrote all 261 playwright entries in ~/.claude.json to run the shim. Proven via full MCP initialize handshake.
+- STATE: Shim tested working (handshake OK, lock logic OK). .claude.json backed up to ~/.claude.json.bak_pwshim_20260705_125145. Doc updated (CRITICAL #3 section).
+- NEXT: Max must RESTART Claude Code sessions for the shim to take effect (running MCP servers hold old npx command). Then verify Bitwarden present in a fresh session. Also: BW session token leaked in transcript earlier - decide whether to rotate (bw lock).

@@ -1,0 +1,9 @@
+[
+  {
+    "id": "942e2050",
+    "due": 1781712674.9934418,
+    "repeat_sec": 1200,
+    "msg": "MASS@TAMZA CHECK (20-min): run 'PYTHONIOENCODING=utf-8 python C:/claude_base/tools/mass_check/mass_check_v01.py --hours 0.4' and report any genuinely new/interesting mail to Max in plain English (skip Healthchecks.io status spam and marketing). If nothing notable, say so in one line.",
+    "created": 1781709074.9934726
+  }
+]

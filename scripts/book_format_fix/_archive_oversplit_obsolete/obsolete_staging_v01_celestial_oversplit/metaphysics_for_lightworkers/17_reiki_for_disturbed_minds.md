@@ -1,0 +1,7 @@
+# Metaphysics for Lightworkers - REIKI FOR DISTURBED MINDS
+
+*From "Metaphysics for Lightworkers" by Max Rempel, Ph.D.*
+
+Reiki is a wonderful way of naturally restoring the balance of the brain and rebalancing the chakras. Reiki calms the mind and teaches the patient to calm down. Many psychiatric and autistic patients have their chakras too open. Reiki can help them to normalize their chakras by bringing them to a more practically useful state of being optimally open. This would help them to communicate to other people better and make this communication more balanced and less traumatic. All this help should be with conscious agreement of the patient. It is not ethical to treat people against their will. Often treatments of disturbed people are very brief, if they want to stop, it is appropriate to stop.
+
+In helping disturbed minds, keep in mind that their parents and partners often could be helped by Reiki as well. In families with disturbed people, often parents, especially mothers, are compensating by focusing on the control idea. Helping them to relax and feel energy might help, although keep in mind that they could be rigid and reluctant to change their energies. In all cases it is ethical to keep offering Reiki help and give only as much as is accepted. Often it is not possible to give the people all the answers, so focus only on helping them to see their next step (Next step principle), help them to see the next door which could be open, the next opportunity for their development.

@@ -1,0 +1,5 @@
+SOL HEALTH DIGEST  updated 23:06:03
+latest: [23:06:03] up=22min load=0.46 1.94 1.54 mem=29393MB_avail temp=+35.0
+max_temp_seen: 65.0C
+--- TROUBLE ALARMS (reboot/overheat/unreachable) ---
+none - Sol healthy

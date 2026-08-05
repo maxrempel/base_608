@@ -1,0 +1,11 @@
+# From the Galaxy, With Love: A Lightworker's Textbook - PLEIADIANS: THE CORIATORIANS
+
+*From "From the Galaxy, With Love: A Lightworker's Textbook" by Max Rempel, Ph.D.*
+
+In addition to Mayans from the star Maya and Errans from the star Taygeta, there is another culture that is in communication with us through channelings, and they are also from Pleiades. They are known as The Blues to the American military. Since there are many blue races even in Pleiades, this specific race identified themselves as Coriatorians after their main planet, called Coriator. Coriatorians were represented initially and largely by Lakesh in channelings.
+
+The Coriatorians are very different from humans in many regards, especially in biochemistry. The Coriatorian air is poisonous for us. Coriatorians are very short, 5ft tall and wide - possibly XXXL size and larger. They characterize themselves shaped as a cookie man. Their highest caste members normally don't walk but float in the air. They rarely leave their home planet and avoid becoming involved in galactic politics. Their planets stick to political neutrality and rely on other species to protect their world. They communicate with other worlds and explore the universe from the comfort of their planets by using technologically enhanced telepathy and holographic projections.
+
+We have been in extensive channeling communication with them and they have helped us to understand many details about alien life. Possibly due to their neutrality and non-involvement, they were able to share more information about sensitive alien secrets than many other channeled sources.
+
+Lakesh told us that the Coriatorians contributed to the downfall of the Nazis in World War II. According to Lakesh, the Nazis were aided by the negative Sirians. Other sources also say that the Nazis were aided by the Nordics and Reptilians from Orion. In either case, the Coriаtorians holographically projected to the German Nazi leaders and exposed the deception of their alien partners. They presented the evidence that broke the alliance between the Nazi German leaders and their alien partners. The Coriatorians  also revealed similar information to the American Military. As a result, the alien allies of the Germans withdrew their support and the balance of power turned against the Germans.

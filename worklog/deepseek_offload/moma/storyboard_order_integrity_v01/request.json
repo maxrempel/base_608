@@ -1,0 +1,12 @@
+{
+  "created_at": "2026-07-30T15:59:45.844164Z",
+  "max_chars": 12000,
+  "max_tokens": 4096,
+  "model": "deepseek-v4-flash",
+  "privacy": "private-authorized",
+  "retries": 2,
+  "run_dir": "C:\\claude_base\\worklog\\deepseek_offload\\moma\\storyboard_order_integrity_v01",
+  "schema_version": 1,
+  "task_sha256": "712f6fb5f5de3987ed45fc9df1deba1b2f097cafbd5cf75f89bb96977352a131",
+  "timeout": 180
+}

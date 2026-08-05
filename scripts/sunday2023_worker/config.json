@@ -1,0 +1,19 @@
+{
+  "channel_url": "https://www.youtube.com/@Tamza/videos",
+  "year_from": "20230101",
+  "year_to": "20231231",
+  "title_includes": ["ГИТАРА", "ГИТАРН", "ГПК"],
+  "vk_group_id": "-200032154",
+  "vk_token_file": "C:\\Users\\maxre\\Nextcloud\\zSyncMain\\ssh\\vk_user_token.txt",
+  "height_max": 720,
+  "delay_seconds_between_videos": 900,
+  "delay_jitter_pct": 20,
+  "max_per_day": 10,
+  "max_retries": 3,
+  "retry_backoff_seconds": 60,
+  "ytdlp_botblock_backoff_seconds": 7200,
+  "cache_dir": "C:\\claude_base\\scripts\\sunday2023_worker\\cache",
+  "delete_after_upload": true,
+  "vcopier_path": "C:\\cloud_base\\scripts\\vcopier\\vcopier.py",
+  "_comment": "tune any value and rerun; worker picks up changes each iteration"
+}

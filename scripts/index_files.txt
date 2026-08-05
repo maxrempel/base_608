@@ -1,0 +1,15 @@
+# Files to sync to Memex. One path per line. Add new instruction docs here.
+C:\Users\maxre\Nextcloud\claude_md_synced\global_CLAUDE.md
+C:\Users\maxre\Nextcloud\claude_md_synced\SETUP_NEW_MACHINE.md
+C:\Users\maxre\Nextcloud\claude_md_synced\SETUP_MEMORY_SYNC.md
+C:\Users\maxre\Nextcloud\ai_images\image_gen_rules.md
+C:\Users\maxre\Nextcloud\ai_images\video_gen_rules_updated_20260301.md
+C:\Users\maxre\Nextcloud\ai_images\kazarian_episode\SCENE_PROMPT_GUIDE.md
+C:\Users\maxre\Nextcloud\ai_images\kazarian_episode\sound\voice_cloning_methods.md
+C:\Users\maxre\Nextcloud\ai_images\kazarian_episode\characters\IDENTITY_PRESERVATION_GUIDE.md
+C:\Users\maxre\Nextcloud\ai_images\kazarian_episode\characters\anna\ANNA_PORTRAIT_GUIDE.md
+C:\Users\maxre\Nextcloud\ai_images\kazarian_episode\characters\derek\DEREK_CHARACTER_DESCRIPTION.md
+C:\Users\maxre\Nextcloud\ai_images\kazarian_episode\characters\werner\WERNER_PORTRAIT_GUIDE.md
+C:\Users\maxre\Nextcloud\z_kazarian_episode\scenes_current\00_QUICK_REFERENCE_20260315.md
+C:\moma\memos\lipsync_api_picks_20260409.md
+C:\moma\memos\sync_so_3way_test_job524_20260409.md

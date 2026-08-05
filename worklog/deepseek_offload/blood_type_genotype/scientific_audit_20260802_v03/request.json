@@ -1,0 +1,12 @@
+{
+  "created_at": "2026-08-03T06:46:16.406551Z",
+  "max_chars": 12000,
+  "max_tokens": 4096,
+  "model": "deepseek-v4-flash",
+  "privacy": "private-authorized",
+  "retries": 2,
+  "run_dir": "C:\\claude_base\\worklog\\deepseek_offload\\blood_type_genotype\\scientific_audit_20260802_v03",
+  "schema_version": 1,
+  "task_sha256": "967dc0910731ec5465b12f82853cc8f65b1680e7e59a8b4840c0d116b4c9d607",
+  "timeout": 180
+}

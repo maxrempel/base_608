@@ -1,0 +1,37 @@
+{
+ "when": "2026-07-13T07:05:58.459698",
+ "days": 5.0,
+ "count": 6,
+ "swept": [
+  {
+   "kind": "fleet_cursors",
+   "rel": "amazing_hypatia_66c747_5a615ac141.cursor",
+   "age_days": -1
+  },
+  {
+   "kind": "fleet_cursors",
+   "rel": "confident_nobel_40d20b_d526a3d681.cursor",
+   "age_days": -1
+  },
+  {
+   "kind": "fleet_cursors",
+   "rel": "elated_pike_b21e0b_6dc34ccedd.cursor",
+   "age_days": -1
+  },
+  {
+   "kind": "fleet_cursors",
+   "rel": "modest_murdock_f1ec2f_ef7c31a5b0.cursor",
+   "age_days": -1
+  },
+  {
+   "kind": "fleet_cursors",
+   "rel": "reverent_mcclintock_fc5a95_e2d593f659.cursor",
+   "age_days": -1
+  },
+  {
+   "kind": "timer_decel_state",
+   "rel": "strange_swartz_4aa048_c7117734d7.json",
+   "age_days": -1
+  }
+ ]
+}

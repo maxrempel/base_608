@@ -1,0 +1,23 @@
+[
+  {
+    "id": "8c3cac8f",
+    "due": 1782165600.0,
+    "repeat_sec": 86400,
+    "msg": "MIKE-DC FILL (Pine/F4, afternoon). Read method doc C:/claude_base/tools/mike_dc_calendar/mike_dc_calendar_method_v01_tomemex.md. Dedup gcal 'Mike in DC' + Notion DB 40a81164-d856-4fab-8dfa-e93e6f0c7eb4, add ONLY verified in-person events (rolling today..+5, EA=#1), backfill DB same run, then curl https://hc-ping.com/cd162bbb-59b9-4736-aee3-3ccd4740736b. notificationLevel=NONE always.",
+    "created": 1782157819.0517535
+  },
+  {
+    "id": "dd3694b8",
+    "due": 1782230400.0,
+    "repeat_sec": 86400,
+    "msg": "MIKE-DC FILL (Pine/F4, morning). Read method doc C:/claude_base/tools/mike_dc_calendar/mike_dc_calendar_method_v01_tomemex.md. Dedup gcal 'Mike in DC' + Notion DB 40a81164-d856-4fab-8dfa-e93e6f0c7eb4, add ONLY verified in-person events (rolling today..+5, EA=#1), backfill DB same run, then curl https://hc-ping.com/cd162bbb-59b9-4736-aee3-3ccd4740736b. notificationLevel=NONE always.",
+    "created": 1782157827.9335523
+  },
+  {
+    "id": "a5b8ab33",
+    "due": 1782509592.8703437,
+    "repeat_sec": 0,
+    "msg": "SELF-TEST E16: if you are reading this, Pine woke an idle GUI session on schedule. Reply one line confirming the wake, then stop.",
+    "created": 1782509472.870366
+  }
+]

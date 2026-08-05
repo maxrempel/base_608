@@ -1,0 +1,7 @@
+# Celestial Science - Infiltration
+
+*From "Celestial Science" by Max Rempel, Ph.D.*
+
+Notwithstanding their positive rational, the Greys are historically known to infiltrate many other humanoid civilizations, secretly taking over control and hybridizing with other humanoids as well 88.  They infuse their genes and lifestyle in the indigenous populations producing the hybrids that are well suited biologically for their home planet environment and retain their ability for healthy reproduction. Extraterrestrial nicknamed 'Hank' from Tau-Ceti communicated that Tau-Cetians:
+" do not like the situation with some of the small grey aliens. He corrected us when we used the term 'grey' and said that they are actually white. The Tau-Cetians feel that the abductions being carried out by some of the Greys are a great injustice to humanity. 'They are a parasitic race that has and is preying on human civilizations throughout the universe. He added that our government's involvement with the grays is very dangerous and out of control. The Tau-Cetians have been preyed upon by these aliens before and they are working with other races and communities that were also victims." 89
+Therefore, the Greys do on Earth same thing that they did for many other civilizations in the past: prophesy coming disasters, abduct and program the abductees and fuse their genes with the indigenous population (that is us).

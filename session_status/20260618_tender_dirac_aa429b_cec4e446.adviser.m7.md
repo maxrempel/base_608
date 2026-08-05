@@ -1,0 +1,7 @@
+# Adviser note - milestone 7 (~526K tokens)
+# session: 20260618_tender_dirac_aa429b_cec4e446
+# written: 2026-06-18 16:28:55 by deepseek-v4-pro
+
+TO ASSISTANT: You ran ~20 prompt-variant fires to converge on a workable recipe - but the churn was mostly from over-directing prompts (frozen?robotic?neutral), then fixing your own fixes. The real cost here isn't the ~$6 in fires, it's that you kept firing new batches before Max could review the last one, so his verdicts landed on superseded clips. Lock the recipe from the last successful variant FIRST, let Max review, THEN fire the next batch. The distinct-stills round (2813-2817) is rendering - do not fire anything else until Max judges those. Also: you already learned "zoom-in invents faces from low-res stills" and "walk-away is the safe transition move" - that's D21's hard-won knowledge, don't forget it next arrangement.
+
+TO MAX: The speaker-swap problem that plagued the early fires was solved by the "left speaks first, then right answers" phrase (not L/R labels). The surviving batch (2813-2817) uses distinct per-beat stills so backgrounds won't repeat. The next structural issue is your observation about location jumps being too fast - the Assistant's advice was sound: cut to 3 monotonic locations max for a 2-min conversation, use motion-primed exits (walk-away) on the last line of each location. No re-fires needed for that yet - just re-chunking.

@@ -1,0 +1,17 @@
+{
+  "main_module": "worker.js",
+  "compatibility_date": "2026-05-01",
+  "bindings": [
+    {"type": "d1", "name": "D_blog", "id": "c25ab8ba-bab4-460a-b9c1-34790cdf7288"},
+    {"type": "d1", "name": "D_babel", "id": "22d7af92-18fa-4ee0-ad36-5679cc57c0e3"},
+    {"type": "d1", "name": "D_moma", "id": "cd12626c-3697-4dfe-a52b-0a22abd9d8e2"},
+    {"type": "d1", "name": "D_memory", "id": "ced548a2-e647-4547-9ae3-7606b08b6e16"},
+    {"type": "d1", "name": "D_starseed", "id": "18b8acfd-5688-4ef5-808d-23780fad0661"},
+    {"type": "d1", "name": "D_cozy1", "id": "c8d086cb-4bd6-4f1b-86b7-a3823ea41b43"},
+    {"type": "d1", "name": "D_cozy2", "id": "ebac88a7-b13b-4a7b-a090-62f6927e4bae"},
+    {"type": "d1", "name": "D_cozy1bak", "id": "70a11c06-3739-41ae-98a5-1f9ed526778c"},
+    {"type": "d1", "name": "D_lizmasters1", "id": "ddd16cad-7ebc-4e68-a2bc-c5001f6349d7"},
+    {"type": "d1", "name": "D_lizjobs1", "id": "ac68dce2-7d3f-49c9-b61d-ebcda155d65d"},
+    {"type": "d1", "name": "D_test", "id": "9b7501f4-aac6-4464-a8ab-161faa6f9b54"}
+  ]
+}

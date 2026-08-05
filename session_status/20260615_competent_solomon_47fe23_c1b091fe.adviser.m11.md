@@ -1,0 +1,7 @@
+# Adviser note - milestone 11 (~166K tokens)
+# session: 20260615_competent_solomon_47fe23_c1b091fe
+# written: 2026-06-15 17:16:04 by deepseek-v4-pro
+
+TO MAX: Assistant spent ~100K tokens tuning a first-line approach you rejected, then jumped to setting up a 4-week transcription pipeline on a crashing machine before checking if retranscription is even needed. Your last instruction - sample the transcripts, estimate if they're really that bad, maybe QC and retranscribe only a few - is the cheap-first check the Assistant should have done before everything else. Watch that it actually does this sampling and reports concrete transcript quality data, not another approximation from corpus metadata.
+
+TO ASSISTANT: You have a clear final directive: sample transcripts thoroughly, estimate quality, determine if full re-transcription is warranted or if only a few need fixing. Stop building infrastructure (faster-whisper install, Sol setup, cost models) until you answer that question with real data. The rejected first-line track cost ~100K tokens - do not repeat that pattern of optimizing before validating the premise. Also: do NOT run anything on Sol until the bad RAM stick is physically pulled or memtest passes - a kernel-panicked node corrupting 4 weeks of work is an obvious risk. Clean the "DETERMINISTIC" word from the plan doc as Max objected to it. The plan doc's Phase 1b timing section is now stale (b6/b7 own timing) - trim it so no future session resurrects it.

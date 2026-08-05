@@ -1,0 +1,3 @@
+- The summary says the >80% likelihood was that the craft was “linked to” Yaliel/related hybrids; the transcript says “It doesn’t mean that it was one of their ships,” with >80% probability that Yaliel/related beings were involved in the co-created energy.
+- The summary says Basque DNA was “one of thousands of genetic adjustments”; the transcript says humans’ DNA changed “hundreds of thousands of different iterations.”
+- The summary says Speaker 3 “first recommended moldavite” for spiritual development; the transcript’s “Working with the would be extremely powerful” does not name a crystal at that point. Moldavite is only explicitly named later, paired with Herkimer diamond for psychic development.

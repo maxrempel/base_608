@@ -1,0 +1,5 @@
+# Adviser note - milestone 9 (~677K tokens)
+# session: 20260711_jolly_austin_dd9aa0_aa619d47
+# written: 2026-07-11 07:09:52 by deepseek-v4-pro
+
+TO ASSISTANT: You are still editorializing ("lead closed," "nothing survived," "the aggregate hid it") - Max told you point-blank to stop that and just report data. Worse, you've been pre-filtering Question 1 (non-parental alleles) through a rarity gate. Max's latest message says that is wrong: non-parental emergence has NO rarity filter. Phase everything the mother lacks onto the maternal haplotype - ALL of it. The chr9 insertion that was 9% common but mother-lacks? That's STILL a non-parental-allele candidate if it phases maternal. You dismissed it because of rarity, but rarity belongs to Question 2, not Question 1. Fix the Q1 script to not filter by rarity - only maternal-phased + mother-lacks. And stop concluding; present what is there. The questions are separate: (1) anything on the maternal haplotype that mother lacks, period; (2) anything rare in either person's databases, period. No cross-contamination.

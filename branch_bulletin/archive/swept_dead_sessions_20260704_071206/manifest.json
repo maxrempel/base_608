@@ -1,0 +1,27 @@
+{
+ "when": "2026-07-04T07:12:07.096881",
+ "days": 5.0,
+ "count": 4,
+ "swept": [
+  {
+   "kind": "fleet_cursors",
+   "rel": "eager_carson_668dc2_5c8d957db7.cursor",
+   "age_days": -1
+  },
+  {
+   "kind": "fleet_cursors",
+   "rel": "moma_e1b32f74a4.cursor",
+   "age_days": -1
+  },
+  {
+   "kind": "fleet_cursors",
+   "rel": "wonderful_liskov_dcda0b_d200979c25.cursor",
+   "age_days": -1
+  },
+  {
+   "kind": "fleet_cursors",
+   "rel": "wonderful_taussig_c77080_30ab609890.cursor",
+   "age_days": -1
+  }
+ ]
+}

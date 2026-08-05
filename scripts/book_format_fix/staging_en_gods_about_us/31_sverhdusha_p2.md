@@ -1,0 +1,7 @@
+# Gods About Us - THE OVERSOUL (Part 2 of 2)
+
+*From the book "Gods About Us", Max Rempel*
+
+At the moment of death the soul relocates the etheric body away from the dying physical one and separates itself from a certain layer of it that is no longer needed, much as one separates from a placenta. There is evidence that when the body suffers severe trauma, the separation of the soul from the physical and etheric bodies is hindered, and this difficulty, these injuries, leave an imprint on subsequent incarnations.
+
+Now combine the understanding of the oversoul, which encompasses around thirty thousand souls, with the understanding of the symbiotic coexistence of the soul with the physical body, and you will obtain a tangible picture of how the spiritual world is built, its anatomy in the layers nearest to our own. There are many parallels between our world and the world of our souls, yet there are also radical differences, connected above all with their timelessness. Their time is multidimensional and they can move through it in any direction, much as we do in thought. Into tomorrow, into yesterday, into a fairy-tale world, into the real world; at a branching point of choice we can dream of both options in turn. This is a good illustration of the multidimensionality of time in the world of souls. Attention focuses on one thing, but nothing hurries it forward; it can leap back and forth and from one version of events into another.

@@ -1,0 +1,12 @@
+{
+  "created_at": "2026-08-03T15:59:24.805563Z",
+  "max_chars": 12000,
+  "max_tokens": 4096,
+  "model": "deepseek-v4-flash",
+  "privacy": "private-authorized",
+  "retries": 2,
+  "run_dir": "C:\\claude_base\\worklog\\deepseek_offload\\omega\\grch37_v02_manager_verification_draft_v01",
+  "schema_version": 1,
+  "task_sha256": "1f13cf03d07f38205976b8e982c90018346bd6062cd3701447d70c46df698573",
+  "timeout": 180
+}

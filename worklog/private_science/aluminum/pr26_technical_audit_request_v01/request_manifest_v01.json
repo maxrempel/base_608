@@ -1,0 +1,25 @@
+{
+  "biological_validation": "NO",
+  "callable_negative_target_per_survivor": 8,
+  "callable_negative_target_total": 32,
+  "created_at_utc": "2026-07-30T01:43:33.637607+00:00",
+  "cross_element_target_per_survivor": 4,
+  "family": "PR26",
+  "freeze_marker_sha256": "95c3c948c68c7c315dfacc90a657d46fd3c03f89be19e40d9467bd0babff8a0a",
+  "loose_non_survivor_state": "observed_zero_under_frozen_gate",
+  "primary_loose_non_survivors": 0,
+  "primary_strand_survivors": 4,
+  "private_candidate_cohort_sha256": "bd209e2fc698a9dc7b7c6a06340539d5fe382ca908b56f4ad036d54e5b5fece8",
+  "private_execution_request_sha256": "372a40b2ea6d7c45c9f3e8a97a326f11e892450d32604f78e61bc4b70aa3489e",
+  "production_rerun_authorized": false,
+  "scientific_gates_changed": false,
+  "source_hashes": {
+    "atlas_marker_sha256": "d41fe44345c3cc02b921b9e7a3604c5ebb50fad211ffd7626ab4a5325a266159",
+    "candidate_table_sha256": "abde2e62e7add2f0d34a79f8ac4c0a8a053cbbf7283c84aa9ff24a8115a15655",
+    "chromosome_table_sha256": "599b5cd2ca3884045f429b356cae3f1c078cc72626c4d6576ade351425bf6223",
+    "freeze_sha256": "279646d8c5542fa083c34d1973fb1c25fa781493d3b74c8395986461d35e1297"
+  },
+  "status": "READY",
+  "version": "v01",
+  "within_element_target_per_survivor": 4
+}

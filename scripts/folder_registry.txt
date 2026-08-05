@@ -1,0 +1,4 @@
+# Roots to scan for *_tomemex.md files. path|max_depth
+C:\Users\maxre\Nextcloud|5
+C:\moma|4
+C:\claude_base|4

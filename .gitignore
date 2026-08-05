@@ -1,0 +1,79 @@
+﻿# Runtime and temporary files
+temp/
+tmp/
+runtime/
+logs/
+outputs/
+.codex_runtime/
+.codex-remote-attachments/
+.tmp/
+
+# Backups and large data
+backups/
+memex_backups/
+yt_transcripts/
+yt_transcript_mcp/
+izvestia_alien_dna/
+dortmund_uploads/
+
+# Cloudflare and KV stores
+.wrangler/
+
+# Node and Python artifacts
+node_modules/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+env/
+venv/
+*.egg-info/
+dist/
+build/
+
+# IDE and editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Lock files
+*.lock
+
+# Compiled outputs
+*.exe
+*.dll
+*.so
+*.dylib
+
+# Database files
+*.db
+*.sqlite
+*.sqlite3
+
+# Large media files
+*.mp4
+*.mov
+*.avi
+*.mkv
+*.mp3
+*.wav
+*.flac
+
+# Archives
+*.zip
+*.tar
+*.tar.gz
+*.tgz
+*.rar
+*.7z
+
+# Logs
+*.log

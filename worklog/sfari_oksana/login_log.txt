@@ -1,0 +1,8 @@
+[2026-08-05T13:24:51.919253] start; user=opolessk@transposon.org
+[2026-08-05T13:24:56.986446] url after load: https://base.sfari.org/institution-details
+[2026-08-05T13:24:56.997399] body head: SFARI Base | Users | Oksana Polesskaya | Home |   | Institution Details | Provide the following details about your institution. | Common Name | Legal / Official Name | EIN or Institution ID | Institution Type | Non-profit | 
+[2026-08-05T13:24:57.036316] no login form; possibly already logged in
+[2026-08-05T13:25:00.192102] dump written; url=https://base.sfari.org/institution-details
+[2026-08-05T13:25:00.221342] filled EIN: 83-0652460
+[2026-08-05T13:25:00.239481] radio state: nonprofit_checked=True forprofit_checked=False
+[2026-08-05T13:25:01.751015] form state after fill: {"ein": "83-0652460", "np_true": true, "np_false": false, "common": "DNA Resonance Research Foundation", "official": "DNA Resonance Research Foundation"}

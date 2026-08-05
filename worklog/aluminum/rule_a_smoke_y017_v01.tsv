@@ -1,0 +1,2 @@
+family_id	tier	occurrence_key	frozen_strand_survivor	parent_alt_reads_mapq50_bq30	rule_a_flag
+Y017	strict_mapq60	sealed_slot_1	false	1	true

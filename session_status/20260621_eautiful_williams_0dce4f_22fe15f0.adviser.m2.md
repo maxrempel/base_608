@@ -1,0 +1,7 @@
+# Adviser note - milestone 2 (~166K tokens)
+# session: 20260621_eautiful_williams_0dce4f_22fe15f0
+# written: 2026-06-21 14:23:29 by deepseek-v4-pro
+
+TO MAX: the Assistant wrote custom fire scripts that call the OpenAI API directly instead of using MOMA's `concept_arrangement.py` engine. That engine handles the full lifecycle - reference strips, the images/edits call, image write, AND the jobs-table record that MOMA's frontend reads to display images. The custom scripts call `fire_job()` but likely aren't populating the jobs row the way MOMA's display layer expects, so images land on disk but are invisible in the UI. He also hasn't re-registered as D51 as you asked. This is fixable but he needs to stop reimplementing and start using the existing pipeline.
+
+TO ASSISTANT: you are reimplementing MOMA's image pipeline from scratch in throwaway scripts and the display layer can't see your output. Do this now: (a) reregister as D51 per Max's instruction; (b) read `concept_arrangement.py` fully - it already does everything your scripts do (reference strip assembly, images/edits call, file write, proper `fire_job` registration); (c) query the live D1 jobs table to see what a working visible image row actually looks like, compare to what your scripts produce; (d) use that existing engine, not your custom loop. The bug is almost certainly that your `fire_job` calls are missing a column or writing the wrong scene_tag / hide_tile that MOMA's display queries filter on. Stop writing new files until you've traced one working image through the full pipeline.

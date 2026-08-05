@@ -1,0 +1,12 @@
+{
+  "created_at": "2026-08-03T15:34:31.523410Z",
+  "max_chars": 12000,
+  "max_tokens": 4096,
+  "model": "deepseek-v4-flash",
+  "privacy": "private-authorized",
+  "retries": 2,
+  "run_dir": "C:\\claude_base\\worklog\\deepseek_offload\\omega\\grch37_wrapper_regression_harness_v02",
+  "schema_version": 1,
+  "task_sha256": "e470b0266a2ad0f34f8f04c11c3cec0fe6482d67413cc6de4b997b48c75931ee",
+  "timeout": 180
+}

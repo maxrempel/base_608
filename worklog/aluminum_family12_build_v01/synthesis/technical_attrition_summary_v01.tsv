@@ -1,0 +1,11 @@
+stage	tier	count	reference_count	retained_percent	meaning
+annotated_AluYa5_copies	shared	43932	43932	100.000000	annotated exact-copy elements considered
+alignment_accepted_AluYa5_copies	shared	41028	43932	93.389784	elements retained after reference-to-consensus alignment
+callable_positions	primary	9441389	9441389	100.000000	positions passing primary mapping, base-quality, and depth rules
+child_supported_alleles	primary	35876	35876	100.000000	alleles meeting child support requirements
+parent_absent_loose_leads	primary	16	35876	0.044598	child-supported alleles not observed in either parent
+strand_filter_survivors	primary	10	16	62.500000	primary loose leads surviving the strand rule
+callable_positions	strict_mapq60	3303719	9441389	34.991875	positions callable under the separately computed strict tier
+child_supported_alleles	strict_mapq60	12315	35876	34.326569	child-supported alleles under the separately computed strict tier
+parent_absent_leads	strict_mapq60	1	12315	0.008120	strict child-supported alleles not observed in either parent
+strict_survivors	strict_mapq60	1	1	100.000000	strict leads surviving all frozen screen rules

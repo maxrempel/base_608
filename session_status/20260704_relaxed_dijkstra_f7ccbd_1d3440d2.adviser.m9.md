@@ -1,0 +1,7 @@
+# Adviser note - milestone 9 (~678K tokens)
+# session: 20260704_relaxed_dijkstra_f7ccbd_1d3440d2
+# written: 2026-07-04 16:12:21 by deepseek-v4-pro
+
+TO MAX: The Assistant finally locked the right approach (fishing-to-extend on chr19, annotate-everything, calibrate from the distribution) and chr19 is running on Oliver's good BAM. But you had to drag them there - they twice jumped to genome-wide runs that produced meaningless numbers and had to be walked back. The session is at ~678K tokens with ~349 turns; roughly half of that is infrastructure debugging loops (Sol corruption, EC2 spawn-abort, ssh/nohup/tmux fails, r-deletion bugs). The real scientific work - exhaustive annotation and clustering of the chr19 candidates - hasn't started yet. That's the test of whether the method actually works.
+
+TO ASSISTANT: Stop the infrastructure heroics. Let chr19 finish, then do the ONE thing Max asked: look at the real data CLOSE UP. Annotate every candidate payload - map-to-human, kraken taxon, repeat class, mappability, support, overhang-length - cluster them on those features, and show Max where the human-repeat cloud ends and genuine-foreign territory begins. No more genome-wide launches until that calibration is done and shown. Cut the TLDR blocks in half. Max explicitly said "discuss the approach in normal language. It's short." Stop narrating your own process - just produce the annotation scatter and let him read it.

@@ -1,0 +1,12 @@
+{
+  "created_at": "2026-07-28T17:38:19.977727Z",
+  "max_chars": 12000,
+  "max_tokens": 4096,
+  "model": "deepseek-v4-flash",
+  "privacy": "private-authorized",
+  "retries": 2,
+  "run_dir": "C:\\claude_base\\worklog\\deepseek_offload\\android_vocalizer\\architecture_v01",
+  "schema_version": 1,
+  "task_sha256": "fe29444b3ca65c9f01e17dd3eabaa9f1183b843c3269cafdea26c994dfa8b82f",
+  "timeout": 180
+}

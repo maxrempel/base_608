@@ -1,0 +1,394 @@
+{
+  "C26": {
+    "id": "C26",
+    "task": "C26: build + deploy the global task log (tasklog) on Pine and Cent",
+    "cwd": "C:\\claude_base\\.claude\\worktrees\\nervous-spence-f619f8",
+    "machine": "Pine",
+    "updated": "2026-06-22 07:39:53"
+  },
+  "E10": {
+    "id": "E10",
+    "task": "Gmail semantic search: backfill COMPLETE (503k emails in Cloudflare max-emails). Pending: freshness refresh + Lak backup.",
+    "cwd": "C:\\claude_base\\.claude\\worktrees\\unruffled-northcutt-1b9f73",
+    "machine": "Pine",
+    "updated": "2026-06-22 10:41:48"
+  },
+  "C27": {
+    "id": "C27",
+    "task": "C27: dia22 design discussion - escalating attention-pinger (thick frame color + 4-stage chime) for Max across many chats",
+    "cwd": "C:\\claude_base\\.claude\\worktrees\\intelligent-boyd-7c0c82",
+    "machine": "Pine",
+    "updated": "2026-06-22 10:48:35"
+  },
+  "g4": {
+    "id": "g4",
+    "task": "noflash watcher: built scanner+hook on Pine+Centauri; now fixing CF Workers KV Backup live flasher",
+    "cwd": "C:\\claude_base\\.claude\\worktrees\\beautiful-villani-5507cf",
+    "machine": "Pine",
+    "updated": "2026-06-22 11:00:27"
+  },
+  "D30recoder": {
+    "id": "D30recoder",
+    "task": "D41: reelmaker+imager - merge in-flight/done filter buttons into one 'Active' view + smart 3s auto-poll that re-renders only on real status change (no blink)",
+    "cwd": "C:\\moma",
+    "machine": "Pine",
+    "updated": "2026-06-24 08:11:36"
+  },
+  "G3": {
+    "id": "G3",
+    "task": "Backup worker for Mike-DC calendar; fill is DOWN ~2d (monitor caught it), standing by to run a proper fill on Max's go",
+    "cwd": "C:\\moma\\.claude\\worktrees\\awesome-bell-a6ad80",
+    "machine": "Pine",
+    "updated": "2026-06-22 12:24:29"
+  },
+  "G2": {
+    "id": "G2",
+    "task": "G2: owner of the Mike-DC-calendar missed-update monitor (Healthchecks mike-dc-calendar-daily, panics at 1.5d via Telegram+email)",
+    "cwd": "C:\\claude_base\\.claude\\worktrees\\hungry-mayer-737e63",
+    "machine": "Pine",
+    "updated": "2026-06-22 12:24:39"
+  },
+  "g1": {
+    "id": "g1",
+    "task": "Mike-DC calendar: post-cutover ownership + fill-heartbeat-down diagnosis (Centauri now owns; Pine wakes cancelled)",
+    "cwd": "C:\\claude_base\\.claude\\worktrees\\sweet-kepler-a528fd",
+    "machine": "Pine",
+    "updated": "2026-06-22 12:24:53"
+  },
+  "f4": {
+    "id": "f4",
+    "task": "Mike DC calendar fill (taken over from F1) - focus Fri Jun 26 gap + rolling 5-day window",
+    "cwd": "C:\\moma\\.claude\\worktrees\\flamboyant-shockley-ec7c00",
+    "machine": "Pine",
+    "updated": "2026-06-22 12:27:18"
+  },
+  "c16b": {
+    "id": "c16b",
+    "task": "Android remote-control: phone chat can talk to/wake any Pine or Centauri session, plus a dedicated 'desk' listener session per machine that does requested work (email, lookups) and replies back",
+    "cwd": "C:\\claude_base\\.claude\\worktrees\\silly-aryabhata-3dcfd5",
+    "machine": "Pine",
+    "updated": "2026-06-23 16:56:10"
+  },
+  "D32": {
+    "id": "D32",
+    "task": "moma worker death/hang watchdog + atomic claim + stalled-status UI (all 5 workers protected; pids moved off Nextcloud)",
+    "cwd": "C:\\moma\\.claude\\worktrees\\busy-ellis-5efd36",
+    "machine": "Pine",
+    "updated": "2026-06-23 16:57:14"
+  },
+  "D40": {
+    "id": "D40",
+    "task": "D40: building sc10 spot11 reel (L30-L32 merged ANNA/ISHTAB, gesture+talk then walk into room) via Gesturing Protocol",
+    "cwd": "C:\\moma\\.claude\\worktrees\\naughty-hugle-5f3b66",
+    "machine": "Pine",
+    "updated": "2026-06-23 17:41:10"
+  },
+  "D24fixer": {
+    "id": "D24fixer",
+    "task": "autonomous; waiting on D44 to finish canonical-path work; then jointly ship script_lines dedupe (UNIQUE constraint + canonical helper + cleanup pass) per Max's brainstorm; off shared files while D40 edits register_merge/merge_ops",
+    "cwd": "C:\\moma\\.claude\\worktrees\\cranky-noether-5d066f",
+    "machine": "Pine",
+    "updated": "2026-06-23 18:22:09"
+  },
+  "c16": {
+    "id": "c16",
+    "task": "Making the scheduled/calendar wake-up 100% resilient (survive machine-off, cloud-backed, catch-up ASAP on return) - for F4's Mike-DC appointments",
+    "cwd": "C:\\claude_base\\.claude\\worktrees\\thirsty-bohr-12fb75",
+    "machine": "Pine",
+    "updated": "2026-06-24 13:58:57"
+  },
+  "D53": {
+    "id": "D53",
+    "task": "sc10 storyboard QA: recheck every spot (auto-match correctness) + audit reel_membership/storyboard code for inelegance/inherited junk",
+    "cwd": "C:\\moma\\.claude\\worktrees\\optimistic-germain-f69be6",
+    "machine": "Pine",
+    "updated": "2026-06-24 14:15:50"
+  },
+  "D61": {
+    "id": "D61",
+    "task": "Generating sci-fi orbital-station background hum samples via ElevenLabs SFX for Max's movie",
+    "cwd": "C:\\claude_base\\.claude\\worktrees\\peaceful-keller-4c17e4",
+    "machine": "Pine",
+    "updated": "2026-06-24 22:44:08"
+  },
+  "gmail_triage": {
+    "id": "gmail_triage",
+    "task": "SAM.gov TRANSPOSON registration renewal (post-IJMS, working through inbox)",
+    "cwd": "C:\\claude_base\\.claude\\worktrees\\compassionate-swanson-faa37b",
+    "machine": "Pine",
+    "updated": "2026-06-25 13:35:17"
+  },
+  "c6": {
+    "id": "c6",
+    "task": "c6 = adviser/reviewer for team-comms infra (bcast/wake/worklog routing). c16 owns the builds. Forward anti-pollution LIVE+verified. Open: whether to archive-snapshot vs surgically migrate old junk off joint board - awaiting Max.",
+    "cwd": "C:\\claude_base\\.claude\\worktrees\\musing-kare-7ff037",
+    "machine": "Pine",
+    "updated": "2026-06-25 14:47:31"
+  },
+  "D41": {
+    "id": "D41",
+    "task": "MOMA storyboard v2 - sparse positions + fresh reel auto-landing (v2.51/v2.54)",
+    "cwd": "C:\\moma\\.claude\\worktrees\\pedantic-beaver-56f8c7",
+    "machine": "Pine",
+    "updated": "2026-06-25 18:32:55"
+  },
+  "f14": {
+    "id": "f14",
+    "task": "Mike-DC calendar fill (f14/Anna): decide headed-vs-headless wake architecture; spend false-alarm resolved, Windows Task disabled",
+    "cwd": "C:\\moma\\.claude\\worktrees\\strange-poitras-35a1c8",
+    "machine": "Pine",
+    "updated": "2026-06-26 09:08:01"
+  },
+  "x1": {
+    "id": "x1",
+    "task": "XG1 Kristen Kenefick genetics case: chimerism/maternal-Y analysis, consent forms, replying to her INDEL screenshots",
+    "cwd": "C:\\claude_base\\.claude\\worktrees\\serene-swanson-f7566a",
+    "machine": "Pine",
+    "updated": "2026-06-26 09:16:38"
+  },
+  "b15merger": {
+    "id": "b15merger",
+    "task": "Tamza Kartoteka LIVE PUBLISH owner: seg_end recoveries deployed (899+3201-17+10 live); titles-free first-line publish candidate built+QC-passed, awaiting Max's scope-GO to deploy live.",
+    "cwd": "C:\\claude_base\\.claude\\worktrees\\dreamy-liskov-ad0649",
+    "machine": "Pine",
+    "updated": "2026-06-26 09:55:04"
+  },
+  "C35": {
+    "id": "C35",
+    "task": "Building mail_watch doorbell: a non-Claude Gmail poller (Pine scheduled task, 12-minute-pattern grace after boot) that wakes the persistent C40 triage session on new mail",
+    "cwd": "C:\\claude_base\\.claude\\worktrees\\bold-villani-1a66b0",
+    "machine": "Pine",
+    "updated": "2026-06-26 09:57:01"
+  },
+  "F40": {
+    "id": "F40",
+    "task": "F40 = email checker on duty: triage assistant-mailbox mail (anna@/mass@), summarize/alarm Max on non-Mike mail, never auto-reply; Mike mail handled by f4/Anna",
+    "cwd": "C:\\claude_base\\.claude\\worktrees\\recursing-jemison-10c3c5",
+    "machine": "Pine",
+    "updated": "2026-06-26 15:01:38"
+  },
+  "F35": {
+    "id": "F35",
+    "task": "F35: built the mail_watch mailbox-watcher (doorbell.py = dumb non-Claude Gmail poller on a 12-min Win task + 12-minute settle pattern; wakes persistent triage session F40 via bcast on new mail to anna@/mass@). Built, registered, tested, committed (4c57dcb4). F40 is live + self-briefed. Test wake to F40 queued (lands on F40's next turn).",
+    "cwd": "C:\\claude_base\\.claude\\worktrees\\bold-villani-1a66b0",
+    "machine": "Pine",
+    "updated": "2026-06-26 15:05:29"
+  },
+  "F2": {
+    "id": "F2",
+    "task": "F2: owner of the Mike-DC-calendar missed-update monitor (Healthchecks mike-dc-calendar-daily cd162bbb, 1.5d grace, Telegram+email). Fill=F4/Pine, emails=Centauri.",
+    "cwd": "C:\\claude_base\\.claude\\worktrees\\hungry-mayer-737e63",
+    "machine": "Pine",
+    "updated": "2026-06-26 15:37:48"
+  },
+  "F3": {
+    "id": "F3",
+    "task": "MAIN MONITOR for Mike-DC fill: timer-watch heartbeat cd162bbb; if it lapses, force-wake F4 or run a fill",
+    "cwd": "C:\\moma\\.claude\\worktrees\\awesome-bell-a6ad80",
+    "machine": "Pine",
+    "updated": "2026-06-26 15:38:33"
+  },
+  "x3": {
+    "id": "x3",
+    "task": "x3 = on-case manager, Kenefick XG1 genome: coordinating WGS VCF download + maternal-Y AD/chimerism headline",
+    "cwd": "C:\\claude_base\\.claude\\worktrees\\festive-banach-022a79",
+    "machine": "Pine",
+    "updated": "2026-06-26 15:39:10"
+  },
+  "c33": {
+    "id": "c33",
+    "task": "bcast watcher: add DeepSeek misroute check (joint thread that's really single-team -> suggestive persistent nudge to move it)",
+    "cwd": "C:\\claude_base\\.claude\\worktrees\\agitated-swartz-fdf03c",
+    "machine": "Pine",
+    "updated": "2026-06-26 15:41:31"
+  },
+  "b9": {
+    "id": "b9",
+    "task": "VTP - design videos-to-publish backup+tracking system (b9)",
+    "cwd": "C:\\claude_base\\.claude\\worktrees\\cranky-euclid-9c3e48",
+    "machine": "Pine",
+    "updated": "2026-06-26 15:46:04"
+  },
+  "D59": {
+    "id": "D59",
+    "task": "QA/coordinator (C40): teamwork-system bug audit + mail-triage doorbell target. Force-wake audit CLOSED.",
+    "cwd": "C:\\claude_base",
+    "machine": "Pine",
+    "updated": "2026-06-27 07:51:20"
+  },
+  "E26": {
+    "id": "E26",
+    "task": "E26: general troubleshooter (was E25 typer)",
+    "cwd": "C:\\claude_base\\.claude\\worktrees\\optimistic-spence-cc1b7b",
+    "machine": "Pine",
+    "updated": "2026-06-27 09:27:35"
+  },
+  "x6": {
+    "id": "x6",
+    "task": "x6: learning/taking over x1 (Kenefick genome case manager, XG1). Resurrecting x1's full context via cc_recover.",
+    "cwd": "C:\\claude_base\\.claude\\worktrees\\trusting-noether-bfa7db",
+    "machine": "Pine",
+    "updated": "2026-06-27 09:32:07"
+  },
+  "x3old": {
+    "id": "x3old",
+    "task": "Kenefick XG1: chrY maternal-Y/microchimerism analysis (AD depth + Y-test) - DONE, reported to x1, idling for follow-up",
+    "cwd": "C:\\claude_base\\.claude\\worktrees\\festive-banach-022a79",
+    "machine": "Pine",
+    "updated": "2026-06-27 10:15:05"
+  },
+  "C40": {
+    "id": "C40",
+    "task": "QA force-wake system: shipped wrong-name fix; designing how to keep Max's 15 background sessions wakeable (self-wake timer re-arm)",
+    "cwd": "C:\\claude_base\\.claude\\worktrees\\bold-tharp-56d611",
+    "machine": "Pine",
+    "updated": "2026-06-27 14:52:10"
+  },
+  "E16": {
+    "id": "E16",
+    "task": "E16: wake_listener/scheduled-wake owner - diagnosing idle-wake failures (Pine works, Cent orphaned schedules), coordinating fix with C40/g4/D59",
+    "cwd": "C:\\claude_base\\.claude\\worktrees\\optimistic-aryabhata-1e4639",
+    "machine": "Pine",
+    "updated": "2026-06-27 15:32:38"
+  },
+  "C41": {
+    "id": "C41",
+    "task": "wake-persistence: re-arm Max's EXISTING desktop sessions after a restart, hidden + no typing interference",
+    "cwd": "C:\\claude_base",
+    "machine": "Pine",
+    "updated": "2026-06-27 16:37:19"
+  },
+  "C42": {
+    "id": "C42",
+    "task": "Persistent wakeability of existing desktop tabs: shipped orphan-guard + arm-file zombie_sweep; pending Max-return restart test",
+    "cwd": "C:\\claude_base\\.claude\\worktrees\\elastic-antonelli-fcac29",
+    "machine": "Pine",
+    "updated": "2026-06-27 17:17:02"
+  },
+  "F1": {
+    "id": "F1",
+    "task": "F1: supervising f4's Mike-DC calendar fills (twice-daily deep checks + light decel liveness loop); F2 owns heartbeat watchdog",
+    "cwd": "C:\\claude_base\\.claude\\worktrees\\sweet-kepler-a528fd",
+    "machine": "Pine",
+    "updated": "2026-06-27 17:57:09"
+  },
+  "D51": {
+    "id": "D51",
+    "task": "MOMA scene music saving: persist+collect music overlay params & input files with ~15 versions before moving to SC11",
+    "cwd": "C:\\moma\\.claude\\worktrees\\wonderful-liskov-dcda0b",
+    "machine": "Pine",
+    "updated": "2026-06-28 22:55:21"
+  },
+  "D52": {
+    "id": "D52",
+    "task": "MoMA: design input images for reels (lipsys) for SYN 0 / SYN 11",
+    "cwd": "C:\\moma\\.claude\\worktrees\\wonderful-taussig-c77080",
+    "machine": "Pine",
+    "updated": "2026-06-28 23:00:51"
+  },
+  "F41": {
+    "id": "F41",
+    "task": "F41: helper to F4 (mike-dc-calendar / general assist), awaiting task assignment",
+    "cwd": "C:\\claude_base\\.claude\\worktrees\\eager-carson-668dc2",
+    "machine": "Pine",
+    "updated": "2026-06-28 23:28:18"
+  },
+  "d54": {
+    "id": "d54",
+    "task": "Music project: download ~30 Suno tracks via Playwright, then catalog/annotate/star/cut pieces in a DB",
+    "cwd": "C:\\moma\\.claude\\worktrees\\dazzling-lichterman-38ba23",
+    "machine": "Pine",
+    "updated": "2026-06-29 16:36:35"
+  },
+  "D62": {
+    "id": "D62",
+    "task": "D62: canonize SEATED Derek portraits with beret on (sc11 service-desk)",
+    "cwd": "C:\\moma\\.claude\\worktrees\\jolly-leavitt-3238eb",
+    "machine": "Pine",
+    "updated": "2026-06-29 18:49:27"
+  },
+  "D55": {
+    "id": "D55",
+    "task": "D55: parallel s3032 fire - sc11_arr02 with WOOD bentwood chairs (D52 doing white), same table changes (Werner-only podstakannik, teacups, napkins, apple vase, Vienna pastries)",
+    "cwd": "C:\\moma\\.claude\\worktrees\\xenodochial-nightingale-2c1a8c",
+    "machine": "Pine",
+    "updated": "2026-06-29 23:59:30"
+  },
+  "D58": {
+    "id": "D58",
+    "task": "MOMA popup: make input-image thumbnails (5-ref thumbstrip) clickable to preview full input image",
+    "cwd": "C:\\moma\\.claude\\worktrees\\sad-babbage-086484",
+    "machine": "Pine",
+    "updated": "2026-06-30 00:02:08"
+  },
+  "D56": {
+    "id": "D56",
+    "task": "MOMA: scope /api/jobs by scene to shrink the 4MB Refresh payload",
+    "cwd": "C:\\moma\\.claude\\worktrees\\magical-lovelace-c8f08d",
+    "machine": "Pine",
+    "updated": "2026-06-30 00:08:45"
+  },
+  "C51": {
+    "id": "C51",
+    "task": "Fixing bcast team-number collisions (identity keyed to folder -> sessions sharing a dir swap numbers)",
+    "cwd": "C:\\moma\\.claude\\worktrees\\stupefied-albattani-06be1d",
+    "machine": "Pine",
+    "updated": "2026-06-30 00:32:17"
+  },
+  "b29": {
+    "id": "b29",
+    "task": "Tamza NONH timecoder-handover method + first-line handover (validated); relaying Max's GO to publish recognized performances live",
+    "cwd": "C:\\claude_base\\.claude\\worktrees\\inspiring-almeida-cc66dc",
+    "machine": "Pine",
+    "updated": "2026-07-02 08:09:57"
+  },
+  "cwd:trusting_kirch_e89068_102911d064": {
+    "id": null,
+    "task": "bcast/watcher duplicate-session audit + redesign (C12A)",
+    "cwd": "C:\\claude_base\\.claude\\worktrees\\trusting-kirch-e89068",
+    "machine": "Pine",
+    "updated": "2026-07-02 08:12:23"
+  },
+  "cwd:wizardly_saha_0023b3_c7d5246972": {
+    "id": null,
+    "task": "typer.py bug hunt (round 2) - looking for the major audio/format data-loss bug",
+    "cwd": "C:\\claude_base\\.claude\\worktrees\\wizardly-saha-0023b3",
+    "machine": "Pine",
+    "updated": "2026-07-02 11:50:58"
+  },
+  "b3": {
+    "id": "b3",
+    "task": "Liz German applicant-visa: starting online application on digital.diplo.de (Consular Services Portal, LA)",
+    "cwd": "C:\\claude_base",
+    "machine": "Pine",
+    "updated": "2026-07-23 08:49:29"
+  },
+  "npa_main": {
+    "id": "npa_main",
+    "task": "Liz German student visa on diplo.de: switched to regular student visa (admission letter received), 7/7 form done; now registering TK health insurance for the visa document",
+    "cwd": "C:\\claude_base",
+    "machine": "Pine",
+    "updated": "2026-07-23 13:45:11"
+  },
+  "npa_owner": {
+    "id": "npa_owner",
+    "task": "Liz German student visa (16b, LA consulate): stage all docs + book embassy appointment on digital.diplo.de; autonomous, stop before Liz's final submission",
+    "cwd": "C:\\claude_base",
+    "machine": "Pine",
+    "updated": "2026-07-28 10:33:46"
+  },
+  "H42B": {
+    "id": "H42B",
+    "task": "Lesson 2: import from Notion, split to spots, register in MOMA, produce+assemble Anna voice audio",
+    "cwd": "C:\\moma",
+    "machine": "Pine",
+    "updated": "2026-07-29 22:02:01"
+  },
+  "bwctrl02": {
+    "id": "bwctrl02",
+    "task": "Long-read genomic data access: consolidating application records + filing EGA/GA4K/MSSNG applications for TRANSPOSON",
+    "cwd": "C:\\claude_base",
+    "machine": "Pine",
+    "updated": "2026-08-05 16:08:25"
+  }
+}

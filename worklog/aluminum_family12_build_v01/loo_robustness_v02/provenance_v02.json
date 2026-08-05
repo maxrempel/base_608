@@ -1,0 +1,20 @@
+{
+  "analysis": "Aluminum leave-one-family-out robustness",
+  "atlas_manifest_sha256": "fa6f33f5f15fd7289e0fbc5e8686c81f24ba028dabc75e3f98aafe7f8fefa5ff",
+  "atlas_marker_sha256": "24d0b0fa808062a8c07013128e84b7b2ea3ac8d6ad80ef6918324968d45b259c",
+  "date": "2026-07-30",
+  "input_hashes": {
+    "candidate_occurrences_v01.tsv": "abde2e62e7add2f0d34a79f8ac4c0a8a053cbbf7283c84aa9ff24a8115a15655",
+    "chromosome_atlas_v01.tsv": "58fb902cd141b946fb52283c1b41eae030fbd1e797e72bfa6ef78a7d5500ac1a",
+    "family_atlas_v01.tsv": "df9d86eaae173d56178cdf95500b7f6a123a3220c8051b73f0b36f2c01c9266e"
+  },
+  "script_sha256": "083b4ae68001ab8d5d643a6cb3cac722ad56c6347ffaba527cde46172622c107",
+  "tests": {
+    "family_global_test": "exact_multinomial_Pearson_enumeration",
+    "family_omissions": 12,
+    "multiplicity": "Bonferroni as labeled; sensitivity rows are not replications",
+    "substitution_omissions": 12,
+    "substitution_test": "Fisher_exact_two_sided"
+  },
+  "version": "v02"
+}

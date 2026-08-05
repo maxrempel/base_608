@@ -1,0 +1,5 @@
+# Metaphysics for Lightworkers - STEP ASIDE
+
+*From "Metaphysics for Lightworkers" by Max Rempel, Ph.D.*
+
+The general rule of Reiki is to stay in place if the energies are flowing well and to move on when they are not flowing or stop flowing. It is usually not wise to force energies if they are not flowing. Reiki energies are intelligent so it is more appropriate to invite them and wait for them to come. Sometimes it helps to stop pushing and relax. It is very helpful to close your eyes and go into a meditative trance while doing the healing. This is more natural. You put out an intention to heal and to help the patient, you put out simple open- ended questions how to best help the patient, and then relax and trust the spirit to do its work. You go into playful trance, smile and accept what comes. Purify your thoughts, keep them simple, don't over-sweat the healing process. If something feels uncomfortable or painful, move on, shake off any bad vibes, do a slow Reiki healing dance to bring in good vibes, and make the healing pleasant for you and the patient.

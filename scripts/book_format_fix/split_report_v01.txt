@@ -1,0 +1,27 @@
+
+### Celestial Science  ->  celestial_science/  (168 files, source 343032 chars)
+    biggest: [ 7144] 54_how_the_old_teachers_dealt_with_the_nega_p1.md
+    biggest: [ 7133] 15_on_anger_a_discussion_at_the_support_gro_p1.md
+    biggest: [ 7133] 16_on_anger_a_discussion_at_the_support_gro_p2.md
+
+### Боги о нас  ->  bogi_o_nas/  (38 files, source 150661 chars)
+    biggest: [ 7047] 32_zakon_myslennogo_prityazheniya_p1.md
+    biggest: [ 7035] 30_sverhdusha_p1.md
+    biggest: [ 7003] 17_ogranicheniya_vozmozhnostey_vysshih_sil_p1.md
+
+### Welcome to Earth! A Guide for Aliens  ->  welcome_to_earth/  (227 files, source 546059 chars)
+    biggest: [ 7090] 23_crime_p1.md
+    biggest: [ 7090] 82_separation_p1.md
+    biggest: [ 7086] 166_financial_tyranny_p1.md
+
+### Metaphysics for Lightworkers  ->  metaphysics_for_lightworkers/  (40 files, source 68794 chars)
+    biggest: [ 5276] 40_networking_and_bubble_realities.md
+    biggest: [ 4646] 28_pleiadians.md
+    biggest: [ 3976] 11_incarnation.md
+
+### From the Galaxy, With Love: A Lightworker's Textbook  ->  from_the_galaxy/  (91 files, source 427361 chars)
+    biggest: [ 7211] 40_finyet_about_atlantis_lemuria_and_origin_p2.md
+    biggest: [ 7197] 18_personal_experiences_on_pleiadian_planet_p2.md
+    biggest: [ 7193] 26_on_pleiadians_draconians_reptilians_and_p1.md
+
+TOTAL files: 564

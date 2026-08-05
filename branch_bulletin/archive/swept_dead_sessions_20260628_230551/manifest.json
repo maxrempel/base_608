@@ -1,0 +1,17 @@
+{
+ "when": "2026-06-28T23:05:51.255186",
+ "days": 5.0,
+ "count": 2,
+ "swept": [
+  {
+   "kind": "state",
+   "rel": "charming_bhabha_1cf49c_cf90053d96.json",
+   "age_days": -1
+  },
+  {
+   "kind": "timer_decel_state",
+   "rel": "timer_decel_d588e450c5.json",
+   "age_days": -1
+  }
+ ]
+}

@@ -1,0 +1,16 @@
+[
+  {
+    "id": "bcf6dad0",
+    "due": 1782662400.0,
+    "repeat_sec": 2592000,
+    "msg": "RENT due-3: SEND Olga her monthly rent reminder now (3 days before the 1st). Send the bilingual RU/EN reminder to olgafoshchan87@gmail.com via: python C:/claude_base/tools/mxmail/mxmail_v01.py send_mail from mass@tamza.com, signature=None (body has its own sig). Content: rent $1300/month, due the 1st, cash preferred, utilities included, note it's a pre-approved automatic message from Max's virtual assistant. This send is pre-approved by Max (set 2026-06-16) - no need to wait for Max. NOTE: 'monthly'=30-day step, drifts; re-anchor to ~28th if needed. Agreement: Pine Documents 'Olga 2026 Room_Rental_Agreement_20260525_v01.pdf'.",
+    "created": 1781645667.263909
+  },
+  {
+    "id": "89962af7",
+    "due": 1782576000.0,
+    "repeat_sec": 2592000,
+    "msg": "RENT due-4: POKE MAX, do NOT email Olga here. Telegram heads-up via bot @MMMMonitorMaxBot: 'Heads-up: Olga's monthly rent reminder will AUTO-SEND to her TOMORROW (the 28th) - $1300 due the 1st, cash. Reply if you want to CANCEL or change this month's send.' Purpose: give Max one day to cancel before the Olga send. If Max says cancel/skip this month, cancel the due-3 Olga wake (id bcf6dad0) occurrence (cancel + re-add for next month, or disable). NOTE: 'monthly'=30-day step, drifts; re-anchor to ~27th if needed.",
+    "created": 1781646195.5236435
+  }
+]

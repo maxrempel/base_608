@@ -1,0 +1,7 @@
+# Metaphysics for Lightworkers - THE MATRIX, THE HOLOGRAM
+
+*From "Metaphysics for Lightworkers" by Max Rempel, Ph.D.*
+
+Our reality is an illusion. Time is an illusion. Matter is an illusion. Yet it is a very well designed illusion. Try to walk through the wall and you will feel the great quality of this illusion. Try to be late for an airplane and you will witness a solid quality of the illusion of time. Our illusory reality has 3 dimensions of space (xyz) and one of time - total four dimensions. It has a property of an artificial template for our lessons, this illusory property of it is referred as a Hologram or a Matrix after the the 1999 movie The Matrix. The idea of the movie is that our world is a hologram, a computer simulation and in reality we are not what we think we are. It is even possible to hack the code of the Matrix and violate the laws of physics. Reiki in a sense does the same - it uses non-physical consciousness to transmute the reality to change sickness into health.
+
+Looking at our reality as a computer simulation helps to understand its nature. It is real and not real at the same time. It is a very well designed illusion, so it is not easy to transmute it and to bend its laws. It is pretty sophisticated. The more you learn it the more it becomes illusive - there is no way to learn enough to be in control; there is always much more beyond. It is only possible to learn the skills but not facts. Skills help to navigate it but facts don't hold, they change as we change.

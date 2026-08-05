@@ -1,0 +1,11 @@
+{
+  "checked_at": "2026-08-05T16:00:36-07:00",
+  "version": "v05 | 2026-07-21",
+  "machine": "pine",
+  "files_found": 324,
+  "prior_baseline": 324,
+  "copied": 0,
+  "quarantined": 0,
+  "healthy": true,
+  "failures": []
+}

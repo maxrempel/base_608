@@ -1,0 +1,382 @@
+{
+ "when": "2026-06-30T11:45:21.593475",
+ "days": 5.0,
+ "count": 75,
+ "swept": [
+  {
+   "kind": "fleet_cursors",
+   "rel": "admiring_kirch_f0e52d_0fb9fe76e7.cursor",
+   "age_days": -1
+  },
+  {
+   "kind": "fleet_cursors",
+   "rel": "admiring_mahavira_6f8fc6_78ced296dc.cursor",
+   "age_days": -1
+  },
+  {
+   "kind": "fleet_cursors",
+   "rel": "admiring_sanderson_f37aff_8fc2c644e6.cursor",
+   "age_days": -1
+  },
+  {
+   "kind": "fleet_cursors",
+   "rel": "amazing_allen_5b955a_648da80505.cursor",
+   "age_days": -1
+  },
+  {
+   "kind": "fleet_cursors",
+   "rel": "awesome_lalande_9b5110_651c2b2872.cursor",
+   "age_days": -1
+  },
+  {
+   "kind": "fleet_cursors",
+   "rel": "beautiful_cray_1abe4c_374b349887.cursor",
+   "age_days": -1
+  },
+  {
+   "kind": "fleet_cursors",
+   "rel": "beautiful_mahavira_20f22a_a28e944128.cursor",
+   "age_days": -1
+  },
+  {
+   "kind": "fleet_cursors",
+   "rel": "beautiful_williams_0dce4f_0ad91f96f7.cursor",
+   "age_days": -1
+  },
+  {
+   "kind": "fleet_cursors",
+   "rel": "blissful_dijkstra_cd3f0f_3d38a063e5.cursor",
+   "age_days": -1
+  },
+  {
+   "kind": "fleet_cursors",
+   "rel": "bold_dirac_fed80e_1d8aaa4205.cursor",
+   "age_days": -1
+  },
+  {
+   "kind": "fleet_cursors",
+   "rel": "branch_bulletin_e9c804dd79.cursor",
+   "age_days": -1
+  },
+  {
+   "kind": "fleet_cursors",
+   "rel": "busy_burnell_4a5388_607557579f.cursor",
+   "age_days": -1
+  },
+  {
+   "kind": "fleet_cursors",
+   "rel": "busy_ellis_5efd36_35c4ea2acd.cursor",
+   "age_days": -1
+  },
+  {
+   "kind": "fleet_cursors",
+   "rel": "code_1726bb4bde.cursor",
+   "age_days": -1
+  },
+  {
+   "kind": "fleet_cursors",
+   "rel": "compassionate_banzai_1c45a0_63b4982d24.cursor",
+   "age_days": -1
+  },
+  {
+   "kind": "fleet_cursors",
+   "rel": "compassionate_chaum_7d4bf5_6325b0ef96.cursor",
+   "age_days": -1
+  },
+  {
+   "kind": "fleet_cursors",
+   "rel": "competent_bouman_da35df_bfaad5d4ae.cursor",
+   "age_days": -1
+  },
+  {
+   "kind": "fleet_cursors",
+   "rel": "dazzling_bartik_c10bb4_ea133b572e.cursor",
+   "age_days": -1
+  },
+  {
+   "kind": "fleet_cursors",
+   "rel": "dreamy_bassi_ead69f_e1954e6c64.cursor",
+   "age_days": -1
+  },
+  {
+   "kind": "fleet_cursors",
+   "rel": "elastic_goldstine_16fa64_00e87b3216.cursor",
+   "age_days": -1
+  },
+  {
+   "kind": "fleet_cursors",
+   "rel": "elated_goldberg_6f4146_152820624c.cursor",
+   "age_days": -1
+  },
+  {
+   "kind": "fleet_cursors",
+   "rel": "elegant_davinci_bd8ace_a2fa05da21.cursor",
+   "age_days": -1
+  },
+  {
+   "kind": "fleet_cursors",
+   "rel": "elegant_lewin_cab1b0_1688a7df5f.cursor",
+   "age_days": -1
+  },
+  {
+   "kind": "fleet_cursors",
+   "rel": "focused_bohr_399744_48d3b33a3b.cursor",
+   "age_days": -1
+  },
+  {
+   "kind": "fleet_cursors",
+   "rel": "focused_wilbur_d92388_c02059f6fc.cursor",
+   "age_days": -1
+  },
+  {
+   "kind": "fleet_cursors",
+   "rel": "frosty_sammet_d84811_d71c52f6c0.cursor",
+   "age_days": -1
+  },
+  {
+   "kind": "fleet_cursors",
+   "rel": "funny_booth_2ece92_2ddca9234e.cursor",
+   "age_days": -1
+  },
+  {
+   "kind": "fleet_cursors",
+   "rel": "funny_torvalds_1f92dc_a98827ea1e.cursor",
+   "age_days": -1
+  },
+  {
+   "kind": "fleet_cursors",
+   "rel": "gallant_jennings_fcc500_fdee32cf10.cursor",
+   "age_days": -1
+  },
+  {
+   "kind": "fleet_cursors",
+   "rel": "gallant_rhodes_f4451e_0b0d5a460d.cursor",
+   "age_days": -1
+  },
+  {
+   "kind": "fleet_cursors",
+   "rel": "gifted_driscoll_2d4cde_0bd3cfce9c.cursor",
+   "age_days": -1
+  },
+  {
+   "kind": "fleet_cursors",
+   "rel": "goofy_goodall_68a19f_019e832d1f.cursor",
+   "age_days": -1
+  },
+  {
+   "kind": "fleet_cursors",
+   "rel": "great_chatelet_fde19f_99e74d8d60.cursor",
+   "age_days": -1
+  },
+  {
+   "kind": "fleet_cursors",
+   "rel": "hardcore_lovelace_29aa69_68b2cb5555.cursor",
+   "age_days": -1
+  },
+  {
+   "kind": "fleet_cursors",
+   "rel": "hungry_easley_b15e0d_8f3e2669a7.cursor",
+   "age_days": -1
+  },
+  {
+   "kind": "fleet_cursors",
+   "rel": "hungry_poitras_a29e63_48bf123b23.cursor",
+   "age_days": -1
+  },
+  {
+   "kind": "fleet_cursors",
+   "rel": "intelligent_wiles_11488b_9df463f15a.cursor",
+   "age_days": -1
+  },
+  {
+   "kind": "fleet_cursors",
+   "rel": "jovial_mahavira_1c77bf_d4d9a1a557.cursor",
+   "age_days": -1
+  },
+  {
+   "kind": "fleet_cursors",
+   "rel": "keen_lumiere_644969_79e0f9727d.cursor",
+   "age_days": -1
+  },
+  {
+   "kind": "fleet_cursors",
+   "rel": "loving_bell_d1fb51_99a0a174f7.cursor",
+   "age_days": -1
+  },
+  {
+   "kind": "fleet_cursors",
+   "rel": "lucid_raman_c38bf6_67d2c04a80.cursor",
+   "age_days": -1
+  },
+  {
+   "kind": "fleet_cursors",
+   "rel": "merge_pilot_794dc97458.cursor",
+   "age_days": -1
+  },
+  {
+   "kind": "fleet_cursors",
+   "rel": "naughty_hugle_5f3b66_458de11094.cursor",
+   "age_days": -1
+  },
+  {
+   "kind": "fleet_cursors",
+   "rel": "nervous_noyce_9854c1_bdb9190c54.cursor",
+   "age_days": -1
+  },
+  {
+   "kind": "fleet_cursors",
+   "rel": "nostalgic_torvalds_7c613d_d1e088385b.cursor",
+   "age_days": -1
+  },
+  {
+   "kind": "fleet_cursors",
+   "rel": "objective_brown_34df83_a25e20d2ac.cursor",
+   "age_days": -1
+  },
+  {
+   "kind": "fleet_cursors",
+   "rel": "optimistic_germain_f69be6_5639da2acb.cursor",
+   "age_days": -1
+  },
+  {
+   "kind": "fleet_cursors",
+   "rel": "optimistic_napier_fe7263_a5946396a5.cursor",
+   "age_days": -1
+  },
+  {
+   "kind": "fleet_cursors",
+   "rel": "optimistic_yalow_e584a0_2acb711039.cursor",
+   "age_days": -1
+  },
+  {
+   "kind": "fleet_cursors",
+   "rel": "pedantic_beaver_56f8c7_afdcf461b7.cursor",
+   "age_days": -1
+  },
+  {
+   "kind": "fleet_cursors",
+   "rel": "pedantic_mendel_0bee59_480ad1697c.cursor",
+   "age_days": -1
+  },
+  {
+   "kind": "fleet_cursors",
+   "rel": "pipeline_64c578409c.cursor",
+   "age_days": -1
+  },
+  {
+   "kind": "fleet_cursors",
+   "rel": "priceless_bhabha_01109a_76415cbe9c.cursor",
+   "age_days": -1
+  },
+  {
+   "kind": "fleet_cursors",
+   "rel": "priceless_moore_b4b246_ac0a32c28c.cursor",
+   "age_days": -1
+  },
+  {
+   "kind": "fleet_cursors",
+   "rel": "quirky_driscoll_44a664_2971d3fdc1.cursor",
+   "age_days": -1
+  },
+  {
+   "kind": "fleet_cursors",
+   "rel": "quirky_kepler_ad43cd_3230ce1c07.cursor",
+   "age_days": -1
+  },
+  {
+   "kind": "fleet_cursors",
+   "rel": "recursing_euclid_b4ec94_a1060ea03e.cursor",
+   "age_days": -1
+  },
+  {
+   "kind": "fleet_cursors",
+   "rel": "reverent_gagarin_9de9e0_6fd82c56e5.cursor",
+   "age_days": -1
+  },
+  {
+   "kind": "fleet_cursors",
+   "rel": "romantic_ritchie_3ecc2a_024c66d2d5.cursor",
+   "age_days": -1
+  },
+  {
+   "kind": "fleet_cursors",
+   "rel": "sad_pare_d0aae5_1c2e264469.cursor",
+   "age_days": -1
+  },
+  {
+   "kind": "fleet_cursors",
+   "rel": "sad_satoshi_8a1724_78c57ec1de.cursor",
+   "age_days": -1
+  },
+  {
+   "kind": "fleet_cursors",
+   "rel": "serene_pasteur_eed5fd_1bdaf0a1c9.cursor",
+   "age_days": -1
+  },
+  {
+   "kind": "fleet_cursors",
+   "rel": "strange_hawking_e9654d_dfbb6772cf.cursor",
+   "age_days": -1
+  },
+  {
+   "kind": "fleet_cursors",
+   "rel": "sweet_cerf_bdf65e_3297c8581d.cursor",
+   "age_days": -1
+  },
+  {
+   "kind": "fleet_cursors",
+   "rel": "sweet_lovelace_3d2d85_e640960beb.cursor",
+   "age_days": -1
+  },
+  {
+   "kind": "fleet_cursors",
+   "rel": "sweet_tharp_8c6933_79d8b101dd.cursor",
+   "age_days": -1
+  },
+  {
+   "kind": "fleet_cursors",
+   "rel": "tender_dirac_aa429b_0a7660c3f3.cursor",
+   "age_days": -1
+  },
+  {
+   "kind": "fleet_cursors",
+   "rel": "unruffled_northcutt_1b9f73_77ec72fc4b.cursor",
+   "age_days": -1
+  },
+  {
+   "kind": "fleet_cursors",
+   "rel": "upbeat_swanson_bead73_c0dd2c96c1.cursor",
+   "age_days": -1
+  },
+  {
+   "kind": "fleet_cursors",
+   "rel": "vigorous_gould_3d960c_6bdefc4702.cursor",
+   "age_days": -1
+  },
+  {
+   "kind": "fleet_cursors",
+   "rel": "vigorous_jemison_340d7a_f287040fab.cursor",
+   "age_days": -1
+  },
+  {
+   "kind": "fleet_cursors",
+   "rel": "wizardly_archimedes_a4ba6a_ea9a55ff1c.cursor",
+   "age_days": -1
+  },
+  {
+   "kind": "fleet_cursors",
+   "rel": "youthful_hofstadter_91ef40_014c59ff05.cursor",
+   "age_days": -1
+  },
+  {
+   "kind": "timer_decel_state",
+   "rel": "cranky_noether_5d066f_e8cba52c23.json",
+   "age_days": -1
+  },
+  {
+   "kind": "timer_decel_state",
+   "rel": "moma_e1b32f74a4.json",
+   "age_days": -1
+  }
+ ]
+}

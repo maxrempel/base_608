@@ -1,0 +1,12 @@
+{
+  "created_at": "2026-08-03T06:58:37.083250Z",
+  "max_chars": 12000,
+  "max_tokens": 4096,
+  "model": "deepseek-v4-flash",
+  "privacy": "private-authorized",
+  "retries": 2,
+  "run_dir": "C:\\claude_base\\worklog\\deepseek_offload\\blood_type_genotype\\rhd_wgs_feasibility_20260802_v01",
+  "schema_version": 1,
+  "task_sha256": "59e59ca42cc8b84f10d0ef1f38bac5f80cff54a433bf7fd91631b88443659ba3",
+  "timeout": 180
+}

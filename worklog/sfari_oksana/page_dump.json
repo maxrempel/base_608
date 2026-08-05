@@ -1,0 +1,200 @@
+{
+ "url": "https://base.sfari.org/institution-details",
+ "title": "SFARI Base | An Autism Research Clearinghouse",
+ "inputs": [
+  {
+   "tag": "INPUT",
+   "name": "name",
+   "id": null,
+   "type": "text",
+   "placeholder": null,
+   "value": "DNA Resonance Research Foundation",
+   "disabled": false,
+   "text": "",
+   "href": null
+  },
+  {
+   "tag": "INPUT",
+   "name": "official_name",
+   "id": null,
+   "type": "text",
+   "placeholder": null,
+   "value": "DNA Resonance Research Foundation",
+   "disabled": false,
+   "text": "",
+   "href": null
+  },
+  {
+   "tag": "INPUT",
+   "name": "ein",
+   "id": null,
+   "type": "text",
+   "placeholder": null,
+   "value": "N/A",
+   "disabled": false,
+   "text": "",
+   "href": null
+  },
+  {
+   "tag": "INPUT",
+   "name": "nonprofit",
+   "id": null,
+   "type": "radio",
+   "placeholder": null,
+   "value": "true",
+   "disabled": false,
+   "text": "",
+   "href": null
+  },
+  {
+   "tag": "INPUT",
+   "name": "nonprofit",
+   "id": null,
+   "type": "radio",
+   "placeholder": null,
+   "value": "false",
+   "disabled": false,
+   "text": "",
+   "href": null
+  }
+ ],
+ "selects": [],
+ "textareas": [],
+ "buttons": [
+  {
+   "tag": "BUTTON",
+   "name": null,
+   "id": null,
+   "type": "submit",
+   "placeholder": null,
+   "value": "",
+   "disabled": false,
+   "text": "Submit",
+   "href": null
+  },
+  {
+   "tag": "BUTTON",
+   "name": null,
+   "id": null,
+   "type": "submit",
+   "placeholder": null,
+   "value": "",
+   "disabled": false,
+   "text": "",
+   "href": null
+  },
+  {
+   "tag": "BUTTON",
+   "name": null,
+   "id": null,
+   "type": "submit",
+   "placeholder": null,
+   "value": "",
+   "disabled": false,
+   "text": "",
+   "href": null
+  }
+ ],
+ "links": [
+  {
+   "tag": "A",
+   "name": null,
+   "id": null,
+   "type": null,
+   "placeholder": null,
+   "value": "",
+   "disabled": null,
+   "text": "SFARI Base",
+   "href": "/"
+  },
+  {
+   "tag": "A",
+   "name": null,
+   "id": null,
+   "type": null,
+   "placeholder": null,
+   "value": "",
+   "disabled": null,
+   "text": "Users",
+   "href": "/user"
+  },
+  {
+   "tag": "A",
+   "name": null,
+   "id": null,
+   "type": null,
+   "placeholder": null,
+   "value": "",
+   "disabled": null,
+   "text": "",
+   "href": null
+  },
+  {
+   "tag": "A",
+   "name": null,
+   "id": null,
+   "type": null,
+   "placeholder": null,
+   "value": "",
+   "disabled": null,
+   "text": "Home",
+   "href": "/"
+  },
+  {
+   "tag": "A",
+   "name": null,
+   "id": null,
+   "type": null,
+   "placeholder": null,
+   "value": "",
+   "disabled": null,
+   "text": "Privacy Policy",
+   "href": "https://www.simonsfoundation.org/sf-privacy-policy/"
+  },
+  {
+   "tag": "A",
+   "name": null,
+   "id": null,
+   "type": null,
+   "placeholder": null,
+   "value": "",
+   "disabled": null,
+   "text": "Cookies Policy",
+   "href": "https://www.simonsfoundation.org/cookies-policy/"
+  },
+  {
+   "tag": "A",
+   "name": null,
+   "id": null,
+   "type": null,
+   "placeholder": null,
+   "value": "",
+   "disabled": null,
+   "text": "Terms of Service",
+   "href": "/terms-and-conditions"
+  },
+  {
+   "tag": "A",
+   "name": null,
+   "id": null,
+   "type": null,
+   "placeholder": null,
+   "value": "",
+   "disabled": null,
+   "text": "Help",
+   "href": "mailto:sdbr@simonsfoundation.org"
+  },
+  {
+   "tag": "A",
+   "name": null,
+   "id": null,
+   "type": null,
+   "placeholder": null,
+   "value": "",
+   "disabled": null,
+   "text": "",
+   "href": null
+  }
+ ],
+ "bodyText": "SFARI Base\nUsers\nOksana Polesskaya\nHome\n \nInstitution Details\nProvide the following details about your institution.\nCommon Name\nLegal / Official Name\nEIN or Institution ID\nInstitution Type\nNon-profit\nFor-profit\nSubmit\n© 2022 SFARI (Version: 1.89.0)\nPrivacy Policy\nCookies Policy\nTerms of Service\nHelp"
+}

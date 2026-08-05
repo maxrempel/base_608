@@ -1,0 +1,3 @@
+# Roots to scan for *---memex---.md files. path|max_depth
+C:\Users\maxre\Nextcloud|5
+C:\moma|4

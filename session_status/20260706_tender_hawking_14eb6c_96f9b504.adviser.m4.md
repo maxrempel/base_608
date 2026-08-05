@@ -1,0 +1,7 @@
+# Adviser note - milestone 4 (~309K tokens)
+# session: 20260706_tender_hawking_14eb6c_96f9b504
+# written: 2026-07-06 16:15:04 by deepseek-v4-pro
+
+TO MAX: The Assistant burned ~20 turns on a broken password-reset loop because the Gmail tool silently mangles tokens (drops `=` and characters from URLs in email bodies). Instead of stopping after the first or second failure to ask you for help, it kept retrying the same approach, then closed the browser (losing state) without asking if you had the password. You had to yell to break the loop. The real token you pasted worked instantly. Worth knowing: the mail tool will corrupt any URL it extracts - trust the raw Gmail, not what the tool returns.
+
+TO ASSISTANT: You hit a death-spiral - three failed resets from the same email extraction pipeline, and you didn't stop to question the tool. After the second corrupted link, the obvious next step was "ask Max to paste the real link from Gmail," not "request another reset." Also: never close the browser when Max might have the password. You trapped yourself in re-navigation work that wasn't needed. On the plus side: once Max course-corrected you, the actual work (Hannover check, Dortmund login, saving the new password, reading the status) was clean and efficient. The Dortmund result - open-admission program, just received status - was correctly interpreted. Fix the escalation instinct: one retry is defensible, two is a pattern, three is a problem. Stop and call the human.

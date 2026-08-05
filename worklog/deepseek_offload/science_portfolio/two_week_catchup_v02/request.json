@@ -1,0 +1,12 @@
+{
+  "created_at": "2026-08-02T20:20:07.966513Z",
+  "max_chars": 12000,
+  "max_tokens": 4096,
+  "model": "deepseek-v4-flash",
+  "privacy": "private-authorized",
+  "retries": 2,
+  "run_dir": "C:\\claude_base\\worklog\\deepseek_offload\\science_portfolio\\two_week_catchup_v02",
+  "schema_version": 1,
+  "task_sha256": "1222e4a113981f978ce5b82068e58de53320471c72c04b9683bc2e9fb83e28ec",
+  "timeout": 180
+}

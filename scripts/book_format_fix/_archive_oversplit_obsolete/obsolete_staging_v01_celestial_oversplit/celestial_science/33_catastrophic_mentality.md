@@ -1,0 +1,5 @@
+# Celestial Science - Catastrophic mentality
+
+*From "Celestial Science" by Max Rempel, Ph.D.*
+
+The Greys are known to carry a catastrophic mentality. Humans who came in psychic contact with the Greys noticed great sadness that is characteristic for their psyche.  They are the species that was greatly traumatized by the suicidal catastrophe that happened to their home planet far in their past and the degenerated bodies of Greys are the reminder of the past disaster. Moreover they are known to be subject to the continuing genetic degeneration and having difficulties in reproduction, inasmuch that they reproduce only in-vitro and with difficulty. The fact that they have trouble reproducing may explain why they are very fond of children and obsessed with reproduction. They are reportedly very upset by the fact that the humans allow the children in poor countries to starve, while adults in developed countries are suffering from obesity. In summary, it may be natural for the Greys to resonate with the idea of catastrophe and that is why in part that they demonstrate videos of future disasters to the abductees.

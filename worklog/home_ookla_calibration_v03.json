@@ -1,0 +1,9 @@
+{
+  "download_mbps": 153.489,
+  "latency_ms": 17.654,
+  "observed_at": "2026-07-29T16:37:53+00:00",
+  "phase": "before",
+  "schema": "home-ookla-calibration-v03",
+  "server_id": "61105",
+  "upload_mbps": 39.25
+}

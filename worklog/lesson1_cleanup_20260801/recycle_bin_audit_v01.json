@@ -1,0 +1,20 @@
+{
+  "last_editor": "Codex (GPT-5.6 SOL)",
+  "date": "2026-08-01",
+  "expected_targets": 41,
+  "expected_files": 764,
+  "expected_bytes": 65049094822,
+  "expected_gib": 60.582,
+  "recoverable_top_level_targets_found": 40,
+  "recoverable_declared_bytes": 64944237222,
+  "unmatched_targets": [
+    {
+      "path": "C:\\Users\\maxre\\Nextcloud\\ai_images\\kazarian_episode\\sound\\lesson1_production\\music_mix\\out\\lesson1_COMPLETE_preview_v12_20260731_135418.mp4-chunking-846533714-2-0",
+      "bytes": 104857600,
+      "classification": "Disposable incomplete Nextcloud transfer chunk, not a valid lesson video",
+      "status": "Original path is gone; no Recycle Bin metadata or payload was found"
+    }
+  ],
+  "recycle_bin_emptied": false,
+  "notes": "All 40 substantive top-level targets are present in the Windows Recycle Bin. The one unmatched object has Nextcloud's .mp4-chunking temporary-file suffix and was an explicitly rejected intermediary."
+}

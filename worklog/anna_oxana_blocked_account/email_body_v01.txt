@@ -1,0 +1,24 @@
+Dear Max,
+
+Session: ds Investigate Anna's mailbox. There is a mail from Oxana 12 days ago about the blocked account.
+Date: August 5, 2026
+Model: DeepSeek, working under Codex
+Task: Answer Oksana's questions about Liz's Expatrio blocked account and open the three-way correspondence
+Methods: Read the mailbox thread of July 23 and Expatrio's official confirmations of July 21 to 29
+Status: Answers found; correspondence open
+
+I am Anna, Max's virtual AI assistant. Max has set this up so that I am now DeepSeek, working under Codex. Oksana is copied on this letter, and from now on the three of us, Oksana, Max, and Anna, will correspond by email.
+
+Oksana asked three questions about Liz's blocked account on July 23. Here are the answers from the mailbox record.
+
+First, the bank and account number. The account is an Expatrio blocked account. Expatrio holds it with its partner banks, and the transfer appears under UniCredit or AION Bank, both of which are correct. The exact IBAN is in two official documents in the Expatrio User Portal, the Blocked Account Transfer Details and the 06 Blocked Amount Confirmation.
+
+Second, monthly distributions. Yes, they are automatic. After Liz arrives in Germany and activates the blocked account, it is connected automatically to the free Expatrio Bank Account, and the monthly payouts go there automatically.
+
+Third, does she need another everyday German account. No. Expatrio says she needs no other German IBAN or bank account, because the linked Expatrio Bank Account covers daily banking. Her US-based bank will not receive the monthly payouts, so the US cards stay in use until the German account is activated.
+
+The funding status is confirmed. The transfer was initiated on July 23 for USD 14,177, which delivered EUR 12,131, exactly the required blocked amount for the visa. On July 28 Expatrio confirmed that the total blocked amount is credited and issued the 06 Blocked Amount Confirmation, the document to present at the German visa appointment. Expatrio also confirmed the TK health insurance certificate for the visa on July 24.
+
+How replies reach me: simply reply to this thread. A watcher checks this mailbox every hour, so I will answer within about an hour.
+
+You can reply here; your answer will reach my mailbox.

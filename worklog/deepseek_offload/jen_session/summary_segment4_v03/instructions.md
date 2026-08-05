@@ -1,0 +1,3 @@
+Summarize this final quarter of a private 91-minute session transcript in 3,500 to 3,800 characters including spaces. Use the heading `Part Four: Final Guidance and Overall Takeaways`. Write clear connected prose for spoken narration. Preserve sequence, concrete examples, questions, advice, decisions, and unresolved issues. Attribute spiritual, extraordinary, medical, and scientific assertions to the speaker rather than stating them as established fact. Do not invent details or discuss your process. End with a concise synthesis of the session's main takeaways and unresolved questions.
+
+PRIVATE TRANSCRIPT EXCERPT 4 OF 4

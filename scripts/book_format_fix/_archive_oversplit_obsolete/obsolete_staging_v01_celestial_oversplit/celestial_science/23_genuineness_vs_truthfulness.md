@@ -1,0 +1,5 @@
+# Celestial Science - Genuineness vs. truthfulness
+
+*From "Celestial Science" by Max Rempel, Ph.D.*
+
+For example, some people dislike all information pertaining to extraterrestrials. There could be two reasons: (1) Do we believe that we are not visited by extraterrestrials or (2) are we simply afraid of thinking about them? Some people rebel to the idea of God. There could be two reasons: (1) Do we believe in the absence of any Higher Intelligence or (2) do we reject a specific form of relationship with the Higher Intelligence? Ultimately, some researchers mistrust channeled messages. At this point we would like to differentiate two possibilities: (1) Do we reject the celestial origin of the message or (2) do we accept that the message is celestial but mistrust its content? Differentiating the mistrust in origin vs. content helps the research very much. We can easily imagine the alien propaganda in which the celestials would mix true facts with a measure of intentional or unintentional distortions of truth.

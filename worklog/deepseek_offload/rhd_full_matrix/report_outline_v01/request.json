@@ -1,0 +1,12 @@
+{
+  "created_at": "2026-08-03T17:34:11.552909Z",
+  "max_chars": 12000,
+  "max_tokens": 4096,
+  "model": "deepseek-v4-flash",
+  "privacy": "private-authorized",
+  "retries": 2,
+  "run_dir": "C:\\claude_base\\worklog\\deepseek_offload\\rhd_full_matrix\\report_outline_v01",
+  "schema_version": 1,
+  "task_sha256": "6234745668088495cef3b5013330a2c0dbdc09b9bba1683a4f0d1351a48c85e5",
+  "timeout": 180
+}

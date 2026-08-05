@@ -1,0 +1,18 @@
+{
+  "biological_validation": "NO",
+  "callable_negative_target_total": 32,
+  "checksums_sha256": "d86da3b9e4ec8582876e1468059cc4fed1f307733ec15812f95da4ddfa991cd5",
+  "manifest_sha256": "512c3defb16f56a995a81534e4946143f19245e1c238d924cdff7a88433660a2",
+  "primary_loose_non_survivors": 0,
+  "primary_strand_survivors": 4,
+  "private_output_hashes": {
+    "freeze_file": "279646d8c5542fa083c34d1973fb1c25fa781493d3b74c8395986461d35e1297",
+    "freeze_marker": "95c3c948c68c7c315dfacc90a657d46fd3c03f89be19e40d9467bd0babff8a0a",
+    "private_candidate_cohort_v01.tsv": "bd209e2fc698a9dc7b7c6a06340539d5fe382ca908b56f4ad036d54e5b5fece8",
+    "private_execution_request_v01.md": "372a40b2ea6d7c45c9f3e8a97a326f11e892450d32604f78e61bc4b70aa3489e",
+    "request_manifest_v01.json": "512c3defb16f56a995a81534e4946143f19245e1c238d924cdff7a88433660a2"
+  },
+  "production_rerun_authorized": false,
+  "status": "READY",
+  "version": "v01"
+}

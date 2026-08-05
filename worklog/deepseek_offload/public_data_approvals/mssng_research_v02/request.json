@@ -1,0 +1,12 @@
+{
+  "created_at": "2026-08-01T20:35:43.161173Z",
+  "max_chars": 12000,
+  "max_tokens": 4096,
+  "model": "deepseek-v4-flash",
+  "privacy": "private-authorized",
+  "retries": 2,
+  "run_dir": "C:\\claude_base\\worklog\\deepseek_offload\\public_data_approvals\\mssng_research_v02",
+  "schema_version": 1,
+  "task_sha256": "4bdec05c18324d2ca26e23e7fd235e7f1cbb5968192d5fb06cfc3cfe30e7d726",
+  "timeout": 180
+}

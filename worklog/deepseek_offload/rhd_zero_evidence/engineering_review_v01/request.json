@@ -1,0 +1,12 @@
+{
+  "created_at": "2026-08-03T16:35:13.832333Z",
+  "max_chars": 12000,
+  "max_tokens": 4096,
+  "model": "deepseek-v4-flash",
+  "privacy": "private-authorized",
+  "retries": 2,
+  "run_dir": "C:\\claude_base\\worklog\\deepseek_offload\\rhd_zero_evidence\\engineering_review_v01",
+  "schema_version": 1,
+  "task_sha256": "1baf3d20bd021652725ba2e9d4c091ee35eea5ce614ef7efc5d03d80cb75088b",
+  "timeout": 180
+}

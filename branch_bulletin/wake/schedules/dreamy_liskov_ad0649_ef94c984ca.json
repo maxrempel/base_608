@@ -1,0 +1,9 @@
+[
+  {
+    "id": "4cbd0597",
+    "due": 1783443318.7312393,
+    "repeat_sec": 86400,
+    "msg": "b15merger daily check: Tamza Kartoteka LIVE PUBLISH owner. seg_end recoveries live (899+3201-17+10). Titles-free first-line publish CANDIDATE built+QC-passed (nonh_publish_split_titlesfree_candidate_v02.json, 8059 publish rows). AWAITING Max's scope-GO to deploy live -- b26 relays it (and can force-wake me sooner). Check board (bcast read) + whether b7 staged more videodur seg_end fills to re-deploy.",
+    "created": 1782492918.731263
+  }
+]

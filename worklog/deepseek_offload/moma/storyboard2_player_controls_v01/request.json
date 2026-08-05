@@ -1,0 +1,12 @@
+{
+  "created_at": "2026-07-28T17:27:23.381895Z",
+  "max_chars": 12000,
+  "max_tokens": 4096,
+  "model": "deepseek-v4-flash",
+  "privacy": "private-authorized",
+  "retries": 2,
+  "run_dir": "C:\\claude_base\\worklog\\deepseek_offload\\moma\\storyboard2_player_controls_v01",
+  "schema_version": 1,
+  "task_sha256": "8588776eb7c56be2e10153b6b354cae35c36b127bdd4933a0e5bf46b0843e40a",
+  "timeout": 180
+}

@@ -1,0 +1,12 @@
+{
+  "created_at": "2026-07-26T23:07:27.840310Z",
+  "max_chars": 12000,
+  "max_tokens": 4096,
+  "model": "deepseek-v4-flash",
+  "privacy": "private-authorized",
+  "retries": 2,
+  "run_dir": "C:\\claude_base\\worklog\\deepseek_offload\\kenefick\\next_reply_outline_v01",
+  "schema_version": 1,
+  "task_sha256": "a6559a69f4cf93b31fc76cf15017b79a7860512160e08eb947fb4cb9f6a0413b",
+  "timeout": 180
+}

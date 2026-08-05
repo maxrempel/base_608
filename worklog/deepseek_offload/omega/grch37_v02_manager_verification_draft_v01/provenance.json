@@ -1,0 +1,59 @@
+{
+  "api_url": "https://api.deepseek.com/chat/completions",
+  "attempts": 1,
+  "balance_after_usd": 10.81,
+  "balance_before_usd": 10.81,
+  "balance_delta_reconciliation_usd": 0.0,
+  "computed_cost_usd": 0.0011585,
+  "cost_components_usd": {
+    "cache_hit_usd": 0.0,
+    "cache_miss_usd": 9.45e-05,
+    "output_usd": 0.001064
+  },
+  "credential_in_request_body_or_files": false,
+  "credential_source": "C:\\Users\\maxre\\Nextcloud\\zSyncMain\\ssh\\deepseek_api_key_20260226.txt",
+  "deidentification_check": {
+    "findings": [],
+    "passed": true
+  },
+  "elapsed_seconds": 34.312,
+  "finish_reason": "stop",
+  "finished_at": "2026-08-03T15:59:59.556712Z",
+  "max_output_tokens": 4096,
+  "max_result_chars": 12000,
+  "model": "deepseek-v4-flash",
+  "price_version": "DeepSeek official pricing, 2026-07-24",
+  "prices_per_million_tokens_usd": {
+    "cache_hit": 0.0028,
+    "cache_miss": 0.14,
+    "output": 0.28
+  },
+  "privacy_class": "private-authorized",
+  "provider": "deepseek-direct-api",
+  "response_id": "15dee3c4-bcd6-44ec-858b-9b1bb74b84d4",
+  "result_chars": 3952,
+  "result_sha256": "e29708fb7bf5b99b2ba01601ffcd008a204be073be1c7c353fe25cf928f4321b",
+  "result_truncated": false,
+  "retry_policy": "2 retries only for network, HTTP 429, and HTTP 5xx",
+  "returned_model": "deepseek-v4-flash",
+  "schema_version": 1,
+  "started_at": "2026-08-03T15:59:25.244462Z",
+  "status": "completed",
+  "system_fingerprint": "fp_a18b46594c_prod0820_fp8_kvcache_20260402",
+  "system_prefix_sha256": "00ed5f32a7874102fe3c61425598fec983f12ceb8ed5e7a03012dde844c30758",
+  "task_sha256": "30f3326b01ef77e62c73ead81327a20e82b0e767dc01d85f55f7d962406bcdc3",
+  "timeout_seconds_per_attempt": 180,
+  "usage": {
+    "completion_tokens": 3800,
+    "completion_tokens_details": {
+      "reasoning_tokens": 2832
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 675,
+    "prompt_tokens": 675,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "total_tokens": 4475
+  }
+}

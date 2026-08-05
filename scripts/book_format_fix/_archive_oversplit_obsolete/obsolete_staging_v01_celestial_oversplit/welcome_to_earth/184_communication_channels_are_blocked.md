@@ -1,0 +1,11 @@
+# Welcome to Earth! A Guide for Aliens - COMMUNICATION CHANNELS ARE BLOCKED
+
+*From "Welcome to Earth! A Guide for Aliens" by Max Rempel, Ph.D.*
+
+Understand that any truth, not only yours has to compete with MIC-controlled mainstream culture for the mass consciousness. Humans are designed to be of limited mental and communication abilities, and the MIC intentionally keeps these abilities blocked. People are intentionally dumbed down and their communication channels are blocked.
+
+Dumbing down is done via brainwashing, distortions in education, drugs, movies, fragmentation of the mind by trauma, creation of conflicting desires, distortions in world model, corruption of morale, and more. I reviewed some of these before.
+
+Blocking of communication abilities is done via above ways and more. It is quite easy to oversaturate the incoming communication channels of every humans and it is done via excessive sound, light and other stimuli.  Commercials and spam are main tools for blocking outside channels. Inside each mind, there are also blockages created via upbringing, distorted education and brainwashing. For example, brainwashed individuals are blocked to ideas of alien contact, telepathy, channeling, clairvoyance and spirituality.
+
+In religious people spirituality is blocked by the fear of evil spirits and witches. In atheists (using Soviet terminology, I lump agnostics into this category) the spirituality is blocked by desire of staying "scientific". All are afraid of spiritual phenomena for the fear of being interpreted and persecuted for insanity. Physical and medical persecution of spiritual people as insane has long historical roots and continues to this day. Witches were hunted by the establishment in middle centuries and in antiquity. Dissidence is often also considered as insanity. Peter Chaadaev was persecuted as insane nearly 200 years ago for sharing new age ideas. Oscar Wilde was persecuted as insane about 130 years ago for his alternative writings. Allen Ginsberg was announced insane and persecuted some 40 years ago. His case was the one that transformed the America. A judge of American court took a liberty to dismiss the claims against Allen Ginsberg essentially dropping the persecution. Note that all these alternative writers entered mass consciousness via an artistic door.

@@ -1,0 +1,12 @@
+{
+  "created_at": "2026-07-25T01:14:31.278020Z",
+  "max_chars": 12000,
+  "max_tokens": 4096,
+  "model": "deepseek-v4-flash",
+  "privacy": "private-authorized",
+  "retries": 2,
+  "run_dir": "C:\\claude_base\\worklog\\deepseek_offload\\alu_denovo_1\\bb23_autosome_status_review_v01",
+  "schema_version": 1,
+  "task_sha256": "b7c3a46b710c98ad81be82837f72ec57cfea00a37abf0ff08eefba5356e72c2a",
+  "timeout": 180
+}

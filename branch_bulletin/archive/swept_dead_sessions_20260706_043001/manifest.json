@@ -1,0 +1,57 @@
+{
+ "when": "2026-07-06T04:30:01.613116",
+ "days": 5.0,
+ "count": 10,
+ "swept": [
+  {
+   "kind": "fleet_cursors",
+   "rel": "awesome_pike_bf3095_f65d9e7c63.cursor",
+   "age_days": -1
+  },
+  {
+   "kind": "fleet_cursors",
+   "rel": "crazy_ishizaka_933ecb_087cf7e332.cursor",
+   "age_days": -1
+  },
+  {
+   "kind": "fleet_cursors",
+   "rel": "ecstatic_zhukovsky_14bdf9_2c95959416.cursor",
+   "age_days": -1
+  },
+  {
+   "kind": "fleet_cursors",
+   "rel": "gifted_cartwright_7fb47a_bcfdec7729.cursor",
+   "age_days": -1
+  },
+  {
+   "kind": "fleet_cursors",
+   "rel": "great_proskuriakova_e24186_5804437093.cursor",
+   "age_days": -1
+  },
+  {
+   "kind": "fleet_cursors",
+   "rel": "jolly_leavitt_3238eb_c2e107d4e0.cursor",
+   "age_days": -1
+  },
+  {
+   "kind": "fleet_cursors",
+   "rel": "nice_satoshi_d3f96f_fc307e3b80.cursor",
+   "age_days": -1
+  },
+  {
+   "kind": "fleet_cursors",
+   "rel": "sad_babbage_086484_cc500f1f02.cursor",
+   "age_days": -1
+  },
+  {
+   "kind": "fleet_cursors",
+   "rel": "sad_satoshi_8a1724_78c57ec1de.cursor",
+   "age_days": -1
+  },
+  {
+   "kind": "fleet_cursors",
+   "rel": "sweet_hofstadter_288bd4_863e1c35eb.cursor",
+   "age_days": -1
+  }
+ ]
+}

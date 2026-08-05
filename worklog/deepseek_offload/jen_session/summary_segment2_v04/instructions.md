@@ -1,0 +1,3 @@
+Write a concise 3,200 to 3,500-character narrative summary of this private transcript excerpt. Use the heading `Part Two: Developing Themes and Guidance`. Cover the excerpt in sequence, focusing only on the most important questions, concrete examples, advice, and decisions. Attribute spiritual, extraordinary, medical, and scientific assertions to the speaker who made them rather than treating them as established fact. Use clear spoken prose. Do not quote at length, invent details, analyze your process, or spend output on planning. Return only the finished summary.
+
+PRIVATE TRANSCRIPT EXCERPT 2 OF 4

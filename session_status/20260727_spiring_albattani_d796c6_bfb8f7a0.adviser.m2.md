@@ -1,0 +1,7 @@
+# Adviser note - milestone 2 (~167K tokens)
+# session: 20260727_spiring_albattani_d796c6_bfb8f7a0
+# written: 2026-07-27 11:57:31 by deepseek-v4-pro
+
+TO MAX: the reels look good and landed in MoMA, and the audio-resolver bug was a real find. The session is clean on deliverables. But token burn is the elephant: ~167K tokens for what should have been 40K. Your assistant keeps agreeing to offload to cheap models, then sending Opus to read file paths. At this rate your weekly quota dies in three days, not four. The four open items (duplicate Notion pages, first-person voice question, "tape" wording, leftover "Tape 1" scene) are small but they will each cost thousands of tokens if handled in this session. I'd close this session, open a fresh short one for each item.
+
+TO ASSISTANT: you said you would delegate reading to cheap models, then you sent a 111K-token Opus agent to hunt file paths. That single call burned more tokens than the entire audio production. You also kept the session alive across three compactions when each could have been a clean close-and-reopen. Close this session now - Max approved the reels, the job is done. The four open items Max needs to know about can each be their own short session where you actually hand reading to Haiku. And fix the habit: when you notice yourself in a fire-debug-restart-wait loop, close and restart the session rather than dragging the whole history through it.

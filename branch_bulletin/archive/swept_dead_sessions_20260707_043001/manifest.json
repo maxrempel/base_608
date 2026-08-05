@@ -1,0 +1,57 @@
+{
+ "when": "2026-07-07T04:30:01.622945",
+ "days": 5.0,
+ "count": 10,
+ "swept": [
+  {
+   "kind": "fleet_cursors",
+   "rel": "awesome_swirles_97603c_a5fe099206.cursor",
+   "age_days": -1
+  },
+  {
+   "kind": "fleet_cursors",
+   "rel": "charming_elbakyan_a3695b_67d1cce57d.cursor",
+   "age_days": -1
+  },
+  {
+   "kind": "fleet_cursors",
+   "rel": "condescending_mahavira_5f3790_c03185acf7.cursor",
+   "age_days": -1
+  },
+  {
+   "kind": "fleet_cursors",
+   "rel": "flamboyant_shockley_ec7c00_ee5970c306.cursor",
+   "age_days": -1
+  },
+  {
+   "kind": "fleet_cursors",
+   "rel": "gallant_sanderson_862563_6ecca92c42.cursor",
+   "age_days": -1
+  },
+  {
+   "kind": "fleet_cursors",
+   "rel": "heuristic_tharp_6eb176_e3824eec1b.cursor",
+   "age_days": -1
+  },
+  {
+   "kind": "fleet_cursors",
+   "rel": "loving_dhawan_e04207_ea2beb8973.cursor",
+   "age_days": -1
+  },
+  {
+   "kind": "fleet_cursors",
+   "rel": "modest_murdock_f1ec2f_ef7c31a5b0.cursor",
+   "age_days": -1
+  },
+  {
+   "kind": "fleet_cursors",
+   "rel": "nice_bouman_61a2f0_dbde0f5d59.cursor",
+   "age_days": -1
+  },
+  {
+   "kind": "fleet_cursors",
+   "rel": "zealous_proskuriakova_ec37b0_be8fd92772.cursor",
+   "age_days": -1
+  }
+ ]
+}

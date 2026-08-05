@@ -1,0 +1,92 @@
+{
+ "when": "2026-07-08T04:30:01.394014",
+ "days": 5.0,
+ "count": 17,
+ "swept": [
+  {
+   "kind": "fleet_cursors",
+   "rel": "beautiful_payne_d1f541_22ddb95249.cursor",
+   "age_days": -1
+  },
+  {
+   "kind": "fleet_cursors",
+   "rel": "beautiful_villani_5507cf_acacc7e5d8.cursor",
+   "age_days": -1
+  },
+  {
+   "kind": "fleet_cursors",
+   "rel": "claude_base_15c30882f7.cursor",
+   "age_days": -1
+  },
+  {
+   "kind": "fleet_cursors",
+   "rel": "competent_gould_fddd4d_8b05ba7c54.cursor",
+   "age_days": -1
+  },
+  {
+   "kind": "fleet_cursors",
+   "rel": "cranky_euclid_9c3e48_ba87873507.cursor",
+   "age_days": -1
+  },
+  {
+   "kind": "fleet_cursors",
+   "rel": "dreamy_liskov_ad0649_ef94c984ca.cursor",
+   "age_days": -1
+  },
+  {
+   "kind": "fleet_cursors",
+   "rel": "exciting_northcutt_03f770_a4c7704b77.cursor",
+   "age_days": -1
+  },
+  {
+   "kind": "fleet_cursors",
+   "rel": "inspiring_almeida_cc66dc_8d8574ae0e.cursor",
+   "age_days": -1
+  },
+  {
+   "kind": "fleet_cursors",
+   "rel": "interesting_morse_10796f_3362fba654.cursor",
+   "age_days": -1
+  },
+  {
+   "kind": "fleet_cursors",
+   "rel": "kind_johnson_0e5da3_f706ecd80d.cursor",
+   "age_days": -1
+  },
+  {
+   "kind": "fleet_cursors",
+   "rel": "modest_hopper_ac3259_200ce43f89.cursor",
+   "age_days": -1
+  },
+  {
+   "kind": "fleet_cursors",
+   "rel": "pensive_kepler_48594a_acb6ed7c73.cursor",
+   "age_days": -1
+  },
+  {
+   "kind": "fleet_cursors",
+   "rel": "sad_black_679c1e_2362fefcc9.cursor",
+   "age_days": -1
+  },
+  {
+   "kind": "fleet_cursors",
+   "rel": "serene_swanson_f7566a_69a16852f0.cursor",
+   "age_days": -1
+  },
+  {
+   "kind": "fleet_cursors",
+   "rel": "trusting_kirch_e89068_102911d064.cursor",
+   "age_days": -1
+  },
+  {
+   "kind": "fleet_cursors",
+   "rel": "unruffled_bardeen_0ee172_2e3934ac17.cursor",
+   "age_days": -1
+  },
+  {
+   "kind": "fleet_cursors",
+   "rel": "wizardly_saha_0023b3_c7d5246972.cursor",
+   "age_days": -1
+  }
+ ]
+}

@@ -1,0 +1,59 @@
+{
+  "api_url": "https://api.deepseek.com/chat/completions",
+  "attempts": 1,
+  "balance_after_usd": 15.39,
+  "balance_before_usd": 15.39,
+  "balance_delta_reconciliation_usd": 0.0,
+  "computed_cost_usd": 0.0002996,
+  "cost_components_usd": {
+    "cache_hit_usd": 0.0,
+    "cache_miss_usd": 7.896e-05,
+    "output_usd": 0.00022064
+  },
+  "credential_in_request_body_or_files": false,
+  "credential_source": "C:\\Users\\maxre\\Nextcloud\\zSyncMain\\ssh\\deepseek_api_key_20260226.txt",
+  "deidentification_check": {
+    "findings": [],
+    "passed": true
+  },
+  "elapsed_seconds": 7.953,
+  "finish_reason": "stop",
+  "finished_at": "2026-07-25T01:14:36.924055Z",
+  "max_output_tokens": 4096,
+  "max_result_chars": 12000,
+  "model": "deepseek-v4-flash",
+  "price_version": "DeepSeek official pricing, 2026-07-24",
+  "prices_per_million_tokens_usd": {
+    "cache_hit": 0.0028,
+    "cache_miss": 0.14,
+    "output": 0.28
+  },
+  "privacy_class": "private-authorized",
+  "provider": "deepseek-direct-api",
+  "response_id": "33eeb582-5e47-4a4f-8b20-d213b96c8e31",
+  "result_chars": 452,
+  "result_sha256": "924ff7e0fe88f39371182c9874f9dafd3eac4818c993f732026e54181cca41f9",
+  "result_truncated": false,
+  "retry_policy": "2 retries only for network, HTTP 429, and HTTP 5xx",
+  "returned_model": "deepseek-v4-flash",
+  "schema_version": 1,
+  "started_at": "2026-07-25T01:14:28.971181Z",
+  "status": "completed",
+  "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402",
+  "system_prefix_sha256": "00ed5f32a7874102fe3c61425598fec983f12ceb8ed5e7a03012dde844c30758",
+  "task_sha256": "eac96c17a9f2822036b4195486bae5816f9e89fc0cab9214f48b0aeaa27bbdfd",
+  "timeout_seconds_per_attempt": 180,
+  "usage": {
+    "completion_tokens": 788,
+    "completion_tokens_details": {
+      "reasoning_tokens": 636
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 564,
+    "prompt_tokens": 564,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "total_tokens": 1352
+  }
+}

@@ -1,0 +1,7 @@
+# Adviser note - milestone 5 (~387K tokens)
+# session: 20260706_zealous_jemison_bdd0f1_8d635a7b
+# written: 2026-07-06 12:38:05 by deepseek-v4-pro
+
+TO MAX: The original task - hiding the exposed Zoom link on tamza.com after the July 4 hooligan attack - never got done. The session spiraled into Telegram channels, Facebook banners, SMS provider comparisons, and worker redirects. A Telegram channel "?????-????" with approval-gate was created, and tamza.com/telega redirects to it - useful, but the site itself still likely has the old public link exposed. The FB banner got built properly (v08, no-crop, branded) after you tore apart the first idiotic crop-based version. Decide whether the site fix or the banner is the priority when you return.
+
+TO ASSISTANT: The original task - hiding the public Zoom link on tamza.com - was abandoned for 200+ turns of side quests. You should have flagged this much earlier and asked Max to re-prioritize, especially since it's a security concern. Second: you built and showed the cropped banner (v01) without ever rendering or looking at it first - violating your own rule and wasting Max's time. You recovered well after his feedback (saved the "never crop posters" rule, rebuilt properly), but don't skip the look-before-showing step again. Third: the session has a death-spiral of 8 banner versions, a ~100K-token SMS sub-agent, branch renames, and bulletin-board ping-pong. When Max creates branches and renames mid-task, keep the current task in focus and ask if he wants to table it before launching into the new one.

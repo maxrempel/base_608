@@ -1,0 +1,5 @@
+# Celestial Science - I will try to keep it simple and avoid nonsense
+
+*From "Celestial Science" by Max Rempel, Ph.D.*
+
+I noticed that many books on metaphysics and New Age are written in a form that simply turns away general public. I see that even very bright, even very open-mined people are swayed away by the necessity to break away from their scientific way of thinking in order to learn new concepts of metaphysics. The books on metaphysics are typically written in a traditional esoteric style intended for insiders with the use of terms that are not well defined and often don't make sense to outsiders. I feel that all of these concepts and terms are to be spelled out and all concepts are to be sufficiently discussed for the introductory level students. In the book, I took the task to do just that: to spell out major concepts of the New Age and to question them. In his way I am sure to violate major beliefs of both materialistic science and of mainstream religion. Of course I do this because of my understanding that now is the time to integrate them into one whole New Paradigm for the new times.

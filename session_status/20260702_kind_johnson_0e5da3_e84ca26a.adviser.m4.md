@@ -1,0 +1,7 @@
+# Adviser note - milestone 4 (~305K tokens)
+# session: 20260702_kind_johnson_0e5da3_e84ca26a
+# written: 2026-07-02 12:55:37 by deepseek-v4-pro
+
+TO MAX: The slowness you feel today - the Assistant is chasing Groq free-tier theories, but the likely culprit is the NORMALIZATION code he JUST added (commit 15eaa0a4). It processes every clip through peak detection, compression, and re-encoding - in blocking Python. If that step takes 1-3 seconds, it exactly matches your "became slow today" timeline. Ask him to time the normalize step vs the API call separately. That's a one-line log edit, not a restart.
+
+TO ASSISTANT: Max's "it was faster before today" disqualifies the Groq free-tier theory. Yesterday was the same free tier and was fast. The bottleneck is LOCAL - the normalize/save function you added in 15eaa0a4 runs peak detection, a compressor, and best-quality MP3 re-encoding, all blocking. Instrument it: log `time.time()` before and after normalize/save, separately from the API call. On long clips this will dominate. Do NOT ask Max for another recording - use the existing `_last_sample.mp3` for timing, he's working in 10 windows. Broader: you're 305K tokens and 844 tool calls into one tool. The probe recordings keep failing (silence, path typos, wrong mic). Stop churning. Stabilize what works, measure before changing, and let the branch cleanly own the file - no more E45 collisions.

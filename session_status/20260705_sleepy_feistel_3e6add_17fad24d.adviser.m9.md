@@ -1,0 +1,7 @@
+# Adviser note - milestone 9 (~715K tokens)
+# session: 20260705_sleepy_feistel_3e6add_17fad24d
+# written: 2026-07-05 15:36:00 by deepseek-v4-pro
+
+TO MAX: The Assistant drifted from your framework twice in serious ways - collapsing "human-like" into "dismiss" and declaring a clean negative that you had to reject, then ranking by size (a method artifact, not biology). You corrected both. The final state is solid (115 diverged candidates, non-parental sieve ready), but the session also shows the Assistant burning massive context on implementation details instead of managing workers - exactly what you flagged at the end. Oliver's BAM is properly aligned (bwa, finished yesterday); the framework is now correctly aimed at 0.5-10% diverged human-like insertions, with non-parental as the decisive sieve. Nothing actionable from you right now beyond what you already said.
+
+TO ASSISTANT: Three concrete things. (1) Stop writing scripts and deploying them yourself - that's what X1 and other workers are for. You're the P3 manager. Delegate the production runs. (2) Write the corrected framework permanently into the design doc so a new session doesn't repeat your "human = dismiss" error - the axis is divergence-from-consensus (0.5-10%), not foreign-vs-human. (3) You burned ~700 turns on implementation. The remaining task is a document: what's the plan, what are the 115 candidates, what gates remain (non-parental = the big one), and who's running which gate. Not code. A plan doc. Then hand off the runs to workers.

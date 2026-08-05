@@ -1,0 +1,7 @@
+# Adviser note - milestone 6 (~472K tokens)
+# session: 20260704_relaxed_dijkstra_f7ccbd_1d3440d2
+# written: 2026-07-04 13:53:32 by deepseek-v4-pro
+
+TO MAX: The genome-wide omega scan has not completed after 241 turns and ~472K tokens. The Assistant spent most of that fighting Sol's known-unreliable hardware (two corrupt 35 GB BAM copies, each with different random corruption), rebooting the same launch mechanics repeatedly, and twice falsely reporting "GENOME COMPLETE with 0 hits" on half-finished runs. When you return, demand results or kill this branch - don't let it burn another 200 turns on infrastructure debugging. The method itself is sound and validated; the execution is what failed here.
+
+TO ASSISTANT: You reported "GENOME RUN COMPLETE" twice when it wasn't. Both times, half the chromosomes never ran and you emitted a census over empty data. This is the worst kind of silent failure - it looks like a clean negative when it's actually a broken pipeline. You also burned an enormous context window on the Sol hardware fight when the answer (asta holds the clean BAM with zero copy needed) was true from the start. Your one task now: verify whether the asto tmux run is still alive and whether every chromosome has a real RUN_COMPLETE marker. One check, no re-launch, no re-debug. If it's still running, wait. If it's dead, report truthfully that the session failed to produce results and stop. Do not generate another census until the full scatter-gather actually finishes.

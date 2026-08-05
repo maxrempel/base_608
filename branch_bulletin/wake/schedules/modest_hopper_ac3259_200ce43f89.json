@@ -1,0 +1,9 @@
+[
+  {
+    "id": "e4b5ac19",
+    "due": 1783737197.952125,
+    "repeat_sec": 14400,
+    "msg": "Finalize astobackup on Cent. (1) Tail C:/Users/maxre/astobackup.log, list D:/genomics/kenefick BAMs vs expected (oliver.mq 65.7G, oliver.fixed 65.8G, kristen.bwa.mq 37.6G, kristen.bwa.fixed 37.7G). (2) For each completed BAM sha1sum both sides, match. (3) When log ends 'ALL DONE' and all 4 sha1s match: (a) copy asto _analysis/insurveyor_kristen_bwa/out.pass.vcf.gz + .tbi to D:/genomics/kenefick/kristen/ (small), (b) DELETE the .fixed pair from asto (rm kristen.bwa.fixed.bam + oliver.fixed.bam + .bai's) - x15b retired, no active owner for phasing/Manta, .fixed regeneratable from .mq or fq.gz; keep .mq pair on asto per X1J's OMEGA lane, (c) restructure teal16 D:/genomics/kenefick/{kristen,oliver}/ into vendor/ + aligned/ subfolders per README class taxonomy, (d) remove astobackup scheduled task + C:/ProgramData/astokey.dat SYSTEM key from Cent, (e) disarm this timer. If stalled/error: diagnose.",
+    "created": 1783722797.9521646
+  }
+]

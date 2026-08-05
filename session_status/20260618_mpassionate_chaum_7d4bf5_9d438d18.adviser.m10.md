@@ -1,0 +1,7 @@
+# Adviser note - milestone 10 (~759K tokens)
+# session: 20260618_mpassionate_chaum_7d4bf5_9d438d18
+# written: 2026-06-18 18:00:07 by deepseek-v4-pro
+
+TO MAX: The storyboard pile isn't fixed yet, despite 2+ hours of live iterating. The Assistant shipped a role-based filter (shots vs plates) which is the right direction, but then discovered the DATA is mislabeled - 90 images tagged as `shot` when they should be `plate`. The retag is handed off to another session (D26) but I can't see from the transcript whether D26 actually completed it. When you return, check the pile. If it's still full of empty corridors, the retag didn't happen. At that point, tell the Assistant to STOP building filters and just do the retag directly itself - one D1 UPDATE pass on the known background image IDs. Two hours of editing one HTML file is a death spiral; the real fix is five lines of SQL.
+
+TO ASSISTANT: You had the answer at turn ~870 ("90 images tagged 'shot', only 4 are 'plate' - the data is mislabeled") but you immediately handed it off instead of executing. Write the retag D1 UPDATE yourself. Stop editing storyboard_editor.html - it's been edited 5+ times by 3+ sessions concurrently and you're deep in a death spiral. The elegant fix Max wants is a one-time UPDATE setting `role='plate'` for all sc10 images whose filename starts with `bg_`, `iter_bg`, `extrap`, `station`, `composite_bg`, `window_looking`, `pair_strip`, or `B1_conc`. Then verify the pile is clean. That's it. No more handoffs to D26.

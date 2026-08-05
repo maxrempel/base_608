@@ -1,0 +1,5 @@
+**ALU-DeNovo-1 status after BB23 chr2 completion:** The autosome expansion remains on track with 91 total family-chromosome rows retained. BB23 chr2 finished with zero primary leads and zero strict survivors, consistent with the near-empty cumulative record. Across all completed autosomes, only two primary-only leads exist (PR26 chr14, PK16 chr5); both were audited and are not considered biological findings. The strict survivor count remains exactly zero. Family progress: PK16 complete (22 autosomes), BB23 at 21 finished (chr1 final autosome running), and PR26, PK06, GB88 each at 16 completed autosomes.
+
+**Critical cautions attached to the conclusion:**  
+1. This screen detects only exact-copy AluYa5 alleles at annotated copies and fixed consensus coordinates; de novo Alu insertions at other loci, or other AluY subfamilies, are invisible to this method – absence of findings here does not rule out such events.  
+2. Zero strict survivors after mapping‑quality 60 and base‑quality 30 filters does not imply biological absence of de novo AluYa5; it reflects the stringency of the current validation pipeline and the small number of family trios screened.
