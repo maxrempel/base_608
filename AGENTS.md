@@ -25,6 +25,44 @@ There are now two repositories that Claude and Codex use interchangeably:
 
 **Why two repos:**
 The original C:\claude_base accumulated 42,000+ tracked files including backups, KV stores, runtime data, and large media files, making Git operations slow and error-prone. Rather than risk breaking active sessions by cleaning it up, we created a fresh repository with a clean .gitignore. Old sessions continue undisturbed; new sessions get a clean workspace.
+
+## Worktree workflow for session isolation
+
+Every new session should work in its own Git worktree to prevent conflicts and keep the main branch clean.
+
+**Creating a worktree:**
+`powershell
+cd C:\base_608
+.\tools\new_worktree.ps1 <session-name>
+`
+
+This creates:
+- A new branch: codex/<session-name>
+- A new folder: C:\base_608\worktrees\<session-name>
+
+**Working in a worktree:**
+`powershell
+cd C:\base_608\worktrees\<session-name>
+# Work normally - commit, push, etc.
+`
+
+**Listing worktrees:**
+`powershell
+cd C:\base_608
+git worktree list
+`
+
+**Removing a worktree when done:**
+`powershell
+cd C:\base_608
+git worktree remove worktrees\<session-name>
+`
+
+**Why worktrees:**
+- Each session has its own isolated working directory
+- No dirty checkout conflicts between sessions
+- Clean commits on session-specific branches
+- Main branch stays clean and stable
 ## Shared dirty checkout safety
 
 This repository is worked on by many sessions at once. The main checkout is normally dirty with other sessions' files and runtime state.
