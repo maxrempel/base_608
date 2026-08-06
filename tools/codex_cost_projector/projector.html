@@ -84,6 +84,8 @@
     <div class="barlabels"><span id="barNow"></span><span id="barReset"></span></div>
   </section>
 
+  <div id="sliderChartMount"></div>
+
   <section class="chartCard">
     <div class="chartHead"><div><h2>Stacked 7-day allowance windows</h2><div class="small">Every reset window starts at the lower-left corner. Up to 20 windows remain overlaid so their slopes can be compared. Circles are verified readings; the zero point at reset is the known allowance baseline. Horizontal placement is date-only until the exact reset hour is known.</div></div><div class="small" id="sampleStatus"></div></div>
     <div class="zoomRow"><label for="zoomRange">Zoom time scale</label><span class="zoomValue" id="zoomLabel">7 days</span><input type="range" id="zoomRange" min="1" max="30" step="1" value="30" aria-label="How many days of each 7-day window are shown, from 12 hours to the full window"></div>
@@ -101,8 +103,6 @@
     </div>
     <div class="legend" id="cycleLegend"></div>
   </section>
-
-  <div id="sliderChartMount"></div>
 
   <section class="grid">
     <article class="card"><div class="label">Reset time</div><div class="value" id="countdown">Aug 7</div><div class="small" id="resetLabel">8:36 PM PDT</div></article>

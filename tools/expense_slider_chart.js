@@ -2,8 +2,9 @@
 // Ports the Quen (Qwen) spend tracker chart to the Codex, Claude, and
 // DeepSeek tracker pages. Each page supplies its own time series through
 // getSeries, so every tracker keeps its own data source and this one file
-// holds the shared graphing principle (log-scale time zoom slider, auto-fit
-// value axis, date ticks, and per-zoom spend report).
+// holds the shared graphing principle (smooth log-scale time zoom slider
+// from 1 hour to full history with no jumps, auto-fit value axis, date ticks,
+// and per-zoom spend report).
 (function () {
   "use strict";
   var SVG = "http://www.w3.org/2000/svg";
@@ -115,16 +116,13 @@
       var zoomValue = parseInt(zoomRange.value, 10);
       var maxZoom = 40;
       var now = Math.floor(Date.now() / 1000);
-      var timeRange = zoomValue === maxZoom ? null : 3600 * Math.pow(2, (maxZoom - zoomValue) / 4);
-      var visible = data;
-      if (timeRange !== null) {
-        var cutoff = now - timeRange;
-        visible = data.filter(function (p) { return p[0] >= cutoff; });
-        if (visible.length < 2) visible = data.slice(-2);
-        zoomLabel.textContent = fmtDur(Math.min(timeRange, now - data[0][0]));
-      } else {
-        zoomLabel.textContent = "Full history";
-      }
+      var dataSpan = Math.max(now - data[0][0], 3600);
+      var minWindow = 3600;
+      var ratio = Math.pow(dataSpan / minWindow, (zoomValue - 1) / (maxZoom - 1));
+      var timeRange = minWindow * ratio;
+      var visible = data.filter(function (p) { return p[0] >= now - timeRange; });
+      if (visible.length < 2) visible = data.slice(-2);
+      zoomLabel.textContent = zoomValue >= maxZoom ? "Full history" : fmtDur(Math.min(timeRange, dataSpan));
       if (visible.length < 2) return;
 
       var tMin = visible[0][0], tMax = visible[visible.length - 1][0];
