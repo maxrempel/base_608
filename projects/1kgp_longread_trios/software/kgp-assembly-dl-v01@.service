@@ -1,0 +1,19 @@
+[Unit]
+Description=1KGP long-read trio assembly download, family %i
+After=network-online.target
+Wants=network-online.target
+StartLimitIntervalSec=7200
+StartLimitBurst=20
+
+[Service]
+Type=simple
+EnvironmentFile=-/home/maxre/1kgp_longread_trios/config/rate.env
+ExecStart=/bin/bash /home/maxre/1kgp_longread_trios/software/run_downloader_v01.sh %i
+Restart=on-failure
+RestartSec=120
+Nice=10
+IOSchedulingClass=idle
+MemoryMax=2G
+
+[Install]
+WantedBy=default.target
