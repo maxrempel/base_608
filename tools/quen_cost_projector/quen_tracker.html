@@ -165,12 +165,13 @@
   el("lastUpdate").textContent = updateTime.toLocaleString();
 
   var snapshots = data.snapshots || [];
+  var curSource = snapshots.length ? snapshots[snapshots.length - 1].source : null;
   var dayAgo = Math.floor(Date.now() / 1000) - 86400;
-  var recent = snapshots.filter(function(s){ return s.t >= dayAgo; });
+  var recent = snapshots.filter(function(s){ return s.t >= dayAgo && s.source === curSource; });
   var rate = 0;
   if (recent.length >= 2) {
     var dt = (recent[recent.length - 1].t - recent[0].t) / 86400;
-    if (dt > 0) rate = (recent[recent.length - 1].lifetime - recent[0].lifetime) / dt;
+    if (dt > 0) rate = Math.max(0, (recent[recent.length - 1].lifetime - recent[0].lifetime) / dt);
   }
   el("rateValue").textContent = "$" + rate.toFixed(2) + "/day";
 
@@ -214,7 +215,7 @@
     var vals = visible.map(function(p){ return p[1]; });
     var yMin = Math.min.apply(null, vals), yMax = Math.max.apply(null, vals);
     var yPad = Math.max(yMax - yMin, 0.01) * 0.08;
-    var yLow = yMin - yPad, yHigh = yMax + yPad, ySpan = yHigh - yLow;
+    var yLow = Math.max(yMin - yPad, 0), yHigh = yMax + yPad, ySpan = yHigh - yLow;
     axisTop.textContent = "$" + yHigh.toFixed(2);
     axisBottom.textContent = "$" + yLow.toFixed(2);
 
