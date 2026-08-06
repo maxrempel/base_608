@@ -120,6 +120,8 @@
     <div class="legend"><span><i class="key"></i>Measured balance</span><span><i class="key target"></i>Target pace to the $7 floor</span><span><i class="key" style="background:repeating-linear-gradient(90deg,var(--ink) 0 1.2px,transparent 1.2px 2.8px)"></i>Projected at current burn rate</span></div>
   </section>
 
+  <div id="sliderChartMount"></div>
+
   <section class="grid">
     <article class="card"><div class="label">Balance now</div><div class="value" id="balanceNow">-</div><div class="small" id="balanceDetail">Waiting for first snapshot</div></article>
     <article class="card"><div class="label">Burn rate</div><div class="value" id="burnRate">-</div><div class="small" id="burnDetail">-</div></article>
@@ -469,5 +471,28 @@
     if (!document.hidden) location.reload();
   });
 </script>
+  <script src="../expense_slider_chart.js"></script>
+  <script>
+    ExpenseSliderChart.mount({
+      mountId: "sliderChartMount",
+      title: "Cumulative spend (Qwen-style zoom)",
+      subtitle: "Running total of spend from official DeepSeek balance snapshots (API plus ledger backfill). Top-ups are excluded, so the curve only rises. Deltas are dollars.",
+      unit: "$",
+      accent: "#6f42c1",
+      ariaLabel: "Cumulative DeepSeek spend over time with zoom",
+      emptyMessage: "No DeepSeek snapshots recorded yet. The collector runs every 30 minutes.",
+      getSeries: function () {
+        var d = window.DEEPSEEK_BALANCE;
+        if (!d || !d.snapshots || !d.snapshots.length) return [];
+        var out = [], cum = 0;
+        var snaps = d.snapshots.slice().sort(function (a, b) { return a.t - b.t; });
+        for (var i = 0; i < snaps.length; i++) {
+          cum += snaps[i].spend || 0;
+          out.push([snaps[i].t, cum]);
+        }
+        return out;
+      }
+    });
+  </script>
 </body>
 </html>

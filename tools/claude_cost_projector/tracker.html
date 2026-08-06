@@ -95,6 +95,8 @@
     <div class="legend"><span id="actualLegend"><i class="key"></i>No verified readings yet</span><span><i class="key target"></i>Even pace through the weekly cycle</span><span><i class="key" style="height:0;border-top:1px dotted currentColor;background:none"></i>Forecast from verified consumption</span></div>
   </section>
 
+  <div id="sliderChartMount"></div>
+
   <section class="grid">
     <article class="card"><div class="label">Reset</div><div class="value" id="countdown">Unknown</div><div class="small" id="resetLabel">Enter Claude's displayed reset</div></article>
     <article class="card"><div class="label">Latest official reading</div><div class="value" id="limitTime">No reading</div><div class="small" id="limitDetail">Awaiting a Claude usage screenshot</div></article>
@@ -186,6 +188,7 @@
   inputs.resetDate.addEventListener('input',()=>{values();update()});inputs.resetTime.addEventListener('input',()=>{values();update()});
   $('recordButton').addEventListener('click',()=>{const v=values();if(!v.resetDate||!v.observed||!Number.isFinite(v.used)||v.used<0||v.used>100){alert('Enter used percent, screenshot time, and reset date.');return}savePoint({t:new Date(v.observed).getTime(),used:v.used/100,resetDate:v.resetDate,resetTime:v.resetTime,kind:'actual'});inputs.used.value='';inputs.observed.value=localInput();update()});
   $('resetButton').addEventListener('click',()=>{localStorage.removeItem('claudeVerifiedSettings01');localStorage.removeItem('claudeVerifiedHistory01');settings={};load();clearChart();update()});
+  window.__claudeAllHistory = allHistory;
   load();update();setInterval(update,60000);
   };
   window.renderClaude();
@@ -194,5 +197,22 @@
   fresh.onload = window.renderClaude;
   document.head.appendChild(fresh);
 </script>
+  <script src="../expense_slider_chart.js"></script>
+  <script>
+    ExpenseSliderChart.mount({
+      mountId: "sliderChartMount",
+      title: "Allowance used over time (Qwen-style zoom)",
+      subtitle: "Verified official Claude usage-page readings, all reset cycles together. Values are percent used; pp means percentage points. Resets show as drops.",
+      unit: "%",
+      accent: "#6f42c1",
+      ariaLabel: "Claude allowance used over time with zoom",
+      emptyMessage: "No verified Claude readings recorded yet. The collector runs hourly.",
+      getSeries: function () {
+        var h = window.__claudeAllHistory ? window.__claudeAllHistory() : [];
+        if (!h || !h.length) return [];
+        return h.map(function (p) { return [p.t / 1000, p.used * 100]; }).sort(function (a, b) { return a[0] - b[0]; });
+      }
+    });
+  </script>
 </body>
 </html>
