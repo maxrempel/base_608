@@ -1,0 +1,226 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Codex Cost Projector</title>
+  <style>
+    :root { color-scheme: light; --ink:#17202a; --muted:#65717d; --line:#dce3e8; --paper:#fff; --wash:#f4f7f9; --blue:#1769e0; --green:#11845b; --amber:#b36500; --red:#c0372b; }
+    * { box-sizing:border-box }
+    body { margin:0; background:var(--wash); color:var(--ink); font:16px/1.45 system-ui,-apple-system,"Segoe UI",sans-serif }
+    main { max-width:1040px; margin:auto; padding:34px 22px 50px }
+    header { display:flex; justify-content:space-between; gap:24px; align-items:end; margin-bottom:22px }
+    .monitors { display:flex; gap:10px; margin-top:14px; flex-wrap:wrap }
+    .monitors a { color:var(--ink); text-decoration:none; font-weight:700; font-size:13.5px; border:1px solid var(--line); background:var(--paper); border-radius:999px; padding:6px 13px }
+    .monitors a:hover { border-color:var(--blue); color:var(--blue) }
+    .monitors .here { background:var(--ink); color:var(--paper); border-color:var(--ink); pointer-events:none }
+    h1 { font-size:clamp(28px,4vw,46px); line-height:1.05; margin:0 0 8px; letter-spacing:-.04em }
+    .sub,.note { color:var(--muted) }
+    .live { white-space:nowrap; color:var(--green); font-weight:700 }
+    .live:before { content:""; display:inline-block; width:9px; height:9px; margin-right:7px; border-radius:50%; background:var(--green) }
+    .hero,.card,.controls,.chartCard { background:var(--paper); border:1px solid var(--line); border-radius:18px; box-shadow:0 3px 14px #1825360a }
+    .hero { padding:24px; margin-bottom:16px }
+    .bar { position:relative; height:32px; border-radius:10px; overflow:hidden; background:#e7edf2; display:flex; margin:18px 0 10px }
+    .used { background:var(--ink) }
+    .projected { background:repeating-linear-gradient(135deg,#97bff5 0 6px,#d4e4fa 6px 12px) }
+    .limitMarker { position:absolute; inset:0 auto 0 0; width:3px; background:var(--red); box-shadow:0 0 0 1px #fff }
+    .barlabels { display:flex; justify-content:space-between; gap:12px; color:var(--muted); font-size:14px }
+    .chartCard { padding:24px; margin-bottom:16px }
+    .chartHead { display:flex; justify-content:space-between; gap:20px; align-items:end; margin-bottom:16px }
+    .chartHead h2 { margin:0; font-size:22px }
+    .zoomRow { display:flex; align-items:center; gap:14px; margin:14px 0 2px; color:var(--muted); font-size:14px }
+    .zoomRow input { flex:1; accent-color:var(--blue) }
+    .zoomRow .zoomValue { font-weight:700; color:var(--ink); white-space:nowrap }
+    .chartWrap { position:relative; width:min(100%,620px); margin:auto; aspect-ratio:1; border-left:2px solid var(--ink); border-bottom:2px solid var(--ink); background:linear-gradient(to right,transparent 24.8%,var(--line) 25%,transparent 25.2%,transparent 49.8%,var(--line) 50%,transparent 50.2%,transparent 74.8%,var(--line) 75%,transparent 75.2%),linear-gradient(to top,transparent 24.8%,var(--line) 25%,transparent 25.2%,transparent 49.8%,var(--line) 50%,transparent 50.2%,transparent 74.8%,var(--line) 75%,transparent 75.2%) }
+    .chartWrap svg { display:block; width:100%; height:100%; overflow:visible }
+    .targetLine { stroke:var(--blue); stroke-width:1.8; stroke-dasharray:4 3; fill:none }
+    .actualLine { stroke:var(--ink); stroke-width:.56; fill:none; stroke-linecap:round; stroke-linejoin:round }
+    .cycleLine { fill:none; stroke-width:.56; stroke-linecap:round; stroke-linejoin:round }
+    .cycleDot { fill:var(--paper); stroke-width:.7 }
+    .forecastLine { stroke:var(--ink); stroke-width:.7; stroke-dasharray:1.5 1.5; fill:none }
+    .actualDot { fill:var(--paper); stroke:var(--ink); stroke-width:.7 }.estimateDot { fill:#fff; stroke:var(--ink); stroke-width:1.4 }
+    .axisLabel { position:absolute; color:var(--muted); font-size:12px }.axisTop { top:0; left:-8px; transform:translate(-100%,-50%) }.axisBottom { left:-8px; bottom:0; transform:translate(-100%,50%) }
+    .dateTick line { stroke:var(--ink); stroke-width:.5 }.dateTick text { fill:var(--muted); font-size:3px }
+    .legend { display:flex; flex-wrap:wrap; gap:18px; margin-top:42px; color:var(--muted); font-size:13px }
+    .key { display:inline-block; width:24px; height:3px; margin:0 7px 3px 0; vertical-align:middle; background:var(--ink) }.key.target { height:0; border-top:2px dashed var(--blue); background:none }
+    .grid { display:grid; grid-template-columns:repeat(4,1fr); gap:16px; margin-bottom:16px }
+    .card { padding:20px; min-height:142px }
+    .label { color:var(--muted); font-size:14px; font-weight:650; text-transform:uppercase; letter-spacing:.06em }
+    .value { margin:10px 0 4px; font-size:clamp(25px,3vw,38px); line-height:1.05; font-weight:750; letter-spacing:-.03em }
+    .small { font-size:14px; color:var(--muted) }
+    .verdict { border-left:7px solid var(--green) }
+    .verdict.warn { border-left-color:var(--amber) }
+    .verdict.bad { border-left-color:var(--red) }
+    .controls { padding:20px 24px }
+    .controls h2 { margin:0 0 16px; font-size:20px }
+    .inputs { display:grid; grid-template-columns:repeat(4,1fr); gap:14px }
+    label { display:block; color:var(--muted); font-size:13px; font-weight:650 }
+    input { width:100%; margin-top:6px; border:1px solid #bcc7d0; border-radius:9px; padding:10px 11px; color:var(--ink); background:#fff; font:inherit }
+    button { margin-top:16px; border:0; border-radius:9px; padding:10px 14px; background:#e9eef3; color:var(--ink); font-weight:700; cursor:pointer }
+    .sessionCard { margin-bottom:16px; overflow:hidden }
+    .sessionHead { padding:22px 24px 12px; display:flex; justify-content:space-between; gap:16px; align-items:end }
+    .sessionHead h2 { margin:0; font-size:22px }
+    .sessionLabels,.sessionRow { display:grid; grid-template-columns:42px minmax(0,1fr) 100px 100px; gap:14px; align-items:center; padding:10px 24px }
+    .sessionLabels { color:var(--muted); font-size:12px; text-transform:uppercase; letter-spacing:.05em }
+    .sessionRow { border-top:1px solid var(--line) }
+    .rank { color:var(--muted) }.taskName { font-weight:680; overflow-wrap:anywhere }.taskText { color:var(--muted); font-size:13px; overflow-wrap:anywhere; margin-top:2px }
+    .tokenMetric { text-align:right; white-space:nowrap }.tokenMetric strong { display:block; font-size:17px }.tokenMetric span { color:var(--muted); font-size:12px }
+    footer { margin-top:18px; font-size:13px; color:var(--muted) }
+    @media (max-width:800px) { .grid,.inputs { grid-template-columns:repeat(2,1fr) } header { align-items:start; flex-direction:column } .sessionLabels { display:none }.sessionRow { grid-template-columns:30px minmax(0,1fr); align-items:start }.tokenMetric { text-align:left; display:inline-block; margin-right:18px }.sessionMetrics { grid-column:2 } }
+    @media (max-width:480px) { .grid,.inputs { grid-template-columns:1fr } main { padding:22px 14px } .sessionHead,.sessionRow { padding-left:16px; padding-right:16px } }
+  </style>
+</head>
+<body>
+<main>
+  <header>
+    <div><h1>Codex allowance tracker</h1><div class="sub">Verified history preserved across allowance replenishments.</div></div>
+    <div class="live">Automated official readings</div>
+  </header>
+  <nav class="monitors" aria-label="Expense monitors"><a href="../deepseek_cost_projector/deepseek_tracker.html">DeepSeek tracker</a><a href="../claude_cost_projector/tracker.html">Claude tracker</a><a class="here" aria-current="page" href="projector.html">Codex tracker</a></nav>
+
+  <section class="hero">
+    <div class="label">Weekly allowance at the latest official reading</div>
+    <div class="bar" aria-label="Verified weekly allowance use"><div class="used" id="usedBar"></div><div class="projected" id="projectedBar"></div><div class="limitMarker" id="limitMarker" title="Weekly plan limit"></div></div>
+    <div class="barlabels"><span id="barNow"></span><span id="barReset"></span></div>
+  </section>
+
+  <section class="chartCard">
+    <div class="chartHead"><div><h2>Stacked 7-day allowance windows</h2><div class="small">Every reset window starts at the lower-left corner. Up to 20 windows remain overlaid so their slopes can be compared. Circles are verified readings; the zero point at reset is the known allowance baseline. Horizontal placement is date-only until the exact reset hour is known.</div></div><div class="small" id="sampleStatus"></div></div>
+    <div class="zoomRow"><label for="zoomRange">Zoom time scale</label><span class="zoomValue" id="zoomLabel">7 days</span><input type="range" id="zoomRange" min="1" max="30" step="1" value="30" aria-label="How many days of each 7-day window are shown, from 12 hours to the full window"></div>
+    <div class="chartWrap">
+      <span class="axisLabel axisTop">100% used</span><span class="axisLabel axisBottom">0% used</span>
+      <svg viewBox="0 0 100 100" role="img" aria-label="Overlaid Codex weekly allowance windows with verified readings">
+        <polyline class="targetLine" id="targetLine" points=""></polyline>
+        <g id="cycleLines"></g>
+        <polyline class="forecastLine" id="forecastLine" points=""></polyline>
+        <g id="historyDots"></g>
+        <g id="historyLabels"></g>
+        <g id="gapLabels"></g>
+        <g id="dateTicks"></g>
+      </svg>
+    </div>
+    <div class="legend" id="cycleLegend"></div>
+  </section>
+
+  <section class="grid">
+    <article class="card"><div class="label">Reset time</div><div class="value" id="countdown">Aug 7</div><div class="small" id="resetLabel">8:36 PM PDT</div></article>
+    <article class="card"><div class="label">Latest official reading</div><div class="value" id="limitTime">90% used</div><div class="small" id="limitDetail">10% left at 12:58 PM</div></article>
+    <article class="card"><div class="label">Last replenishment</div><div class="value" id="cost">43% to 5%</div><div class="small" id="credits">Usage dropped and the displayed reset moved from Aug 4 to Aug 7</div></article>
+    <article class="card verdict" id="verdictCard"><div class="label" id="verdictLabel">Estimated runout</div><div class="value" id="verdict">Calculating</div><div class="small" id="verdictDetail">Dotted estimate from the last 3 verified screenshots</div></article>
+  </section>
+
+  <section class="card sessionCard">
+    <div class="sessionHead"><div><h2>Main token users</h2><div class="small">Ranked by the last 30 minutes, so stopped tasks fall down quickly.</div></div><div class="small" id="sessionCollected">Waiting for collector</div></div>
+    <div class="sessionLabels"><span>Rank</span><span>Session and task</span><span style="text-align:right">Last 30m</span><span style="text-align:right">Last 2h</span></div>
+    <div id="sessionRows"><div class="sessionRow"><span></span><span>No session data yet.</span></div></div>
+  </section>
+
+  <section class="controls">
+    <h2>Add an official reading</h2>
+    <div class="inputs">
+      <label>Latest actual allowance used, percent<input id="usedInput" type="number" min="1" max="999" step="1"></label>
+    </div>
+    <button id="recordButton" type="button">Record this actual reading now</button>
+    <button id="resetButton" type="button">Restore screenshot readings</button>
+  </section>
+
+  <footer>Lakarian reads the authenticated official Codex 7-day allowance every 20 minutes. Pine syncs the accumulated history when online. Local session activity remains separate and is not converted into allowance or dollars.</footer>
+</main>
+<script>
+  const defaults={used:98};
+  const weekMs=7*24*60*60*1000;
+  let zoomLevel=30;
+  const ZOOM_MIN_DAYS=0.5,ZOOM_MAX_DAYS=7;
+  function sliderToDays(level){return ZOOM_MIN_DAYS*Math.pow(ZOOM_MAX_DAYS/ZOOM_MIN_DAYS,(level-1)/29)}
+  function fmtZoomDays(d){return d<1?Math.round(d*24)+'h':(d<10?d.toFixed(1):Math.round(d))+'d'}
+  const cyclePalette=['#818a96','#775f96','#7b61a8','#287f8a','#a45b38','#5f7f3c','#a34e72','#486f9b','#8b6b25','#4f7770','#75558d','#9a544b','#55763b','#6d6695','#9b6a32','#3f788b','#8b526c','#67713c','#626c88','#80604f'];
+  const knownCycles={
+    aug01:{id:'aug01',label:'Reset Aug 1',start:new Date('2026-07-25T00:00:00-07:00').getTime(),end:new Date('2026-08-01T00:00:00-07:00').getTime()},
+    aug03:{id:'aug03',label:'Reset Aug 4',start:new Date('2026-07-28T00:00:00-07:00').getTime(),end:new Date('2026-08-04T00:00:00-07:00').getTime()},
+    aug07:{id:'aug07',label:'Reset Aug 7, 8:36 PM',start:new Date('2026-07-31T20:36:00-07:00').getTime(),end:new Date('2026-08-07T20:36:00-07:00').getTime()}
+  };
+  const verified=[
+    {t:new Date('2026-07-25T15:27:10-07:00').getTime(),used:.01,kind:'actual',cycleId:'aug01'},
+    {t:new Date('2026-07-26T12:40:46-07:00').getTime(),used:.04,kind:'actual',cycleId:'aug01'},
+    {t:new Date('2026-07-26T21:11:59-07:00').getTime(),used:.05,kind:'actual',cycleId:'aug01'},
+    {t:new Date('2026-07-26T22:54:28-07:00').getTime(),used:.06,kind:'actual',cycleId:'aug01'},
+    {t:new Date('2026-07-27T12:57:54-07:00').getTime(),used:.08,kind:'actual',cycleId:'aug01'},
+    {t:new Date('2026-07-28T10:19:33-07:00').getTime(),used:.03,kind:'actual',cycleId:'aug03'},
+    {t:new Date('2026-07-29T11:05:10-07:00').getTime(),used:.06,kind:'actual',cycleId:'aug03'},
+    {t:new Date('2026-07-30T14:24:06-07:00').getTime(),used:.43,kind:'actual',cycleId:'aug03'},
+    {t:new Date('2026-08-01T07:36:02-07:00').getTime(),used:.05,kind:'actual',cycleId:'aug07'},
+    {t:new Date('2026-08-03T12:58:10-07:00').getTime(),used:.90,kind:'actual',cycleId:'aug07'},
+    {t:new Date('2026-08-04T11:43:45-07:00').getTime(),used:.97,kind:'actual',cycleId:'aug07'}
+  ];
+  const $=id=>document.getElementById(id);
+  const inputs={used:$('usedInput')};
+  let settings={};
+  function load(){try{settings=JSON.parse(localStorage.getItem('codexVerifiedSettings07')||'{}')}catch(e){settings={}};inputs.used.value=settings.used??defaults.used}
+  function values(){const v={used:+inputs.used.value};Object.assign(settings,v);localStorage.setItem('codexVerifiedSettings07',JSON.stringify(settings));return v}
+  function remoteHistory(){const points=window.CODEX_ALLOWANCE_HISTORY?.points||[];return points.map(p=>{const known=Object.values(knownCycles).find(c=>Math.abs(c.end/1000-p.resetAt)<120);return {t:p.t,used:p.usedPercent/100,kind:'actual',cycleId:known?.id||('reset-'+p.resetAt),resetAt:p.resetAt}})}
+  function history(){let h=[];try{h=JSON.parse(localStorage.getItem('codexVerifiedHistory03')||'[]')}catch(e){};const merged=[...verified,...remoteHistory(),...h],byTime=new Map(merged.map(p=>[p.t,p]));return [...byTime.values()].sort((a,b)=>a.t-b.t)}
+  function saveHistory(h){localStorage.setItem('codexVerifiedHistory03',JSON.stringify(h.slice(-500)))}
+  function duration(ms){if(ms<=0)return 'now';const h=Math.floor(ms/36e5),d=Math.floor(h/24),hh=h%24,m=Math.floor((ms%36e5)/6e4);return d?`${d}d ${hh}h ${m}m`:`${hh}h ${m}m`}
+  function dateTime(d){return new Intl.DateTimeFormat('en-US',{timeZone:'America/Los_Angeles',month:'short',day:'numeric',hour:'numeric',minute:'2-digit',timeZoneName:'short'}).format(d)}
+  function buildCycles(points){
+    const groups=[],byId=new Map();
+    points.forEach((p,index)=>{
+      let id=p.cycleId||(p.cycle==='previous'?'aug01':p.cycle==='current'?'aug03':null);
+      if(!id){
+        const prior=points[index-1],priorGroup=groups[groups.length-1];
+        id=priorGroup&&prior&&p.used>=prior.used?priorGroup.id:`auto-${p.t}`;
+      }
+      let group=byId.get(id);
+      if(!group){
+        const known=knownCycles[id],previous=groups[groups.length-1],remoteEnd=p.resetAt?p.resetAt*1000:null,end=known?.end??remoteEnd??((previous?.end??p.t)+weekMs),start=known?.start??(remoteEnd?remoteEnd-weekMs:previous?.end??p.t);
+        group={id,label:known?.label??`Reset ${new Intl.DateTimeFormat('en-US',{timeZone:'America/Los_Angeles',month:'short',day:'numeric'}).format(new Date(end))}`,start,end,points:[]};
+        groups.push(group);byId.set(id,group);
+      }
+      group.points.push({...p,cycleId:id});
+    });
+    return groups.slice(-20);
+  }
+  function drawHistory(h){
+    const cycles=buildCycles(h),current=cycles[cycles.length-1],nowMs=Date.now(),spanMs=sliderToDays(zoomLevel)*864e5,visStart=c=>Math.min(nowMs,c.end)-spanMs,xy=(p,c)=>({x:Math.max(0,Math.min(100,(p.t-c.start)/(c.end-c.start)*100)),y:100-Math.max(0,Math.min(1,p.used))*100});
+    const cycleColor=i=>i===cycles.length-1?'#171b20':cyclePalette[i%cyclePalette.length];
+    $('targetLine').setAttribute('points','0,100 100,0');
+    const tickDays=[0,1,2,3,4,5,6,7];
+    const curAnchorX=Math.max(0,Math.min(100,(Math.min(nowMs,current.end)-current.start)/(current.end-current.start)*100)),curStartX=Math.max(0,curAnchorX-spanMs/(current.end-current.start)*100);
+    $('dateTicks').innerHTML=tickDays.map((day,i)=>{const x=day/7*100;if(x<curStartX-0.001||x>curAnchorX+0.001)return '';const anchor=i===0?'start':i===7?'end':'middle',label=i===0?'Reset':`Day ${day}`;return `<g class="dateTick"><line x1="${x.toFixed(2)}" y1="100" x2="${x.toFixed(2)}" y2="97"></line><text x="${x.toFixed(2)}" y="106" text-anchor="${anchor}">${label}</text></g>`}).join('');
+    $('cycleLines').innerHTML=cycles.map((c,i)=>{const color=cycleColor(i),opacity=i===cycles.length-1?1:Math.max(.3,.72-(cycles.length-2-i)*.035),includeStart=c.start>=visStart(c),points=includeStart?[{t:c.start,used:0},...c.points]:c.points,visible=points.filter(p=>p.t>=visStart(c));if(!visible.length)return '';const line=visible.map(p=>{const q=xy(p,c);return `${q.x.toFixed(2)},${q.y.toFixed(2)}`}).join(' ');return `<polyline class="cycleLine" points="${line}" style="stroke:${color};opacity:${opacity}"><title>${c.label}</title></polyline>`}).join('');
+    let pointNumber=0;
+    $('historyDots').innerHTML=cycles.map((c,i)=>{const color=cycleColor(i),opacity=i===cycles.length-1?1:Math.max(.3,.72-(cycles.length-2-i)*.035),visible=c.points.filter(p=>p.t>=visStart(c));let lastX=-1;return visible.map(p=>{const q=xy(p,c);if(q.x-lastX<0.3)return '';lastX=q.x;pointNumber++;return `<circle class="cycleDot" cx="${q.x.toFixed(2)}" cy="${q.y.toFixed(2)}" r="1.05" style="stroke:${color};opacity:${opacity}"><title>${c.label}: ${Math.round(p.used*100)}% used at ${dateTime(new Date(p.t))}</title></circle>`}).join('')}).join('');
+    $('historyLabels').innerHTML=cycles.map((c,i)=>{let lastLabel=-10;return c.points.filter(p=>p.t>=visStart(c)).map(p=>{const q=xy(p,c);if(q.x-lastLabel<2.5)return '';lastLabel=q.x;return `<text x="${q.x.toFixed(2)}" y="${(q.y-3).toFixed(2)}" text-anchor="middle" font-size="3.3" fill="${cycleColor(i)}">${Math.round(p.used*100)}%</text>`}).join('')}).join('');
+    $('gapLabels').innerHTML=current.points.slice(1).map((p,i)=>{const prior=current.points[i],hours=(p.t-prior.t)/36e5;if(hours<12||prior.t<visStart(current)||p.t<visStart(current))return '';const a=xy(prior,current),b=xy(p,current),x=(a.x+b.x)/2,y=(a.y+b.y)/2;return `<text x="${x.toFixed(2)}" y="${(y-2).toFixed(2)}" text-anchor="middle" font-size="2.8" fill="#a34e4e">${Math.round(hours)}h gap · no readings</text>`}).join('');
+    pointNumber=0;
+    $('cycleLegend').innerHTML=cycles.map((c,i)=>{const first=pointNumber+1,last=pointNumber+c.points.length,firstUsed=Math.round(c.points[0].used*100),lastUsed=Math.round(c.points[c.points.length-1].used*100);pointNumber=last;return `<span><i class="key" style="background:${cycleColor(i)}"></i>${c.label} · ${first===last?`point ${first}`:`points ${first}–${last}`} · ${firstUsed}${firstUsed===lastUsed?'':`→${lastUsed}`}%</span>`}).join('')+`<span><i class="key target"></i>Even pace through a 7-day window</span><span><i class="key" style="height:0;border-top:1px dotted currentColor;background:none"></i>Current-window extrapolation</span>`;
+    const latest=current.points[current.points.length-1];
+    if(current.points.length<3){$('forecastLine').setAttribute('points','');$('verdict').textContent=`Need ${3-current.points.length} more readings`;$('verdictDetail').textContent='No forecast is drawn until 3 current-window readings exist';$('sampleStatus').textContent=`Latest: ${Math.round(latest.used*100)}% used at ${dateTime(new Date(latest.t))}`;return}
+    const basis=current.points.slice(-3),slope=(latest.used-basis[0].used)/(latest.t-basis[0].t);
+    const runout=slope>0?latest.t+(1-latest.used)/slope:Infinity,forecastEnd=Math.min(runout,current.end);
+    const forecastUsed=Math.min(1,latest.used+slope*(forecastEnd-latest.t));
+    $('forecastLine').setAttribute('points',[latest,{t:forecastEnd,used:forecastUsed}].map(p=>{const q=xy(p,current);return `${q.x.toFixed(2)},${q.y.toFixed(2)}`}).join(' '));
+    $('verdict').textContent=!Number.isFinite(runout)?'Unknown':runout>current.end?'No runout before reset':new Intl.DateTimeFormat('en-US',{timeZone:'America/Los_Angeles',month:'short',day:'numeric',hour:'numeric',minute:'2-digit'}).format(new Date(runout));
+    $('verdictDetail').textContent=Number.isFinite(runout)&&runout>current.end?`Current dotted trend reaches 100% after ${current.label}`:'Dotted estimate from the last 3 verified screenshots';
+    $('sampleStatus').textContent=`Latest: ${Math.round(latest.used*100)}% used at ${dateTime(new Date(latest.t))}`;
+  }
+  function compactNumber(n){return new Intl.NumberFormat('en-US',{notation:'compact',maximumFractionDigits:1}).format(n)}
+  function safe(s){return String(s).replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]))}
+  function drawSessions(){const data=window.CODEX_SESSION_USAGE;if(!data||!data.sessions)return;$('sessionCollected').textContent=data.collectedAt?`Collected ${dateTime(new Date(data.collectedAt))}`:'Waiting for collector';$('sessionRows').innerHTML=data.sessions.slice(0,10).map((s,i)=>`<div class="sessionRow"><div class="rank">${i+1}</div><div><div class="taskName">${safe(s.name)}</div><div class="taskText">${safe(s.task||'Task description unavailable')}</div></div><div class="sessionMetrics tokenMetric"><strong>${compactNumber(s.recent30Tokens||0)}</strong><span>tokens in 30m</span></div><div class="tokenMetric"><strong>${compactNumber(s.recentTokens)}</strong><span>tokens in 2h</span></div></div>`).join('')||'<div class="sessionRow"><span></span><span>No session data yet.</span></div>'}
+  function reloadSessions(){const old=$('sessionDataScript');if(old)old.remove();const script=document.createElement('script');script.id='sessionDataScript';script.src=`session_usage.js?t=${Date.now()}`;script.onload=drawSessions;document.body.appendChild(script)}
+  function reloadAllowance(){const old=$('allowanceDataScript');if(old)old.remove();const script=document.createElement('script');script.id='allowanceDataScript';script.src=`allowance_history.js?t=${Date.now()}`;script.onload=update;document.body.appendChild(script)}
+  function update(){
+    values();const h=history(),latest=h[h.length-1];
+    $('countdown').textContent='Aug 7';$('resetLabel').textContent='8:36 PM PDT';
+    $('usedBar').style.width=(latest.used*100)+'%';$('projectedBar').style.width='0%';$('limitMarker').style.left='100%';
+    $('barNow').textContent=`Verified used: ${Math.round(latest.used*100)}%`;$('barReset').textContent=`Verified left: ${Math.round((1-latest.used)*100)}%`;
+    $('limitTime').textContent=`${Math.round(latest.used*100)}% used`;$('limitDetail').textContent=`${Math.round((1-latest.used)*100)}% left at ${new Intl.DateTimeFormat('en-US',{timeZone:'America/Los_Angeles',hour:'numeric',minute:'2-digit'}).format(new Date(latest.t))}`;
+    drawHistory(h);
+  }
+  Object.values(inputs).forEach(el=>el.addEventListener('input',update));
+  $('recordButton').addEventListener('click',()=>{const v=values(),h=history();h.push({t:Date.now(),used:v.used/100,kind:'actual'});saveHistory(h);update()});
+  $('resetButton').addEventListener('click',()=>{localStorage.removeItem('codexVerifiedSettings07');localStorage.removeItem('codexVerifiedHistory03');settings={};load();update()});load();update();reloadSessions();reloadAllowance();setInterval(update,1000);setInterval(reloadSessions,60000);setInterval(reloadAllowance,60000);
+  $('zoomRange').addEventListener('input',()=>{zoomLevel=Number($('zoomRange').value);$('zoomLabel').textContent=fmtZoomDays(sliderToDays(zoomLevel));update()});$('zoomLabel').textContent=fmtZoomDays(sliderToDays(zoomLevel));
+</script>
+</body>
+</html>

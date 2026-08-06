@@ -1,0 +1,198 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Claude Allowance Tracker</title>
+  <style>
+    :root { color-scheme: light; --ink:#17202a; --muted:#65717d; --line:#dce3e8; --paper:#fff; --wash:#f4f7f9; --blue:#1769e0; --green:#11845b; --amber:#b36500; --red:#c0372b; }
+    * { box-sizing:border-box }
+    body { margin:0; background:var(--wash); color:var(--ink); font:16px/1.45 system-ui,-apple-system,"Segoe UI",sans-serif }
+    main { max-width:1040px; margin:auto; padding:34px 22px 50px }
+    header { display:flex; justify-content:space-between; gap:24px; align-items:end; margin-bottom:22px }
+    .monitors { display:flex; gap:10px; margin-top:14px; flex-wrap:wrap }
+    .monitors a { color:var(--ink); text-decoration:none; font-weight:700; font-size:13.5px; border:1px solid var(--line); background:var(--paper); border-radius:999px; padding:6px 13px }
+    .monitors a:hover { border-color:var(--blue); color:var(--blue) }
+    .monitors .here { background:var(--ink); color:var(--paper); border-color:var(--ink); pointer-events:none }
+    h1 { font-size:clamp(28px,4vw,46px); line-height:1.05; margin:0 0 8px; letter-spacing:-.04em }
+    .sub,.note { color:var(--muted) }
+    .live { white-space:nowrap; color:var(--green); font-weight:700 }
+    .live:before { content:""; display:inline-block; width:9px; height:9px; margin-right:7px; border-radius:50%; background:var(--green) }
+    .hero,.card,.controls,.chartCard { background:var(--paper); border:1px solid var(--line); border-radius:18px; box-shadow:0 3px 14px #1825360a }
+    .hero { padding:24px; margin-bottom:16px }
+    .bar { position:relative; height:32px; border-radius:10px; overflow:hidden; background:#e7edf2; display:flex; margin:18px 0 10px }
+    .used { background:var(--ink) }
+    .projected { background:repeating-linear-gradient(135deg,#97bff5 0 6px,#d4e4fa 6px 12px) }
+    .limitMarker { position:absolute; inset:0 auto 0 0; width:3px; background:var(--red); box-shadow:0 0 0 1px #fff }
+    .barlabels { display:flex; justify-content:space-between; gap:12px; color:var(--muted); font-size:14px }
+    .chartCard { padding:24px; margin-bottom:16px }
+    .chartHead { display:flex; justify-content:space-between; gap:20px; align-items:end; margin-bottom:16px }
+    .chartHead h2 { margin:0; font-size:22px }
+    .chartWrap { position:relative; width:min(100%,620px); margin:auto; aspect-ratio:1; border-left:2px solid var(--ink); border-bottom:2px solid var(--ink); background:linear-gradient(to right,transparent 24.8%,var(--line) 25%,transparent 25.2%,transparent 49.8%,var(--line) 50%,transparent 50.2%,transparent 74.8%,var(--line) 75%,transparent 75.2%),linear-gradient(to top,transparent 24.8%,var(--line) 25%,transparent 25.2%,transparent 49.8%,var(--line) 50%,transparent 50.2%,transparent 74.8%,var(--line) 75%,transparent 75.2%) }
+    .chartWrap svg { display:block; width:100%; height:100%; overflow:visible }
+    .targetLine { stroke:var(--blue); stroke-width:1.8; stroke-dasharray:4 3; fill:none }
+    .actualLine { stroke:var(--ink); stroke-width:.56; fill:none; stroke-linecap:round; stroke-linejoin:round }
+    .forecastLine { stroke:var(--ink); stroke-width:.7; stroke-dasharray:1.5 1.5; fill:none }
+    .actualDot { fill:var(--paper); stroke:var(--ink); stroke-width:.7 }.estimateDot { fill:#fff; stroke:var(--ink); stroke-width:1.4 }
+    .axisLabel { position:absolute; color:var(--muted); font-size:12px }.axisTop { top:0; left:-8px; transform:translate(-100%,-50%) }.axisBottom { left:-8px; bottom:0; transform:translate(-100%,50%) }
+    .dateTick line { stroke:var(--ink); stroke-width:.35 }.dateTick text { fill:var(--muted); font-size:1.4px }
+    .legend { display:flex; flex-wrap:wrap; gap:18px; margin-top:68px; color:var(--muted); font-size:13px }
+    .key { display:inline-block; width:24px; height:3px; margin:0 7px 3px 0; vertical-align:middle; background:var(--ink) }.key.target { height:0; border-top:2px dashed var(--blue); background:none }
+    .grid { display:grid; grid-template-columns:repeat(4,1fr); gap:16px; margin-bottom:16px }
+    .card { padding:20px; min-height:142px }
+    .label { color:var(--muted); font-size:14px; font-weight:650; text-transform:uppercase; letter-spacing:.06em }
+    .value { margin:10px 0 4px; font-size:clamp(25px,3vw,38px); line-height:1.05; font-weight:750; letter-spacing:-.03em }
+    .small { font-size:14px; color:var(--muted) }
+    .verdict { border-left:7px solid var(--green) }
+    .verdict.warn { border-left-color:var(--amber) }
+    .verdict.bad { border-left-color:var(--red) }
+    .controls { padding:20px 24px }
+    .controls h2 { margin:0 0 16px; font-size:20px }
+    .inputs { display:grid; grid-template-columns:repeat(4,1fr); gap:14px }
+    label { display:block; color:var(--muted); font-size:13px; font-weight:650 }
+    input { width:100%; margin-top:6px; border:1px solid #bcc7d0; border-radius:9px; padding:10px 11px; color:var(--ink); background:#fff; font:inherit }
+    button { margin-top:16px; border:0; border-radius:9px; padding:10px 14px; background:#e9eef3; color:var(--ink); font-weight:700; cursor:pointer }
+    .sessionCard { margin-bottom:16px; overflow:hidden }
+    .sessionHead { padding:22px 24px 12px; display:flex; justify-content:space-between; gap:16px; align-items:end }
+    .sessionHead h2 { margin:0; font-size:22px }
+    .sessionLabels,.sessionRow { display:grid; grid-template-columns:42px minmax(0,1fr) 100px 100px; gap:14px; align-items:center; padding:10px 24px }
+    .sessionLabels { color:var(--muted); font-size:12px; text-transform:uppercase; letter-spacing:.05em }
+    .sessionRow { border-top:1px solid var(--line) }
+    .rank { color:var(--muted) }.taskName { font-weight:680; overflow-wrap:anywhere }.taskText { color:var(--muted); font-size:13px; overflow-wrap:anywhere; margin-top:2px }
+    .tokenMetric { text-align:right; white-space:nowrap }.tokenMetric strong { display:block; font-size:17px }.tokenMetric span { color:var(--muted); font-size:12px }
+    footer { margin-top:18px; font-size:13px; color:var(--muted) }
+    @media (max-width:800px) { .grid,.inputs { grid-template-columns:repeat(2,1fr) } header { align-items:start; flex-direction:column } .sessionLabels { display:none }.sessionRow { grid-template-columns:30px minmax(0,1fr); align-items:start }.tokenMetric { text-align:left; display:inline-block; margin-right:18px }.sessionMetrics { grid-column:2 } }
+    @media (max-width:480px) { .grid,.inputs { grid-template-columns:1fr } main { padding:22px 14px } .sessionHead,.sessionRow { padding-left:16px; padding-right:16px } }
+  </style>
+</head>
+<body>
+<main>
+  <header>
+    <div><h1>Claude allowance tracker</h1><div class="sub">Official screenshot readings plus local activity context.</div></div>
+    <div class="live">Verified manual readings</div>
+  </header>
+  <nav class="monitors" aria-label="Expense monitors"><a href="../deepseek_cost_projector/deepseek_tracker.html">DeepSeek tracker</a><a class="here" aria-current="page" href="tracker.html">Claude tracker</a><a href="../codex_cost_projector/projector.html">Codex tracker</a></nav>
+
+  <section class="hero">
+    <div class="label">Claude weekly allowance</div>
+    <div class="bar" aria-label="Verified weekly allowance use"><div class="used" id="usedBar"></div><div class="projected" id="projectedBar"></div><div class="limitMarker" id="limitMarker" title="Weekly plan limit"></div></div>
+    <div class="barlabels"><span id="barNow"></span><span id="barReset"></span></div>
+  </section>
+
+  <section class="chartCard">
+    <div class="chartHead"><div><h2>Weekly allowance curve</h2><div class="small" id="chartNote">The forecast uses verified Claude readings only. No allowance data is inferred from local tokens.</div></div><div class="small" id="sampleStatus">Waiting for official data</div></div>
+    <div class="chartWrap">
+      <span class="axisLabel axisTop">100% used</span><span class="axisLabel axisBottom">0% used</span>
+      <svg viewBox="0 0 100 100" role="img" aria-label="Claude weekly allowance readings, even-pace guide, and forecast">
+        <polyline class="targetLine" id="targetLine" points=""></polyline>
+        <polyline class="actualLine" id="historyLine" points=""></polyline>
+        <polyline class="forecastLine" id="forecastLine" points=""></polyline>
+        <g id="historyDots"></g>
+        <g id="historyLabels"></g>
+        <g id="dateTicks"></g>
+      </svg>
+    </div>
+    <div class="legend"><span id="actualLegend"><i class="key"></i>No verified readings yet</span><span><i class="key target"></i>Even pace through the weekly cycle</span><span><i class="key" style="height:0;border-top:1px dotted currentColor;background:none"></i>Forecast from verified consumption</span></div>
+  </section>
+
+  <section class="grid">
+    <article class="card"><div class="label">Reset</div><div class="value" id="countdown">Unknown</div><div class="small" id="resetLabel">Enter Claude's displayed reset</div></article>
+    <article class="card"><div class="label">Latest official reading</div><div class="value" id="limitTime">No reading</div><div class="small" id="limitDetail">Awaiting a Claude usage screenshot</div></article>
+    <article class="card"><div class="label">Change since prior screenshot</div><div class="value" id="cost">Unknown</div><div class="small" id="credits">Two readings are needed</div></article>
+    <article class="card verdict" id="verdictCard"><div class="label" id="verdictLabel">Estimated runout</div><div class="value" id="verdict">No forecast</div><div class="small" id="verdictDetail">A verified reading is needed</div></article>
+  </section>
+
+  <section class="controls">
+    <h2>Add an official reading</h2>
+    <div class="inputs">
+      <label>Allowance used, percent<input id="usedInput" type="number" min="0" max="100" step="1"></label>
+      <label>Screenshot time<input id="observedInput" type="datetime-local"></label>
+      <label>Weekly reset date<input id="resetDateInput" type="date"></label>
+      <label>Reset time, if shown<input id="resetTimeInput" type="time"></label>
+    </div>
+    <button id="recordButton" type="button">Record official Claude reading</button>
+    <button id="resetButton" type="button">Clear Claude readings</button>
+  </section>
+
+  <script src="claude_readings.js"></script>
+  <footer>Claude and Claude Code share plan limits, but local token logs do not reveal the official allowance percentage. This chart changes only from official readings you provide. Local activity and list-price estimates remain in the <a href="../token_budget/dashboard.html">Token Budget dashboard</a> and are never converted into plan percentage.</footer>
+</main>
+<script>
+  window.renderClaude = function () {
+  const $=id=>document.getElementById(id);
+  const inputs={used:$('usedInput'),observed:$('observedInput'),resetDate:$('resetDateInput'),resetTime:$('resetTimeInput')};
+  const verifiedSeed=[
+    {t:new Date('2026-07-26T22:56:35-07:00').getTime(),used:.16,resetDate:'2026-07-31',resetTime:'20:59',kind:'actual',source:'Claude usage screenshot'},
+    {t:new Date('2026-07-26T23:43:28-07:00').getTime(),used:.16,resetDate:'2026-07-31',resetTime:'20:59',kind:'actual',source:'Claude usage screenshot'},
+    {t:new Date('2026-07-27T11:25:04-07:00').getTime(),used:.18,resetDate:'2026-07-31',resetTime:'20:59',kind:'actual',source:'Claude usage screenshot'},
+    {t:new Date('2026-07-27T12:57:19-07:00').getTime(),used:.20,resetDate:'2026-07-31',resetTime:'20:59',kind:'actual',source:'Claude usage screenshot'},
+    {t:new Date('2026-07-28T00:58:23-07:00').getTime(),used:.24,resetDate:'2026-07-31',resetTime:'20:59',kind:'actual',source:'Claude usage screenshot'},
+    {t:new Date('2026-07-28T10:18:44-07:00').getTime(),used:.26,resetDate:'2026-07-31',resetTime:'20:59',kind:'actual',source:'Claude usage screenshot'},
+    {t:new Date('2026-07-30T14:24:38-07:00').getTime(),used:.54,resetDate:'2026-07-31',resetTime:'20:59',kind:'actual',source:'Claude usage screenshot'},
+    {t:new Date('2026-08-05T09:32:03-07:00').getTime(),used:.18,resetDate:'2026-08-07',resetTime:'20:59',kind:'actual',source:'Claude usage screenshot'}
+  ];
+  let settings={};
+  function localInput(d=new Date()){const z=n=>String(n).padStart(2,'0');return `${d.getFullYear()}-${z(d.getMonth()+1)}-${z(d.getDate())}T${z(d.getHours())}:${z(d.getMinutes())}`}
+  function load(){try{settings=JSON.parse(localStorage.getItem('claudeVerifiedSettings01')||'{}')}catch(e){settings={}};if(settings.resetDate==='2026-07-31'&&['20:00','21:00'].includes(settings.resetTime)){settings.resetTime='20:59';localStorage.setItem('claudeVerifiedSettings01',JSON.stringify(settings))}const newest=allHistory().reduce((best,p)=>p.resetDate>best?p.resetDate:best,'');if(newest&&(!settings.resetDate||settings.resetDate<newest)){settings.resetDate=newest;settings.resetTime='20:59';localStorage.setItem('claudeVerifiedSettings01',JSON.stringify(settings))}inputs.used.value='';inputs.observed.value=localInput();inputs.resetDate.value=settings.resetDate||'2026-08-07';inputs.resetTime.value=settings.resetTime||'20:59'}
+  function values(){const v={used:Number(inputs.used.value),observed:inputs.observed.value,resetDate:inputs.resetDate.value,resetTime:inputs.resetTime.value};settings={resetDate:v.resetDate,resetTime:v.resetTime};localStorage.setItem('claudeVerifiedSettings01',JSON.stringify(settings));return v}
+  function allHistory(){let saved=[];try{saved=JSON.parse(localStorage.getItem('claudeVerifiedHistory01')||'[]')}catch(e){};const external=window.CLAUDE_READINGS&&Array.isArray(window.CLAUDE_READINGS)?window.CLAUDE_READINGS:[];return [...verifiedSeed,...external,...saved].filter((p,i,a)=>a.findIndex(q=>q.t===p.t&&q.used===p.used&&q.resetDate===p.resetDate)===i)}
+  function history(){const key=inputs.resetDate.value;return allHistory().filter(p=>p.resetDate===key).sort((a,b)=>a.t-b.t)}
+  function savePoint(p){const h=allHistory();h.push(p);localStorage.setItem('claudeVerifiedHistory01',JSON.stringify(h.slice(-500)))}
+  function duration(ms){if(ms<=0)return 'now';const h=Math.floor(ms/36e5),d=Math.floor(h/24),hh=h%24,m=Math.floor((ms%36e5)/6e4);return d?`${d}d ${hh}h ${m}m`:`${hh}h ${m}m`}
+  function dateTime(d){return new Intl.DateTimeFormat('en-US',{timeZone:'America/Los_Angeles',month:'short',day:'numeric',hour:'numeric',minute:'2-digit',timeZoneName:'short'}).format(d)}
+  function dateOnly(d){return new Intl.DateTimeFormat('en-US',{timeZone:'America/Los_Angeles',month:'short',day:'numeric'}).format(d)}
+  function bounds(){if(!inputs.resetDate.value)return null;const exact=Boolean(inputs.resetTime.value),end=new Date(`${inputs.resetDate.value}T${inputs.resetTime.value||'00:00'}`).getTime();return {start:end-7*864e5,end,exact}}
+  function clearChart(){
+    ['targetLine','historyLine','forecastLine'].forEach(id=>$(id).setAttribute('points',''));
+    ['historyDots','historyLabels','dateTicks'].forEach(id=>$(id).innerHTML='');
+  }
+  function drawHistory(points,b){
+    const {start,end}=b;
+    const xy=p=>({x:Math.max(0,Math.min(100,(p.t-start)/(end-start)*100)),y:100-Math.max(0,Math.min(1,p.used))*100});
+    const targetPoints=[{t:start,used:0},{t:end,used:1}];
+    $('targetLine').setAttribute('points',targetPoints.map(p=>{const q=xy(p);return `${q.x.toFixed(2)},${q.y.toFixed(2)}`}).join(' '));
+    const dateFormat=new Intl.DateTimeFormat('en-US',{timeZone:'America/Los_Angeles',month:'short',day:'numeric'});
+    const timeFormat=new Intl.DateTimeFormat('en-US',{timeZone:'America/Los_Angeles',hour:'numeric'});
+    const weekdayFormat=new Intl.DateTimeFormat('en-US',{timeZone:'America/Los_Angeles',weekday:'long'});
+    $('dateTicks').innerHTML=Array.from({length:15},(_,i)=>{const x=i/14*100,t=start+i*12*60*60*1000,anchor=i===0?'start':i===14?'end':'middle',d=new Date(t),weekdayLabel=weekdayFormat.format(d),dateLabel=dateFormat.format(d),timeLabel=timeFormat.format(d).replace(' ','');return `<g class="dateTick"><line x1="${x.toFixed(2)}" y1="100" x2="${x.toFixed(2)}" y2="98"></line><text x="${x.toFixed(2)}" y="103.6" text-anchor="${anchor}"><tspan x="${x.toFixed(2)}">${weekdayLabel}</tspan><tspan x="${x.toFixed(2)}" dy="1.9">${dateLabel}</tspan><tspan x="${x.toFixed(2)}" dy="1.9">${timeLabel}</tspan></text></g>`}).join('');
+    if(!points.length){$('historyLine').setAttribute('points','');$('forecastLine').setAttribute('points','');$('historyDots').innerHTML='';$('historyLabels').innerHTML='';return}
+    $('historyLine').setAttribute('points',points.map(p=>{const q=xy(p);return `${q.x.toFixed(2)},${q.y.toFixed(2)}`}).join(' '));
+    $('historyDots').innerHTML=points.map(p=>{const q=xy(p);return `<circle class="actualDot" cx="${q.x.toFixed(2)}" cy="${q.y.toFixed(2)}" r="1.25"><title>Verified screenshot: ${Math.round(p.used*100)}% used</title></circle>`}).join('');
+    $('historyLabels').innerHTML=points.map((p,i)=>{const q=xy(p),dy=i===3||i===5||i===7||i===10?6:-4;return `<text x="${q.x.toFixed(2)}" y="${(q.y+dy).toFixed(2)}" text-anchor="middle" font-size="4" fill="currentColor">${i+1}</text>`}).join('');
+    const latest=points[points.length-1];
+    $('actualLegend').innerHTML=`<i class="key"></i>Verified actual: ${points.map((p,i)=>`${i+1}: ${Math.round(p.used*100)}%`).join('; ')}`;
+    $('sampleStatus').textContent=`Latest: ${Math.round(latest.used*100)}% used at ${dateTime(new Date(latest.t))}`;
+    const basis=points.length>=3?points.slice(-3):[{t:start,used:0},latest],slope=(latest.used-basis[0].used)/(latest.t-basis[0].t);
+    const runout=slope>0?latest.t+(1-latest.used)/slope:Infinity,forecastEnd=Math.min(runout,end);
+    const forecastUsed=Math.min(1,latest.used+slope*(forecastEnd-latest.t));
+    $('forecastLine').setAttribute('points',[latest,{t:forecastEnd,used:forecastUsed}].map(p=>{const q=xy(p);return `${q.x.toFixed(2)},${q.y.toFixed(2)}`}).join(' '));
+    $('verdict').textContent=!Number.isFinite(runout)?'Stable':runout>end?'No runout before reset':new Intl.DateTimeFormat('en-US',{timeZone:'America/Los_Angeles',month:'short',day:'numeric',hour:'numeric',minute:'2-digit'}).format(new Date(runout));
+    const basisLabel=points.length>=3?'last 3 verified screenshots':'cycle start and the verified screenshot';
+    $('verdictDetail').textContent=Number.isFinite(runout)&&runout>end?`Current dotted trend reaches 100% after the reset; based on ${basisLabel}`:`Dotted estimate from ${basisLabel}`;
+  }
+  function update(){
+    const b=bounds(),h=history(),latest=h[h.length-1];
+    if(!b){clearChart();$('usedBar').style.width='0%';$('limitMarker').style.left='100%';$('barNow').textContent='No official reading';$('barReset').textContent='';$('countdown').textContent='Unknown';$('resetLabel').textContent=`Enter Claude's displayed reset`;$('verdict').textContent='No forecast';$('verdictDetail').textContent='Three verified readings are needed';return}
+    $('countdown').textContent=b.exact?duration(b.end-Date.now()):dateOnly(new Date(b.end));
+    $('resetLabel').textContent=b.exact?dateTime(new Date(b.end)):'Exact hour is not shown';
+    $('chartNote').textContent=b.exact?'Blue diagonal reaches the exact reset. Black dotted line extrapolates verified consumption.':'Reset hour is unknown. The blue diagonal is a date-only guide. Black dotted line extrapolates verified consumption.';
+    if(!latest){clearChart();drawHistory([],b);$('historyLine').setAttribute('points','');$('historyDots').innerHTML='';$('historyLabels').innerHTML='';$('actualLegend').innerHTML='<i class="key"></i>No verified readings yet';$('sampleStatus').textContent='Waiting for official data';$('verdict').textContent='Need a reading';$('verdictDetail').textContent='No forecast is drawn without verified data';return}
+    $('usedBar').style.width=(latest.used*100)+'%';$('projectedBar').style.width='0%';$('limitMarker').style.left='100%';
+    $('barNow').textContent=`Verified used: ${Math.round(latest.used*100)}%`;$('barReset').textContent=`Verified left: ${Math.round((1-latest.used)*100)}%`;
+    $('limitTime').textContent=`${Math.round(latest.used*100)}% used`;$('limitDetail').textContent=`${Math.round((1-latest.used)*100)}% left at ${dateTime(new Date(latest.t))}`;
+    if(h.length>1){const prior=h[h.length-2],delta=Math.round((latest.used-prior.used)*100);$('cost').textContent=`${delta>=0?'+':''}${delta} points`;$('credits').textContent=`Over ${duration(latest.t-prior.t)}`}else{$('cost').textContent='Reading 1';$('credits').textContent='One more reading will show the change'}
+    drawHistory(h,b);
+  }
+  inputs.resetDate.addEventListener('input',()=>{values();update()});inputs.resetTime.addEventListener('input',()=>{values();update()});
+  $('recordButton').addEventListener('click',()=>{const v=values();if(!v.resetDate||!v.observed||!Number.isFinite(v.used)||v.used<0||v.used>100){alert('Enter used percent, screenshot time, and reset date.');return}savePoint({t:new Date(v.observed).getTime(),used:v.used/100,resetDate:v.resetDate,resetTime:v.resetTime,kind:'actual'});inputs.used.value='';inputs.observed.value=localInput();update()});
+  $('resetButton').addEventListener('click',()=>{localStorage.removeItem('claudeVerifiedSettings01');localStorage.removeItem('claudeVerifiedHistory01');settings={};load();clearChart();update()});
+  load();update();setInterval(update,60000);
+  };
+  window.renderClaude();
+  const fresh = document.createElement("script");
+  fresh.src = "claude_readings.js?t=" + Date.now();
+  fresh.onload = window.renderClaude;
+  document.head.appendChild(fresh);
+</script>
+</body>
+</html>
