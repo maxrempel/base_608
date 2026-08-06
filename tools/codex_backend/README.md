@@ -183,3 +183,10 @@ or full message dumps. The app's own informative renames are preserved;
 raw-title shortening is limited to threads created in the last 7 days, and
 `apply` writes only when something actually changes (no index churn, no
 duplicate lines), so the watcher stays quiet when there is nothing new.
+
+Known display limitation (verified 2026-08-06): the desktop app keeps its own
+in-memory copy of thread titles for the sidebar and does not always reflect
+external edits to the database or `session_index.jsonl`, even though the
+stores are correct. A full app restart reloads titles from the store, which
+is the reliable way to make the sidebar show the prefixes. The watcher keeps
+the store correct continuously, so every reload shows the right result.

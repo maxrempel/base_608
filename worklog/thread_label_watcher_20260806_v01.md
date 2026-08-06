@@ -72,3 +72,17 @@ shortener was about to rewrite weeks-old GPT-era names. Two fixes:
 Final state 14:22 PDT: 224 threads, 0 untagged, 0 double-tagged, watcher
 quiet. The app's own titler may still rename active sessions later (its
 lowercase-tagged titles are normalized by the next 5-minute sweep).
+
+## Display caveat (16:45 PDT)
+
+Max reported the Base_608 sidebar still shows untagged titles. Verified the
+store is correct (DB + index are tagged for those threads), but the desktop
+app keeps its own in-memory title cache for the sidebar and does not always
+pick up external edits; at 16:44:43 it even rewrote this session's DB title
+back to the raw first message, and its own title cache shows versions that
+are neither the DB nor the newest index entry. The claude_base sessions show
+tags because those cache entries were created from already-tagged store data.
+A full app restart is the reliable way to make the sidebar display the
+tagged titles. No code fix found inside the app stores: local_thread_catalog
+(codex-dev.db) holds only legacy/remote entries and is not the sidebar
+source; the CLI has no thread rename command.
