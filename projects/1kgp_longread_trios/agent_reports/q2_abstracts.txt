@@ -1,0 +1,1000 @@
+﻿1. HGG Adv. 2026 Jul 9;7(3):100632. doi: 10.1016/j.xhgg.2026.100632. Epub 2026
+Jun  9.
+
+Nanopore-based haplotype-resolved X chromosome inactivation for severity 
+assessment in X-linked disorders: An AIFM1 study with a mosaic PDHA1 carrier.
+
+Nakamura K(1), Okazaki A(2), Motooka D(3), Matsumoto N(1), Hasegawa Y(4), Fukuda 
+S(5), Yabe M(6), Sugiura A(1), Yatsuka Y(1), Fushimi T(7), Onuki T(7), Aida 
+Y(7), Ohtake A(8), Murayama K(9), Okazaki Y(10).
+
+Author information:
+(1)Diagnostics and Therapeutics of Intractable Diseases, Intractable Disease 
+Research Center, Graduate School of Medicine, Juntendo University, Tokyo, Japan.
+(2)Diagnostics and Therapeutics of Intractable Diseases, Intractable Disease 
+Research Center, Graduate School of Medicine, Juntendo University, Tokyo, Japan. 
+Electronic address: a-okazaki@juntendo.ac.jp.
+(3)Department of Infection Metagenomics, Research Institute for Microbial 
+Diseases, Osaka University, Osaka, Japan.
+(4)Department of Medical Genetics, Osaka Women's and Children's Hospital, Osaka, 
+Japan.
+(5)Department of Neonatal Medicine, Osaka Women's and Children's Hospital, 
+Osaka, Japan.
+(6)Department of Pediatrics, Nagano Red Cross Hospital, Nagano, Japan; 
+Department of Pediatrics, Shinshu University School of Medicine, Matsumoto, 
+Nagano, Japan.
+(7)Department of Metabolism, Chiba Children's Hospital, Chiba, Japan.
+(8)Department of Pediatrics and Clinical Genomics, Saitama Medical University, 
+Saitama, Japan.
+(9)Diagnostics and Therapeutics of Intractable Diseases, Intractable Disease 
+Research Center, Graduate School of Medicine, Juntendo University, Tokyo, Japan; 
+Department of Metabolism, Chiba Children's Hospital, Chiba, Japan.
+(10)Diagnostics and Therapeutics of Intractable Diseases, Intractable Disease 
+Research Center, Graduate School of Medicine, Juntendo University, Tokyo, Japan. 
+Electronic address: ya-okazaki@juntendo.ac.jp.
+
+X chromosome inactivation (XCI) modifies disease severity in females with 
+X-linked variants, but clinically applicable high-resolution assessment remains 
+limited. We report a family with an apoptosis-inducing factor, 
+mitochondria-associated 1 (AIFM1) variant that shows marked intrafamilial 
+phenotypic variability and evaluated whether haplotype-resolved nanopore 
+sequencing can inform clinical interpretation. Targeted long-read sequencing was 
+performed in a severely affected hemizygous male, his asymptomatic heterozygous 
+mother, and a severely affected heterozygous sibling. In the hemizygous male, 
+the sample served as a technical control, with all reads mapping to a single 
+haplotype, consistent with a hemizygous X chromosome. Among heterozygous 
+carriers with the identical variant (c.506C>T [p.Pro169Leu]), XCI correlated 
+with severity: the affected sibling showed 84% skew favoring activation of the 
+pathogenic allele, whereas the mother showed preferential inactivation (20%). 
+This family-based study shows that using nanopore sequencing for 
+haplotype-resolved XCI analysis may provide a practical framework for selected 
+X-linked disorders with variable expressivity.
+
+Copyright © 2026 The Authors. Published by Elsevier Inc. All rights reserved.
+
+DOI: 10.1016/j.xhgg.2026.100632
+PMCID: PMC13347936
+PMID: 42265917 [Indexed for MEDLINE]
+
+Conflict of interest statement: Declaration of interests The authors declare no 
+competing interests.
+
+
+2. HGG Adv. 2026 Jul 9;7(3):100620. doi: 10.1016/j.xhgg.2026.100620. Epub 2026
+Apr  27.
+
+Diagnostic utility of clinical genome reanalysis in rare pediatric disorders 
+using long-read sequencing.
+
+Werren EA(1), Vats P(1), Rech GE(1), Peracchio M(2), King C(3), Charnysh EJ(1), 
+Gorham RD(1), Audano PA(1), Robinson PN(1), Kelly MA(1), Matson AP(4), Adams 
+MD(5), Kalsner L(6).
+
+Author information:
+(1)The Jackson Laboratory for Genomic Medicine, Farmington, CT 06032, USA.
+(2)Division of Genetics, Connecticut Children's, Hartford, CT 06106, USA.
+(3)Department of Research, Connecticut Children's, Hartford, CT 06106, USA.
+(4)Department of Pediatrics, University of Connecticut School of Medicine, 
+Farmington, CT 06030, USA; Division of Neonatology, Connecticut Children's, 
+Hartford, CT 06106, USA; Department of Immunology, UConn Health, Farmington, CT 
+06030, USA.
+(5)The Jackson Laboratory for Genomic Medicine, Farmington, CT 06032, USA. 
+Electronic address: mark.adams@jax.org.
+(6)Division of Genetics, Connecticut Children's, Hartford, CT 06106, USA; 
+Department of Pediatrics, University of Connecticut School of Medicine, 
+Farmington, CT 06030, USA; Division of Neurology, Connecticut Children's, 
+Hartford, CT 06106, USA. Electronic address: lkalsner@connecticutchildrens.org.
+
+Over half of presumed genetic disease cases remain undiagnosed following 
+short-read exome sequencing (SR-ES) or genome sequencing (SR-GS). Long-read GS 
+(LR-GS) shows promise for uncovering etiologies missed by SR genetic testing, 
+particularly structural variants (SVs). However, SV interpretation remains 
+challenging due to limitations in call reliability, population allele frequency 
+estimates, and functional impact prediction. To advance clinical LR-GS 
+implementation, we analyzed the genomes of 19 children with suspected rare 
+genetic conditions and prior negative or inconclusive clinical SR-GS/SR-ES as 
+well as their parents using PacBio HiFi LR-GS. One additional family with 
+limited DNA underwent Illumina SR-GS only, and 11 probands received SR-GS to 
+complement small-variant detection. LR-GS data were processed using 
+phased-assembly and read-based variant-calling pipelines validated in 
+SV-positive control subjects, while SR-GS data were processed with the Illumina 
+DRAGEN pipeline. Variants were prioritized using phenotype-driven approaches. 
+Diagnostic variants (likely pathogenic or pathogenic) were identified in 2/20 
+(10%) families, while an additional 5/20 (25%) harbored findings of uncertain 
+diagnostic significance, including variants of uncertain significance (VUSs) and 
+variants in genes of uncertain significance (GUSs). All reported variants were 
+detected independently of LR-GS by research SR-GS or by reanalysis of prior 
+clinical SR data. Several LR-GS SV candidates were excluded after population 
+allele frequency filtering, underscoring its importance in clinical SV 
+interpretation. Overall, the observed 10% increase in diagnostic yield was 
+achievable through SR analysis alone, as LR-GS was not required to identify 
+diagnostic variants in this cohort. Functional studies are needed to clarify the 
+clinical relevance of uncertain findings.
+
+Copyright © 2026 The Authors. Published by Elsevier Inc. All rights reserved.
+
+DOI: 10.1016/j.xhgg.2026.100620
+PMCID: PMC13202554
+PMID: 42050932 [Indexed for MEDLINE]
+
+Conflict of interest statement: Declaration of interests The authors declare no 
+competing interests.
+
+
+3. J Genet Genomics. 2026 Aug;53(8):1437-1450. doi: 10.1016/j.jgg.2026.03.011.
+Epub  2026 Mar 28.
+
+Haplotype-resolved methylation profiling across three generations reveals 
+principles of human epigenetic inheritance.
+
+Zhou H(1), Mu W(2), Xu J(3), Bai X(4), Zhou Y(3), Lan A(5), Wu B(4), Nie L(6), 
+Shen X(5), Yang C(3), Li L(7), Song Y(8), Wu D(6), Chen G(6), Liu H(9), Wang 
+X(10), Jin X(3), Xiao C(4), Zhang G(6), Kwok-Wing Tsui S(11), Ruan J(12).
+
+Author information:
+(1)State Key Laboratory of Genome and Multi-omics Technologies, Shenzhen Branch, 
+Guangdong Laboratory for Lingnan Modern Agriculture, Genome Analysis Laboratory 
+of the Ministry of Agriculture and Rural Affairs, Agricultural Genomics 
+Institute at Shenzhen, Chinese Academy of Agricultural Sciences, Shenzhen, 
+Guangdong 518000, China; BGI Research, Shenzhen, Guangdong 518083, China.
+(2)School of Biomedical Sciences, The Chinese University of Hong Kong, Shatin, 
+N.T., Hong Kong, China; Hong Kong Bioinformatics Centre, The Chinese University 
+of Hong Kong, Shatin, N.T., Hong Kong, China.
+(3)State Key Laboratory of Genome and Multi-omics Technologies, BGI Research, 
+Shenzhen, Guangdong 518083, China.
+(4)State Key Laboratory of Ophthalmology, Zhongshan Ophthalmic Center, Sun 
+Yat-sen University, Guangdong Provincial Key Laboratory of Ophthalmology and 
+Visual Science, Guangzhou, Guangdong 510060, China.
+(5)State Key Laboratory of Genetic Engineering, Center for Evolutionary Biology, 
+Greater Bay Area Institute of Precision Medicine, School of Life Sciences, Fudan 
+University, Shanghai 200433, China.
+(6)Center of Evolutionary and Organismal Biology, Zhejiang University School of 
+Medicine, Hangzhou, Zhejiang 310058, China.
+(7)Department of General Surgery, Xinqiao Hospital, Army Medical University 
+(Third Military Medical University), Chongqing 400037, China.
+(8)Big Data Institute, Central South University, Changsha, Hunan 410023, China.
+(9)State Key Laboratory of Genome and Multi-omics Technologies, Shenzhen Branch, 
+Guangdong Laboratory for Lingnan Modern Agriculture, Genome Analysis Laboratory 
+of the Ministry of Agriculture and Rural Affairs, Agricultural Genomics 
+Institute at Shenzhen, Chinese Academy of Agricultural Sciences, Shenzhen, 
+Guangdong 518000, China.
+(10)The Shennong Laboratory/Institute of Crop Molecular Breeding, Henan Academy 
+of Agricultural Sciences, Zhengzhou, Henan 450002, China.
+(11)School of Biomedical Sciences, The Chinese University of Hong Kong, Shatin, 
+N.T., Hong Kong, China; Hong Kong Bioinformatics Centre, The Chinese University 
+of Hong Kong, Shatin, N.T., Hong Kong, China. Electronic address: 
+kwtsui@cuhk.edu.hk.
+(12)State Key Laboratory of Genome and Multi-omics Technologies, Shenzhen 
+Branch, Guangdong Laboratory for Lingnan Modern Agriculture, Genome Analysis 
+Laboratory of the Ministry of Agriculture and Rural Affairs, Agricultural 
+Genomics Institute at Shenzhen, Chinese Academy of Agricultural Sciences, 
+Shenzhen, Guangdong 518000, China. Electronic address: ruanjue@caas.cn.
+
+Epigenetic inheritance is fundamental to human development and disease, yet the 
+mechanisms governing the transmission of DNA methylation across generations 
+remain incompletely understood. In this study, we performed haplotype-resolved, 
+whole-genome DNA methylation profiling in a healthy three-generation Chinese 
+family, leveraging high-depth Oxford Nanopore Technologies (ONT) and PacBio HiFi 
+long-read sequencing, anchored to a proband-specific telomere-to-telomere (T2T) 
+genome assembly. We observed globally conserved bimodal methylation landscapes 
+across all individuals and generations. Stratified analyses revealed clear 
+functional compartmentalization of methylation marks, characterized by distinct 
+hypomethylation in centromeres and hypermethylation in retrotransposons and 
+repetitive elements. Chromosome-resolved analysis of ribosomal DNA (rDNA) arrays 
+demonstrated a domain-specific methylation pattern with hypomethylation in the 
+transcriptional core and hypermethylation in the intergenic spacer, with 
+evidence for age-associated epigenetic drift in the transcriptional core domain. 
+Through de novo identification and validation, we mapped 23 high-confidence 
+imprinting control regions (ICRs) showing robust parent-of-origin-specific 
+methylation, all overlapping known imprinted genes and enriched for regulatory 
+element signatures. Haplotype-resolved X chromosome analysis further uncovered 
+sex- and allele-specific methylation patterns linked to X inactivation dynamics. 
+Together, this pedigree-scale, high-resolution study delineates the landscape 
+and principles of intergenerational DNA methylation inheritance, revealing both 
+conserved and dynamic features shaping the human epigenome.
+
+Copyright © 2026 The Authors. Published by Elsevier Ltd.. All rights reserved.
+
+DOI: 10.1016/j.jgg.2026.03.011
+PMID: 41905586 [Indexed for MEDLINE]
+
+Conflict of interest statement: Conflict of interest The authors declare that 
+they have no competing interests.
+
+
+4. Am J Hum Genet. 2025 Feb 6;112(2):428-449. doi: 10.1016/j.ajhg.2025.01.002.
+Epub  2025 Jan 24.
+
+Advancing long-read nanopore genome assembly and accurate variant calling for 
+rare disease detection.
+
+Negi S(1), Stenton SL(2), Berger SI(3), Canigiula P(3), McNulty B(1), Violich 
+I(1), Gardner J(1), Hillaker T(1), O'Rourke SM(1), O'Leary MC(4), Carbonell 
+E(4), Austin-Tse C(5), Lemire G(2), Serrano J(2), Mangilog B(4), VanNoy G(4), 
+Kolmogorov M(6), Vilain E(7), O'Donnell-Luria A(8), Délot E(7), Miga KH(1), 
+Monlong J(9), Paten B(10).
+
+Author information:
+(1)UC Santa Cruz Genomics Institute, University of California, Santa Cruz, Santa 
+Cruz, CA, USA.
+(2)Center for Mendelian Genomics, Program in Medical and Population Genetics, 
+Broad Institute of MIT and Harvard, Cambridge, MA, USA; Division of Genetics and 
+Genomics, Boston Children's Hospital, Harvard Medical School, Boston, MA, USA.
+(3)Children's National Research Institute, Washington, DC, USA.
+(4)Center for Mendelian Genomics, Program in Medical and Population Genetics, 
+Broad Institute of MIT and Harvard, Cambridge, MA, USA.
+(5)Center for Mendelian Genomics, Program in Medical and Population Genetics, 
+Broad Institute of MIT and Harvard, Cambridge, MA, USA; Center for Genomic 
+Medicine, Massachusetts General Hospital, Harvard Medical School, Boston, MA, 
+USA.
+(6)Cancer Data Science Laboratory, National Cancer Institute, NIH, Bethesda, MD, 
+USA.
+(7)Institute for Clinical and Translational Science, University of California, 
+Irvine, Irvine, CA, USA.
+(8)Center for Mendelian Genomics, Program in Medical and Population Genetics, 
+Broad Institute of MIT and Harvard, Cambridge, MA, USA; Division of Genetics and 
+Genomics, Boston Children's Hospital, Harvard Medical School, Boston, MA, USA; 
+Center for Genomic Medicine, Massachusetts General Hospital, Harvard Medical 
+School, Boston, MA, USA.
+(9)Institut de Recherche en Santé Digestive, Université de Toulouse, INSERM, 
+INRA, ENVT, UPS, Toulouse, France. Electronic address: jean.monlong@inserm.fr.
+(10)UC Santa Cruz Genomics Institute, University of California, Santa Cruz, 
+Santa Cruz, CA, USA. Electronic address: bpaten@ucsc.edu.
+
+Update of
+    medRxiv. 2024 Aug 22:2024.08.22.24312327. doi: 10.1101/2024.08.22.24312327.
+
+More than 50% of families with suspected rare monogenic diseases remain unsolved 
+after whole-genome analysis by short-read sequencing (SRS). Long-read sequencing 
+(LRS) could help bridge this diagnostic gap by capturing variants inaccessible 
+to SRS, facilitating long-range mapping and phasing and providing 
+haplotype-resolved methylation profiling. To evaluate LRS's additional 
+diagnostic yield, we sequenced a rare-disease cohort of 98 samples from 41 
+families, using nanopore sequencing, achieving per sample ∼36× average coverage 
+and 32-kb read N50 from a single flow cell. Our Napu pipeline generated 
+assemblies, phased variants, and methylation calls. LRS covered, on average, 
+coding exons in ∼280 genes and ∼5 known Mendelian disease-associated genes that 
+were not covered by SRS. In comparison to SRS, LRS detected additional rare, 
+functionally annotated variants, including structural variants (SVs) and tandem 
+repeats, and completely phased 87% of protein-coding genes. LRS detected 
+additional de novo variants and could be used to distinguish postzygotic mosaic 
+variants from prezygotic de novos. Diagnostic variants were established by LRS 
+in 11 probands, with diverse underlying genetic causes including de novo and 
+compound heterozygous variants, large-scale SVs, and epigenetic modifications. 
+Our study demonstrates LRS's potential to enhance diagnostic yield for rare 
+monogenic diseases, implying utility in future clinical genomics workflows.
+
+Copyright © 2025. Published by Elsevier Inc.
+
+DOI: 10.1016/j.ajhg.2025.01.002
+PMCID: PMC11866955
+PMID: 39862869 [Indexed for MEDLINE]
+
+Conflict of interest statement: Declaration of interests A.O.-L. was a paid 
+consultant for Tome Biosciences, Ono Pharma USA, and Addition Therapeutics. The 
+Rare Genomes Project received support in the form of reagents from Illumina Inc. 
+and Pacific Biosciences.
+
+
+5. JCI Insight. 2024 Dec 26;10(4):e188216. doi: 10.1172/jci.insight.188216.
+
+Prognostic importance of direct assignment of parent of origin via long-read 
+genome and epigenome sequencing in retinoblastoma.
+
+Stacey AW(1)(2)(3), Nakamichi K(1), Huey J(1), Stevens J(4), Waligorski N(5), 
+Crotty EE(3)(6)(7), Van Gelder RN(1)(8), Mustafi D(1)(2)(3)(9).
+
+Author information:
+(1)Department of Ophthalmology and Roger and Angie Karalis Johnson Retina 
+Center, University of Washington, Seattle, Washington, USA.
+(2)Division of Ophthalmology, Seattle Children's Hospital, Seattle, Washington, 
+USA.
+(3)Fred Hutch Cancer Consortium, Seattle, Washington, USA.
+(4)Division of Oncology and.
+(5)Division of Genetic Medicine, Seattle Children's Hospital, Seattle, 
+Washington, USA.
+(6)Division of Hematology, Oncology, Bone Marrow Transplant, and Cellular 
+Therapy, Department of Pediatrics, Seattle Children's Hospital, University of 
+Washington, Seattle, Washington, USA.
+(7)Ben Towne Center for Childhood Cancer Research, Seattle Children's Research 
+Institute, Seattle, Washington, USA.
+(8)Departments of Laboratory Medicine and Pathology and Biological Structure, 
+University of Washington, Seattle, Washington, USA.
+(9)Brotman Baty Institute for Precision Medicine, Seattle, Washington, USA.
+
+BACKGROUNDCurrent clinical sequencing methods cannot effectively detect DNA 
+methylation and allele-specific variation to provide parent-of-origin 
+information from the proband alone. Parent-of-origin effects can lead to 
+differential disease, and the inability to assign parent of origin in de novo 
+cases limits prognostication in the majority of affected individuals with 
+retinoblastoma, a hereditary cancer with suspected parent-of-origin 
+effects.METHODSTo directly assign parent of origin in patients with 
+retinoblastoma, we extracted genomic DNA from blood samples for sequencing using 
+a programmable, targeted, single-molecule, long-read DNA genomic and epigenomic 
+approach. This allowed germline variant calling and simultaneous 
+haplotype-resolved CpG methylation in participants with familial (n = 7) and de 
+novo (n = 9) retinoblastoma.RESULTSTargeted long-read sequencing allowed phasing 
+genomic variation with a differentially methylated region in intron 2 of the 
+retinoblastoma gene to confirm parent of origin in known familial samples. This 
+approach allowed us to directly assign parent of origin in simple and complex de 
+novo cases from the proband alone. The ability to assign parent of origin in all 
+retinoblastoma cases showed that harboring disease-causing variants on the 
+paternally inherited allele, whether arising familially or de novo, was 
+associated with more advanced cancer staging at presentation and significantly 
+greater risk of chemotherapy failure (P = 0.002).CONCLUSIONThis study 
+demonstrates the diagnostic potential of multiomic long-read profiling to unveil 
+the parent-of-origin effect in hereditary cancer. The approach in this work will 
+be instrumental in assigning parent of origin to other genetic diseases using 
+local and distant imprinting signals in the genome.FUNDINGNational Eye 
+Institute, NIH; Gerber Foundation; Research to Prevent Blindness; Angie Karalis 
+Johnson Fund; Dawn's Light Foundation; and Mark J. Daily, MD Research Fund.
+
+DOI: 10.1172/jci.insight.188216
+PMCID: PMC11949030
+PMID: 39724000 [Indexed for MEDLINE]
+
+Conflict of interest statement: Conflict of interest: The subject of this work 
+has been filed as a provisional patent (63/685546 filed August 21, 2024) 
+involving the following coauthors: AWS, KN, RNVG, and DM.
+
+
+6. Nat Commun. 2023 May 29;14(1):3090. doi: 10.1038/s41467-023-38782-1.
+
+Direct haplotype-resolved 5-base HiFi sequencing for genome-wide profiling of 
+hypermethylation outliers in a rare disease cohort.
+
+Cheung WA(1), Johnson AF(1), Rowell WJ(2), Farrow E(1)(3), Hall R(2), Cohen 
+ASA(3)(4), Means JC(1), Zion TN(1), Portik DM(2), Saunders CT(2), Koseva B(1), 
+Bi C(1), Truong TK(5), Schwendinger-Schreck C(1), Yoo B(1), Johnston JJ(1), 
+Gibson M(1), Evrony G(5), Rizzo WB(6), Thiffault I(3)(4), Younger ST(1)(3), 
+Curran T(7), Wenger AM(2), Grundberg E(8)(9), Pastinen T(10)(11).
+
+Author information:
+(1)Department of Pediatrics, Genomic Medicine Center, Children's Mercy Kansas 
+City, Kansas City, MO, USA.
+(2)Pacific Biosciences, Menlo Park, CA, USA.
+(3)Department of Pediatrics, School of Medicine, University of Missouri Kansas 
+City, Kansas City, MO, USA.
+(4)Department of Pathology and Laboratory Medicine, Children's Mercy Kansas 
+City, Kansas City, MO, USA.
+(5)Center for Human Genetics and Genomics, Department of Pediatrics, Department 
+of Neuroscience and Physiology, New York University Grossman School of Medicine, 
+New York, NY, USA.
+(6)Child Health Research Institute, Department of Pediatrics, Nebraska Medical 
+Center, Omaha, NE, USA.
+(7)Children's Mercy Research Institute, Kansas City, MO, USA.
+(8)Department of Pediatrics, Genomic Medicine Center, Children's Mercy Kansas 
+City, Kansas City, MO, USA. egrundberg@cmh.edu.
+(9)Department of Pediatrics, School of Medicine, University of Missouri Kansas 
+City, Kansas City, MO, USA. egrundberg@cmh.edu.
+(10)Department of Pediatrics, Genomic Medicine Center, Children's Mercy Kansas 
+City, Kansas City, MO, USA. tpastinen@cmh.edu.
+(11)Department of Pediatrics, School of Medicine, University of Missouri Kansas 
+City, Kansas City, MO, USA. tpastinen@cmh.edu.
+
+Long-read HiFi genome sequencing allows for accurate detection and direct 
+phasing of single nucleotide variants, indels, and structural variants. Recent 
+algorithmic development enables simultaneous detection of CpG methylation for 
+analysis of regulatory element activity directly in HiFi reads. We present a 
+comprehensive haplotype resolved 5-base HiFi genome sequencing dataset from a 
+rare disease cohort of 276 samples in 152 families to identify rare (~0.5%) 
+hypermethylation events. We find that 80% of these events are allele-specific 
+and predicted to cause loss of regulatory element activity. We demonstrate 
+heritability of extreme hypermethylation including rare cis variants associated 
+with short (~200 bp) and large hypermethylation events (>1 kb), respectively. We 
+identify repeat expansions in proximal promoters predicting allelic gene 
+silencing via hypermethylation and demonstrate allelic transcriptional events 
+downstream. On average 30-40 rare hypermethylation tiles overlap rare disease 
+genes per patient, providing indications for variation prioritization including 
+a previously undiagnosed pathogenic allele in DIP2B causing global developmental 
+delay. We propose that use of HiFi genome sequencing in unsolved rare disease 
+cases will allow detection of unconventional diseases alleles due to loss of 
+regulatory element activity.
+
+© 2023. The Author(s).
+
+DOI: 10.1038/s41467-023-38782-1
+PMCID: PMC10226990
+PMID: 37248219 [Indexed for MEDLINE]
+
+Conflict of interest statement: W.J.R., R.J.H., D.M.P., C.T.S., and A.M.W. are 
+current or past employees of PacificBiosciences. The remaining authors declare 
+no competing interests.
+
+
+7. Genome Med. 2023 May 10;15(1):35. doi: 10.1186/s13073-023-01184-5.
+
+High level of complexity and global diversity of the 3q29 locus revealed by 
+optical mapping and long-read sequencing.
+
+Yilmaz F(#)(1), Gurusamy U(#)(2), Mosley TJ(3), Hallast P(1), Kim K(1), Mostovoy 
+Y(2), Purcell RH(4), Shaikh TH(5), Zwick ME(6), Kwok PY(2)(7), Lee C(8), Mulle 
+JG(9).
+
+Author information:
+(1)The Jackson Laboratory for Genomic Medicine, 10 Discovery Drive, Farmington, 
+CT, 06032, USA.
+(2)Cardiovascular Research Institute and Institute for Human Genetics, UCSF 
+School of Medicine, 513 Parnassus Ave, San Francisco, CA, 94143, USA.
+(3)Graduate Program in Genetics and Molecular Biology, Laney Graduate School, 
+Emory University, 201 Dowman Drive, Atlanta, GA, 30322, USA.
+(4)Laboratory of Translational Cell Biology, Department of Cell Biology, Emory 
+University School of Medicine, 100 Woodruff Circle, Atlanta, GA, 30322, USA.
+(5)Department of Pediatrics, Section of Genetics and Metabolism, University of 
+Colorado School of Medicine, 13123 E 16Th Ave, Aurora, CO, 80045, USA.
+(6)Department of Genetics, Rutgers University-New Brunswick, Rutgers University, 
+Piscataway, New Brunswick, NJ, 08901, USA.
+(7)Department of Dermatology, UCSF School of Medicine, 1701 Divisadero Street, 
+San Francisco, CA, 94115, USA.
+(8)The Jackson Laboratory for Genomic Medicine, 10 Discovery Drive, Farmington, 
+CT, 06032, USA. charles.lee@jax.org.
+(9)Department of Psychiatry, Robert Wood Johnson Medical School, Rutgers 
+Biomedical and Health Sciences, Rutgers University, 671 Hoes Lane, New 
+Brunswick, NJ, 08901, USA. jm2618@cabm.rutgers.edu.
+(#)Contributed equally
+
+BACKGROUND: High sequence identity between segmental duplications (SDs) can 
+facilitate copy number variants (CNVs) via non-allelic homologous recombination 
+(NAHR). These CNVs are one of the fundamental causes of genomic disorders such 
+as the 3q29 deletion syndrome (del3q29S). There are 21 protein-coding genes lost 
+or gained as a result of such recurrent 1.6-Mbp deletions or duplications, 
+respectively, in the 3q29 locus. While NAHR plays a role in CNV occurrence, the 
+factors that increase the risk of NAHR at this particular locus are not well 
+understood.
+METHODS: We employed an optical genome mapping technique to characterize the 
+3q29 locus in 161 unaffected individuals, 16 probands with del3q29S and their 
+parents, and 2 probands with the 3q29 duplication syndrome (dup3q29S). Long-read 
+sequencing-based haplotype resolved de novo assemblies from 44 unaffected 
+individuals, and 1 trio was used for orthogonal validation of haplotypes and 
+deletion breakpoints.
+RESULTS: In total, we discovered 34 haplotypes, of which 19 were novel 
+haplotypes. Among these 19 novel haplotypes, 18 were detected in unaffected 
+individuals, while 1 novel haplotype was detected on the parent-of-origin 
+chromosome of a proband with the del3q29S. Phased assemblies from 44 unaffected 
+individuals enabled the orthogonal validation of 20 haplotypes. In 89% (16/18) 
+of the probands, breakpoints were confined to paralogous copies of a 20-kbp 
+segment within the 3q29 SDs. In one del3q29S proband, the breakpoint was 
+confined to a 374-bp region using long-read sequencing. Furthermore, we 
+categorized del3q29S cases into three classes and dup3q29S cases into two 
+classes based on breakpoints. Finally, we found no evidence of inversions in 
+parent-of-origin chromosomes.
+CONCLUSIONS: We have generated the most comprehensive haplotype map for the 3q29 
+locus using unaffected individuals, probands with del3q29S or dup3q29S, and 
+available parents, and also determined the deletion breakpoint to be within a 
+374-bp region in one proband with del3q29S. These results should provide a 
+better understanding of the underlying genetic architecture that contributes to 
+the etiology of del3q29S and dup3q29S.
+
+© 2023. The Author(s).
+
+DOI: 10.1186/s13073-023-01184-5
+PMCID: PMC10170684
+PMID: 37165454 [Indexed for MEDLINE]
+
+Conflict of interest statement: The authors declare that they have no competing 
+interests.
+
+
+8. bioRxiv [Preprint]. 2023 Apr 5:2023.01.12.523790. doi: 
+10.1101/2023.01.12.523790.
+
+Scalable Nanopore sequencing of human genomes provides a comprehensive view of 
+haplotype-resolved variation and methylation.
+
+Kolmogorov M(1), Billingsley KJ(2)(3), Mastoras M(4), Meredith M(4), Monlong 
+J(4), Lorig-Roach R(4), Asri M(4), Jerez PA(2), Malik L(2), Dewan R(3), Reed 
+X(2), Genner RM(2), Daida K(2)(3), Behera S(5), Shafin K(6), Pesout T(4), 
+Prabakaran J(1)(7), Carnevali P(8); North American Brain Expression Consortium 
+(NABEC); Yang J(9), Rhie A(10), Scholz SW(11)(12), Traynor BJ(3), Miga KH(4), 
+Jain M(13), Timp W(14), Phillippy AM(10), Chaisson M(9), Sedlazeck FJ(5)(15), 
+Blauwendraat C(2)(3), Paten B(4).
+
+Author information:
+(1)Center for Cancer Research, National Cancer Institute, National Institutes of 
+Health, USA.
+(2)Center for Alzheimer's and Related Dementias, National Institute on Aging and 
+National Institute of Neurological Disorders and Stroke, National Institutes of 
+Health, Bethesda, MD, USA.
+(3)Laboratory of Neurogenetics, National Institute on Aging, National Institutes 
+of Health, Bethesda, MD, USA.
+(4)UC Santa Cruz Genomics Institute, Santa Cruz, CA, USA.
+(5)Human Genome Sequencing Center, Baylor College of Medicine, Houston, TX, USA.
+(6)Google LLC, 1600 Amphitheatre Pkwy, Mountain View, CA, USA.
+(7)Department of Biological Sciences, University of Maryland Baltimore County, 
+Baltimore, MD, USA.
+(8)Chan Zuckerberg Initiative, Redwood City, CA, USA.
+(9)Department of Quantitative and Computational Biology, University of Southern 
+California, Los Angeles, USA.
+(10)Genome Informatics Section, Computational and Statistical Genomics Branch, 
+National Human Genome Research Institute, National Institutes of Health, 
+Bethesda, MD, USA.
+(11)Neurodegenerative Diseases Research Unit, National Institute of Neurological 
+Disorders and Stroke, National Institutes of Health, USA.
+(12)Department of Neurology, Johns Hopkins University Medical Center, Baltimore, 
+MD, USA.
+(13)Department of Bioengineering, Department of Physics, Northeastern 
+University, Boston, MA, USA.
+(14)Department of Biomedical Engineering, Johns Hopkins University, Baltimore, 
+MD, USA.
+(15)Department of Computer Science, Rice University, Houston, Texas, USA.
+
+Update in
+    Nat Methods. 2023 Oct;20(10):1483-1492. doi: 10.1038/s41592-023-01993-x.
+
+Long-read sequencing technologies substantially overcome the limitations of 
+short-reads but to date have not been considered as feasible replacement at 
+scale due to a combination of being too expensive, not scalable enough, or too 
+error-prone. Here, we develop an efficient and scalable wet lab and 
+computational protocol for Oxford Nanopore Technologies (ONT) long-read 
+sequencing that seeks to provide a genuine alternative to short-reads for 
+large-scale genomics projects. We applied our protocol to cell lines and brain 
+tissue samples as part of a pilot project for the NIH Center for Alzheimer's and 
+Related Dementias (CARD). Using a single PromethION flow cell, we can detect 
+SNPs with F1-score better than Illumina short-read sequencing. Small indel 
+calling remains to be difficult inside homopolymers and tandem repeats, but is 
+comparable to Illumina calls elsewhere. Further, we can discover structural 
+variants with F1-score comparable to state-of the-art methods involving Pacific 
+Biosciences HiFi sequencing and trio information (but at a lower cost and 
+greater throughput). Using ONT based phasing, we can then combine and phase 
+small and structural variants at megabase scales. Our protocol also produces 
+highly accurate, haplotype-specific methylation calls. Overall, this makes 
+large-scale long-read sequencing projects feasible; the protocol is currently 
+being used to sequence thousands of brain-based genomes as a part of the NIH 
+CARD initiative. We provide the protocol and software as open-source integrated 
+pipelines for generating phased variant calls and assemblies.
+
+DOI: 10.1101/2023.01.12.523790
+PMCID: PMC9882142
+PMID: 36711673
+
+Conflict of interest statement: Competing interests. K.S. is an employee of 
+Google LLC and owns Alphabet stock as part of the standard compensation package; 
+authors from Google LLC did not have access to the cell line and brain tissue 
+sample data. WT has two patents (8,748,091 and 8,394,584) licensed to Oxford 
+Nanopore Technologies. F.J.S. received research support from Illumina, Pacific 
+Biosciences and Oxford Nanopore Technologies. S.W.S. serves on the Scientific 
+Advisory Council of the Lewy Body Dementia Association and the Multiple System 
+Atrophy Coalition. S.W.S. and B.J.T. receive research support from Cerevel 
+Therapeutics. B.J.T. holds patents on the clinical testing and therapeutic 
+implications of the C9orf72 repeat expansion.
+
+
+9. Genome Biol Evol. 2022 Sep 6;14(9):evac125. doi: 10.1093/gbe/evac125.
+
+A Beary Good Genome: Haplotype-Resolved, Chromosome-Level Assembly of the Brown 
+Bear (Ursus arctos).
+
+Armstrong EE(1), Perry BW(1), Huang Y(2), Garimella KV(2), Jansen HT(3), Robbins 
+CT(1)(4), Tucker NR(5)(6), Kelley JL(1).
+
+Author information:
+(1)School of Biological Sciences, Washington State University, Pullman, WA, USA.
+(2)Data Sciences Platform, The Broad Institute of MIT and Harvard, Cambridge, 
+MA, USA.
+(3)Integrative Physiology and Neuroscience, Washington State University, 
+Pullman, WA, USA.
+(4)School of the Environment, Washington State University, Pullman, WA, USA.
+(5)Masonic Medical Research Institute, New York, NY, USA.
+(6)Cardiovascular Disease Initiative, The Broad Institute of MIT and Harvard, 
+Cambridge, MA, USA.
+
+The brown bear (Ursus arctos) is the second largest and most widespread extant 
+terrestrial carnivore on Earth and has recently emerged as a medical model for 
+human metabolic diseases. Here, we report a fully phased chromosome-level 
+assembly of a male North American brown bear built by combining Pacific 
+Biosciences (PacBio) HiFi data and publicly available Hi-C data. The final 
+genome size is 2.47 Gigabases (Gb) with a scaffold and contig N50 length of 
+70.08 and 43.94 Megabases (Mb), respectively. Benchmarking Universal Single-Copy 
+Ortholog (BUSCO) analysis revealed that 94.5% of single copy orthologs from 
+Mammalia were present in the genome (the highest of any ursid genome to date). 
+Repetitive elements accounted for 44.48% of the genome and a total of 20,480 
+protein coding genes were identified. Based on whole genome alignment to the 
+polar bear, the brown bear is highly syntenic with the polar bear, and our 
+phylogenetic analysis of 7,246 single-copy orthologs supports the currently 
+proposed species tree for Ursidae. This highly contiguous genome assembly will 
+support future research on both the evolutionary history of the bear family and 
+the physiological mechanisms behind hibernation, the latter of which has broad 
+medical implications.
+
+© The Author(s) 2022. Published by Oxford University Press on behalf of Society 
+for Molecular Biology and Evolution.
+
+DOI: 10.1093/gbe/evac125
+PMCID: PMC9447482
+PMID: 35929770 [Indexed for MEDLINE]
+
+
+10. Nat Biotechnol. 2022 Sep;40(9):1332-1335. doi: 10.1038/s41587-022-01261-x.
+Epub  2022 Mar 24.
+
+Haplotype-resolved assembly of diploid genomes without parental data.
+
+Cheng H(1)(2), Jarvis ED(3)(4), Fedrigo O(3), Koepfli KP(5)(6)(7), Urban L(8), 
+Gemmell NJ(8), Li H(9)(10).
+
+Author information:
+(1)Department of Data Science, Dana-Farber Cancer Institute, Boston, MA, USA.
+(2)Department of Biomedical Informatics, Harvard Medical School, Boston, MA, 
+USA.
+(3)The Vertebrate Genome Lab, The Rockefeller University, New York, NY, USA.
+(4)Howard Hughes Medical Institute, Chevy Chase, MD, USA.
+(5)Smithsonian-Mason School of Conservation, George Mason University, Front 
+Royal, VA, USA.
+(6)Smithsonian Conservation Biology Institute, Center for Species Survival, 
+National Zoological Park, Washington D.C., USA.
+(7)ITMO University, Computer Technologies Laboratory, St. Petersburg, Russia.
+(8)Department of Anatomy, University of Otago, Dunedin, New Zealand.
+(9)Department of Data Science, Dana-Farber Cancer Institute, Boston, MA, USA. 
+hli@ds.dfci.harvard.edu.
+(10)Department of Biomedical Informatics, Harvard Medical School, Boston, MA, 
+USA. hli@ds.dfci.harvard.edu.
+
+Routine haplotype-resolved genome assembly from single samples remains an 
+unresolved problem. Here we describe an algorithm that combines PacBio HiFi 
+reads and Hi-C chromatin interaction data to produce a haplotype-resolved 
+assembly without the sequencing of parents. Applied to human and other 
+vertebrate samples, our algorithm consistently outperforms existing 
+single-sample assembly pipelines and generates assemblies of similar quality to 
+the best pedigree-based assemblies.
+
+© 2022. The Author(s), under exclusive licence to Springer Nature America, Inc.
+
+DOI: 10.1038/s41587-022-01261-x
+PMCID: PMC9464699
+PMID: 35332338 [Indexed for MEDLINE]
+
+
+11. Nat Commun. 2021 Apr 28;12(1):1935. doi: 10.1038/s41467-020-20536-y.
+
+Extended haplotype-phasing of long-read de novo genome assemblies using Hi-C.
+
+Kronenberg ZN(1)(2), Rhie A(3), Koren S(3), Concepcion GT(4), Peluso P(4), 
+Munson KM(5), Porubsky D(5), Kuhn K(6), Mueller KA(7), Low WY(8), Hiendleder 
+S(8), Fedrigo O(9), Liachko I(7), Hall RJ(4), Phillippy AM(3), Eichler 
+EE(5)(10), Williams JL(8)(11), Smith TPL(6), Jarvis ED(12)(13), Sullivan ST(7), 
+Kingan SB(14).
+
+Author information:
+(1)Phase Genomics, Seattle, WA, USA. zkronenberg@pacificbiosciences.com.
+(2)Pacific Biosciences, Menlo Park, CA, USA. zkronenberg@pacificbiosciences.com.
+(3)Genome Informatics Section, Computational and Statistical Genomics Branch, 
+National Human Genome Research Institute, Bethesda, MD, USA.
+(4)Pacific Biosciences, Menlo Park, CA, USA.
+(5)Department of Genome Sciences, University of Washington School of Medicine, 
+Seattle, WA, USA.
+(6)US Meat Animal Research Center, ARS USDA, Clay Center, NE, USA.
+(7)Phase Genomics, Seattle, WA, USA.
+(8)Davies Research Centre, School of Animal and Veterinary Sciences, The 
+University of Adelaide, Roseworthy, SA, Australia.
+(9)Vertebrate Genomes Laboratory, The Rockefeller University, New York, NY, USA.
+(10)Howard Hughes Medical Institute, University of Washington, Seattle, WA, USA.
+(11)Dipartimento di Scienze Animali, della Nutrizione e degli Alimenti, 
+Università Cattolica del Sacro Cuore, 29122, Piacenza, Italy.
+(12)Laboratory of Neurogenetics of Language, The Rockefeller University, New 
+York, NY, USA.
+(13)Howard Hughes Medical Institute, Chevy Chase, MD, USA.
+(14)Pacific Biosciences, Menlo Park, CA, USA. skingan@pacificbiosciences.com.
+
+Haplotype-resolved genome assemblies are important for understanding how 
+combinations of variants impact phenotypes. To date, these assemblies have 
+been best created with complex protocols, such as cultured cells that contain a 
+single-haplotype (haploid) genome, single cells where haplotypes are separated, 
+or co-sequencing of parental genomes in a trio-based approach. These approaches 
+are impractical in most situations. To address this issue, we present 
+FALCON-Phase, a phasing tool that uses ultra-long-range Hi-C chromatin 
+interaction data to extend phase blocks of partially-phased diploid assembles to 
+chromosome or scaffold scale. FALCON-Phase uses the inherent phasing information 
+in Hi-C reads, skipping variant calling, and reduces the computational 
+complexity of phasing. Our method is validated on three benchmark datasets 
+generated as part of the Vertebrate Genomes Project (VGP), including human, cow, 
+and zebra finch, for which high-quality, fully haplotype-resolved assemblies are 
+available using the trio-based approach. FALCON-Phase is accurate without having 
+parental data and performance is better in samples with higher heterozygosity. 
+For cow and zebra finch the accuracy is 97% compared to 80-91% for human. 
+FALCON-Phase is applicable to any draft assembly that contains long primary 
+contigs and phased associate contigs.
+
+DOI: 10.1038/s41467-020-20536-y
+PMCID: PMC8081726
+PMID: 33911078 [Indexed for MEDLINE]
+
+Conflict of interest statement: E.E.E. is on the scientific advisory board (SAB) 
+of DNAnexus, Inc. [and was an SAB member of Pacific Biosciences, Inc. 
+(2009–2013)]. S.B.K., Z.N.K., P.P., G.T.C., and R.J.H. are employees and share 
+holders of Pacific Biosciences, a company developing single-molecule sequencing 
+technologies. S.T.S. and I.L. are employee and share holders, and Z.N.K. and 
+K.A.M. are shareholder of Phase Genomics, a provider of services and products 
+for Hi-C and other proximity-ligation methods. The remaining authors declare no 
+competing interests.
+
+
+12. Genomics Proteomics Bioinformatics. 2022 Feb;20(1):192-204. doi: 
+10.1016/j.gpb.2020.10.006. Epub 2021 Mar 2.
+
+Robust Benchmark Structural Variant Calls of An Asian Using State-of-the-art 
+Long-read Sequencing Technologies.
+
+Du X(1), Li L(2), Liang F(3), Liu S(4), Zhang W(2), Sun S(1), Sun Y(5), Fan 
+F(6), Wang L(6), Liang X(7), Qiu W(7), Fan G(1), Wang O(6), Yang W(4), Zhang 
+J(4), Xiao Y(3), Wang Y(3), Wang D(8), Qu S(9), Chen F(10), Huang J(11).
+
+Author information:
+(1)BGI-Qingdao, BGI-Shenzhen, Qingdao 266555, China; State Key Laboratory of 
+Agricultural Genomics, BGI-Shenzhen, Shenzhen 518083, China.
+(2)National Institutes for food and drug Control (NIFDC), Beijing 10050, China.
+(3)GrandOmics Biosciences, Beijing 102200, China.
+(4)Annoroad Gene Technology (Beijing) Co., Ltd., Beijing 102200, China.
+(5)BGI-Qingdao, BGI-Shenzhen, Qingdao 266555, China; China National GeneBank, 
+BGI-Shenzhen, Shenzhen 518120, China.
+(6)BGI-Shenzhen, Shenzhen 518083, China; China National GeneBank, BGI-Shenzhen, 
+Shenzhen 518120, China.
+(7)MGI, BGI-Shenzhen, Shenzhen 518083, China.
+(8)GrandOmics Biosciences, Beijing 102200, China. Electronic address: 
+wangdp@grandomics.com.
+(9)National Institutes for food and drug Control (NIFDC), Beijing 10050, China. 
+Electronic address: qushoufang@nifdc.org.cn.
+(10)BGI-Shenzhen, Shenzhen 518083, China; MGI, BGI-Shenzhen, Shenzhen 518083, 
+China. Electronic address: fangchen@genomics.cn.
+(11)National Institutes for food and drug Control (NIFDC), Beijing 10050, China. 
+Electronic address: jhuang5522@nifdc.org.cn.
+
+The importance of structural variants (SVs) for human phenotypes and diseases is 
+now recognized. Although a variety of SV detection platforms and strategies that 
+vary in sensitivity and specificity have been developed, few benchmarking 
+procedures are available to confidently assess their performances in biological 
+and clinical research. To facilitate the validation and application of these SV 
+detection approaches, we established an Asian reference material by 
+characterizing the genome of an Epstein-Barr virus (EBV)-immortalized B 
+lymphocyte line along with identified benchmark regions and high-confidence SV 
+calls. We established a high-confidence SV callset with 8938 SVs by integrating 
+four alignment-based SV callers, including 109× Pacific Biosciences (PacBio) 
+continuous long reads (CLRs), 22× PacBio circular consensus sequencing (CCS) 
+reads, 104× Oxford Nanopore Technologies (ONT) long reads, and 114× Bionano 
+optical mapping platform, and one de novo assembly-based SV caller using CCS 
+reads. A total of 544 randomly selected SVs were validated by PCR amplification 
+and Sanger sequencing, demonstrating the robustness of our SV calls. Combining 
+trio-binning-based haplotype assemblies, we established an SV benchmark for 
+identifying false negatives and false positives by constructing the continuous 
+high-confidence regions (CHCRs), which covered 1.46 gigabase pairs (Gb) and 6882 
+SVs supported by at least one diploid haplotype assembly. Establishing 
+high-confidence SV calls for a benchmark sample that has been characterized by 
+multiple technologies provides a valuable resource for investigating SVs in 
+human biology, disease, and clinical research.
+
+Copyright © 2022 The Authors. Published by Elsevier B.V. All rights reserved.
+
+DOI: 10.1016/j.gpb.2020.10.006
+PMCID: PMC9510867
+PMID: 33662625 [Indexed for MEDLINE]
+
+
+13. Science. 2021 Apr 2;372(6537):eabf7117. doi: 10.1126/science.abf7117. Epub
+2021  Feb 25.
+
+Haplotype-resolved diverse human genomes and integrated analysis of structural 
+variation.
+
+Ebert P(#)(1), Audano PA(#)(2), Zhu Q(#)(3), Rodriguez-Martin B(#)(4), Porubsky 
+D(2), Bonder MJ(4)(5), Sulovari A(2), Ebler J(1), Zhou W(6), Serra Mari R(1), 
+Yilmaz F(3), Zhao X(7)(8), Hsieh P(2), Lee J(9), Kumar S(10), Lin J(11), Rausch 
+T(4), Chen Y(12), Ren J(13), Santamarina M(14)(15), Höps W(4), Ashraf H(1), 
+Chuang NT(16), Yang X(17), Munson KM(2), Lewis AP(2), Fairley S(18), Tallon 
+LJ(16), Clarke WE(19), Basile AO(19), Byrska-Bishop M(19), Corvelo A(19), Evani 
+US(19), Lu TY(13), Chaisson MJP(13), Chen J(20), Li C(20), Brand H(7)(8), Wenger 
+AM(21), Ghareghani M(22)(23)(1), Harvey WT(2), Raeder B(4), Hasenfeld P(4), 
+Regier AA(24), Abel HJ(24), Hall IM(25), Flicek P(18), Stegle O(4)(5), Gerstein 
+MB(10), Tubio JMC(14)(15), Mu Z(26), Li YI(27), Shi X(20), Hastie AR(9), Ye 
+K(11)(28), Chong Z(12), Sanders AD(4), Zody MC(19), Talkowski ME(7)(8), Mills 
+RE(6)(28), Devine SE(16), Lee C(#)(29)(30)(31), Korbel JO(#)(32)(18), Marschall 
+T(#)(33), Eichler EE(#)(34)(35).
+
+Author information:
+(1)Heinrich Heine University, Medical Faculty, Institute for Medical Biometry 
+and Bioinformatics, Moorenstraße 20, 40225 Düsseldorf, Germany.
+(2)Department of Genome Sciences, University of Washington School of Medicine, 
+3720 15th Avenue NE, Seattle, WA 98195-5065, USA.
+(3)The Jackson Laboratory for Genomic Medicine, 10 Discovery Drive, Farmington, 
+CT 06032, USA.
+(4)European Molecular Biology Laboratory (EMBL), Genome Biology Unit, 
+Meyerhofstraße 1, 69117 Heidelberg, Germany.
+(5)Division of Computational Genomics and Systems Genetics, German Cancer 
+Research Center (DKFZ), 69120 Heidelberg, Germany.
+(6)Department of Computational Medicine and Bioinformatics, University of 
+Michigan Medical School, 100 Washtenaw Avenue, Ann Arbor, MI 48109, USA.
+(7)Center for Genomic Medicine, Massachusetts General Hospital, Department of 
+Neurology, Harvard Medical School, Boston, MA 02114, USA.
+(8)Program in Medical and Population Genetics and Stanley Center for Psychiatric 
+Research, Broad Institute of MIT and Harvard, Cambridge, MA 02142, USA.
+(9)Bionano Genomics, San Diego, CA 92121, USA.
+(10)Program in Computational Biology and Bioinformatics, Yale University, BASS 
+432 and 437, 266 Whitney Avenue, New Haven, CT 06520, USA.
+(11)School of Automation Science and Engineering, Faculty of Electronic and 
+Information Engineering, Xi'an Jiaotong University, Xi'an, Shaanxi, 710049, 
+China.
+(12)Department of Genetics and Informatics Institute, School of Medicine, 
+University of Alabama at Birmingham, Birmingham, AL 35294, USA.
+(13)Department of Quantitative and Computational Biology, University of Southern 
+California, Los Angeles, CA 90089, USA.
+(14)Genomes and Disease, Centre for Research in Molecular Medicine and Chronic 
+Diseases (CIMUS), Universidade de Santiago de Compostela, Santiago de 
+Compostela, Spain.
+(15)Department of Zoology, Genetics, and Physical Anthropology, Universidade de 
+Santiago de Compostela, Santiago de Compostela, Spain.
+(16)Institute for Genome Sciences, University of Maryland School of Medicine, 
+670 W Baltimore Street, Baltimore, MD 21201, USA.
+(17)School of Computer Science and Technology, Faculty of Electronic and 
+Information Engineering, Xi'an Jiaotong University, Xi'an, Shaanxi, 710049, 
+China.
+(18)European Molecular Biology Laboratory, European Bioinformatics Institute, 
+Wellcome Genome Campus, Hinxton, Cambridge CB10 1SD, UK.
+(19)New York Genome Center, New York, NY 10013, USA.
+(20)Department of Computer and Information Sciences, Temple University, 
+Philadelphia, PA 19122, USA.
+(21)Pacific Biosciences of California, Menlo Park, CA 94025, USA.
+(22)Max Planck Institute for Informatics, Saarland Informatics Campus E1.4, 
+66123 Saarbrücken, Germany.
+(23)Saarbrücken Graduate School of Computer Science, Saarland University, 
+Saarland Informatics Campus E1.3, 66123 Saarbrücken, Germany.
+(24)Department of Medicine, Washington University, St. Louis, MO 63108, USA.
+(25)Department of Genetics, Yale School of Medicine, 333 Cedar Street, New 
+Haven, CT 06510, USA.
+(26)Genetics, Genomics, and Systems Biology, University of Chicago, Chicago, IL 
+60637, USA.
+(27)Section of Genetic Medicine, Department of Medicine, University of Chicago, 
+Chicago, IL 60637, USA.
+(28)Department of Human Genetics, University of Michigan, 1241 E. Catherine 
+Street, Ann Arbor, MI 48109, USA.
+(29)The Jackson Laboratory for Genomic Medicine, 10 Discovery Drive, Farmington, 
+CT 06032, USA. eee@gs.washington.edu tobias.marschall@hhu.de jan.korbel@embl.org 
+charles.lee@jax.org.
+(30)Precision Medicine Center, The First Affiliated Hospital of Xi'an Jiaotong 
+University, 277 West Yanta Road, Xi'an, 710061, Shaanxi, China.
+(31)Department of Graduate Studies-Life Sciences, Ewha Womans University, 
+Ewhayeodae-gil, Seodaemun-gu, Seoul 120-750, South Korea.
+(32)European Molecular Biology Laboratory (EMBL), Genome Biology Unit, 
+Meyerhofstraße 1, 69117 Heidelberg, Germany. eee@gs.washington.edu 
+tobias.marschall@hhu.de jan.korbel@embl.org charles.lee@jax.org.
+(33)Heinrich Heine University, Medical Faculty, Institute for Medical Biometry 
+and Bioinformatics, Moorenstraße 20, 40225 Düsseldorf, Germany. 
+eee@gs.washington.edu tobias.marschall@hhu.de jan.korbel@embl.org 
+charles.lee@jax.org.
+(34)Department of Genome Sciences, University of Washington School of Medicine, 
+3720 15th Avenue NE, Seattle, WA 98195-5065, USA. eee@gs.washington.edu 
+tobias.marschall@hhu.de jan.korbel@embl.org charles.lee@jax.org.
+(35)Howard Hughes Medical Institute, University of Washington, Seattle, WA 
+98195, USA.
+(#)Contributed equally
+
+Comment in
+    Nat Methods. 2021 May;18(5):448. doi: 10.1038/s41592-021-01161-z.
+
+Long-read and strand-specific sequencing technologies together facilitate the de 
+novo assembly of high-quality haplotype-resolved human genomes without 
+parent-child trio data. We present 64 assembled haplotypes from 32 diverse human 
+genomes. These highly contiguous haplotype assemblies (average minimum contig 
+length needed to cover 50% of the genome: 26 million base pairs) integrate all 
+forms of genetic variation, even across complex loci. We identified 107,590 
+structural variants (SVs), of which 68% were not discovered with short-read 
+sequencing, and 278 SV hotspots (spanning megabases of gene-rich sequence). We 
+characterized 130 of the most active mobile element source elements and found 
+that 63% of all SVs arise through homology-mediated mechanisms. This resource 
+enables reliable graph-based genotyping from short reads of up to 50,340 SVs, 
+resulting in the identification of 1526 expression quantitative trait loci as 
+well as SV candidates for adaptive selection within the human population.
+
+Copyright © 2021 The Authors, some rights reserved; exclusive licensee American 
+Association for the Advancement of Science. No claim to original U.S. Government 
+Works.
+
+DOI: 10.1126/science.abf7117
+PMCID: PMC8026704
+PMID: 33632895 [Indexed for MEDLINE]
+
+Conflict of interest statement: Competing interests: A.R.H. and J.L. are 
+employees and shareholders of Bionano Genomics. A.M.W. is an employee and 
+shareholder of Pacific Biosciences. M.C.Z. is a shareholder of Merck & Co. and 
+Thermo Fisher Scientific Inc. P.F. is a member of the Scientific Advisory Boards 
+of Fabric Genomics, Inc., and Eagle Genomics, Ltd. A.D.S., J.O.K., T.M., M.G., 
+and D.P. have a pending patent application relevant to the subject matter 
+(method relevant to Strand-seq).
+
+
+14. Bioinformatics. 2021 Aug 9;37(15):2095-2102. doi: 
+10.1093/bioinformatics/btab068.
+
+Accurate haplotype-resolved assembly reveals the origin of structural variants 
+for human trios.
+
+Xu M(1)(2), Guo L(1)(3), Du X(1)(2), Li L(1)(4), Peters BA(2)(5), Deng L(1), 
+Wang O(2), Chen F(6), Wang J(1), Jiang Z(1), Han J(1), Ni M(1)(2), Yang H(2), Xu 
+X(2), Liu X(1)(2)(7), Huang J(8), Fan G(1)(2)(7).
+
+Author information:
+(1)BGI-QingDao, Qingdao 266555, China.
+(2)BGI-Shenzhen, Shenzhen 518083, China.
+(3)BGI Education Center, University of Chinese Academy of Sciences, Shenzhen 
+518083, China.
+(4)School of Future Technology, University of Chinese Academy of Sciences, 
+Beijing 101408, China.
+(5)Complete Genomics Inc., 2904 Orchard Pkwy, San Jose, CA 95134, USA.
+(6)MGI, BGI-Shenzhen, Shenzhen 518083, China.
+(7)State Key Laboratory of Agricultural Genomics, BGI-Shenzhen, Shenzhen 518083, 
+China.
+(8)National Institutes for food and drug Control (NIFDC), No. 2 Tiantan Xili, 
+Dongcheng District, Beijing 10050, China.
+
+MOTIVATION: Achieving a near complete understanding of how the genome of an 
+individual affects the phenotypes of that individual requires deciphering the 
+order of variations along homologous chromosomes in species with diploid 
+genomes. However, true diploid assembly of long-range haplotypes remains 
+challenging.
+RESULTS: To address this, we have developed Haplotype-resolved Assembly for 
+Synthetic long reads using a Trio-binning strategy, or HAST, which uses parental 
+information to classify reads into maternal or paternal. Once sorted, these 
+reads are used to independently de novo assemble the parent-specific haplotypes. 
+We applied HAST to cobarcoded second-generation sequencing data from an Asian 
+individual, resulting in a haplotype assembly covering 94.7% of the reference 
+genome with a scaffold N50 longer than 11 Mb. The high haplotyping precision 
+(∼99.7%) and recall (∼95.9%) represents a substantial improvement over the 
+commonly used tool for assembling cobarcoded reads (Supernova), and is 
+comparable to a trio-binning-based third generation long-read-based assembly 
+method (TrioCanu) but with a significantly higher single-base accuracy [up to 
+99.99997% (Q65)]. This makes HAST a superior tool for accurate haplotyping and 
+future haplotype-based studies.
+AVAILABILITY AND IMPLEMENTATION: The code of the analysis is available at 
+https://github.com/BGI-Qingdao/HAST.
+SUPPLEMENTARY INFORMATION: Supplementary data are available at Bioinformatics 
+online.
+
+© The Author(s) 2021. Published by Oxford University Press.
+
+DOI: 10.1093/bioinformatics/btab068
+PMCID: PMC8613828
+PMID: 33538292
+
+
+15. Bioinformatics. 2020 Apr 15;36(8):2385-2392. doi:
+10.1093/bioinformatics/btz942.
+
+A haplotype-aware de novo assembly of related individuals using pedigree 
+sequence graph.
+
+Garg S(1)(2), Aach J(1), Li H(3), Sebenius I(4), Durbin R(5), Church G(1)(2).
+
+Author information:
+(1)Department of Genetics, Harvard Medical School.
+(2)Wyss Institute for Biologically Inspired Engineering, Harvard University.
+(3)Department of Biomedical Informatics, Harvard Medical School, Boston.
+(4)Department of Molecular and Cellular Biology, Harvard University, Cambridge, 
+MA, USA.
+(5)Department of Genetics, University of Cambridge, Cambridge, UK.
+
+MOTIVATION: Reconstructing high-quality haplotype-resolved assemblies for 
+related individuals has important applications in Mendelian diseases and 
+population genomics. Through major genomics sequencing efforts such as the 
+Personal Genome Project, the Vertebrate Genome Project (VGP) and the Genome in a 
+Bottle project (GIAB), a variety of sequencing datasets from trios of diploid 
+genomes are becoming available. Current trio assembly approaches are not 
+designed to incorporate long- and short-read data from mother-father-child 
+trios, and therefore require relatively high coverages of costly long-read data 
+to produce high-quality assemblies. Thus, building a trio-aware assembler 
+capable of producing accurate and chromosomal-scale diploid genomes of all 
+individuals in a pedigree, while being cost-effective in terms of sequencing 
+costs, is a pressing need of the genomics community.
+RESULTS: We present a novel pedigree sequence graph based approach to diploid 
+assembly using accurate Illumina data and long-read Pacific Biosciences (PacBio) 
+data from all related individuals, thereby generalizing our previous work on 
+single individuals. We demonstrate the effectiveness of our pedigree approach on 
+a simulated trio of pseudo-diploid yeast genomes with different heterozygosity 
+rates, and real data from human chromosome. We show that we require as little as 
+30× coverage Illumina data and 15× PacBio data from each individual in a trio to 
+generate chromosomal-scale phased assemblies. Additionally, we show that we can 
+detect and phase variants from generated phased assemblies.
+AVAILABILITY AND IMPLEMENTATION: https://github.com/shilpagarg/WHdenovo.
+
+© The Author(s) 2019. Published by Oxford University Press. All rights reserved. 
+For permissions, please e-mail: journals.permissions@oup.com.
+
+DOI: 10.1093/bioinformatics/btz942
+PMCID: PMC7759745
+PMID: 31860070 [Indexed for MEDLINE]

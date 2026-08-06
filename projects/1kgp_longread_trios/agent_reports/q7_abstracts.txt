@@ -1,0 +1,1503 @@
+﻿1. Nature. 2026 Jul 29. doi: 10.1038/s41586-026-10841-9. Online ahead of print.
+
+A global view of human centromere variation and evolution.
+
+Gao S(#)(1), Oshima KK(#)(1), Chuang SC(1), Loftus M(2)(3)(4), Potapova TA(5), 
+Montanari A(6), Gordon DS(7), Yang Z(8)(9); Human Genome Structural Variation 
+Consortium; Human Pangenome Reference Consortium; Mao Y(8)(9)(10)(11), Hsieh 
+P(7)(12), Gerton JL(5)(13), Konkel MK(2)(3), Ventura M(6), Logsdon GA(14).
+
+Collaborators: Ashraf H, Audano PA, Ayllon M, Azov A, Balachandran P, Basile AO, 
+Beck CR, Bonder MJ, Brooks L, Byrska-Bishop M, Chaisson MJP, Chong Z, Corvelo A, 
+Crabtree J, Devine SE, Ebert P, Ebler J, Eichler EE, Fairbrother-Browne A, Fan 
+CH, Freeberg M, Gerstein MB, Gu B, Hallast P, Hasenfeld P, Henglin M, Hoekzema 
+K, Hu K, Hunt S, Jensen M, Jiang Y, Kim K, Korbel JO, Kwon Y, Lansdorp PM, Lee 
+C, Leung T, Li J, Li C, Lin J, Loftus M, Marschall T, Martino GV, Mills RE, 
+Mostovoy Y, Munson KM, Narzisi G, Ni L, Paisie C, Pani S, Peng Z, Porubsky D, 
+Prodanov T, Rabbani K, Rausch T, Shi X, Song Y, Sun K, Surapaneni L, Talkowski 
+ME, Tsapalou V, Veidenberg A, Yilmaz F, Yoo D, Zhao X, Zhou W, Zhu Q, Zody MC, 
+Albracht D, Alexandrov IA, Allen J, Alsheikh-Ali AA, Altemose N, Andrews C, 
+Antipov D, Antonacci-Fulton L, Asri M, Balacco JR, Barthel FP, Belter EA Jr, 
+Bender HD, Blair AP, Bolognini D, Bonini KE, Boucher C, Bourque G, Buonaiuto S, 
+Cao S, Carroll A, Mc Cartney AM, Cechova M, Chang PC, Chang X, Cheema J, Cheng 
+H, Ciofi C, Clawson H, Cody S, Colonna V, Conwell HC, Cook-Deegan R, Diekhans M, 
+Diroma MA, Doerr D, Dong Z, Dubocanin D, Durbin R, Eizenga JM, Eskandar P, Ferro 
+E, Fiston-Lavier AS, Ford SM, Ford WW, Formenti G, Frankish A, Freeberg MA, Fu 
+Q, Fullerton SM, Fulton RS, Gao Y, Garcia GH, Garcia OA, Gardner JMV, Garg S, 
+Garrison E, Garrison NA, Garza JE, Geleta M, Ghorbani M, Graves-Lindsay TA, 
+Green RE, Groza C, Guarracino A, Gymrek M, Haeussler M, Haggerty L, Hall IM, 
+Hansen NF, Hao Y, Hashmi MA, Haussler D, Hebbar P, Heringer P, Hickey G, 
+Hillaker TL, Hossain SN, Huang N, Hunt SE, Hunt T, Ioannidis AG, Jafarzadeh N, 
+Jain N, Jarvis ED, Jehangir M, Jiang J, Kenny EE, Kim J, Koo B, Koren S, 
+Kremitzki M, Langley CH, Langmead B, Lawson HA, Li D, Li H, Liao WW, Liu T, 
+Lorig-Roach R, LoTempio J Jr, Loucks H, Loveland JE, Lu J, Lu S, Lucas JK, Ma W, 
+Macias-Velasco JF, Makova KD, Marin MG, Markovic C, Marsico FL, Martin FJ, 
+Mastoras M, Mayoud C, McNulty B, Medico JA, Menendez JM, Miga KH, Minkina A, 
+Mitchell MW, Mohanty SK, Mokrab Y, Monlong J, Moosa S, Moreno-Ochando A, 
+Morishita S, Mudge JM, Mwaniki N, Nassir N, Natali C, Negi S, Novak AM, Okamoto 
+F, Ossorio PN, Owa C, Paez S, Paten B, Peano C, Phillippy AM, Pickett BD, 
+Pignata L, Pisanti N, Porubsky D, Prins P, Radhakrishnan A, Ranallo-Benavidez 
+TR, Raney BJ, Rautiainen M, Raveane A, Ren L, Rhie A, Ryabov F, Sacco S, Salehi 
+F, Schatz MC, Scheinfeldt LB, Sehgal A, Seligmann WE, Shabani M, Shafin K, 
+Shahatit S, Shemirani R, Shivakumar VS, Sinha S, Sirén J, Smeds L, Solar SJ, 
+Sollitto M, Soranzo N, Stergachis AB, Suner MM, Suzuki Y, Söylev A, Tayoun AA, 
+Tierney JAS, Tomlinson C, Tricomi FF, Uddin M, Ungaro MT, Varki R, Villani F, 
+Violich I, Vollger MR, Walenz BP, Wang C, Wang LE, Wang T, Wenger AM, Whelan CV, 
+Xin Z, Xu Z, Ye K, Zhang W, Zhou Y, Zhuo X, Zunino G.
+
+Author information:
+(1)Department of Genetics, Epigenetics Institute, Perelman School of Medicine, 
+University of Pennsylvania, Philadelphia, PA, USA.
+(2)Department of Genetics & Biochemistry, Clemson University, Clemson, SC, USA.
+(3)Institute for Human Genetics, Clemson University, Greenwood, SC, USA.
+(4)The Jackson Laboratory for Genomic Medicine, Farmington, CT, USA.
+(5)Stowers Institute for Medical Research, Kansas City, MO, USA.
+(6)Department of Biosciences, Biotechnology and Environment, University of Bari 
+Aldo Moro, Bari, Italy.
+(7)Department of Genetics, Cell Biology, and Development, University of 
+Minnesota, Twin Cities, MN, USA.
+(8)Bio-X Institutes, Key Laboratory for the Genetics of Developmental and 
+Neuropsychiatric Disorders, Ministry of Education, Shanghai Jiao Tong 
+University, Shanghai, China.
+(9)Zhiyuan College, Shanghai Jiao Tong University, Shanghai, China.
+(10)Shanghai Key Laboratory of Embryo Original Diseases, International Peace 
+Maternity and Child Health Hospital, School of Medicine, Shanghai Jiao Tong 
+University, Shanghai, China.
+(11)Center for Comparative Biomedicine, Ministry of Education Key Laboratory of 
+Systems Biomedicine, State Key Laboratory of Medical Genomics, Institute of 
+Systems Biomedicine, Shanghai Jiao Tong University, Shanghai, China.
+(12)Institute for Health Informatics, University of Minnesota, Twin Cities, MN, 
+USA.
+(13)Department of Biochemistry and Molecular Biology, University of Kansas 
+Medical Center, Kansas City, KS, USA.
+(14)Department of Genetics, Epigenetics Institute, Perelman School of Medicine, 
+University of Pennsylvania, Philadelphia, PA, USA. 
+glogsdon@pennmedicine.upenn.edu.
+(#)Contributed equally
+
+Update of
+    bioRxiv. 2025 Dec 11:2025.12.09.693231. doi: 10.64898/2025.12.09.693231.
+
+Centromeres are essential chromosomal regions that ensure accurate chromosome 
+segregation during cell division, yet their highly repetitive sequence has 
+historically hindered their complete assembly and characterization1. 
+Consequently, the full spectrum of centromere diversity across individuals, 
+populations and evolutionary contexts remains largely unexplored. Here we 
+address this gap in knowledge by assembling and characterizing 2,110 centromeres 
+from diverse individuals representing 5 continental and 28 population groups. 
+Using bioinformatic tools tailored for centromeres, we identify variation, 
+including 226 centromere haplotypes and 1,870 α-satellite higher-order repeat 
+variants. While most centromeres have a single kinetochore site, we find 
+that around 6% have di-kinetochores, and less than 1% have tri-kinetochores, 
+which we confirm using long-read chromatin profiling and multigenerational 
+inheritance. We also show that kinetochore position is closely associated with 
+the underlying sequence and structure of the centromere. To understand the 
+nature of evolutionary change, we compared these centromeres to 5,747 
+centromeres assembled by the Human Pangenome Reference Consortium. We show that 
+centromeres have a 20-fold variation in mutation rate, and a subset of 
+centromeres has evidence of archaic hominin introgression. We validate these 
+mutation rates in a 4-generation, 28-member family and show that the kinetochore 
+site is the most rapidly mutating region in the centromere. We propose a model 
+that reveals an 'arms race' between centromeric sequence and proteins, with 
+frequent mutations within the kinetochore site that lead to changes in genetic 
+and epigenetic landscapes and, ultimately, rapid evolution of these critically 
+important regions.
+
+© 2026. The Author(s).
+
+DOI: 10.1038/s41586-026-10841-9
+PMID: 42527608
+
+Conflict of interest statement: Competing interests: The other authors declare 
+no competing interests.
+
+
+2. bioRxiv [Preprint]. 2026 May 12:2026.03.06.710071. doi: 
+10.64898/2026.03.06.710071.
+
+A family portrait of the genomic factors shaping tandem repeat mutagenesis.
+
+Sasani TA(1), Goldberg ME(1), Avvaru AK(2), Nicholas TJ(1), Neklason DW(3), 
+Dolzhenko E(4), Mokveld T(4), Munson KM(5), Hoekzema K(5), Ayllon M(5), Kaufman 
+EJ(6), Porubsky D(5)(7), Kronenberg Z(4), de Sena Brandine G(4), Rowell WJ(4), 
+Jorde LB(1), Mason CE(8)(9), Eberle MA(4), Valdmanis PN(5)(6), Eichler 
+EE(5)(10), Quinlan AR(1), Dashnow H(1)(2).
+
+Author information:
+(1)Department of Human Genetics, University of Utah, Salt Lake City, UT, USA.
+(2)Department of Biomedical Informatics, University of Colorado Anschutz, 
+Aurora, CO, USA.
+(3)Department of Internal Medicine, University of Utah, Salt Lake City, UT, USA.
+(4)PacBio, Menlo Park, California, USA.
+(5)Department of Genome Sciences, University of Washington School of Medicine, 
+Seattle, WA, USA.
+(6)Division of Medical Genetics, University of Washington School of Medicine, 
+Seattle, WA, USA.
+(7)European Molecular Biology Laboratory (EMBL), Genome Biology Unit, 
+Heidelberg, Germany.
+(8)Department of Systems and Computational Biomedicine, Weill Cornell Medicine, 
+New York, NY, USA.
+(9)Trivedi Institute of Space and Global Biomedicine, University of Pittsburgh, 
+Pittsburgh, PA, USA.
+(10)Howard Hughes Medical Institute, University of Washington, Seattle, WA, USA.
+
+Tandem repeats (TRs) are among the most mutable loci in the human genome, but 
+the genomic determinants of TR mutagenesis remain mysterious. We used PacBio 
+HiFi long-read sequencing to profile nearly eight million TR loci in 28 members 
+of a large, four-generation CEPH/Utah family designated K1463. We identified 
+1,270 de novo TR expansions and contractions across 20 children in the pedigree. 
+De novo mutations (DNMs) were more likely to occur at loci that were longer, 
+composed of uninterrupted motif sequences, and heterozygous in the parental 
+germline. Children born to older fathers also exhibited more de novo mutations 
+at short tandem repeats (STRs). A total of 43 TR loci were hyper-mutable in 
+K1463, expanding or contracting up to twelve times across the pedigree. Among 
+hyper-mutable loci that comprised multiple motifs (i.e., "complex" loci), 
+specific motifs expanded and contracted more often than others; for example, all 
+ten DNMs at a complex, hyper-mutable locus near the non-coding RNA LINC03021 
+involved the same 19bp motif. The mutability of particular motifs may be 
+attributable to allele length, as 95% of DNMs at complex loci were expansions 
+and contractions of the most abundant motif on a parental haplotype. However, 
+future work will be required to disentangle the effects of nucleotide content 
+and allele length on motif-specific mutability, especially at hyper-mutable TRs. 
+Overall, this study combines long-read sequencing technologies with new software 
+tools to comprehensively investigate the factors that influence TR mutagenesis.
+
+DOI: 10.64898/2026.03.06.710071
+PMCID: PMC13060803
+PMID: 41959501
+
+
+3. J Genet Genomics. 2026 Aug;53(8):1437-1450. doi: 10.1016/j.jgg.2026.03.011.
+Epub  2026 Mar 28.
+
+Haplotype-resolved methylation profiling across three generations reveals 
+principles of human epigenetic inheritance.
+
+Zhou H(1), Mu W(2), Xu J(3), Bai X(4), Zhou Y(3), Lan A(5), Wu B(4), Nie L(6), 
+Shen X(5), Yang C(3), Li L(7), Song Y(8), Wu D(6), Chen G(6), Liu H(9), Wang 
+X(10), Jin X(3), Xiao C(4), Zhang G(6), Kwok-Wing Tsui S(11), Ruan J(12).
+
+Author information:
+(1)State Key Laboratory of Genome and Multi-omics Technologies, Shenzhen Branch, 
+Guangdong Laboratory for Lingnan Modern Agriculture, Genome Analysis Laboratory 
+of the Ministry of Agriculture and Rural Affairs, Agricultural Genomics 
+Institute at Shenzhen, Chinese Academy of Agricultural Sciences, Shenzhen, 
+Guangdong 518000, China; BGI Research, Shenzhen, Guangdong 518083, China.
+(2)School of Biomedical Sciences, The Chinese University of Hong Kong, Shatin, 
+N.T., Hong Kong, China; Hong Kong Bioinformatics Centre, The Chinese University 
+of Hong Kong, Shatin, N.T., Hong Kong, China.
+(3)State Key Laboratory of Genome and Multi-omics Technologies, BGI Research, 
+Shenzhen, Guangdong 518083, China.
+(4)State Key Laboratory of Ophthalmology, Zhongshan Ophthalmic Center, Sun 
+Yat-sen University, Guangdong Provincial Key Laboratory of Ophthalmology and 
+Visual Science, Guangzhou, Guangdong 510060, China.
+(5)State Key Laboratory of Genetic Engineering, Center for Evolutionary Biology, 
+Greater Bay Area Institute of Precision Medicine, School of Life Sciences, Fudan 
+University, Shanghai 200433, China.
+(6)Center of Evolutionary and Organismal Biology, Zhejiang University School of 
+Medicine, Hangzhou, Zhejiang 310058, China.
+(7)Department of General Surgery, Xinqiao Hospital, Army Medical University 
+(Third Military Medical University), Chongqing 400037, China.
+(8)Big Data Institute, Central South University, Changsha, Hunan 410023, China.
+(9)State Key Laboratory of Genome and Multi-omics Technologies, Shenzhen Branch, 
+Guangdong Laboratory for Lingnan Modern Agriculture, Genome Analysis Laboratory 
+of the Ministry of Agriculture and Rural Affairs, Agricultural Genomics 
+Institute at Shenzhen, Chinese Academy of Agricultural Sciences, Shenzhen, 
+Guangdong 518000, China.
+(10)The Shennong Laboratory/Institute of Crop Molecular Breeding, Henan Academy 
+of Agricultural Sciences, Zhengzhou, Henan 450002, China.
+(11)School of Biomedical Sciences, The Chinese University of Hong Kong, Shatin, 
+N.T., Hong Kong, China; Hong Kong Bioinformatics Centre, The Chinese University 
+of Hong Kong, Shatin, N.T., Hong Kong, China. Electronic address: 
+kwtsui@cuhk.edu.hk.
+(12)State Key Laboratory of Genome and Multi-omics Technologies, Shenzhen 
+Branch, Guangdong Laboratory for Lingnan Modern Agriculture, Genome Analysis 
+Laboratory of the Ministry of Agriculture and Rural Affairs, Agricultural 
+Genomics Institute at Shenzhen, Chinese Academy of Agricultural Sciences, 
+Shenzhen, Guangdong 518000, China. Electronic address: ruanjue@caas.cn.
+
+Epigenetic inheritance is fundamental to human development and disease, yet the 
+mechanisms governing the transmission of DNA methylation across generations 
+remain incompletely understood. In this study, we performed haplotype-resolved, 
+whole-genome DNA methylation profiling in a healthy three-generation Chinese 
+family, leveraging high-depth Oxford Nanopore Technologies (ONT) and PacBio HiFi 
+long-read sequencing, anchored to a proband-specific telomere-to-telomere (T2T) 
+genome assembly. We observed globally conserved bimodal methylation landscapes 
+across all individuals and generations. Stratified analyses revealed clear 
+functional compartmentalization of methylation marks, characterized by distinct 
+hypomethylation in centromeres and hypermethylation in retrotransposons and 
+repetitive elements. Chromosome-resolved analysis of ribosomal DNA (rDNA) arrays 
+demonstrated a domain-specific methylation pattern with hypomethylation in the 
+transcriptional core and hypermethylation in the intergenic spacer, with 
+evidence for age-associated epigenetic drift in the transcriptional core domain. 
+Through de novo identification and validation, we mapped 23 high-confidence 
+imprinting control regions (ICRs) showing robust parent-of-origin-specific 
+methylation, all overlapping known imprinted genes and enriched for regulatory 
+element signatures. Haplotype-resolved X chromosome analysis further uncovered 
+sex- and allele-specific methylation patterns linked to X inactivation dynamics. 
+Together, this pedigree-scale, high-resolution study delineates the landscape 
+and principles of intergenerational DNA methylation inheritance, revealing both 
+conserved and dynamic features shaping the human epigenome.
+
+Copyright © 2026 The Authors. Published by Elsevier Ltd.. All rights reserved.
+
+DOI: 10.1016/j.jgg.2026.03.011
+PMID: 41905586 [Indexed for MEDLINE]
+
+Conflict of interest statement: Conflict of interest The authors declare that 
+they have no competing interests.
+
+
+4. J Clin Immunol. 2026 Mar 28;46(1):46. doi: 10.1007/s10875-026-02015-z.
+
+Optical Genome Mapping for the Identification of Complex Structural Variants in 
+Hereditary Angioedema.
+
+Batlle-Masó L(1)(2)(3), Neveling K(4), Gil-Serrano J(5)(6), Kamping E(4), den 
+Ouden A(4), Timmermans R(4), Bruch-Tàrrega A(5)(6), Aguiló-Cucurull A(1)(3)(7), 
+Perurena-Prieto J(1)(3)(7), Fernández-Álvarez P(8), Steehouwer M(4), Hoischen 
+A(4)(9), Guilarte M(5)(6), Colobran R(10)(11)(12)(13)(14).
+
+Author information:
+(1)Translational Immunology Research Group, Vall d'Hebron Research Institute 
+(VHIR), Vall d'Hebron Barcelona Hospital Campus, Barcelona, Catalonia, Spain.
+(2)Pediatric Infectious Diseases and Immunodeficiencies Unit, Vall d'Hebron 
+Children's Hospital (HUVH), Vall d'Hebron Barcelona Hospital Campus, Barcelona, 
+Catalonia, Spain.
+(3)Jeffrey Modell Diagnostic and Research Center for Primary Immunodeficiencies, 
+Barcelona, Catalonia, Spain.
+(4)Department of Human Genetics, Radboud University Medical Center, Nijmegen, 
+the Netherlands.
+(5)Allergy Department, National Reference Hereditary Angioedema Center (CSUR), 
+Vall d'Hebron Barcelona Hospital Campus, Barcelona, Catalonia, Spain.
+(6)Allergy Research Unit, Vall d'Hebron Research Institute (VHIR), Vall d'Hebron 
+Barcelona Hospital Campus, Barcelona, Catalonia, Spain.
+(7)Immunology Division, Vall d'Hebron University Hospital (HUVH), Vall d'Hebron 
+Barcelona Hospital Campus, Barcelona, Catalonia, Spain.
+(8)Department of Clinical and Molecular Genetics, Hospital Universitari Vall 
+d'Hebron (HUVH), Vall d'Hebron Barcelona Hospital Campus, Barcelona, Catalonia, 
+Spain.
+(9)Department of Internal Medicine, Radboud Expertise Center for 
+Immunodeficiency and Autoinflammation, Radboud University Medical Center, 
+Radboud Center for Infectious Disease (RCI), Nijmegen, the Netherlands.
+(10)Translational Immunology Research Group, Vall d'Hebron Research Institute 
+(VHIR), Vall d'Hebron Barcelona Hospital Campus, Barcelona, Catalonia, Spain. 
+roger.colobran@vallhebron.cat.
+(11)Jeffrey Modell Diagnostic and Research Center for Primary 
+Immunodeficiencies, Barcelona, Catalonia, Spain. roger.colobran@vallhebron.cat.
+(12)Immunology Division, Vall d'Hebron University Hospital (HUVH), Vall d'Hebron 
+Barcelona Hospital Campus, Barcelona, Catalonia, Spain. 
+roger.colobran@vallhebron.cat.
+(13)Department of Clinical and Molecular Genetics, Hospital Universitari Vall 
+d'Hebron (HUVH), Vall d'Hebron Barcelona Hospital Campus, Barcelona, Catalonia, 
+Spain. roger.colobran@vallhebron.cat.
+(14)Department of Cell Biology, Physiology and Immunology, Autonomous University 
+of Barcelona (UAB), Bellaterra, Catalonia, Spain. roger.colobran@vallhebron.cat.
+
+PURPOSE: Hereditary angioedema due to C1-inhibitor deficiency (HAE-C1INH) is 
+caused by heterozygous pathogenic variants in the SERPING1 gene. Structural 
+variants (SVs) account for 10–15% of cases, and while many can be identified 
+using conventional diagnostic approaches such as multiplex ligation-dependent 
+probe amplification (MLPA), some remain difficult to detect. This study aims to 
+assess the utility of optical genome mapping (OGM) for the detection of both 
+typically described and atypical structural variants in HAE-C1INH. METHODS: 
+MLPA, OGM, long-read whole-genome sequencing (LR-WGS), Sanger sequencing and 
+cDNA analysis. RESULTS: First, we assessed whether OGM could detect common SVs 
+in HAE-C1INH affecting the SERPING1 coding region. We tested a family previously 
+diagnosed by MLPA with a large heterozygous deletion encompassing exons 1–2 of 
+SERPING1. OGM successfully identified this deletion in both affected members. 
+Next, we analyzed a three-generation HAE-C1INH family with no genetic findings 
+after Sanger sequencing and MLPA. OGM revealed a 3.8 kb insertion in SERPING1, 
+which was further characterized using LR-WGS as a SINE-VNTR-Alu (SVA) mobile 
+element inserted in intron 7, demonstrating the complementary role of LR-WGS in 
+precisely defining the nature and location of SVs detected by OGM. Finally, we 
+demonstrated that the allele carrying the SVA insertion was absent in cDNA 
+resulting in SERPING1 functional haploinsufficiency in this family. CONCLUSION: 
+OGM is a reliable and robust technique for detecting SVs affecting both coding 
+and non-coding regions in HAE-C1INH. Using OGM, we report the first case of 
+HAE-C1INH caused by the insertion of an SVA mobile element.
+
+DOI: 10.1007/s10875-026-02015-z
+PMCID: PMC13149560
+PMID: 41896320 [Indexed for MEDLINE]
+
+Conflict of interest statement: Declarations. Ethics approval and consent to 
+participate: This study was performed in line with the principles of the 
+Declaration of Helsinki. Approval was granted by the Ethics Committee of Vall 
+d’Hebron University Hospital: date: 11/06/2021, code: PR(AG)202/2021. Consent 
+for publication: The authors affirm that the human research participants 
+provided informed consent for publication of the data in this manuscript. 
+Competing interests: The authors declare no competing interests.
+
+
+5. Epilepsia. 2026 Jul;67(7):3791-3802. doi: 10.1002/epi.70213. Epub 2026 Mar 24.
+
+Pentanucleotide repeat instability and transmission in benign adult familial 
+myoclonic epilepsy types 1, 4, and 8.
+
+Rakwongkhachon S(1)(2)(3), Pongpanich M(4)(5), Srichomthong C(2)(3), 
+Assawapitaksakul A(2)(3), Tongkobpetch S(2)(3), Santawong K(2)(3), Gahl WA(6), 
+Chunharas C(7), Landouré G(8), Yeetong P(9), Shotelersuk V(2)(3).
+
+Author information:
+(1)Interdisciplinary Program of Biomedical Sciences, Graduate School, 
+Chulalongkorn University, Bangkok, Thailand.
+(2)Department of Pediatrics, Faculty of Medicine, Center of Excellence for 
+Medical Genomics, Chulalongkorn University, Bangkok, Thailand.
+(3)Excellence Center for Medical Genetics, King Chulalongkorn Memorial Hospital, 
+Thai Red Cross Society, Bangkok, Thailand.
+(4)Department of Mathematics and Computer Science, Faculty of Science, 
+Chulalongkorn University, Bangkok, Thailand.
+(5)Center of Excellence for Cancer and Inflammation, Chulalongkorn University, 
+Bangkok, Thailand.
+(6)Medical Genetics Branch, National Human Genome Research Institute, National 
+Institutes of Health, Bethesda, Maryland, USA.
+(7)Center of Excellence in Cognitive Clinical and Computational Neuroscience, 
+Department of Internal Medicine, Faculty of Medicine, Chulalongkorn University, 
+Bangkok, Thailand.
+(8)Faculté de Médecine et d'Odontostomatologie, University of Sciences, 
+Techniques, and Technology of Bamako, Bamako, Mali.
+(9)Division of Human Genetics, Department of Botany, Faculty of Science, 
+Chulalongkorn University, Bangkok, Thailand.
+
+OBJECTIVE: Benign adult familial myoclonic epilepsy (BAFME) is a rare autosomal 
+dominant disorder characterized by tremor and myoclonic seizures. To date, seven 
+genetic subtypes have been identified, all caused by noncoding pentanucleotide 
+repeat expansions-typically TTTTA expansions with additional TTTCA 
+insertions-across distinct loci. Although aberrant repeat expansions are a 
+shared hallmark, it remains unclear whether different BAFME subtypes exhibit 
+similar patterns of repeat length variability and inheritance. We aimed to 
+characterize pentanucleotide repeat structure, repeat length variability across 
+reads, and intergenerational transmission patterns across multiple BAFME 
+subtypes, and to determine whether these mutational dynamics differ among 
+BAFME1, BAFME4, and BAFME8.
+METHODS: We performed whole-genome long-read sequencing and targeted adaptive 
+sampling long-read sequencing on 18 affected individuals from three 
+multigenerational families with BAFME1 (SAMD12), BAFME4 (YEATS2), and BAFME8 
+(RAI1). Repeat structure, repeat length variability across reads, and 
+intergenerational transmission dynamics were analyzed.
+RESULTS: Across patients, 7-33 long reads containing expanded repeats were 
+identified. Several differences in repeat length distributions across reads were 
+observed among the families studied. The BAFME1 family showed comparatively 
+narrower distributions, whereas broader variability was observed in the BAFME4 
+and BAFME8 families. In BAFME1 and BAFME8, TTTCA repeat length showed a positive 
+correlation with age, consistent with age-associated increases in repeat length 
+variability across reads. Parent-to-offspring transmissions were often 
+associated with increases in repeat length, most prominently in BAFME8. Sibling 
+comparisons further indicated higher variability in TTTCA than in TTTTA repeats.
+SIGNIFICANCE: Our study demonstrates distinct patterns of repeat length 
+variability and inheritance across the families analyzed. These findings suggest 
+that the genomic context of pentanucleotide expansions may influence repeat 
+behavior and could contribute to phenotypic variability in BAFME.
+
+© 2026 International League Against Epilepsy.
+
+DOI: 10.1002/epi.70213
+PMCID: PMC13360988
+PMID: 41874439 [Indexed for MEDLINE]
+
+Conflict of interest statement: The authors declare that they have no conflict 
+of interest. We confirm that we have read the Journal's position on issues 
+involved in ethical publication and affirm that this report is consistent with 
+those guidelines.
+
+
+6. bioRxiv [Preprint]. 2026 Feb 17:2026.02.14.705860. doi: 
+10.64898/2026.02.14.705860.
+
+Fully T2T pedigree assemblies reveal genetic stability and epigenetic plasticity 
+of human centromeres across inheritance and cell-fate transitions.
+
+Dong S(1), Xing X(1), Cechova M(2), Loucks H(2), Vijayalingam S(3), Neilson 
+A(3), Sentmanat M(3), Macias J(1), Liu T(1), Dong Z(1), Miao B(1), Zhang W(1), 
+Tomlinson C(4), Schmidt H(1), Belter EA Jr(4), Hu M(5), Cui X(3), Stitziel 
+NO(1)(5), Miga KH(2), Wang T(1)(6)(4).
+
+Author information:
+(1)Department of Genetics, Washington University School of Medicine, St. Louis, 
+MO, USA.
+(2)UC Santa Cruz Genomics Institute, University of California, Santa Cruz, CA, 
+USA.
+(3)Genome Engineering & Stem Cell Center (GESC@MGI), Department of Genetics, 
+Washington University School of Medicine, St. Louis, MO, USA.
+(4)McDonnell Genome Institute, Washington University School of Medicine, St. 
+Louis, MO, USA.
+(5)Department of Medicine, Washington University School of Medicine, St. Louis, 
+MO, USA.
+(6)Edison Family Center for Genome Sciences and Systems Biology, Washington 
+University School of Medicine, St. Louis, MO, USA.
+
+Centromeres are essential chromosome components yet remain poorly understood due 
+to their highly repetitive sequence architecture. Using fully-phased 
+telomere-to-telomere diploid assemblies from a three-generation pedigree 
+integrated with long-read epigenomes from matched peripheral blood mononuclear 
+cells, induced pluripotent stem cells, and neural progenitor cells, we generate 
+allele-resolved single basepair resolution maps of centromere genetic and 
+epigenetic dynamics across inheritance, reprogramming, and differentiation. We 
+show that centromeric dip regions (CDRs), which define the functional core of 
+centromeres, are positionally stable across generations and cell-fate 
+transitions. In contrast, CDR epigenetic architecture is highly dynamic. 
+Reprogramming markedly attenuates CDR hypomethylation, which is partially 
+restored during differentiation in parallel with global hypomethylation of 
+active alpha-satellite arrays and coordinated changes in nucleosome organization 
+and protein occupancy. Centromeric remodeling is insulated from X-chromosome 
+status, including Xa, Xi, and erosion. Finally, de novo mutations arising during 
+reprogramming are enriched in centromeric regions but depleted within functional 
+centromeric cores.
+
+DOI: 10.64898/2026.02.14.705860
+PMCID: PMC12934683
+PMID: 41756947
+
+Conflict of interest statement: Competing Interests The authors declare no 
+competing interests. Declaration of generative AI and AI-assisted technologies 
+in the writing process. During the preparation of this manuscript, the authors 
+used ChatGPT to assist with specific programming-related tasks and to improve 
+the clarity and organization of the text. All content generated with the 
+assistance of this tool was carefully reviewed, edited, and verified by the 
+authors. The authors take full responsibility for the integrity and accuracy of 
+the final manuscript.
+
+
+7. Sci Data. 2026 Feb 13;13(1):442. doi: 10.1038/s41597-026-06824-0.
+
+A full-length mtDNA dataset for studying genetic variations across generations 
+and complex family structures.
+
+Liu Y(#)(1)(2), Yang Q(#)(3), Xuan Y(3), Zhao J(3), Chen A(4)(5), Zhang S(6)(7).
+
+Author information:
+(1)Ministry of Education's Key Laboratory of Contemporary Anthropology, School 
+of Life Sciences, Fudan University, Shanghai, 200438, P. R. China.
+(2)Key Laboratory of Forensic Evidence and Science Technology, Ministry of 
+Public Security, Shanghai, 200083, P. R. China.
+(3)Institute of Forensic Science, Fudan University, Shanghai, 200032, P. R. 
+China.
+(4)Institute of Forensic Science, Fudan University, Shanghai, 200032, P. R. 
+China. anqi_chen@fudan.edu.cn.
+(5)Shanghai Key Laboratory of Forensic Medicine, Shanghai Forensic Service 
+Platform, Academy of Forensic Science, Shanghai, 200063, P. R. China. 
+anqi_chen@fudan.edu.cn.
+(6)Ministry of Education's Key Laboratory of Contemporary Anthropology, School 
+of Life Sciences, Fudan University, Shanghai, 200438, P. R. China. 
+zhang_suhua@fudan.edu.cn.
+(7)Institute of Forensic Science, Fudan University, Shanghai, 200032, P. R. 
+China. zhang_suhua@fudan.edu.cn.
+(#)Contributed equally
+
+Mitochondrial DNA (mtDNA) mutations are critical to disease research, 
+evolutionary studies, and lineage tracing but are challenging to analyze due to 
+interference from nuclear mitochondrial sequences (NUMTs). Current 
+high-throughput sequencing techniques rely on multiple primers or probes to 
+amplify short mtDNA fragments, followed by alignment to a reference genome. 
+However, this approach fails to mitigate NUMTs interference, leading to 
+ambiguous results. In this study, we presented a nanopore-based third-generation 
+sequencing (TGS) method using a single primer pair to amplify full-length mtDNA, 
+effectively circumventing NUMTs artifacts. Sequencing was carried out on the 
+QITAN TECH QNome-3841hex platform, generating complete mtDNA coverage for 106 
+samples from eight distinct family pedigrees, including complex familial 
+structures such as half-siblings and multi-generational households. The 
+sequencing achieved 100% genome coverage with an average mapping rate of 99.96%, 
+supporting comprehensive genome characterization. The resulting dataset offers 
+valuable insights into mtDNA mutation detection, mitochondrial genetics, 
+population genetics, ancestry tracing, and forensic identification, and may 
+advance mtDNA sequencing technologies and intergenerational studies.
+
+© 2026. The Author(s).
+
+DOI: 10.1038/s41597-026-06824-0
+PMCID: PMC13013646
+PMID: 41688488 [Indexed for MEDLINE]
+
+Conflict of interest statement: Competing interests: The authors declare no 
+competing interests.
+
+
+8. bioRxiv [Preprint]. 2025 Dec 11:2025.12.09.693231. doi: 
+10.64898/2025.12.09.693231.
+
+A global view of human centromere variation and evolution.
+
+Gao S, Oshima KK, Chuang SC, Loftus M, Montanari A, Gordon DS; Human Genome 
+Structural Variation Consortium; Human Pangenome Reference Consortium; Hsieh P, 
+Konkel MK, Ventura M, Logsdon GA.
+
+Update in
+    Nature. 2026 Jul 29. doi: 10.1038/s41586-026-10841-9.
+
+Centromeres are essential for accurate chromosome segregation during cell 
+division, yet their highly repetitive sequence has historically hindered their 
+complete assembly and characterization. Consequently, the full spectrum of 
+centromere diversity across individuals, populations, and evolutionary contexts 
+remains largely unexplored. Here, we address this gap in knowledge by assembling 
+and characterizing 2,110 complete human centromeres from a diverse cohort of 
+individuals representing 5 continental and 28 population groups. By developing a 
+novel suite of bioinformatic tools tailored for centromeric regions, we uncover 
+previously unknown variation within centromeres, including 226 novel centromere 
+haplotypes and 1,870 new α-satellite higher-order repeat (HOR) variants. We find 
+that mobile element insertions are present in 30% of centromeres, with 
+chromosome 16 harboring Alu elements within the kinetochore site at an 11-fold 
+higher frequency than expected. While most centromeres have a single kinetochore 
+site, 6% of them have di-kinetochores, and <<1% have tri-kinetochores, which we 
+confirm with long-read CENP-A CUT&RUN, DiMeLo-seq, and multi-generational 
+inheritance. We further show that the position of the kinetochore is not random 
+and is, instead, closely associated with the underlying sequence and structure 
+of the centromere. To understand the nature of evolutionary change, we compared 
+2,110 complete human centromeres to 5,747 complete centromeres recently 
+assembled from the Human Pangenome Reference Consortium. We show that 
+centromeres have a >50-fold variation in mutation rate, with the most rapidly 
+mutating centromeres on chromosome 1 and the slowest mutating centromeres on 
+chromosome Y. Additionally, a subset of centromeres show evidence of 
+introgression from archaic hominins, shaping their sequence, structure, and 
+evolutionary history. We validate these centromere mutation rates in a 
+four-generation family, spanning 28 family members and 483 accurately assembled 
+centromeres, and show that the kinetochore site is the most rapidly mutating 
+region in the centromere, with twofold more single-nucleotide variants than the 
+rest of the centromeric α-satellite HOR array on average. We propose a model 
+that reveals an 'arms race' between centromeric sequence and proteins, with 
+frequent mutations within the site of the kinetochore that lead to changes in 
+genetic and epigenetic landscapes and, ultimately, rapid evolution of these 
+critically important regions.
+
+DOI: 10.64898/2025.12.09.693231
+PMCID: PMC12822586
+PMID: 41573929
+
+
+9. J Huntingtons Dis. 2026 Aug;15(3):375-385. doi: 10.1177/18796397251407656.
+Epub  2026 Jan 9.
+
+Molecular diagnosis of Huntington's disease in Trinidadian families via triplet 
+repeat primed PCR, fragment analysis, and nanopore sequencing.
+
+Rajkumar SN(1), Gyan C(2), Basdeo D(2), Gokool N(2), Jordan AB(3), Nicholls 
+S(3), Pradeep V(4), Haraksingh RR(1).
+
+Author information:
+(1)Department of Life Sciences, Faculty of Science and Technology, The 
+University of the West Indies, St. Augustine, Trinidad and Tobago.
+(2)Sangre Grande Hospital, Eastern Regional Health Authority, Sangre Grande, 
+Trinidad & Tobago.
+(3)Department of Preclinical Sciences, Faculty of Medical Sciences, The 
+University of the West Indies, St. Augustine, Trinidad and Tobago.
+(4)Virtana TT Ltd, St. Augustine, Trinidad and Tobago.
+
+BackgroundHuntington's disease (HD) is a neurodegenerative disorder caused by 
+CAG expansions in the Huntingtin (HTT) gene. Due to its non-specific and 
+variable phenotype, diagnosis requires clinical assessments and genetic testing. 
+In the Caribbean, the genetic etiology of HD is underexplored due to the 
+unavailability of genetic testing.ObjectiveWe investigated whether 32 
+participants from four multigenerational families from Trinidad and Tobago (T&T) 
+presenting with Huntington-like symptoms carried HTT CAG expansions, and whether 
+CAG length was related to decreasing age of onset with each 
+generation.MethodsParticipants were genotyped using triplet repeat primed PCR 
+followed by previously-established fragment analysis and a nanopore sequencing 
+based method with a custom bioinformatics workflow.ResultsAll symptomatic 
+participants carried HTT CAG expansions (42-57 CAGs), confirming HD. Among 
+participants aged 20-65 years (n = 24), clinical and genetic diagnoses were 
+concordant for 22 participants (13 symptomatic with 42-57 CAGs, and nine 
+asymptomatic with 13-27 CAGs). Two asymptomatic participants aged 22 and 43 
+years carried 46-47 and 37-39 CAGs, respectively. Among eight participants <18 
+years, one symptomatic 16-year-old carried 49-50 CAGs, and seven are currently 
+asymptomatic (three with 50-52 CAGs, and four with 14-17 CAGs). In three 
+families, decreasing age of onset and increasing CAG length were observed in 
+each successive generation. Methods were highly correlated 
+(R2 = 0.998).ConclusionsWe demonstrated the application of nanopore sequencing 
+with a custom bioinformatics workflow to estimate the size of HTT CAG repeats. 
+This is the first genetic report of HD in T&T, among limited records in the 
+Caribbean.
+
+DOI: 10.1177/18796397251407656
+PMID: 41512049 [Indexed for MEDLINE]
+
+Conflict of interest statement: Declaration of conflicting interestsThe authors 
+declared no potential conflicts of interest with respect to the research, 
+authorship, and/or publication of this article.
+
+
+10. bioRxiv [Preprint]. 2025 Dec 16:2025.12.14.693655. doi: 
+10.64898/2025.12.14.693655.
+
+Complete genomes of a multi-generational pedigree to expand studies of genetic 
+and epigenetic inheritance.
+
+Cechova M(1)(2), Potapova TA(3), Rechtsteiner A(4), Hickey G(1), Mari RS(5)(6), 
+Mastoras M(1), Menendez J(1), Poláková N(2), Hebbar P(1), Ryabov F(1)(7), Loucks 
+H(1), Groot A(4), Pavlík T(2), Asri M(1), Dong S(8), Yan SM(9), Lucas JK(1), 
+Solar SJ(10), Borchers M(3), Mattingly M(3), McKinney S(3), Krátká M(2)(11), 
+Mikhailova C(1), Hanák O(2), Saha ST(1), Xu E(1), Antipov D(10), Koren S(10), 
+Eizenga JM(1), McNulty B(1), Gardner JMV(1), Hillaker T(1), Violich I(1), 
+Markovic C(12), Kruglyak S(13), Levy S(13), Wolf T(13), Mitchell MW(14), 
+Scheinfeldt L(14), Cheng H(15), Alexandrov IA(16), McCoy RC(9), Paten B(1), 
+Phillippy AM(10), Zook JM(17), Gerton JL(3), Fulton RS(13), Stitziel NO(18), 
+Wang T(8), Marschall T(5)(6), Greider CW(4), Miga KH(1).
+
+Author information:
+(1)UC Santa Cruz Genomics Institute, University of California, Santa Cruz, CA, 
+USA.
+(2)Faculty of Informatics, Masaryk University, Brno, Czech Republic.
+(3)Stowers Institute for Medical Research, Kansas City, MO, 64110, USA.
+(4)Department of Molecular Cell and Developmental Biology, University of 
+California, Santa Cruz, CA, USA.
+(5)Institute for Medical Biometry and Bioinformatics, Medical Faculty, Heinrich 
+Heine University Düsseldorf, Düsseldorf, Germany.
+(6)Center for Digital Medicine, Heinrich Heine University Düsseldorf, 
+Düsseldorf, Germany.
+(7)International Laboratory of Bioinformatics, HSE University, Moscow, Russia.
+(8)Department of Genetics, Washington University School of Medicine, St. Louis, 
+MO 63110, USA.
+(9)Department of Biology, Johns Hopkins University, Baltimore, MD, USA 21218.
+(10)Genome Informatics Section, Center for Genomics and Data Science Research, 
+National Human Genome Research Institute, National Institutes of Health, 
+Bethesda, MD 20892, USA.
+(11)National Centre for Biomolecular Research, Faculty of Science, Masaryk 
+University, Kamenice 5, Brno, 62500, Czech Republic.
+(12)McDonnell Genome Institute, Washington University School of Medicine, St. 
+Louis, MO 63108, USA.
+(13)Element Biosciences, San Diego, CA 92121, USA.
+(14)Coriell Institute for Medical Research, Camden, NJ 08103, USA.
+(15)Department of Biomedical Informatics and Data Science, Yale School of 
+Medicine, New Haven, CT, USA.
+(16)Department of Anatomy and Anthropology & Department of Human Molecular 
+Genetics and Biochemistry, Faculty of Medical and Health Sciences, Tel Aviv 
+University, Tel Aviv, Israel.
+(17)Biosystems and Biomaterials Division, National Institute of Standards and 
+Technology, Gaithersburg, MD, 20899, USA.
+(18)Department of Medicine, Washington University School of Medicine, St. Louis, 
+MO 63110, USA.
+
+Pedigree analysis remains the gold standard for rare disease diagnostics, yet 
+whole genome sequencing studies typically omit critical regions like 
+centromeres, telomeres, and acrocentric chromosome p-arms. Here, we present 
+telomere-to-telomere (T2T) reference genomes for four self-identified African 
+American individuals of admixed ancestry spanning three generations. Our 
+parent-of-origin assigned, chromosome-level assemblies revealed precise meiotic 
+recombination breakpoints in previously inaccessible regions, including 
+recombination events across acrocentric and subtelomeric sequences. Centromeric 
+regions were highly stable, with multi-megabase arrays inherited intact across 
+three generations, while the position of kinetochore assembly sites remained 
+consistent and predominantly associated with the p-arm proximal region. The 
+relative lengths of telomeres on individual chromosomes were maintained across 
+generations. Using a targeted rDNA assembly approach, we reconstructed a 
+complete megabase-scale ribosomal DNA (rDNA) array corresponding to the paternal 
+chromosome 14. This openly available pedigree provides a benchmark dataset for 
+studying recombination and genetic and epigenetic variation across the complete 
+genome.
+
+DOI: 10.64898/2025.12.14.693655
+PMCID: PMC12746033
+PMID: 41473289
+
+Conflict of interest statement: Competing Interests MC is related to individuals 
+owning Oxford Nanopore shares. SK has received travel funds to speak at events 
+hosted by Oxford Nanopore Technologies. Declaration of generative AI and 
+AI-assisted technologies in the writing process. During the preparation of this 
+work the authors used LLMs in order to assist with specific programming tasks, 
+and on rare occassions to improve the language of the manuscript. After using 
+these services, the authors reviewed and edited the content as needed and take 
+full responsibility for the content of the published article.
+
+
+11. Eur J Hum Genet. 2026 Feb;34(2):227-235. doi: 10.1038/s41431-025-01964-0.
+Epub  2025 Oct 23.
+
+RP9 revisited; RP9 p.(H137L) remains a likely cause of dominant splicing 
+factor-Retinitis Pigmentosa.
+
+Chang L(#)(1), Poulter JA(#)(1), Webster AR(2), Arno G(2), Mukherjee R(3), 
+Lotery A(4)(5), Hardcastle AJ(2), Watson CM(1)(6), Inglehearn CF(7).
+
+Author information:
+(1)Leeds Institute of Medical Research, School of Medicine, University of Leeds, 
+Leeds, UK.
+(2)NIHR Biomedical Research Centre, Moorfields Eye Hospital NHS Foundation Trust 
+& UCL Institute of Ophthalmology, London, UK.
+(3)Department of Ophthalmology, St. James's University Hospital, Leeds, UK.
+(4)Southampton Eye Unit, University Hospital Southampton, Southampton, UK.
+(5)Faculty of Medicine, University of Southampton, Southampton, UK.
+(6)North East and Yorkshire Genomic Laboratory Hub, Central Lab, St. James's 
+University Hospital, Leeds, UK.
+(7)Leeds Institute of Medical Research, School of Medicine, University of Leeds, 
+Leeds, UK. c.inglehearn@leeds.ac.uk.
+(#)Contributed equally
+
+Variants in six pre-mRNA processing factors cause autosomal dominant Retinitis 
+Pigmentosa (adRP). The RP9 gene encodes a seventh splicing factor, and in 2002, 
+we published RP9 variants c.410A>T; p.(H137L) and c.509A>G; p.(D170G) as likely 
+causes of adRP in a large multigenerational RP9-linked family and a single case, 
+respectively. It has since been suggested these variants might be artefacts due 
+to simultaneous amplification of the RP9P pseudogene, and no further pathogenic 
+variants have been reported. We therefore rescreened two members of the 
+RP9-linked family by genome sequencing. Examination of the 2 Mb locus defined by 
+crossovers in the original family revealed no other plausible causative 
+variants. Alignment of both short and long-read sequences confirmed that 
+p.(H137L) is in the RP9 gene, not the pseudogene. Screening for p.(H137L) in 
+1961 RP/Rod-cone dystrophy (RCD) cases from the Leeds patient cohort and UK 
+100,000 Genomes Project (100kGP) database revealed four further carriers. 
+Including the original family, this variant was therefore present in 5/1962 
+RP/RCD probands, and is absent from gnomAD, constituting statistically 
+significant enrichment in RP cases. Long-read sequencing of p.(H137L) in 
+available carriers showed this is a UK founder allele. The RP9 p.(D170G) allele 
+was also confirmed as gene, not pseudogene, derived, but is present in 22 
+individuals in the 100kGP cohort, none with RP, as well as >200 individuals in 
+gnomAD and Biobank, suggesting it is non-pathogenic. In conclusion, RP9 
+p.(H137L) is strongly associated with RP and remains the only plausible variant 
+accounting for the condition in a large multi-generation adRP family.
+
+© 2025. The Author(s).
+
+DOI: 10.1038/s41431-025-01964-0
+PMCID: PMC12858846
+PMID: 41131384 [Indexed for MEDLINE]
+
+Conflict of interest statement: Competing interests: CMW has received travel 
+expenses from Oxford Nanopore Technologies. All other authors declare no 
+competing financial interests. Ethical approval: For patients recruited in Leeds 
+and in collaborating sites throughout the UK, informed written consent was 
+obtained using a protocol that followed the precepts of the Declaration of 
+Helsinki and was approved by the Leeds East Research Ethics Committee (Project 
+reference 17/YH/0032). The 100,000 Genomes Project is covered by REC reference 
+approval 14/EE/1112.
+
+
+12. Nature. 2025 Jul;643(8071):427-436. doi: 10.1038/s41586-025-08922-2. Epub
+2025  Apr 23.
+
+Human de novo mutation rates from a four-generation pedigree reference.
+
+Porubsky D(1), Dashnow H(#)(2)(3), Sasani TA(#)(2), Logsdon GA(#)(1)(4), Hallast 
+P(#)(5), Noyes MD(#)(1), Kronenberg ZN(#)(6), Mokveld T(#)(6), Koundinya N(1), 
+Nolan C(6), Steely CJ(2)(7), Guarracino A(8), Dolzhenko E(6), Harvey WT(1), 
+Rowell WJ(6), Grigorev K(9)(10), Nicholas TJ(2), Goldberg ME(2), Oshima KK(4), 
+Lin J(1), Ebert P(11)(12), Watkins WS(2), Leung TY(13), Hanlon VCT(13), McGee 
+S(1), Pedersen BS(2), Happ HC(2), Jeong H(1)(14), Munson KM(1), Hoekzema K(1), 
+Chan DD(13), Wang Y(13), Knuth J(1), Garcia GH(1), Fanslow C(6), Lambert C(6), 
+Lee C(5), Smith JD(1), Levy S(15), Mason CE(16)(17)(18), Garrison E(8), Lansdorp 
+PM(13)(19), Neklason DW(2), Jorde LB(2), Quinlan AR(2), Eberle MA(6), Eichler 
+EE(20)(21).
+
+Author information:
+(1)Department of Genome Sciences, University of Washington School of Medicine, 
+Seattle, WA, USA.
+(2)Department of Human Genetics, University of Utah, Salt Lake City, UT, USA.
+(3)Department of Biomedical Informatics, University of Colorado Anschutz Medical 
+Campus, Aurora, CO, USA.
+(4)Department of Genetics, Epigenetics Institute, Perelman School of Medicine, 
+University of Pennsylvania, Philadelphia, PA, USA.
+(5)The Jackson Laboratory for Genomic Medicine, Farmington, CT, USA.
+(6)PacBio, Menlo Park, CA, USA.
+(7)Department of Internal Medicine, University of Kentucky College of Medicine, 
+Lexington, KY, USA.
+(8)Genetics, Genomics and Informatics, University of Tennessee Health Science 
+Center, Memphis, TN, USA.
+(9)Space Biosciences Research Branch, NASA Ames Research Center, Moffett Field, 
+CA, USA.
+(10)Blue Marble Space Institute of Science, Seattle, WA, USA.
+(11)Core Unit Bioinformatics, Medical Faculty and University Hospital 
+Düsseldorf, Heinrich Heine University, Düsseldorf, Germany.
+(12)Center for Digital Medicine, Heinrich Heine University, Düsseldorf, Germany.
+(13)Terry Fox Laboratory, BC Cancer Agency, Vancouver, British Columbia, Canada.
+(14)Altos Labs, San Diego, CA, USA.
+(15)Element Biosciences, San Diego, CA, USA.
+(16)Department of Physiology and Biophysics, Weill Cornell Medicine, New York, 
+NY, USA.
+(17)The HRH Prince Alwaleed Bin Talal Bin Abdulaziz Alsaud Institute for 
+Computational Biomedicine, Weill Cornell Medicine, New York, NY, USA.
+(18)The WorldQuant Initiative for Quantitative Prediction, Weill Cornell 
+Medicine, New York, NY, USA.
+(19)Department of Medical Genetics, University of British Columbia, Vancouver, 
+British Columbia, Canada.
+(20)Department of Genome Sciences, University of Washington School of Medicine, 
+Seattle, WA, USA. ee3@uw.edu.
+(21)Howard Hughes Medical Institute, University of Washington, Seattle, WA, USA. 
+ee3@uw.edu.
+(#)Contributed equally
+
+Update of
+    bioRxiv. 2024 Aug 05:2024.08.05.606142. doi: 10.1101/2024.08.05.606142.
+
+Understanding the human de novo mutation (DNM) rate requires complete sequence 
+information1. Here using five complementary short-read and long-read sequencing 
+technologies, we phased and assembled more than 95% of each diploid human genome 
+in a four-generation, twenty-eight-member family (CEPH 1463). We estimate 98-206 
+DNMs per transmission, including 74.5 de novo single-nucleotide variants, 7.4 
+non-tandem repeat indels, 65.3 de novo indels or structural variants originating 
+from tandem repeats, and 4.4 centromeric DNMs. Among male individuals, we find 
+12.4 de novo Y chromosome events per generation. Short tandem repeats and 
+variable-number tandem repeats are the most mutable, with 32 loci exhibiting 
+recurrent mutation through the generations. We accurately assemble 288 
+centromeres and six Y chromosomes across the generations and demonstrate that 
+the DNM rate varies by an order of magnitude depending on repeat content, length 
+and sequence identity. We show a strong paternal bias (75-81%) for all forms of 
+germline DNM, yet we estimate that 16% of de novo single-nucleotide variants are 
+postzygotic in origin with no paternal bias, including early germline mosaic 
+mutations. We place all this variation in the context of a high-resolution 
+recombination map (~3.4 kb breakpoint resolution) and find no correlation 
+between meiotic crossover and de novo structural variants. These 
+near-telomere-to-telomere familial genomes provide a truth set to understand the 
+most fundamental processes underlying human genetic variation.
+
+© 2025. The Author(s).
+
+DOI: 10.1038/s41586-025-08922-2
+PMCID: PMC12240836
+PMID: 40269156 [Indexed for MEDLINE]
+
+Conflict of interest statement: Competing interests: E.E.E. is a scientific 
+advisory board member of Variant Bio. C. Lee is a scientific advisory board 
+member of Nabsys and Genome Insight. D.P. has previously disclosed a patent 
+application (no. EP19169090) relevant to Strand-seq. Z.N.K., C.N., E.D., C.F., 
+C. Lambert, T.M., W.J.R. and M.A.E. are employees and shareholders of PacBio. 
+Z.N.K. is a private shareholder in Phase Genomics. The other authors declare no 
+competing interests.
+
+
+13. Sci Rep. 2025 Jan 21;15(1):2656. doi: 10.1038/s41598-025-87083-8.
+
+Identification of a cryptic unbalanced translocation 
+Der(22)t(12;22)(q24.33;q13.33) in a large Chinese family with Phelan-McDermid 
+syndrome by nanopore sequencing.
+
+Wu X(1)(2), Xu Q(1), Chen G(2), Huang J(1)(2), Zhong Y(3), Tian L(1), Wu Q(1), 
+Chen J(4)(5).
+
+Author information:
+(1)Reproductive Medicine Center, Jiangxi Maternal and Child Health Hospital, 318 
+Bayi Avenue, Nanchang, 330006, China.
+(2)Jiangxi Key Laboratory of Reproductive Health, Jiangxi Maternal and Child 
+Health Hospital, Nanchang, China.
+(3)Department of Obstetrics and Gynecology, The Second Affiliated Hospital of 
+Nanchang University, Nanchang, China.
+(4)Reproductive Medicine Center, Jiangxi Maternal and Child Health Hospital, 318 
+Bayi Avenue, Nanchang, 330006, China. dreamhunter_cj@163.com.
+(5)Jiangxi Key Laboratory of Reproductive Health, Jiangxi Maternal and Child 
+Health Hospital, Nanchang, China. dreamhunter_cj@163.com.
+
+To explore the genetic cause of a four-generation severe intellectual disability 
+in a Chinese family using nanopore sequencing and to provide genetic counseling 
+and reproductive guidance for family members. Multiple genetic analyses of the 
+proband and family members were performed, including chromosome karyotype 
+analysis, whole exome sequencing, nanopore sequencing, PCR amplification, and 
+Sanger sequencing. The results of G-binding karyotyping, CGG repeats for FMR1, 
+GGC repeats for NOTCH2NCL, and trio-whole-exome sequencing were negative for the 
+proband and his parents. Nanopore sequencing showed that the proband carried 
+12q24.33 microduplication (3.26 Mb) and 22q13.33 microdeletion (1.5 Mb). 
+According to the guidelines of the American Society for Medical Genetics and 
+Genomics (ACMG), the 22q13.33 microdeletion was classified as pathogenic, 
+whereas the 12q24.33 microduplication was classified as a variant of uncertain 
+significance (VUS). The precise karyotype and location of chromosomal 
+breakpoints in the patient and family members were determined through PCR. 
+According to the results of Sanger sequencing, a cryptic balanced translocation 
+was detected in the proband's father. Additionally, informative SNPs were 
+identified near the breakpoints for preimplantation genetic testing for 
+structure rearrangement (PGT-SR) treatment by nanopore sequencing. We identified 
+a cryptic unbalanced translocation in a large Chinese family with 
+Phelan-McDermid syndrome (22q13.33 deletion syndrome) by nanopore sequencing. 
+Nanopore sequencing can be a powerful tool for the genetic diagnosis of 
+unexplained intellectual disability and the detection of precise breakpoints of 
+chromosomal rearrangement in PGT-SR treatment.
+
+© 2025. The Author(s).
+
+DOI: 10.1038/s41598-025-87083-8
+PMCID: PMC11750972
+PMID: 39838038 [Indexed for MEDLINE]
+
+Conflict of interest statement: Declarations. Competing interests: The authors 
+declare no competing interests. Ethics statement: The study related to human 
+participants was reviewed and approved by the reproductive medicine ethics 
+committee of Jiangxi maternal and child health hospital. All patients 
+participated in this study were signed written informed consent. The research 
+has been performed in accordance with the Helsinki Declaration.
+
+
+14. HGG Adv. 2024 Oct 10;5(4):100352. doi: 10.1016/j.xhgg.2024.100352. Epub 2024
+Sep  10.
+
+Familial severe skeletal Class II malocclusion with gingival hyperplasia caused 
+by a complex structural rearrangement at the KCNJ2-KCNJ16 locus.
+
+Maroofian R(1), Pagnamenta AT(2), Navabazam A(3), Schwessinger R(4), Roberts 
+HE(5), Lopopolo M(5), Dehghani M(6), Vahidi Mehrjardi MY(7), Haerian A(3), 
+Soltanianzadeh M(3), Noori Kooshki MH(3), Knight SJL(2), Miller KA(8), McGowan 
+SJ(9), Chatron N(10), Timberlake AT(11), Melo US(12), Mundlos S(12), Buck D(5), 
+Twigg SRF(8), Taylor JC(2), Wilkie AOM(8), Calpena E(13).
+
+Author information:
+(1)Department of Neuromuscular Diseases, UCL Queen Square Institute of 
+Neurology, London, UK.
+(2)National Institute for Health Research Oxford Biomedical Research Centre, 
+Oxford, UK; Wellcome Centre for Human Genetics, University of Oxford, Oxford, 
+UK.
+(3)Faculty of Dentistry, Shahid Sadoughi University of Medical Sciences, Yazd, 
+Iran.
+(4)Centre for Computational Biology, MRC Weatherall Institute of Molecular 
+Medicine, University of Oxford, Oxford, UK.
+(5)Wellcome Centre for Human Genetics, University of Oxford, Oxford, UK.
+(6)Abortion Research Center, Yazd Reproductive Sciences Institute, Shahid 
+Sadoughi University of Medical Sciences, Yazd, Iran.
+(7)Diabetes Research Center, Shahid Sadoughi University of Medical Sciences, 
+Yazd, Iran.
+(8)Clinical Genetics Group, MRC Weatherall Institute of Molecular Medicine, 
+University of Oxford, Oxford, UK.
+(9)Computational Biology Research Group, MRC Weatherall Institute of Molecular 
+Medicine, University of Oxford, Oxford, UK.
+(10)Service de Génétique, Hospices Civils de Lyon, Lyon, France.
+(11)Hansjörg Wyss Department of Plastic Surgery, NYU Langone Medical Center, New 
+York, NY, USA.
+(12)Max Planck Institute for Molecular Genetics, Berlin, Germany.
+(13)Clinical Genetics Group, MRC Weatherall Institute of Molecular Medicine, 
+University of Oxford, Oxford, UK; Grupo de Investigación en Biomedicina 
+Molecular, Celular y Genómica, Unidad CIBERER, Instituto de Investigación 
+Sanitaria La Fe (IIS La Fe), Valencia, Spain. Electronic address: 
+eduardo.calpenacorpas@ndcls.ox.ac.uk.
+
+The aim of this work was to identify the underlying genetic cause in a 
+four-generation family segregating an unusual phenotype comprising a severe form 
+of skeletal Class II malocclusion with gingival hyperplasia. SNP array 
+identified a copy number gain on chromosome 1 (chr1); however, this chromosomal 
+region did not segregate correctly in the extended family. Exome sequencing also 
+failed to identify a candidate causative variant but highlighted co-segregating 
+genetic markers on chr17 and chr19. Short- and long-read genome sequencing 
+allowed us to pinpoint and characterize at nucleotide-level resolution a 
+chromothripsis-like complex rearrangement (CR) inserted into the chr17 
+co-segregating region at the KCNJ2-SOX9 locus. The CR involved the gain of five 
+different regions from chr1 that are shuffled, chained, and inserted as a single 
+block (∼828 kb) at chr17q24.3. The inserted sequences contain craniofacial 
+enhancers that are predicted to interact with KCNJ2/KCNJ16 through 
+neo-topologically associating domain (TAD) formation to induce ectopic 
+activation. Our findings suggest that the CR inserted at chr17q24.3 is the cause 
+of the severe skeletal Class II malocclusion with gingival hyperplasia in this 
+family and expands the panoply of phenotypes linked to variation at the 
+KCNJ2-SOX9 locus. In addition, we highlight a previously overlooked potential 
+role for misregulation of the KCNJ2/KCNJ16 genes in the pathomechanism of 
+gingival hyperplasia associated with deletions and other rearrangements of the 
+17q24.2-q24.3 region (MIM 135400).
+
+Copyright © 2024 The Author(s). Published by Elsevier Inc. All rights reserved.
+
+DOI: 10.1016/j.xhgg.2024.100352
+PMCID: PMC11465088
+PMID: 39257002 [Indexed for MEDLINE]
+
+Conflict of interest statement: Declaration of interests The authors declare no 
+competing interests.
+
+
+15. bioRxiv [Preprint]. 2024 Aug 5:2024.08.05.606142. doi: 
+10.1101/2024.08.05.606142.
+
+A familial, telomere-to-telomere reference for human de novo mutation and 
+recombination from a four-generation pedigree.
+
+Porubsky D(1), Dashnow H(2)(3), Sasani TA(2), Logsdon GA(1)(4), Hallast P(5), 
+Noyes MD(1), Kronenberg ZN(6), Mokveld T(6), Koundinya N(1), Nolan C(6), Steely 
+CJ(2)(7), Guarracino A(8), Dolzhenko E(6), Harvey WT(1), Rowell WJ(7), Grigorev 
+K(9)(10), Nicholas TJ(2), Oshima KK(4), Lin J(1), Ebert P(10)(11), Watkins 
+WS(2), Leung TY(12), Hanlon VCT(13), McGee S(1), Pedersen BS(2), Goldberg ME(2), 
+Happ HC(2), Jeong H(1)(13), Munson KM(1), Hoekzema K(1), Chan DD(12), Wang 
+Y(12), Knuth J(1), Garcia GH(1), Fanslow C(6), Lambert C(6), Lee C(5), Smith 
+JD(1), Levy S(14), Mason CE(15)(16)(17), Garrison E(8), Lansdorp PM(12), 
+Neklason DW(2), Jorde LB(2), Quinlan AR(2), Eberle MA(6), Eichler EE(1)(18).
+
+Author information:
+(1)Department of Genome Sciences, University of Washington School of Medicine, 
+Seattle, WA, USA.
+(2)Department of Human Genetics, University of Utah, Salt Lake City, UT, USA.
+(3)Department of Biomedical Informatics, University of Colorado Anschutz Medical 
+Campus, Aurora, CO, USA.
+(4)Present address: Department of Genetics, Epigenetics Institute, Perelman 
+School of Medicine, University of Pennsylvania, Philadelphia, PA, USA.
+(5)The Jackson Laboratory for Genomic Medicine, Farmington, CT, USA.
+(6)PacBio, Menlo Park, CA, USA.
+(7)Department of Internal Medicine, University of Kentucky College of Medicine, 
+Lexington, KY, USA.
+(8)Genetics, Genomics and Informatics, University of Tennessee Health Science 
+Center, Memphis, TN, USA.
+(9)Blue Marble Space Institute of Science, Seattle, WA, USA.
+(10)Core Unit Bioinformatics, Medical Faculty and University Hospital 
+Düsseldorf, Heinrich Heine University, Düsseldorf, Germany.
+(11)Center for Digital Medicine, Heinrich Heine University, Düsseldorf, Germany.
+(12)Terry Fox Laboratory, BC Cancer Agency, Vancouver, BC, Canada.
+(13)Present address: Altos Labs, San Diego, CA, USA.
+(14)HudsonAlpha Institute for Biotechnology, Huntsville, AL, USA.
+(15)Department of Physiology and Biophysics, Weill Cornell Medicine, New York, 
+NY, USA.
+(16)The HRH Prince Alwaleed Bin Talal Bin Abdulaziz Alsaud Institute for 
+Computational Biomedicine, Weill Cornell Medicine, New York, NY, USA.
+(17)The WorldQuant Initiative for Quantitative Prediction, Weill Cornell 
+Medicine, New York, NY, USA.
+(18)Howard Hughes Medical Institute, University of Washington, Seattle, WA, USA.
+
+Update in
+    Nature. 2025 Jul;643(8071):427-436. doi: 10.1038/s41586-025-08922-2.
+
+Using five complementary short- and long-read sequencing technologies, we phased 
+and assembled >95% of each diploid human genome in a four-generation, 28-member 
+family (CEPH 1463) allowing us to systematically assess de novo mutations (DNMs) 
+and recombination. From this family, we estimate an average of 192 DNMs per 
+generation, including 75.5 de novo single-nucleotide variants (SNVs), 7.4 
+non-tandem repeat indels, 79.6 de novo indels or structural variants (SVs) 
+originating from tandem repeats, 7.7 centromeric de novo SVs and SNVs, and 12.4 
+de novo Y chromosome events per generation. STRs and VNTRs are the most mutable 
+with 32 loci exhibiting recurrent mutation through the generations. We 
+accurately assemble 288 centromeres and six Y chromosomes across the 
+generations, documenting de novo SVs, and demonstrate that the DNM rate varies 
+by an order of magnitude depending on repeat content, length, and sequence 
+identity. We show a strong paternal bias (75-81%) for all forms of germline DNM, 
+yet we estimate that 17% of de novo SNVs are postzygotic in origin with no 
+paternal bias. We place all this variation in the context of a high-resolution 
+recombination map (~3.5 kbp breakpoint resolution). We observe a strong maternal 
+recombination bias (1.36 maternal:paternal ratio) with a consistent reduction in 
+the number of crossovers with increasing paternal (r=0.85) and maternal (r=0.65) 
+age. However, we observe no correlation between meiotic crossover locations and 
+de novo SVs, arguing against non-allelic homologous recombination as a 
+predominant mechanism. The use of multiple orthogonal technologies, 
+near-telomere-to-telomere phased genome assemblies, and a multi-generation 
+family to assess transmission has created the most comprehensive, publicly 
+available "truth set" of all classes of genomic variants. The resource can be 
+used to test and benchmark new algorithms and technologies to understand the 
+most fundamental processes underlying human genetic variation.
+
+DOI: 10.1101/2024.08.05.606142
+PMCID: PMC11326147
+PMID: 39149261
+
+Conflict of interest statement: Conflicts of interest E.E.E. is a scientific 
+advisory board (SAB) member of Variant Bio, Inc. C.Lee is an SAB member of 
+Nabsys and Genome Insight. D.P. has previously disclosed a patent application 
+(no. EP19169090) relevant to Strand-seq. Z.K., C.N., E.D., C.F., C.Lambert, 
+T.M., W.J.R., and M.A.E. are employees and shareholders of PacBio. Z.K. is a 
+private shareholder in Phase Genomics. The other authors declare no competing 
+interests.
+
+
+16. World J Clin Cases. 2024 Aug 6;12(22):5208-5216. doi: 
+10.12998/wjcc.v12.i22.5208.
+
+Diagnosis and treatment of refractory infectious diseases using nanopore 
+sequencing technology: Three case reports.
+
+Deng QM(1)(2)(3), Zhang J(3), Zhang YY(3), Jia M(2)(3), Ding DS(3), Fang YQ(3), 
+Wang HZ(4), Gu HC(2)(3).
+
+Author information:
+(1)Science Island Branch, Graduate School of University of Science and 
+Technology of China, Hefei 230031, Anhui Province, China.
+(2)Institute of Health and Medical Technology, Hefei Institutes of Physical 
+Science, Chinese Academy of Science, Hefei 230031, Anhui Province, China.
+(3)Medical Pathology Center, Hefei Cancer Hospital, Chinese Academy of Sciences, 
+Hefei 230031, Anhui Province, China.
+(4)Science Island Branch, Graduate School of University of Science and 
+Technology of China, Hefei 230031, Anhui Province, China. wanghz@hfcas.ac.cn.
+
+BACKGROUND: Infectious diseases are still one of the greatest threats to human 
+health, and the etiology of 20% of cases of clinical fever is unknown; 
+therefore, rapid identification of pathogens is highly important. Traditional 
+culture methods are only able to detect a limited number of pathogens and are 
+time-consuming; serologic detection has window periods, false-positive and 
+false-negative problems; and nucleic acid molecular detection methods can detect 
+several known pathogens only once. Three-generation nanopore sequencing 
+technology provides new options for identifying pathogens.
+CASE SUMMARY: Case 1: The patient was admitted to the hospital with abdominal 
+pain for three days and cessation of defecation for five days, accompanied by 
+cough and sputum. Nanopore sequencing of the drainage fluid revealed the 
+presence of oral-like bacteria, leading to a clinical diagnosis of 
+bronchopleural fistula. Cefoperazone sodium sulbactam treatment was effective. 
+Case 2: The patient was admitted to the hospital with fever and headache, and CT 
+revealed lung inflammation. Antibiotic treatment for Streptococcus pneumoniae, 
+identified through nanopore sequencing of cerebrospinal fluid, was effective. 
+Case 3: The patient was admitted to our hospital with intermittent fever and an 
+enlarged neck mass that had persisted for more than six months. Despite 
+antibacterial treatment, her symptoms worsened. The nanopore sequencing results 
+indicate that voriconazole treatment is effective for Aspergillus brookii. The 
+patient was diagnosed with mixed cell type classical Hodgkin's lymphoma with 
+infection.
+CONCLUSION: Three-generation nanopore sequencing technology allows for rapid and 
+accurate detection of pathogens in human infectious diseases.
+
+©The Author(s) 2024. Published by Baishideng Publishing Group Inc. All rights 
+reserved.
+
+DOI: 10.12998/wjcc.v12.i22.5208
+PMCID: PMC11238794
+PMID: 39109020
+
+Conflict of interest statement: Conflict-of-interest statement: The authors 
+declare that they have no conflicts of interest to disclose.
+
+
+17. Am J Med Genet A. 2024 May;194(5):e63522. doi: 10.1002/ajmg.a.63522. Epub
+2023  Dec 22.
+
+Long-read genome sequencing reveals a novel intronic retroelement insertion in 
+NR5A1 associated with 46,XY differences of sexual development.
+
+Del Gobbo GF(1), Wang X(1), Couse M(2), Mackay L(1)(3), Goldsmith C(1)(3), 
+Marshall AE(1), Liang Y(2), Lambert C(4), Zhang S(4), Dhillon H(4), Fanslow 
+C(4), Rowell WJ(4); Care4Rare Canada Consortium(3); Marshall CR(5), Kernohan 
+KD(1)(6), Boycott KM(1)(3).
+
+Author information:
+(1)Children's Hospital of Eastern Ontario Research Institute, University of 
+Ottawa, Ottawa, Canada.
+(2)Centre for Computational Medicine, The Hospital for Sick Children, Toronto, 
+Canada.
+(3)Department of Genetics, Children's Hospital of Eastern Ontario, Ottawa, 
+Canada.
+(4)PacBio of California, Inc, Menlo Park, California, USA.
+(5)Division of Genome Diagnostics, The Hospital for Sick Children, Toronto, 
+Canada.
+(6)Newborn Screening Ontario, Ottawa, Canada.
+
+Despite significant advancements in rare genetic disease diagnostics, many 
+patients with rare genetic disease remain without a molecular diagnosis. Novel 
+tools and methods are needed to improve the detection of disease-associated 
+variants and understand the genetic basis of many rare diseases. Long-read 
+genome sequencing provides improved sequencing in highly repetitive, homologous, 
+and low-complexity regions, and improved assessment of structural variation and 
+complex genomic rearrangements compared to short-read genome sequencing. As 
+such, it is a promising method to explore overlooked genetic variants in rare 
+diseases with a high suspicion of a genetic basis. We therefore applied PacBio 
+HiFi sequencing in a large multi-generational family presenting with autosomal 
+dominant 46,XY differences of sexual development (DSD), for whom extensive 
+molecular testing over multiple decades had failed to identify a molecular 
+diagnosis. This revealed a rare SINE-VNTR-Alu retroelement insertion in intron 4 
+of NR5A1, a gene in which loss-of-function variants are an established cause of 
+46,XY DSD. The insertion segregated among affected family members and was 
+associated with loss-of-expression of alleles in cis, demonstrating a functional 
+impact on NR5A1. This case highlights the power of long-read genome sequencing 
+to detect genomic variants that have previously been intractable to detection by 
+standard short-read genomic testing.
+
+© 2023 Wiley Periodicals LLC.
+
+DOI: 10.1002/ajmg.a.63522
+PMID: 38131126 [Indexed for MEDLINE]
+
+
+18. J Hum Genet. 2023 Dec;68(12):875-878. doi: 10.1038/s10038-023-01187-5. Epub
+2023  Aug 18.
+
+Complete SAMD12 repeat expansion sequencing in a four-generation BAFME1 family 
+with anticipation.
+
+Mizuguchi T(1), Toyota T(2), Koshimizu E(3), Kameyama S(3), Fukuda H(3)(4), 
+Tsuchida N(3)(5), Uchiyama Y(3)(5), Hamanaka K(3), Fujita A(3), Misawa K(3), 
+Miyatake S(3)(6), Adachi H(2), Matsumoto N(7).
+
+Author information:
+(1)Department of Human Genetics, Yokohama City University Graduate School of 
+Medicine, Yokohama, 236-0004, Japan. tmizu@yokohama-cu.ac.jp.
+(2)Department of Neurology, University of Occupational and Environmental Health 
+School of Medicine, Kitakyushu, 807-8555, Japan.
+(3)Department of Human Genetics, Yokohama City University Graduate School of 
+Medicine, Yokohama, 236-0004, Japan.
+(4)Department of Neurology and Stroke Medicine, Yokohama City University 
+Graduate School of Medicine, Yokohama, 236-0004, Japan.
+(5)Department of Rare Disease Genomics, Yokohama City University Hospital, 
+Yokohama, 236-0004, Japan.
+(6)Department of Clinical Genetics, Yokohama City University Hospital, Yokohama, 
+236-0004, Japan.
+(7)Department of Human Genetics, Yokohama City University Graduate School of 
+Medicine, Yokohama, 236-0004, Japan. naomat@yokohama-cu.ac.jp.
+
+Benign adult familial myoclonic epilepsy type 1 (BAFME1) is an autosomal 
+dominant, adult-onset neurological disease caused by SAMD12 repeat expansion. In 
+BAFME1, anticipation, such as the earlier onset of tremor and/or seizures in the 
+next generation, was reported. This could be explained by intergenerational 
+repeat instability, leading to larger expansions in successive generations. We 
+report a four-generation BAFME1-affected family with anticipation. Using 
+Nanopore long-read sequencing, detailed information regarding the sizes, 
+configurations, and compositions of the expanded SAMD12 repeats across 
+generations was obtained. Unexpectedly, a grandmother-mother-daughter triad 
+showed similar repeat structures but with slight repeat expansions, despite 
+quite variable age of onset of seizures (range: 52-14 years old), implying a 
+complex relationship between the SAMD12 repeat expansion sequence and 
+anticipation. This study suggests that different factor(s) from repeat expansion 
+could modify the anticipation in BAFME1.
+
+© 2023. The Author(s), under exclusive licence to The Japan Society of Human 
+Genetics.
+
+DOI: 10.1038/s10038-023-01187-5
+PMID: 37592133 [Indexed for MEDLINE]
+
+
+19. Int J Mol Sci. 2022 Oct 13;23(20):12230. doi: 10.3390/ijms232012230.
+
+Genotype Complements the Phenotype: Identification of the Pathogenicity of an 
+LMNA Splice Variant by Nanopore Long-Read Sequencing in a Large DCM Family.
+
+Sedaghat-Hamedani F(1)(2)(3), Rebs S(4)(5)(6), Kayvanpour E(1)(2)(3), Zhu C(7), 
+Amr A(1)(2)(3), Müller M(1)(2)(8), Haas J(1)(2)(3), Wu J(7), Steinmetz LM(2)(7), 
+Ehlermann P(1)(3), Streckfuss-Bömeke K(4)(5)(6), Frey N(1)(2)(3), Meder 
+B(1)(2)(3)(7).
+
+Author information:
+(1)Institute for Cardiomyopathies Heidelberg (ICH), University Hospital 
+Heidelberg, 69120 Heidelberg, Germany.
+(2)DZHK (German Centre for Cardiovascular Research), Partner Site Heidelberg and 
+Mannheim, 69120 Heidelberg, Germany.
+(3)Department of Internal Medicine III, University Hospital Heidelberg, 69120 
+Heidelberg, Germany.
+(4)Department of Cardiology and Pneumology, Georg-August-University Göttingen, 
+37073 Göttingen, Germany.
+(5)DZHK (German Centre for Cardiovascular Research), Partner Site Göttingen, 
+37075 Göttingen, Germany.
+(6)Department of Pharmacology and Toxicology, University of Würzburg, 97070 
+Würzburg, Germany.
+(7)Department of Genetics, Stanford University, Stanford, CA 94305, USA.
+(8)Clinic for General and Interventional Cardiology/Angiology, Herz- und 
+Diabeteszentrum NRW, University Hospital of the Ruhr-Universität Bochum, 32545 
+Bad Oeynhausen, Germany.
+
+Dilated cardiomyopathy (DCM) is a common cause of heart failure (HF) and is of 
+familial origin in 20−40% of cases. Genetic testing by next-generation 
+sequencing (NGS) has yielded a definite diagnosis in many cases; however, some 
+remain elusive. In this study, we used a combination of NGS, human-induced 
+pluripotent-stem-cell-derived cardiomyocytes (iPSC-CMs) and nanopore long-read 
+sequencing to identify the causal variant in a multi-generational pedigree of 
+DCM. A four-generation family with familial DCM was investigated. 
+Next-generation sequencing (NGS) was performed on 22 family members. Skin 
+biopsies from two affected family members were used to generate iPSCs, which 
+were then differentiated into iPSC-CMs. Short-read RNA sequencing was used for 
+the evaluation of the target gene expression, and long-read RNA nanopore 
+sequencing was used to evaluate the relevance of the splice variants. The 
+pedigree suggested a highly penetrant, autosomal dominant mode of inheritance. 
+The phenotype of the family was suggestive of laminopathy, but previous genetic 
+testing using both Sanger and panel sequencing only yielded conflicting evidence 
+for LMNA p.R644C (rs142000963), which was not fully segregated. By re-sequencing 
+four additional affected family members, further non-coding LMNA variants could 
+be detected: rs149339264, rs199686967, rs201379016, and rs794728589. To explore 
+the roles of these variants, iPSC-CMs were generated. RNA sequencing showed the 
+LMNA expression levels to be significantly lower in the iPSC-CMs of the LMNA 
+variant carriers. We demonstrated a dysregulated sarcomeric structure and 
+altered calcium homeostasis in the iPSC-CMs of the LMNA variant carriers. Using 
+targeted nanopore long-read sequencing, we revealed the biological significance 
+of the variant c.356+1G>A, which generates a novel 5′ splice site in exon 1 of 
+the cardiac isomer of LMNA, causing a nonsense mRNA product with almost complete 
+RNA decay and haploinsufficiency. Using novel molecular analysis and nanopore 
+technology, we demonstrated the pathogenesis of the rs794728589 (c.356+1G>A) 
+splice variant in LMNA. This study highlights the importance of precise 
+diagnostics in the clinical management and workup of cardiomyopathies.
+
+DOI: 10.3390/ijms232012230
+PMCID: PMC9602549
+PMID: 36293084 [Indexed for MEDLINE]
+
+Conflict of interest statement: The authors declare no conflict of interest.
+
+
+20. Elife. 2022 Jul 5;11:e77898. doi: 10.7554/eLife.77898.
+
+Genome-wide detection of imprinted differentially methylated regions using 
+nanopore sequencing.
+
+Akbari V(1)(2), Garant JM(1), O'Neill K(1), Pandoh P(1), Moore R(1), Marra 
+MA(1)(2), Hirst M(1)(3), Jones SJM(1)(2).
+
+Author information:
+(1)Canada's Michael Smith Genome Sciences Centre, BC Cancer Agency, Vancouver, 
+Canada.
+(2)Department of Medical Genetics, University of British Columbia, Vancouver, 
+Canada.
+(3)Department of Microbiology and Immunology, Michael Smith Laboratories, 
+University of British Columbia, Vancouver, Canada.
+
+Imprinting is a critical part of normal embryonic development in mammals, 
+controlled by defined parent-of-origin (PofO) differentially methylated regions 
+(DMRs) known as imprinting control regions. Direct nanopore sequencing of DNA 
+provides a means to detect allelic methylation and to overcome the drawbacks of 
+methylation array and short-read technologies. Here, we used publicly available 
+nanopore sequencing data for 12 standard B-lymphocyte cell lines to acquire the 
+genome-wide mapping of imprinted intervals in humans. Using the sequencing data, 
+we were able to phase 95% of the human methylome and detect 94% of the 
+previously well-characterized, imprinted DMRs. In addition, we found 42 novel 
+imprinted DMRs (16 germline and 26 somatic), which were confirmed using 
+whole-genome bisulfite sequencing (WGBS) data. Analysis of WGBS data in mouse 
+(Mus musculus), rhesus monkey (Macaca mulatta), and chimpanzee (Pan troglodytes) 
+suggested that 17 of these imprinted DMRs are conserved. Some of the novel 
+imprinted intervals are within or close to imprinted genes without a known DMR. 
+We also detected subtle parental methylation bias, spanning several kilobases at 
+seven known imprinted clusters. At these blocks, hypermethylation occurs at the 
+gene body of expressed allele(s) with mutually exclusive H3K36me3 and H3K27me3 
+allelic histone marks. These results expand upon our current knowledge of 
+imprinting and the potential of nanopore sequencing to identify imprinting 
+regions using only parent-offspring trios, as opposed to the large 
+multi-generational pedigrees that have previously been required.
+
+© 2022, Akbari et al.
+
+DOI: 10.7554/eLife.77898
+PMCID: PMC9255983
+PMID: 35787786 [Indexed for MEDLINE]
+
+Conflict of interest statement: VA, JG, KO, PP, RM, MM, MH, SJ No competing 
+interests declared
+
+
+21. J Exp Med. 2021 Jun 7;218(6):e20210604. doi: 10.1084/jem.20210604. Epub 2021
+May  20.
+
+Familial thrombocytopenia: The long and short of it.
+
+Murphy L(1), Mead AJ(1).
+
+Author information:
+(1)Medical Research Council (MRC) Molecular Haematology Unit, MRC Weatherall 
+Institute of Molecular Medicine, National Institute for Health Research 
+Biomedical Research Centre, University of Oxford, Oxford, UK.
+
+Comment on
+    J Exp Med. 2021 Jun 7;218(6):e20210444. doi: 10.1084/jem.20210444.
+
+In this issue, Wahlster, Verboon, and colleagues (2021. J. Exp. 
+Med.https://doi.org/10.1084/jem.20210444) describe a multigenerational family 
+with inherited thrombocytopenia where the causal variant was not identified 
+using conventional genome sequencing approaches. Long-read sequencing and RNA 
+sequencing revealed a complex structural variant, causing overexpression of a 
+pathogenic gain-of-function WAC-ANKRD26 fusion transcript.
+
+© 2021 Murphy and Mead.
+
+DOI: 10.1084/jem.20210604
+PMCID: PMC8142280
+PMID: 34014260 [Indexed for MEDLINE]
+
+
+22. Epilepsia Open. 2021 Feb 2;6(1):102-111. doi: 10.1002/epi4.12450. eCollection
+ 2021 Mar.
+
+Clinical and genomic analysis of a large Chinese family with familial cortical 
+myoclonic tremor with epilepsy and SAMD12 intronic repeat expansion.
+
+Zhou Y(1), Sood R(2), Wang Q(3)(4), Carrington B(2), Park M(5), Young AC(5), 
+Birnbaum D(6), Liu Z(7), Ashizawa T(8), Mullikin JC(5), Koubeissi MZ(9), Liu 
+P(2).
+
+Author information:
+(1)Department of Neurology, MedStar St Mary's Hospital/Georgetown University 
+Hospital, MedStar Medical Group, Leonardtown, MD, USA.
+(2)Translational and Functional Genomics Branch, National Human Genome Research 
+Institute, National Institutes of Health, Bethesda, MD, USA.
+(3)Epilepsy Center, Department of Neurology, Beijing Tiantan Hospital, Capital 
+Medical University, Beijing, China.
+(4)China National Clinical Research Center for Neurological Diseases, Beijing, 
+China.
+(5)NIH Intramural Sequencing Center, National Human Genome Research Institute, 
+National Institutes of Health, Rockville, MD, USA.
+(6)Department of Neurology, Einstein Medical Center, Philadelphia, PA, USA.
+(7)Division of Pediatric Neurology, Children's Hospital of Illinois, University 
+of Illinois College of Medicine, Chicago, IL, USA.
+(8)Houston Methodist Neurological Institute and Research Institute, Houston, TX, 
+USA.
+(9)Epilepsy Center, Department of Neurology, George Washington University, 
+Washington, DC, USA.
+
+OBJECTIVE: Our goal was to perform detailed clinical and genomic analysis of a 
+large multigenerational Chinese family with 21 individuals showing symptoms of 
+Familial Cortical Myoclonic Tremor with Epilepsy (FCMTE) that we have followed 
+for over 20 years.
+METHODS: Patients were subjected to clinical evaluation, routine EEG, and 
+structural magnetic resonance imaging. Whole exome sequencing, repeat-primed 
+PCR, long-range PCR, and PacBio sequencing were performed to characterize the 
+disease-causing mutation in this family.
+RESULTS: All evaluated patients manifested adult-onset seizures and presented 
+with progressive myoclonic postural tremors starting after the third or fourth 
+decade of life. Seizures typically diminished markedly in frequency with 
+implementation of antiseizure medications but did not completely cease. The 
+electroencephalogram of affected individuals showed generalized or multifocal 
+spikes and slow wave complexes. An expansion of TTTTA motifs with addition of 
+TTTCA motifs in intron 4 of SAMD12 was identified to segregate with the disease 
+phenotype in this family. Furthermore, we found that the mutant allele is 
+unstable and can undergo both contraction and expansion by changes in the number 
+of repeat motifs each time it is passed to the next generation. The size of 
+mutant allele varied from 5 to 5.5 kb with 549-603 copies of TTTTA and 287-343 
+copies of TTTCA repeat motifs in this family.
+SIGNIFICANCE: Our study provides a detailed description of clinical progression 
+of FCMTE symptoms and its management with antiseizure medications. Our method of 
+repeat analysis by PacBio sequencing of long-range PCR products does not require 
+high-quality DNA and hence can be easily applied to other families to elucidate 
+any correlation between the repeat size and phenotypic variables, such as, age 
+of onset, and severity of symptoms.
+
+© 2021 The Authors. Epilepsia Open published by Wiley Periodicals LLC on behalf 
+of International League Against Epilepsy.
+
+DOI: 10.1002/epi4.12450
+PMCID: PMC7918340
+PMID: 33681653 [Indexed for MEDLINE]
+
+Conflict of interest statement: None of the authors have any conflicts of 
+interest to disclose. We confirm that we have read the Journal's position on 
+issues involved in ethical publication and affirm that this report is consistent 
+with those guidelines.
+
+
+23. J Biochem. 2019 Feb 1;165(2):139-158. doi: 10.1093/jb/mvy096.
+
+Genome analyses for the Tohoku Medical Megabank Project towards establishment of 
+personalized healthcare.
+
+Yasuda J(1), Kinoshita K(1)(2)(3), Katsuoka F(1), Danjoh I(1), Sakurai-Yageta 
+M(1), Motoike IN(1), Kuroki Y(1), Saito S(1), Kojima K(1), Shirota M(1)(4), 
+Saigusa D(1), Otsuki A(1), Kawashima J(1), Yamaguchi-Kabata Y(1), Tadaka S(1), 
+Aoki Y(1), Mimori T(1), Kumada K(1), Inoue J(1), Makino S(1), Kuriki M(1), Fuse 
+N(1), Koshiba S(1), Tanabe O(1), Nagasaki M(1), Tamiya G(1), Shimizu R(1)(5), 
+Takai-Igarashi T(1), Ogishima S(1), Hozawa A(1), Kuriyama S(1)(6), Sugawara 
+J(1), Tsuboi A(1), Kiyomoto H(1), Ishii T(1)(7), Tomita H(1)(6), Minegishi N(1), 
+Suzuki Y(1), Suzuki K(1), Kawame H(1), Tanaka H(1)(8), Taki Y(1)(3), Yaegashi 
+N(1)(9), Kure S(1)(10), Nagami F(1); Tohoku Medical Megabank Project Study 
+Group; Kosaki K(11), Sutoh Y(12), Hachiya T(12), Shimizu A(12), Sasaki 
+M(12)(13), Yamamoto M(1)(14).
+
+Author information:
+(1)Tohoku Medical Megabank Organization, Tohoku University, 2-1, Seiryo-Machi, 
+Aoba-ku, Sendai, Japan.
+(2)Department of Applied Information Sciences, Graduate School of Information 
+Sciences, Tohoku University, 6-6-05 Aramaki Aza Aoba, Aoba-ku, Sendai, Japan.
+(3)Institute of Development, Aging, and Cancer, Tohoku University, 4-1, 
+Seiryo-machi, Aoba-ku, Sendai, Japan.
+(4)United Centers for Advanced Research and Translational Medicine.
+(5)Department of Molecular Hematology, Tohoku University Graduate School of 
+Medicine, 2-1, Seiryo-Machi, Aoba-ku, Sendai, Japan.
+(6)International Research Institute of Disaster Science, Tohoku University, 
+468-1, Aramaki Aza Aoba, Aoba-ku, Sendai, Japan.
+(7)Department of Education and Support for Community Medicine, Tohoku University 
+Graduate School of Medicine, 2-1, Seiryo-Machi, Aoba-ku, Sendai, Japan.
+(8)Medical Data Science Promotion Office, Tokyo Medical and Dental University, 
+2-3-10 Kandasurugadai, Chiyoda-ku, Tokyo, Japan.
+(9)Department of Obstetrics and Gynecology.
+(10)Department of Pediatrics, Tohoku University Graduate School of Medicine, 
+2-1, Seiryo-Machi, Aoba-ku, Sendai, Japan.
+(11)Center for Medical Genetics, Keio University School of Medicine, 35 
+Shinanomachi, Shinjuku-ku, Tokyo, Japan.
+(12)Iwate Tohoku Medical Megabank Organization, Disaster Reconstruction Center.
+(13)Division of Ultrahigh Field MRI, Institute for Biomedical Sciences Iwate 
+Medical University, 2-1-1 Nishitokuta, Yahaba, Shiwa, Iwate, Japan.
+(14)Department of Medical Biochemistry, Tohoku University Graduate School of 
+Medicine, 2-1, Seiryo-Machi, Aoba-ku, Sendai, Japan.
+
+Personalized healthcare (PHC) based on an individual's genetic make-up is one of 
+the most advanced, yet feasible, forms of medical care. The Tohoku Medical 
+Megabank (TMM) Project aims to combine population genomics, medical genetics and 
+prospective cohort studies to develop a critical infrastructure for the 
+establishment of PHC. To date, a TMM CommCohort (adult general population) and a 
+TMM BirThree Cohort (birth+three-generation families) have conducted 
+recruitments and baseline surveys. Genome analyses as part of the TMM Project 
+will aid in the development of a high-fidelity whole-genome Japanese reference 
+panel, in designing custom single-nucleotide polymorphism (SNP) arrays specific 
+to Japanese, and in estimation of the biological significance of genetic 
+variations through linked investigations of the cohorts. Whole-genome sequencing 
+from >3,500 unrelated Japanese and establishment of a Japanese reference genome 
+sequence from long-read data have been done. We next aim to obtain genotype data 
+for all TMM cohort participants (>150,000) using our custom SNP arrays. These 
+data will help identify disease-associated genomic signatures in the Japanese 
+population, while genomic data from TMM BirThree Cohort participants will be 
+used to improve the reference genome panel. Follow-up of the cohort participants 
+will allow us to test the genetic markers and, consequently, contribute to the 
+realization of PHC.
+
+DOI: 10.1093/jb/mvy096
+PMID: 30452759 [Indexed for MEDLINE]

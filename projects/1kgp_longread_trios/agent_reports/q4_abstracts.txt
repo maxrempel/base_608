@@ -1,0 +1,1792 @@
+﻿1. bioRxiv [Preprint]. 2026 Jun 15:2026.01.20.700717. doi: 
+10.64898/2026.01.20.700717.
+
+Tandem repeat variation within and between species reveals signatures of 
+selection in humans and chimpanzees.
+
+Adam CL(1), Rocha JL(2)(3), Sudmant PH(2), Rohlfs RV(1)(4).
+
+Author information:
+(1)Institute of Ecology and Evolution, University of Oregon, Eugene, OR 97403, 
+USA.
+(2)Department of Integrative Biology, University of California - Berkeley, 
+Berkeley, CA 94720, USA.
+(3)Department of Biology, New York University, New York, NY 10003, USA.
+(4)Department of Data Science, University of Oregon, Eugene, OR 97403, USA.
+
+Tandem repeats (TRs) are highly mutable DNA elements that influence gene 
+regulation1, protein structure2, and disease3. Until recently, their repetitive 
+nature has hindered accurate TR sequencing and genotyping, resulting in sparse 
+comparative data across species. In addition, we lack population-aware 
+approaches to analyze TR conservation, divergence, and mutational dynamics. 
+Here, leveraging telomere-to-telomere primate genomes and long-read data from 46 
+humans and 23 chimpanzees, we constructed a catalog of homologous TR loci, and 
+developed an analytical framework to jointly analyze TR variation within- and 
+between-species. Across primates, TR diversity and conservation vary strongly 
+with genomic context, with coding and 5' UTR TRs exhibiting reduced polymorphism 
+and constraint across species, consistent with stabilizing selection. Yet, while 
+TRs are depleted in coding sequence, they are enriched in 5' UTRs, suggesting 
+functional roles that outweighs mutational risks. TR heterozygosity varies 
+across motif lengths and is concordant with both evolutionary and trio-based 
+mutation rate estimates4. Introducing an HKA-like approach to control for 
+locus-specific mutation rates, we identified TRs with signatures of directional 
+and balancing selection. These candidates are significantly enriched in genes 
+involved in nervous system development and synaptic function, highlighting TRs 
+as potential contributors to neural evolution. Further, TR divergence correlates 
+with gene expression divergence, particularly for promoter-related TRs and 
+expression in organoids related to neurodevelopment, implicating a subset of 
+regulatory TRs as candidates for adaptive expression evolution. Finally, 
+trait-associated TRs display longer alleles and higher diversity in humans 
+compared to chimpanzees, consistent with lineage-specific runaway mutations 
+and/or directional selection5. Together, our results establish a comparative 
+framework for TR evolutionary analyses, revealing how mutational processes and 
+selection jointly shape repeat variation, and supporting their role as both 
+conserved functional elements and as drivers of evolutionary innovation.
+
+DOI: 10.64898/2026.01.20.700717
+PMCID: PMC13308034
+PMID: 42367873
+
+Conflict of interest statement: Competing interests The authors declare no 
+competing financial interests.
+
+
+2. J Genet Genomics. 2026 Aug;53(8):1437-1450. doi: 10.1016/j.jgg.2026.03.011.
+Epub  2026 Mar 28.
+
+Haplotype-resolved methylation profiling across three generations reveals 
+principles of human epigenetic inheritance.
+
+Zhou H(1), Mu W(2), Xu J(3), Bai X(4), Zhou Y(3), Lan A(5), Wu B(4), Nie L(6), 
+Shen X(5), Yang C(3), Li L(7), Song Y(8), Wu D(6), Chen G(6), Liu H(9), Wang 
+X(10), Jin X(3), Xiao C(4), Zhang G(6), Kwok-Wing Tsui S(11), Ruan J(12).
+
+Author information:
+(1)State Key Laboratory of Genome and Multi-omics Technologies, Shenzhen Branch, 
+Guangdong Laboratory for Lingnan Modern Agriculture, Genome Analysis Laboratory 
+of the Ministry of Agriculture and Rural Affairs, Agricultural Genomics 
+Institute at Shenzhen, Chinese Academy of Agricultural Sciences, Shenzhen, 
+Guangdong 518000, China; BGI Research, Shenzhen, Guangdong 518083, China.
+(2)School of Biomedical Sciences, The Chinese University of Hong Kong, Shatin, 
+N.T., Hong Kong, China; Hong Kong Bioinformatics Centre, The Chinese University 
+of Hong Kong, Shatin, N.T., Hong Kong, China.
+(3)State Key Laboratory of Genome and Multi-omics Technologies, BGI Research, 
+Shenzhen, Guangdong 518083, China.
+(4)State Key Laboratory of Ophthalmology, Zhongshan Ophthalmic Center, Sun 
+Yat-sen University, Guangdong Provincial Key Laboratory of Ophthalmology and 
+Visual Science, Guangzhou, Guangdong 510060, China.
+(5)State Key Laboratory of Genetic Engineering, Center for Evolutionary Biology, 
+Greater Bay Area Institute of Precision Medicine, School of Life Sciences, Fudan 
+University, Shanghai 200433, China.
+(6)Center of Evolutionary and Organismal Biology, Zhejiang University School of 
+Medicine, Hangzhou, Zhejiang 310058, China.
+(7)Department of General Surgery, Xinqiao Hospital, Army Medical University 
+(Third Military Medical University), Chongqing 400037, China.
+(8)Big Data Institute, Central South University, Changsha, Hunan 410023, China.
+(9)State Key Laboratory of Genome and Multi-omics Technologies, Shenzhen Branch, 
+Guangdong Laboratory for Lingnan Modern Agriculture, Genome Analysis Laboratory 
+of the Ministry of Agriculture and Rural Affairs, Agricultural Genomics 
+Institute at Shenzhen, Chinese Academy of Agricultural Sciences, Shenzhen, 
+Guangdong 518000, China.
+(10)The Shennong Laboratory/Institute of Crop Molecular Breeding, Henan Academy 
+of Agricultural Sciences, Zhengzhou, Henan 450002, China.
+(11)School of Biomedical Sciences, The Chinese University of Hong Kong, Shatin, 
+N.T., Hong Kong, China; Hong Kong Bioinformatics Centre, The Chinese University 
+of Hong Kong, Shatin, N.T., Hong Kong, China. Electronic address: 
+kwtsui@cuhk.edu.hk.
+(12)State Key Laboratory of Genome and Multi-omics Technologies, Shenzhen 
+Branch, Guangdong Laboratory for Lingnan Modern Agriculture, Genome Analysis 
+Laboratory of the Ministry of Agriculture and Rural Affairs, Agricultural 
+Genomics Institute at Shenzhen, Chinese Academy of Agricultural Sciences, 
+Shenzhen, Guangdong 518000, China. Electronic address: ruanjue@caas.cn.
+
+Epigenetic inheritance is fundamental to human development and disease, yet the 
+mechanisms governing the transmission of DNA methylation across generations 
+remain incompletely understood. In this study, we performed haplotype-resolved, 
+whole-genome DNA methylation profiling in a healthy three-generation Chinese 
+family, leveraging high-depth Oxford Nanopore Technologies (ONT) and PacBio HiFi 
+long-read sequencing, anchored to a proband-specific telomere-to-telomere (T2T) 
+genome assembly. We observed globally conserved bimodal methylation landscapes 
+across all individuals and generations. Stratified analyses revealed clear 
+functional compartmentalization of methylation marks, characterized by distinct 
+hypomethylation in centromeres and hypermethylation in retrotransposons and 
+repetitive elements. Chromosome-resolved analysis of ribosomal DNA (rDNA) arrays 
+demonstrated a domain-specific methylation pattern with hypomethylation in the 
+transcriptional core and hypermethylation in the intergenic spacer, with 
+evidence for age-associated epigenetic drift in the transcriptional core domain. 
+Through de novo identification and validation, we mapped 23 high-confidence 
+imprinting control regions (ICRs) showing robust parent-of-origin-specific 
+methylation, all overlapping known imprinted genes and enriched for regulatory 
+element signatures. Haplotype-resolved X chromosome analysis further uncovered 
+sex- and allele-specific methylation patterns linked to X inactivation dynamics. 
+Together, this pedigree-scale, high-resolution study delineates the landscape 
+and principles of intergenerational DNA methylation inheritance, revealing both 
+conserved and dynamic features shaping the human epigenome.
+
+Copyright © 2026 The Authors. Published by Elsevier Ltd.. All rights reserved.
+
+DOI: 10.1016/j.jgg.2026.03.011
+PMID: 41905586 [Indexed for MEDLINE]
+
+Conflict of interest statement: Conflict of interest The authors declare that 
+they have no competing interests.
+
+
+3. bioRxiv [Preprint]. 2026 Feb 17:2026.02.14.705860. doi: 
+10.64898/2026.02.14.705860.
+
+Fully T2T pedigree assemblies reveal genetic stability and epigenetic plasticity 
+of human centromeres across inheritance and cell-fate transitions.
+
+Dong S(1), Xing X(1), Cechova M(2), Loucks H(2), Vijayalingam S(3), Neilson 
+A(3), Sentmanat M(3), Macias J(1), Liu T(1), Dong Z(1), Miao B(1), Zhang W(1), 
+Tomlinson C(4), Schmidt H(1), Belter EA Jr(4), Hu M(5), Cui X(3), Stitziel 
+NO(1)(5), Miga KH(2), Wang T(1)(6)(4).
+
+Author information:
+(1)Department of Genetics, Washington University School of Medicine, St. Louis, 
+MO, USA.
+(2)UC Santa Cruz Genomics Institute, University of California, Santa Cruz, CA, 
+USA.
+(3)Genome Engineering & Stem Cell Center (GESC@MGI), Department of Genetics, 
+Washington University School of Medicine, St. Louis, MO, USA.
+(4)McDonnell Genome Institute, Washington University School of Medicine, St. 
+Louis, MO, USA.
+(5)Department of Medicine, Washington University School of Medicine, St. Louis, 
+MO, USA.
+(6)Edison Family Center for Genome Sciences and Systems Biology, Washington 
+University School of Medicine, St. Louis, MO, USA.
+
+Centromeres are essential chromosome components yet remain poorly understood due 
+to their highly repetitive sequence architecture. Using fully-phased 
+telomere-to-telomere diploid assemblies from a three-generation pedigree 
+integrated with long-read epigenomes from matched peripheral blood mononuclear 
+cells, induced pluripotent stem cells, and neural progenitor cells, we generate 
+allele-resolved single basepair resolution maps of centromere genetic and 
+epigenetic dynamics across inheritance, reprogramming, and differentiation. We 
+show that centromeric dip regions (CDRs), which define the functional core of 
+centromeres, are positionally stable across generations and cell-fate 
+transitions. In contrast, CDR epigenetic architecture is highly dynamic. 
+Reprogramming markedly attenuates CDR hypomethylation, which is partially 
+restored during differentiation in parallel with global hypomethylation of 
+active alpha-satellite arrays and coordinated changes in nucleosome organization 
+and protein occupancy. Centromeric remodeling is insulated from X-chromosome 
+status, including Xa, Xi, and erosion. Finally, de novo mutations arising during 
+reprogramming are enriched in centromeric regions but depleted within functional 
+centromeric cores.
+
+DOI: 10.64898/2026.02.14.705860
+PMCID: PMC12934683
+PMID: 41756947
+
+Conflict of interest statement: Competing Interests The authors declare no 
+competing interests. Declaration of generative AI and AI-assisted technologies 
+in the writing process. During the preparation of this manuscript, the authors 
+used ChatGPT to assist with specific programming-related tasks and to improve 
+the clarity and organization of the text. All content generated with the 
+assistance of this tool was carefully reviewed, edited, and verified by the 
+authors. The authors take full responsibility for the integrity and accuracy of 
+the final manuscript.
+
+
+4. bioRxiv [Preprint]. 2025 Oct 14:2025.10.14.682431. doi: 
+10.1101/2025.10.14.682431.
+
+The complete genome of a songbird.
+
+Formenti G(1), Jain N(1), Medico JA(1), Sollitto M(1)(2), Antipov D(3), 
+Barcellos S(4), Biegler M(4), Borges I(5), Chang JK(6), Chen Y(1), Cheng H(7), 
+Conceição H(8), Davenport M(4), De Oliveira L(8), Duarte E(1), Durham G(9), Fenn 
+J(10)(11), Forde N(12)(13), Galante PA(8), Gerhardt K(14), Giani AM(15)(16), 
+Giunta S(17), Kim J(3), Komissarov A(18), Koo B(1), Koren S(3), Larkin D(19), 
+Lee C(4), Li H(20)(21), Makova K(22), Masterson P(23), Murphy T(23), McCaffrey 
+K(1), Mercuri RLV(7), Na Y(14), O'Connell MJ(10)(11), Ou S(14), Phillippy A(3), 
+Popova M(18), Rhie A(3), Ruiz-Ruano FJ(5)(24), Secomandi S(1)(4), Smeds L(22), 
+Suh A(5)(24), Tilley T(1), Vontzou N(5)(25), Waters PD(6), Balacco J(1), Jarvis 
+ED(1)(4)(9).
+
+Author information:
+(1)The Vertebrate Genome Laboratory, The Rockefeller University, New York, NY, 
+10065 USA.
+(2)Department of Biology, University of Florence, 50019, Sesto Fiorentino, FI, 
+Italy.
+(3)Genome Informatics Section, Center for Genomics and Data Science Research, 
+National Human Genome Research Institute, National Institute of Health, 
+Bethesda, MD, 20892, USA.
+(4)The Laboratory of Neurogenetics of Language, The Rockefeller University, New 
+York, NY, 10065, USA.
+(5)Centre for Molecular Biodiversity Research, Leibniz Institute for the 
+Analysis of Biodiversity Change, Zoologisches Forschungsmuseum A. Koenig, 
+Adenauerallee 160, D-53113 Bonn, Germany.
+(6)Evolution & Ecology Research Centre, School of Biotechnology and Biomolecular 
+Sciences, Faculty of Science, University of New South Wales, Sydney, NSW 2052, 
+Australia.
+(7)Department of Biomedical Informatics and Data Science, Yale School of 
+Medicine, New Haven, CT, 06520 USA.
+(8)Centro de Oncologia Molecular, Hospital Sirio Libanes, Sao Paulo, 01308-050, 
+Brazil.
+(9)Field Research Center, The Rockefeller University, Millbrook, NY, 12545, USA.
+(10)Computational and Molecular Evolutionary Biology Group, School of Life 
+Sciences, Faculty of Medicine and Health Sciences, University of Nottingham, 
+Nottingham, NG7 2RD, UK.
+(11)Division of Evolution, Infection and Genomics, School of Biological 
+Sciences, Faculty of Biology, Medicine and Health, University of Manchester, 
+Manchester, M13 9PT, UK.
+(12)Discovery and Translational Sciences Department, Leeds Institute of 
+Cardiovascular and Metabolic Medicine, School of Medicine, University of Leeds, 
+Leeds, UK.
+(13)Centre for Reproductive Health, Institute for Regeneration and Repair, 
+University of Edinburgh, 5 Little France Drive, Edinburgh EH16 4UU, UK.
+(14)Department of Molecular Genetics, The Ohio State University, Columbus, OH, 
+USA, 43210.
+(15)Nash Family Department of Neuroscience & Friedman Brain Institute, Icahn 
+School of Medicine at Mount Sinai, New York, NY, 10029, USA.
+(16)Department of Genetics and Genomic Sciences, Icahn School of Medicine at 
+Mount Sinai, New York, NY, 10029, USA.
+(17)Laboratory of Genome Evolution, Department of Biology & Biotechnologies 
+Charles Darwin, University of Rome "La Sapienza", Rome, Italy, 00185.
+(18)Aglabx, Paphos, Cyprus.
+(19)Department of Comparative Biomedical Sciences, Royal Veterinary College, 
+University of London, 4 Royal College St, London, UK NW10TU.
+(20)Department of Data Science, Dana-Farber Cancer Institute, Boston, MA, 02215, 
+USA.
+(21)Department of Biomedical Informatics, Harvard Medical School, Boston, MA, 
+02115, USA.
+(22)Department of Biology, Penn State University, University Park, Pennsylvania, 
+16802, USA.
+(23)National Center for Biotechnology Information, National Library of Medicine, 
+National Institutes of Health, Bethesda, MD 20894, USA.
+(24)Bonn Institute for Organismal Biology - Animal Biodiversity, University of 
+Bonn, Germany.
+(25)School of Biological Sciences, University of East Anglia, Norwich, UK.
+
+Bird genomes are the smallest among amniotes, but remain challenging to assemble 
+due to their structural complexity. This study presents the first fully phased, 
+diploid, telomere-to-telomere (T2T) reference genome for the zebra finch 
+(Taeniopygia guttata), a model organism for neuroscience and evolutionary 
+genomics. Combining multiple sequencing strategies resulted in closing nearly 
+all gaps, adding ~90 Mbp of previously missing sequence (7.8%). This includes 
+T2T assemblies for all microchromosomes, including dot chromosomes, and the 
+previously almost entirely missing chr16. The T2T genome is comprehensively 
+annotated for genes, repeats, structural variants, and long-read methylation 
+calls. Complete centromeric structures were assembled and annotated along with 
+kinetochore binding sites. Relative to the previous high-quality reference of 
+the Vertebrate Genomes Project, 2,778 (8.51%) previously unassembled or 
+unannotated genes were identified, of which 9% overlap with segmental 
+duplications. This first complete genome of a songbird, now the new public 
+reference, illuminates avian genome architecture and function.
+
+DOI: 10.1101/2025.10.14.682431
+PMCID: PMC12754717
+PMID: 41480146
+
+Conflict of interest statement: Conflict of Interest S.K. has received travel 
+funds to speak at events hosted by Oxford Nanopore Technologies. E.D.J. is on 
+the Cell Press Advisory Board.
+
+
+5. Genomics Proteomics Bioinformatics. 2025 Dec 22;23(6):qzaf118. doi: 
+10.1093/gpbjnl/qzaf118.
+
+A Telomere-to-telomere Diploid Reference Genome and Centromere Structure of the 
+Chinese Quartet.
+
+Wang 王博 B(1)(2), Jia 贾鹏 P(3), Bush SJ(1), Wang 王霞 X(4), Yang 杨怡 Y(4)(5), Zhang 
+张瑜 Y(4), Wan 万世杰 S(6), Yang 杨晓飞 X(6), Zhang 张鹏宇 P(1), Zheng 郑媛婷 Y(7), Shi 石乐明 
+L(7), Dong 董莲华 L(4)(5), Ye 叶凯 K(1)(2)(3)(8).
+
+Author information:
+(1)School of Automation Science and Engineering, Faculty of Electronic and 
+Information Engineering, Xi'an Jiaotong University, Xi'an 710049, China.
+(2)MOE Key Lab for Intelligent Networks & Networks Security, Faculty of 
+Electronic and Information Engineering, Xi'an Jiaotong University, Xi'an 710049, 
+China.
+(3)Department of Gynecology and Obstetrics, Center for Mathematical Medical, The 
+First Affiliated Hospital of Xi'an Jiaotong University, Xi'an 710061, China.
+(4)Center for Advanced Measurement of Science, National Institute of Metrology, 
+Beijing 100029, China.
+(5)Shenzhen Institute for Technology Innovation, National Institute of 
+Metrology, Shenzhen 518107, China.
+(6)School of Computer Science and Technology, Faculty of Electronic and 
+Information Engineering, Xi'an Jiaotong University, Xi'an 710049, China.
+(7)State Key Laboratory of Genetic Engineering, Human Phenome Institute and 
+School of Life Sciences, Fudan University, Shanghai 200438, China.
+(8)Faculty of Science, Leiden University, 2311 EZ, Leiden, The Netherlands.
+
+Recent advances in sequencing technologies have enabled the complete assembly of 
+human genomes from telomere to telomere (T2T), resolving previously inaccessible 
+regions such as centromeres and segmental duplications. Here, we present an 
+updated, higher-quality, haplotype-phased T2T assembly of the Chinese Quartet 
+(T2T-CQ), a family cohort comprising monozygotic twins and their parents, 
+generated using high-coverage Oxford Nanopore Technologies (ONT) ultralong and 
+PacBio high-fidelity (HiFi) sequencing. The T2T-CQ assembly serves as a crucial 
+reference genome for integrating publicly available multi-omics data and 
+advances the utility of the Quartet reference materials. The T2T-CQ assembly 
+scores highly on multiple metrics of continuity and completeness, with Genome 
+Continuity Inspector (GCI) scores of 77.76 (maternal) and 76.41 (paternal), 
+21-mer quality values (QVs) > 66, and Clipping Reveals Assembly Quality (CRAQ) 
+scores > 99.6 for both haplotypes, enabling complete annotation of centromeric 
+regions. Within these regions, we identified novel 13-mer higher-order repeat 
+patterns on chromosome 17 which exhibited a monophyletic origin and emerged 
+approximately 230 thousand years ago. Overall, this work establishes an 
+essential genomic resource for the Han Chinese population and advances the 
+development of a T2T pan-Chinese reference genome, which will significantly 
+enable future investigations both into population-specific structural variants 
+and the evolutionary dynamics of centromeres.
+
+© The Author(s) 2025. Published by Oxford University Press and Science Press on 
+behalf of the Beijing Institute of Genomics, Chinese Academy of Sciences / China 
+National Center for Bioinformation and Genetics Society of China.
+
+DOI: 10.1093/gpbjnl/qzaf118
+PMCID: PMC13075991
+PMID: 41298323 [Indexed for MEDLINE]
+
+Conflict of interest statement: The authors declare no competing interests.
+
+
+6. Cell Genom. 2026 Jan 14;6(1):101067. doi: 10.1016/j.xgen.2025.101067. Epub
+2025  Nov 18.
+
+Dynamics of genome evolution in the era of pangenome analysis.
+
+Loegler V(1), Friedrich A(1), Schacherer J(2).
+
+Author information:
+(1)Université de Strasbourg, CNRS, GMGM UMR 7156, Strasbourg, France.
+(2)Université de Strasbourg, CNRS, GMGM UMR 7156, Strasbourg, France; Institut 
+Universitaire de France (IUF), Paris, France. Electronic address: 
+schacherer@unistra.fr.
+
+The advent of long-read sequencing and telomere-to-telomere (T2T) assemblies has 
+transformed studies of eukaryotic genomic variation. Pangenomes now leverage 
+these advances to generate comprehensive catalogs of structural variants (SVs) 
+and gene presence-absence polymorphisms across populations. Here, we review how 
+pangenomes improve the identification, classification, and large-scale analysis 
+of SVs and gene families, yielding insights into genome organization, functional 
+gene evolution, and the architecture of phenotypic traits. We discuss mechanisms 
+of SV formation, their uneven genomic distribution, and their roles in trait 
+diversity. Examples from humans, plants, animals, and fungi highlight the 
+importance of SVs in adaptation, domestication, and disease. We also consider 
+the integration of pangenome graphs into genome-wide association studies, the 
+challenges of applying T2T pangenomes at the population scale, and the need for 
+new computational tools. Together, pangenomes represent a transformative 
+framework for decoding genomic diversity and its consequences.
+
+Copyright © 2025 The Author(s). Published by Elsevier Inc. All rights reserved.
+
+DOI: 10.1016/j.xgen.2025.101067
+PMCID: PMC12926196
+PMID: 41260225 [Indexed for MEDLINE]
+
+Conflict of interest statement: Declaration of interests The authors declare no 
+competing interests.
+
+
+7. Nat Commun. 2025 Nov 12;16(1):9949. doi: 10.1038/s41467-025-64900-2.
+
+Variation in surface protein expression leads to heterogeneous Trypanosoma cruzi 
+populations during host cell infection.
+
+Cruz-Saavedra L(1), Loock M(1), Antunes LB(1), Cestari I(2)(3).
+
+Author information:
+(1)Institute of Parasitology, McGill University, Sainte-Anne-de-Bellevue, QC, 
+Canada.
+(2)Institute of Parasitology, McGill University, Sainte-Anne-de-Bellevue, QC, 
+Canada. igor.cestari@mcgill.ca.
+(3)Division of Clinical and Translational Research, Department of Medicine, 
+McGill University, Montreal, QC, Canada. igor.cestari@mcgill.ca.
+
+Trypanosoma cruzi possesses hundreds of genes associated with pathogenesis. The 
+extent and organization of this diverse gene repertoire, expression, and role in 
+infection remain unclear. Using accurate long-read sequencing and chromatin 
+conformation capture, we assembled T. cruzi Sylvio X10 strain chromosomes from 
+telomere-to-telomere. The genome provides accurate organization of multigene 
+family genes, confirming their distribution in expanded clusters or scattered 
+throughout the chromosomes. Quantitative proteomics shows stage-specific 
+proteins and numerous trans-sialidases upregulated in trypomastigotes. The 
+expression of virulence gene families varied in trypomastigotes after each round 
+of cell infection, resulting in heterogeneous parasite populations with variable 
+cell invasion capacity. A T. cruzi genome-wide yeast surface display screen 
+against Chagas disease patients' antibodies reveals genes expressed during human 
+infections. However, limited conservation in their antibody-binding sites 
+suggests their sequence diversity and variation might help parasites avert 
+antibody recognition. The data point to a role for some multigene families in 
+infection persistence.
+
+© 2025. The Author(s).
+
+DOI: 10.1038/s41467-025-64900-2
+PMCID: PMC12612098
+PMID: 41224774 [Indexed for MEDLINE]
+
+Conflict of interest statement: Competing interests: The authors declare no 
+competing interests.
+
+
+8. bioRxiv [Preprint]. 2025 Aug 4:2025.08.04.668424. doi: 
+10.1101/2025.08.04.668424.
+
+A complete and near-perfect rhesus macaque reference genome: lessons from 
+subtelomeric repeats and sequencing bias.
+
+Zhang S(1), Xu N(2)(3)(4)(5), Lu Y(2)(3), Nie Y(2)(3), Li Z(1), de Gennaro L(6), 
+Fu L(1), Zhang Z(1), Chen J(1), Ma K(1), Yang X(1), Zhang J(1), Schmitz MT(7), 
+Antonacci F(6), Bakken TE(7), Ventura M(6), Phillippy AM(8), Sun Q(2)(4)(5), Mao 
+Y(1)(9)(10).
+
+Author information:
+(1)Bio-X Institutes, Key Laboratory for the Genetics of Developmental and 
+Neuropsychiatric Disorders, Ministry of Education, Shanghai Jiao Tong 
+University, Shanghai, China.
+(2)Institute of Neuroscience, Center for Excellence in Brain Science and 
+Intelligence Technology, State Key Laboratory of Neuroscience, Chinese Academy 
+of Sciences, Shanghai, China.
+(3)Shanghai Center for Brain Science and Brain-Inspired Technology, Shanghai, 
+China.
+(4)Key Laboratory of Genetic Evolution & Animal Models, Kunming Institute of 
+Zoology, Chinese Academy of Sciences, Kunming, Yunnan, China.
+(5)University of Chinese Academy of Sciences, Beijing, China.
+(6)Department of Biosciences, Biotechnology and Environment, University of Bari 
+Aldo Moro, Bari, Italy.
+(7)Allen Institute for Brain Science, Seattle, WA 98109, USA.
+(8)Genome Informatics Section, Center for Genomics and Data Science Research, 
+National Human Genome Research Institute, National Institutes of Health, 
+Bethesda, MD, USA.
+(9)Center for Genomic Research, International Institutes of Medicine, Fourth 
+Affiliated Hospital, Zhejiang University, Yiwu, Zhejiang, China.
+(10)Shanghai Key Laboratory of Embryo Original Diseases, International Peace 
+Maternity and Child Health Hospital, School of Medicine, Shanghai Jiao Tong 
+University, Shanghai, China.
+
+A truly complete, telomere-to-telomere (T2T), and error-free reference genome 
+remains a foundational resource-and long-standing goal-for unbiased comparative 
+and functional genomics. While recent T2T assemblies of humans and other 
+primates have made substantial progress, most still contain thousands of 
+base-level errors, particularly within highly repetitive regions. Here, we 
+present T2T-MMU8v2.0, a near-perfect T2T assembly of the rhesus macaque (Macaca 
+mulatta), representing the highest base-level accuracy reported in a primate 
+genome to date. By employing an optimized ONT-only assembly strategy, we 
+identify subtelomeric satellite-rich regions as the principal bottleneck to 
+improving assembly quality, owing to technological biases in long-read platforms 
+and limitations in current hybrid assembly frameworks. We discover 268 
+previously unannotated repeat families and resolve ~8 Mbp of SATR satellite 
+arrays, with over 99-fold enrichment in historically misassembled subtelomeric 
+regions. These satellites form four distinct genomic architectures, each with 
+unique SATR satellite composition, segmental duplication organization, and 
+epigenetic signatures, distinct from the subtelomeric architectures observed in 
+hominid genomes. Notably, in contrast to the largely gene-poor subtelomeric 
+regions in African hominids, the SATR architectures in macaques harbor 58 
+actively transcribed genes, supported by open chromatin and expression data, 
+suggesting gene innovation within these repetitive regions. Functionally, 
+T2T-MMU8v2.0 improves read mappability and accuracy across sequencing platforms, 
+and results in a 19% improvement of transcription start site enrichment scores 
+and 5,821 additional chromatin accessibility peaks on average, thereby enhancing 
+variant detection, regulatory annotation, and transcriptomic resolution in 
+population genetics or single-nucleus studies. Together, this work establishes a 
+new benchmark for genomics, offers a roadmap for resolving complex repetitive 
+regions, and reveals previously unrecognized features of subtelomeric genome 
+structure and evolution.
+
+DOI: 10.1101/2025.08.04.668424
+PMCID: PMC12466775
+PMID: 41019632
+
+Conflict of interest statement: Competing interests The authors have declared no 
+competing interests.
+
+
+9. Cell. 2025 Sep 18;188(19):5363-5383.e22. doi: 10.1016/j.cell.2025.06.037. Epub
+ 2025 Jul 21.
+
+Human-specific gene expansions contribute to brain evolution.
+
+Soto DC(1), Uribe-Salazar JM(1), Kaya G(1), Valdarrago R(2), Sekar A(1), Haghani 
+NK(1), Hino K(3), La G(1), Mariano NAF(4), Ingamells C(1), Baraban A(1), Jamal 
+Z(1), Turner TN(5), Green ED(6), Simó S(3), Quon G(7), Andrés AM(8), Dennis 
+MY(9).
+
+Author information:
+(1)Department of Biochemistry & Molecular Medicine, MIND Institute, University 
+of California, Davis, Davis, CA 95616, USA; Genome Center, University of 
+California, Davis, Davis, CA 95616, USA.
+(2)Department of Molecular & Cellular Biology, University of California, Davis, 
+Davis, CA 95616, USA.
+(3)Department of Cell Biology & Human Anatomy, University of California, Davis, 
+Davis, CA 95616, USA.
+(4)Department of Biochemistry & Molecular Medicine, MIND Institute, University 
+of California, Davis, Davis, CA 95616, USA; Genome Center, University of 
+California, Davis, Davis, CA 95616, USA; Postbaccalaureate Research Education 
+Program, University of California, Davis, Davis, CA 95616, USA.
+(5)Department of Genetics, Washington University School of Medicine, St. Louis, 
+MO 63110, USA.
+(6)National Human Genome Research Institute, National Institutes of Health, 
+Bethesda, MD 20892, USA.
+(7)Genome Center, University of California, Davis, Davis, CA 95616, USA; 
+Department of Molecular & Cellular Biology, University of California, Davis, 
+Davis, CA 95616, USA.
+(8)UCL Genetics Institute, Department of Genetics, Evolution and Environment, 
+University College, London, Cambridge WC1E 6BT, UK.
+(9)Department of Biochemistry & Molecular Medicine, MIND Institute, University 
+of California, Davis, Davis, CA 95616, USA; Genome Center, University of 
+California, Davis, Davis, CA 95616, USA. Electronic address: 
+mydennis@ucdavis.edu.
+
+Update of
+    bioRxiv. 2025 Jun 25:2024.09.26.615256. doi: 10.1101/2024.09.26.615256.
+
+Duplicated genes expanded in the human lineage likely contributed to brain 
+evolution, yet challenges exist in their discovery due to sequence-assembly 
+errors. We used a complete telomere-to-telomere genome sequence to identify 213 
+human-specific gene families. From these, 362 paralogs were found in all modern 
+human genomes tested and brain transcriptomes, making them top candidates 
+contributing to human-universal brain features. Choosing a subset of paralogs, 
+long-read DNA sequencing of hundreds of modern humans revealed previously hidden 
+signatures of selection, including for T cell marker CD8B. To understand roles 
+in brain development, we generated zebrafish CRISPR "knockout" models of nine 
+orthologs and introduced mRNA-encoding paralogs, effectively "humanizing" 
+larvae. Our findings implicate two genes in possibly contributing to hallmark 
+features of the human brain: GPR89B in dosage-mediated brain expansion and 
+FRMPD2B in altered synapse signaling. Our holistic approach provides insights 
+and a comprehensive resource for studying gene expansion drivers of human brain 
+evolution.
+
+Copyright © 2025 Elsevier Inc. All rights reserved.
+
+DOI: 10.1016/j.cell.2025.06.037
+PMCID: PMC12313184
+PMID: 40695280 [Indexed for MEDLINE]
+
+Conflict of interest statement: Declaration of interests The authors declare no 
+competing interests.
+
+
+10. Gigascience. 2025 Jan 6;14:giaf001. doi: 10.1093/gigascience/giaf001.
+
+Telomere-to-telomere genome of common bean (Phaseolus vulgaris L., YP4).
+
+Wang Y(1)(2), Hao X(1)(2), Chen C(3), Wang H(1)(2), Gao P(3), Yang X(3), Dong 
+X(1)(2), Qin H(1)(2), Li M(1)(2), Hou S(1)(2), Jian J(3), Chang J(1)(2), Wu 
+J(4), Mu Z(1)(2).
+
+Author information:
+(1)Center for Agricultural Genetic Resources Research, Shanxi Agricultural 
+University, Taiyuan 030031, China.
+(2)Key Laboratory of Crop Gene Resources and Germplasm Enhancement on Loess 
+Plateau, Ministry of Agriculture, Taiyuan 030031, China.
+(3)BGI Genomics, Shenzhen 518083, China.
+(4)Institute of Crop Sciences, Chinese Academy of Agricultural Sciences, Beijing 
+100089, China.
+
+BACKGROUND: Common bean is a significant grain legume in human diets. However, 
+the lack of a complete reference genome for common beans has hindered efforts to 
+improve agronomic cultivars.
+FINDINGS: Herein, we present the first telomere-to-telomere (T2T) genome 
+assembly of common bean (Phaseolus vulgaris L., YP4) using PacBio High-Fidelity 
+reads, ONT ultra-long sequencing, and Hi-C technologies. The assembly resulted 
+in a genome size of 560.30 Mb with an N50 of 55.11 Mb, exhibiting high 
+completeness and accuracy (BUSCO score: 99.5%, quality value (QV): 54.86). The 
+sequences were anchored into 11 chromosomes, with 20 of 22 telomeres identified, 
+leading to the formation of 9 T2T pseudomolecules. Furthermore, we identified 
+repetitive elements accounting for 61.20% of the genome and predicted 29,925 
+protein-coding genes. Phylogenetic analysis suggested an estimated divergence 
+time of approximately 11.6 million years ago between P. vulgaris and Vigna 
+angularis. Comparative genome analysis revealed the expanded gene families and 
+variations between YP4 and G19833 associated with defense response.
+CONCLUSIONS: The T2T reference genome and genomic insights presented here are 
+crucial for future genetic studies not only in common bean but also in other 
+legumes.
+
+© The Author(s) 2025. Published by Oxford University Press GigaScience.
+
+DOI: 10.1093/gigascience/giaf001
+PMCID: PMC12077395
+PMID: 40366866 [Indexed for MEDLINE]
+
+Conflict of interest statement: The authors declare that they have no competing 
+interests.
+
+
+11. Nucleic Acids Res. 2025 Jul 7;53(W1):W554-W561. doi: 10.1093/nar/gkaf387.
+
+WashU Epigenome Browser update 2025.
+
+Seng C(1), Liu S(1), Zhang W(1), Zhuo X(1), Li D(1), Wang T(1)(2).
+
+Author information:
+(1)Department of Genetics, The Edison Family Center for Genome Sciences and 
+Systems Biology, Washington University School of Medicine, St. Louis, MO 63110, 
+United States.
+(2)McDonnell Genome Institute, Washington University School of Medicine, St. 
+Louis, MO 63108, United States.
+
+The WashU Epigenome Browser (https://epigenomegateway.wustl.edu/) is a web-based 
+tool for exploring genomic data and providing visualization, investigation, and 
+analysis of epigenomic datasets. Since its 2018 update, the redesigned user 
+interface and newly developed features have enhanced how investigators interact 
+with both the Browser and the extensive genomic data it hosts. The rapid 
+evolution of the JavaScript ecosystem has presented new challenges and 
+opportunities in maintaining and developing the WashU Epigenome Browser. In this 
+update, we present a completely rewritten codebase. This new codebase minimizes 
+the use of external libraries whenever possible, resulting in a significantly 
+smaller code bundle size after production compilation. The reduced code size 
+improves loading efficiency and boosts the Browser's performance, with improved 
+scripting, graphics rendering, and painting performance. Lowering external 
+dependencies also allows for faster and more straightforward installation. 
+Additionally, the update includes a redesign of the user interface to further 
+enhance user experience and features a new modular design in the codebase that 
+enables the Browser to be exported as stand-alone modules for use in other web 
+applications. Several novel track types for long-read methylation data and 
+single-cell methylation data visualization have been added, and we continue to 
+update and expand the data hubs we host for major consortia. We constructed the 
+first data hub to systematically compare genomic data mapped to different genome 
+assemblies, focusing on comparisons between hg38 and the first human T2T genome, 
+chm13, using our new comparative genomics track function. The WashU Epigenome 
+Browser also serves as a foundation for other genomics platforms, such as the 
+WashU Virus Genome Browser, developed for SARS-COV-2 research, the WashU 
+Comparative Epigenome Browser, and the WashU Repeat Browser.
+
+© The Author(s) 2025. Published by Oxford University Press on behalf of Nucleic 
+Acids Research.
+
+DOI: 10.1093/nar/gkaf387
+PMCID: PMC12230663
+PMID: 40322916 [Indexed for MEDLINE]
+
+Conflict of interest statement: None declared.
+
+
+12. Nature. 2025 Jul;643(8071):427-436. doi: 10.1038/s41586-025-08922-2. Epub
+2025  Apr 23.
+
+Human de novo mutation rates from a four-generation pedigree reference.
+
+Porubsky D(1), Dashnow H(#)(2)(3), Sasani TA(#)(2), Logsdon GA(#)(1)(4), Hallast 
+P(#)(5), Noyes MD(#)(1), Kronenberg ZN(#)(6), Mokveld T(#)(6), Koundinya N(1), 
+Nolan C(6), Steely CJ(2)(7), Guarracino A(8), Dolzhenko E(6), Harvey WT(1), 
+Rowell WJ(6), Grigorev K(9)(10), Nicholas TJ(2), Goldberg ME(2), Oshima KK(4), 
+Lin J(1), Ebert P(11)(12), Watkins WS(2), Leung TY(13), Hanlon VCT(13), McGee 
+S(1), Pedersen BS(2), Happ HC(2), Jeong H(1)(14), Munson KM(1), Hoekzema K(1), 
+Chan DD(13), Wang Y(13), Knuth J(1), Garcia GH(1), Fanslow C(6), Lambert C(6), 
+Lee C(5), Smith JD(1), Levy S(15), Mason CE(16)(17)(18), Garrison E(8), Lansdorp 
+PM(13)(19), Neklason DW(2), Jorde LB(2), Quinlan AR(2), Eberle MA(6), Eichler 
+EE(20)(21).
+
+Author information:
+(1)Department of Genome Sciences, University of Washington School of Medicine, 
+Seattle, WA, USA.
+(2)Department of Human Genetics, University of Utah, Salt Lake City, UT, USA.
+(3)Department of Biomedical Informatics, University of Colorado Anschutz Medical 
+Campus, Aurora, CO, USA.
+(4)Department of Genetics, Epigenetics Institute, Perelman School of Medicine, 
+University of Pennsylvania, Philadelphia, PA, USA.
+(5)The Jackson Laboratory for Genomic Medicine, Farmington, CT, USA.
+(6)PacBio, Menlo Park, CA, USA.
+(7)Department of Internal Medicine, University of Kentucky College of Medicine, 
+Lexington, KY, USA.
+(8)Genetics, Genomics and Informatics, University of Tennessee Health Science 
+Center, Memphis, TN, USA.
+(9)Space Biosciences Research Branch, NASA Ames Research Center, Moffett Field, 
+CA, USA.
+(10)Blue Marble Space Institute of Science, Seattle, WA, USA.
+(11)Core Unit Bioinformatics, Medical Faculty and University Hospital 
+Düsseldorf, Heinrich Heine University, Düsseldorf, Germany.
+(12)Center for Digital Medicine, Heinrich Heine University, Düsseldorf, Germany.
+(13)Terry Fox Laboratory, BC Cancer Agency, Vancouver, British Columbia, Canada.
+(14)Altos Labs, San Diego, CA, USA.
+(15)Element Biosciences, San Diego, CA, USA.
+(16)Department of Physiology and Biophysics, Weill Cornell Medicine, New York, 
+NY, USA.
+(17)The HRH Prince Alwaleed Bin Talal Bin Abdulaziz Alsaud Institute for 
+Computational Biomedicine, Weill Cornell Medicine, New York, NY, USA.
+(18)The WorldQuant Initiative for Quantitative Prediction, Weill Cornell 
+Medicine, New York, NY, USA.
+(19)Department of Medical Genetics, University of British Columbia, Vancouver, 
+British Columbia, Canada.
+(20)Department of Genome Sciences, University of Washington School of Medicine, 
+Seattle, WA, USA. ee3@uw.edu.
+(21)Howard Hughes Medical Institute, University of Washington, Seattle, WA, USA. 
+ee3@uw.edu.
+(#)Contributed equally
+
+Update of
+    bioRxiv. 2024 Aug 05:2024.08.05.606142. doi: 10.1101/2024.08.05.606142.
+
+Understanding the human de novo mutation (DNM) rate requires complete sequence 
+information1. Here using five complementary short-read and long-read sequencing 
+technologies, we phased and assembled more than 95% of each diploid human genome 
+in a four-generation, twenty-eight-member family (CEPH 1463). We estimate 98-206 
+DNMs per transmission, including 74.5 de novo single-nucleotide variants, 7.4 
+non-tandem repeat indels, 65.3 de novo indels or structural variants originating 
+from tandem repeats, and 4.4 centromeric DNMs. Among male individuals, we find 
+12.4 de novo Y chromosome events per generation. Short tandem repeats and 
+variable-number tandem repeats are the most mutable, with 32 loci exhibiting 
+recurrent mutation through the generations. We accurately assemble 288 
+centromeres and six Y chromosomes across the generations and demonstrate that 
+the DNM rate varies by an order of magnitude depending on repeat content, length 
+and sequence identity. We show a strong paternal bias (75-81%) for all forms of 
+germline DNM, yet we estimate that 16% of de novo single-nucleotide variants are 
+postzygotic in origin with no paternal bias, including early germline mosaic 
+mutations. We place all this variation in the context of a high-resolution 
+recombination map (~3.4 kb breakpoint resolution) and find no correlation 
+between meiotic crossover and de novo structural variants. These 
+near-telomere-to-telomere familial genomes provide a truth set to understand the 
+most fundamental processes underlying human genetic variation.
+
+© 2025. The Author(s).
+
+DOI: 10.1038/s41586-025-08922-2
+PMCID: PMC12240836
+PMID: 40269156 [Indexed for MEDLINE]
+
+Conflict of interest statement: Competing interests: E.E.E. is a scientific 
+advisory board member of Variant Bio. C. Lee is a scientific advisory board 
+member of Nabsys and Genome Insight. D.P. has previously disclosed a patent 
+application (no. EP19169090) relevant to Strand-seq. Z.N.K., C.N., E.D., C.F., 
+C. Lambert, T.M., W.J.R. and M.A.E. are employees and shareholders of PacBio. 
+Z.N.K. is a private shareholder in Phase Genomics. The other authors declare no 
+competing interests.
+
+
+13. Hortic Res. 2024 Nov 27;12(3):uhae335. doi: 10.1093/hr/uhae335. eCollection
+2025  Mar.
+
+Combined genomic, transcriptomic, and metabolomic analyses provide insights into 
+the fruit development of bottle gourd (Lagenaria siceraria).
+
+He X(1)(2), Zheng Y(1), Yang S(3), Wang Y(4), Lin Y(3), Jiang B(3), Xie D(3), 
+Liu W(3), Peng Q(3), Zuo J(1), Wang M(3).
+
+Author information:
+(1)Institute of Agri-food Processing and Nutrition, Beijing Academy of 
+Agricultural and Forestry Sciences, Beijing Key Laboratory of Fruits and 
+Vegetable Storage and Processing, Key Laboratory of Vegetable Postharvest 
+Processing of Ministry of Agriculture and Rural Areas, State Key Laboratory of 
+Vegetable Biobreeding, Beijing Vegetable Research Center, Beijing Academy of 
+Agriculture and Forestry Science, Beijing 100097, China.
+(2)Beijing Engineering and Technology Research Center of Food Additives, Beijing 
+Advanced Innovation Center for Food Nutrition and Human Health, School of Food 
+and Health, Beijing Technology and Business University (BTBU), Beijing 100048, 
+China.
+(3)Vegetable Research Institute, Guangdong Academy of Agricultural Sciences/ 
+Guangdong Key Laboratory for New Technology Research of Vegetables, Guangzhou 
+510640, China.
+(4)Institute of Vegetables, Zhejiang Academy of Agricultural Sciences, Hangzhou 
+310012, China.
+
+Bottle gourd (Lagenaria siceraria (Molina) Standl) is a widely distributed 
+Cucurbitaceae species, but gaps and low-quality assemblies have limited its 
+genomic study. To address this, we assembled a nearly complete, high-quality 
+genome of the bottle gourd (Pugua) using PacBio HiFi sequencing and Hi-C 
+correction. The genome, being 298.67 Mb long with a ContigN50 of 28.55 Mb, was 
+identified to possess 11 chromosomes, 11 centromeres, 18 telomeres, and 24 439 
+predicted protein-coding genes; notably, gap-free telomere-to-telomere assembly 
+was accomplished for seven chromosomes. Based on the Pugua genome, the 
+transcriptomic and metabolomic combined analyses revealed that amino acids and 
+lipids accumulate during the expansion stage, while sugars and terpenoids 
+increase during ripening. GA4 and genes of the Aux/IAA family mediate fruit 
+expansion and maturation, while cell wall remodeling is regulated by factors 
+such as XTHs, EXPs, polyphenols, and alkaloids, contributing to environmental 
+adaptation. GGAT2 was positively correlated with glutamate, a source of umami, 
+and SUS5 and SPS4 expression aligned with sucrose accumulation. This study 
+provides a valuable genetic resource for bottle gourd research, enhancing the 
+understanding of Cucurbitaceae evolution and supporting further studies on 
+bottle gourd development, quality, and genetic improvement.
+
+© The Author(s) 2025. Published by Oxford University Press on behalf of Nanjing 
+Agricultural University.
+
+DOI: 10.1093/hr/uhae335
+PMCID: PMC11883228
+PMID: 40051576
+
+Conflict of interest statement: The authors declare that they have no conflict 
+of interest.
+
+
+14. Nat Genet. 2025 Feb;57(2):390-401. doi: 10.1038/s41588-024-02051-8. Epub 2025
+ Jan 8.
+
+Structural polymorphism and diversity of human segmental duplications.
+
+Jeong H(#)(1)(2), Dishuck PC(#)(1), Yoo D(#)(1), Harvey WT(1), Munson KM(1), 
+Lewis AP(1), Kordosky J(1), Garcia GH(1); Human Genome Structural Variation 
+Consortium (HGSVC); Yilmaz F(3), Hallast P(3), Lee C(3), Pastinen T(4), Eichler 
+EE(5)(6).
+
+Author information:
+(1)Department of Genome Sciences, University of Washington School of Medicine, 
+Seattle, WA, USA.
+(2)Altos Labs, San Diego, CA, USA.
+(3)The Jackson Laboratory for Genomic Medicine, Farmington, CT, USA.
+(4)Children's Mercy Hospital and University of Missouri-Kansas City School of 
+Medicine, Kansas City, MO, USA.
+(5)Department of Genome Sciences, University of Washington School of Medicine, 
+Seattle, WA, USA. ee3@uw.edu.
+(6)Howard Hughes Medical Institute, University of Washington, Seattle, WA, USA. 
+ee3@uw.edu.
+(#)Contributed equally
+
+Update of
+    bioRxiv. 2024 Jun 06:2024.06.04.597452. doi: 10.1101/2024.06.04.597452.
+
+Segmental duplications (SDs) contribute significantly to human disease, 
+evolution and diversity but have been difficult to resolve at the sequence 
+level. We present a population genetics survey of SDs by analyzing 170 human 
+genome assemblies (from 85 samples representing 38 Africans and 47 non-Africans) 
+in which the majority of autosomal SDs are fully resolved using long-read 
+sequence assembly. Excluding the acrocentric short arms and sex chromosomes, we 
+identify 173.2 Mb of duplicated sequence (47.4 Mb not present in the 
+telomere-to-telomere reference) distinguishing fixed from structurally 
+polymorphic events. We find that intrachromosomal SDs are among the most 
+variable, with rare events mapping near their progenitor sequences. African 
+genomes harbor significantly more intrachromosomal SDs and are more likely to 
+have recently duplicated gene families with higher copy numbers than non-African 
+samples. Comparison to a resource of 563 million full-length isoform sequencing 
+reads identifies 201 novel, potentially protein-coding genes corresponding to 
+these copy number polymorphic SDs.
+
+© 2025. The Author(s).
+
+DOI: 10.1038/s41588-024-02051-8
+PMCID: PMC11821543
+PMID: 39779957 [Indexed for MEDLINE]
+
+Conflict of interest statement: Competing interests: E.E.E. is a scientific 
+advisory board member of Variant Bio. C.L. is a scientific advisory board member 
+of Nabsys and Genome Insight. The other authors declare no competing interests.
+
+
+15. bioRxiv [Preprint]. 2025 Jun 25:2024.09.26.615256. doi: 
+10.1101/2024.09.26.615256.
+
+Human-specific gene expansions contribute to brain evolution.
+
+Soto DC(1)(2), Uribe-Salazar JM(1)(2), Kaya G(1)(2), Valdarrago R(3), Sekar 
+A(1)(2), Haghani NK(1)(2), Hino K(4), La G(1)(2), Mariano NAF(1)(2)(5), 
+Ingamells C(1)(2), Baraban A(1)(2), Jamal Z(1)(2), Turner TN(6), Green ED(7), 
+Simó S(4), Quon G(2)(3), Andrés AM(8), Dennis MY(1)(2).
+
+Author information:
+(1)Department of Biochemistry & Molecular Medicine, MIND Institute, University 
+of California, Davis, CA 95616, USA.
+(2)Genome Center, University of California, Davis, CA 95616, USA.
+(3)Department of Molecular and Cellular Biology, University of California, 
+Davis, CA 95616, USA.
+(4)Department of Cell Biology & Human Anatomy, University of California, Davis, 
+CA 95616, USA.
+(5)Postbaccalaureate Research Education Program, University of California, 
+Davis, CA 95616, USA.
+(6)Department of Genetics, Washington University School of Medicine, St Louis, 
+MS, 63110, USA.
+(7)National Human Genome Research Institute, National Institutes of Health, 
+Bethesda, MD, 20892, USA.
+(8)UCL Genetics Institute, Department of Genetics, Evolution and Environment, 
+University College, London, WC1E 6BT, UK.
+
+Update in
+    Cell. 2025 Sep 18;188(19):5363-5383.e22. doi: 10.1016/j.cell.2025.06.037.
+
+Duplicated genes expanded in the human lineage likely contributed to brain 
+evolution, yet challenges exist in their discovery due to sequence-assembly 
+errors. We used a complete telomere-to-telomere genome sequence to identify 213 
+human-specific gene families. From these, 362 paralogs were found in all modern 
+human genomes tested and brain transcriptomes, making them top candidates 
+contributing to human-universal brain features. Choosing a subset of paralogs, 
+long-read DNA sequencing of hundreds of modern humans revealed previously hidden 
+signatures of selection, including for T-cell marker CD8B. To understand roles 
+in brain development, we generated zebrafish CRISPR "knockout" models of nine 
+orthologs and introduced mRNA-encoding paralogs, effectively "humanizing" 
+larvae. Our findings implicate two genes in possibly contributing to hallmark 
+features of the human brain: GPR89B in dosage-mediated brain expansion and 
+FRMPD2B in altered synapse signaling. Our holistic approach provides insights 
+and a comprehensive resource for studying gene expansion drivers of human brain 
+evolution.
+
+DOI: 10.1101/2024.09.26.615256
+PMCID: PMC11463660
+PMID: 39386494
+
+Conflict of interest statement: Declaration of Interests Authors have nothing to 
+disclose.
+
+
+16. bioRxiv [Preprint]. 2024 Aug 5:2024.08.05.606142. doi: 
+10.1101/2024.08.05.606142.
+
+A familial, telomere-to-telomere reference for human de novo mutation and 
+recombination from a four-generation pedigree.
+
+Porubsky D(1), Dashnow H(2)(3), Sasani TA(2), Logsdon GA(1)(4), Hallast P(5), 
+Noyes MD(1), Kronenberg ZN(6), Mokveld T(6), Koundinya N(1), Nolan C(6), Steely 
+CJ(2)(7), Guarracino A(8), Dolzhenko E(6), Harvey WT(1), Rowell WJ(7), Grigorev 
+K(9)(10), Nicholas TJ(2), Oshima KK(4), Lin J(1), Ebert P(10)(11), Watkins 
+WS(2), Leung TY(12), Hanlon VCT(13), McGee S(1), Pedersen BS(2), Goldberg ME(2), 
+Happ HC(2), Jeong H(1)(13), Munson KM(1), Hoekzema K(1), Chan DD(12), Wang 
+Y(12), Knuth J(1), Garcia GH(1), Fanslow C(6), Lambert C(6), Lee C(5), Smith 
+JD(1), Levy S(14), Mason CE(15)(16)(17), Garrison E(8), Lansdorp PM(12), 
+Neklason DW(2), Jorde LB(2), Quinlan AR(2), Eberle MA(6), Eichler EE(1)(18).
+
+Author information:
+(1)Department of Genome Sciences, University of Washington School of Medicine, 
+Seattle, WA, USA.
+(2)Department of Human Genetics, University of Utah, Salt Lake City, UT, USA.
+(3)Department of Biomedical Informatics, University of Colorado Anschutz Medical 
+Campus, Aurora, CO, USA.
+(4)Present address: Department of Genetics, Epigenetics Institute, Perelman 
+School of Medicine, University of Pennsylvania, Philadelphia, PA, USA.
+(5)The Jackson Laboratory for Genomic Medicine, Farmington, CT, USA.
+(6)PacBio, Menlo Park, CA, USA.
+(7)Department of Internal Medicine, University of Kentucky College of Medicine, 
+Lexington, KY, USA.
+(8)Genetics, Genomics and Informatics, University of Tennessee Health Science 
+Center, Memphis, TN, USA.
+(9)Blue Marble Space Institute of Science, Seattle, WA, USA.
+(10)Core Unit Bioinformatics, Medical Faculty and University Hospital 
+Düsseldorf, Heinrich Heine University, Düsseldorf, Germany.
+(11)Center for Digital Medicine, Heinrich Heine University, Düsseldorf, Germany.
+(12)Terry Fox Laboratory, BC Cancer Agency, Vancouver, BC, Canada.
+(13)Present address: Altos Labs, San Diego, CA, USA.
+(14)HudsonAlpha Institute for Biotechnology, Huntsville, AL, USA.
+(15)Department of Physiology and Biophysics, Weill Cornell Medicine, New York, 
+NY, USA.
+(16)The HRH Prince Alwaleed Bin Talal Bin Abdulaziz Alsaud Institute for 
+Computational Biomedicine, Weill Cornell Medicine, New York, NY, USA.
+(17)The WorldQuant Initiative for Quantitative Prediction, Weill Cornell 
+Medicine, New York, NY, USA.
+(18)Howard Hughes Medical Institute, University of Washington, Seattle, WA, USA.
+
+Update in
+    Nature. 2025 Jul;643(8071):427-436. doi: 10.1038/s41586-025-08922-2.
+
+Using five complementary short- and long-read sequencing technologies, we phased 
+and assembled >95% of each diploid human genome in a four-generation, 28-member 
+family (CEPH 1463) allowing us to systematically assess de novo mutations (DNMs) 
+and recombination. From this family, we estimate an average of 192 DNMs per 
+generation, including 75.5 de novo single-nucleotide variants (SNVs), 7.4 
+non-tandem repeat indels, 79.6 de novo indels or structural variants (SVs) 
+originating from tandem repeats, 7.7 centromeric de novo SVs and SNVs, and 12.4 
+de novo Y chromosome events per generation. STRs and VNTRs are the most mutable 
+with 32 loci exhibiting recurrent mutation through the generations. We 
+accurately assemble 288 centromeres and six Y chromosomes across the 
+generations, documenting de novo SVs, and demonstrate that the DNM rate varies 
+by an order of magnitude depending on repeat content, length, and sequence 
+identity. We show a strong paternal bias (75-81%) for all forms of germline DNM, 
+yet we estimate that 17% of de novo SNVs are postzygotic in origin with no 
+paternal bias. We place all this variation in the context of a high-resolution 
+recombination map (~3.5 kbp breakpoint resolution). We observe a strong maternal 
+recombination bias (1.36 maternal:paternal ratio) with a consistent reduction in 
+the number of crossovers with increasing paternal (r=0.85) and maternal (r=0.65) 
+age. However, we observe no correlation between meiotic crossover locations and 
+de novo SVs, arguing against non-allelic homologous recombination as a 
+predominant mechanism. The use of multiple orthogonal technologies, 
+near-telomere-to-telomere phased genome assemblies, and a multi-generation 
+family to assess transmission has created the most comprehensive, publicly 
+available "truth set" of all classes of genomic variants. The resource can be 
+used to test and benchmark new algorithms and technologies to understand the 
+most fundamental processes underlying human genetic variation.
+
+DOI: 10.1101/2024.08.05.606142
+PMCID: PMC11326147
+PMID: 39149261
+
+Conflict of interest statement: Conflicts of interest E.E.E. is a scientific 
+advisory board (SAB) member of Variant Bio, Inc. C.Lee is an SAB member of 
+Nabsys and Genome Insight. D.P. has previously disclosed a patent application 
+(no. EP19169090) relevant to Strand-seq. Z.K., C.N., E.D., C.F., C.Lambert, 
+T.M., W.J.R., and M.A.E. are employees and shareholders of PacBio. Z.K. is a 
+private shareholder in Phase Genomics. The other authors declare no competing 
+interests.
+
+
+17. bioRxiv [Preprint]. 2024 Jun 6:2024.06.04.597452. doi: 
+10.1101/2024.06.04.597452.
+
+Structural polymorphism and diversity of human segmental duplications.
+
+Jeong H(1)(2), Dishuck PC(1), Yoo D(1), Harvey WT(1), Munson KM(1), Lewis AP(1), 
+Kordosky J(1), Garcia GH(1); Human Genome Structural Variation Consortium 
+(HGSVC); Yilmaz F(3), Hallast P(3), Lee C(3), Pastinen T(4), Eichler EE(1)(5).
+
+Author information:
+(1)Department of Genome Sciences, University of Washington School of Medicine, 
+Seattle, WA, USA.
+(2)Altos Labs, San Diego, CA, USA.
+(3)The Jackson Laboratory for Genomic Medicine, Farmington, CT, USA.
+(4)Children's Mercy Hospital and University of Missouri-Kansas City School of 
+Medicine, Kansas City, MO, USA.
+(5)Howard Hughes Medical Institute, University of Washington, Seattle, WA, USA.
+
+Update in
+    Nat Genet. 2025 Feb;57(2):390-401. doi: 10.1038/s41588-024-02051-8.
+
+Segmental duplications (SDs) contribute significantly to human disease, 
+evolution, and diversity yet have been difficult to resolve at the sequence 
+level. We present a population genetics survey of SDs by analyzing 170 human 
+genome assemblies where the majority of SDs are fully resolved using long-read 
+sequence assembly. Excluding the acrocentric short arms, we identify 173.2 Mbp 
+of duplicated sequence (47.4 Mbp not present in the telomere-to-telomere 
+reference) distinguishing fixed from structurally polymorphic events. We find 
+that intrachromosomal SDs are among the most variable with rare events mapping 
+near their progenitor sequences. African genomes harbor significantly more 
+intrachromosomal SDs and are more likely to have recently duplicated gene 
+families with higher copy number when compared to non-African samples. A 
+comparison to a resource of 563 million full-length Iso-Seq reads identifies 201 
+novel, potentially protein-coding genes corresponding to these copy number 
+polymorphic SDs.
+
+DOI: 10.1101/2024.06.04.597452
+PMCID: PMC11185583
+PMID: 38895457
+
+Conflict of interest statement: COMPETING INTERESTS E.E.E. is a scientific 
+advisory board (SAB) member of Variant Bio, Inc. C.L. is an SAB member of Nabsys 
+and Genome Insight. The other authors declare no competing interests.
+
+
+18. Clin Transl Med. 2024 Mar;14(3):e1612. doi: 10.1002/ctm2.1612.
+
+Nanopore sequencing with T2T-CHM13 for accurate detection and preventing the 
+transmission of structural rearrangements in highly repetitive heterochromatin 
+regions in human embryos.
+
+Xia Q(1), Ding T(2), Chang T(1), Ruan J(2), Yang J(2), Ma M(2), Liu J(2), Liu 
+Z(2), Jiao S(2), Wu J(2), Ren J(2), Lu S(2), Li Y(1), Yao Z(1).
+
+Author information:
+(1)Reproductive Medicine Center, Xiangya Hospital, Central South University, 
+Changsha, China.
+(2)Yikon Genomics Company, Ltd., Suzhou, China.
+
+BACKGROUND: Structural rearrangements in highly repetitive heterochromatin 
+regions can result in miscarriage or foetal malformations; however, detecting 
+and preventing the transmission of these rearrangements has been challenging. 
+Recently, the completion of sequencing of the complete human genome (T2T-CHM13) 
+has made it possible to accurately characterise structural rearrangements in 
+these regions. We developed a method based on T2T-CHM13 and nanopore sequencing 
+to detect and block structural rearrangements in highly repetitive 
+heterochromatin sequences.
+METHODS: T2T-CHM13-based "Mapping Allele with Resolved Carrier Status" was 
+performed for couples who carry structural rearrangements in heterochromatin 
+regions. Using nanopore sequencing and the T2T-CHM13 reference genome, the 
+precise breakpoints of inversions and translocations close to the centromere 
+were detected and haplotypes were constructed using flanking single-nucleotide 
+polymorphisms (SNPs). Haplotype linkage analysis was then performed by comparing 
+consistent parental SNPs with embryonic SNPs to determine whether the embryos 
+carried hereditary inversions or balanced translocations. Based on copy number 
+variation and haplotype linkage analysis, we transplanted normal embryos, which 
+were further verified by an amniotic fluid test.
+RESULTS: To validate this approach, we used nanopore sequencing of families with 
+inversions and reciprocal translocations close to the centromere. Using the 
+T2T-CHM13 reference genome, we accurately detected inversions and translocations 
+in centromeres, constructed haplotypes and prevented the transmission of 
+structural rearrangements in the offspring.
+CONCLUSIONS: This study represents the first successful application of T2T-CHM13 
+in human reproduction and provides a feasible protocol for detecting and 
+preventing the transmission of structural rearrangements of heterochromatin in 
+embryos.
+
+© 2024 The Authors. Clinical and Translational Medicine published by John Wiley 
+& Sons Australia, Ltd on behalf of Shanghai Institute of Clinical 
+Bioinformatics.
+
+DOI: 10.1002/ctm2.1612
+PMCID: PMC10915734
+PMID: 38445430 [Indexed for MEDLINE]
+
+Conflict of interest statement: The authors declare no conflict of interest.
+
+
+19. Nature. 2023 Sep;621(7978):344-354. doi: 10.1038/s41586-023-06457-y. Epub
+2023  Aug 23.
+
+The complete sequence of a human Y chromosome.
+
+Rhie A(#)(1), Nurk S(#)(1)(2), Cechova M(#)(3)(4), Hoyt SJ(#)(5), Taylor 
+DJ(#)(6), Altemose N(7), Hook PW(8), Koren S(1), Rautiainen M(1), Alexandrov 
+IA(9)(10)(11), Allen J(12), Asri M(13), Bzikadze AV(14), Chen NC(15), Chin 
+CS(16)(17), Diekhans M(13), Flicek P(12)(18), Formenti G(19), Fungtammasan 
+A(20), Garcia Giron C(12), Garrison E(21), Gershman A(8), Gerton JL(22)(23), 
+Grady PGS(5), Guarracino A(21)(24), Haggerty L(12), Halabian R(25), Hansen 
+NF(1)(26), Harris R(27), Hartley GA(5), Harvey WT(28), Haukness M(13), Heinz 
+J(8), Hourlier T(12), Hubley RM(29), Hunt SE(12), Hwang S(30), Jain M(31), 
+Kesharwani RK(32), Lewis AP(28), Li H(33)(34), Logsdon GA(28), Lucas JK(4)(13), 
+Makalowski W(25), Markovic C(35), Martin FJ(12), Mc Cartney AM(1), McCoy RC(6), 
+McDaniel J(36), McNulty BM(4)(13), Medvedev P(37)(38)(39), Mikheenko A(10)(40), 
+Munson KM(28), Murphy TD(41), Olsen HE(4)(13), Olson ND(36), Paulin LF(32), 
+Porubsky D(28), Potapova T(22), Ryabov F(42), Salzberg SL(43), Sauria MEG(6), 
+Sedlazeck FJ(32)(44), Shafin K(45), Shepelev VA(46), Shumate A(8), Storer 
+JM(29), Surapaneni L(12), Taravella Oill AM(47), Thibaud-Nissen F(41), Timp 
+W(8), Tomaszkiewicz M(27)(48), Vollger MR(28), Walenz BP(1), Watwood AC(27), 
+Weissensteiner MH(27), Wenger AM(49), Wilson MA(47), Zarate S(15), Zhu Y(32), 
+Zook JM(36), Eichler EE(28)(50), O'Neill RJ(5)(51)(52), Schatz MC(6)(15), Miga 
+KH(4)(13), Makova KD(27), Phillippy AM(53).
+
+Author information:
+(1)Genome Informatics Section, Computational and Statistical Genomics Branch, 
+National Human Genome Research Institute, National Institutes of Health, 
+Bethesda, MD, USA.
+(2)Oxford Nanopore Technologies Inc., Oxford, UK.
+(3)Faculty of Informatics, Masaryk University, Brno, Czech Republic.
+(4)Department of Biomolecular Engineering, University of California Santa Cruz, 
+Santa Cruz, CA, USA.
+(5)Department of Molecular and Cell Biology, University of Connecticut, Storrs, 
+CT, USA.
+(6)Department of Biology, Johns Hopkins University, Baltimore, MD, USA.
+(7)Department of Molecular and Cell Biology, University of California, Berkeley, 
+CA, USA.
+(8)Department of Biomedical Engineering, Johns Hopkins University, Baltimore, 
+MD, USA.
+(9)Federal Research Center of Biotechnology of the Russian Academy of Sciences, 
+Moscow, Russia.
+(10)Center for Algorithmic Biotechnology, Saint Petersburg State University, St 
+Petersburg, Russia.
+(11)Department of Anatomy and Anthropology and Department of Human Molecular 
+Genetics and Biochemistry, Sackler Faculty of Medicine, Tel Aviv University, Tel 
+Aviv-Yafo, Israel.
+(12)European Molecular Biology Laboratory, European Bioinformatics Institute, 
+Wellcome Genome Campus, Hinxton, Cambridge, UK.
+(13)UC Santa Cruz Genomics Institute, University of California Santa Cruz, Santa 
+Cruz, CA, USA.
+(14)Graduate Program in Bioinformatics and Systems Biology, University of 
+California, San Diego, CA, USA.
+(15)Department of Computer Science, Johns Hopkins University, Baltimore, MD, 
+USA.
+(16)GeneDX Holdings Corp, Stamford, CT, USA.
+(17)Foundation of Biological Data Science, Belmont, CA, USA.
+(18)Department of Genetics, University of Cambridge, Cambridge, UK.
+(19)The Rockefeller University, New York, NY, USA.
+(20)DNAnexus, Inc., Mountain View, CA, USA.
+(21)Department of Genetics, Genomics and Informatics, University of Tennessee 
+Health Science Center, Memphis, TN, USA.
+(22)Stowers Institute for Medical Research, Kansas City, MO, USA.
+(23)University of Kansas Medical Center, Kansas City, MO, USA.
+(24)Genomics Research Centre, Human Technopole, Milan, Italy.
+(25)Institute of Bioinformatics, Faculty of Medicine, University of Münster, 
+Münster, Germany.
+(26)Cancer Genetics and Comparative Genomics Branch, National Human Genome 
+Research Institute, National Institutes of Health, Bethesda, MD, USA.
+(27)Department of Biology, Pennsylvania State University, University Park, PA, 
+USA.
+(28)Department of Genome Sciences, University of Washington School of Medicine, 
+Seattle, WA, USA.
+(29)Institute for Systems Biology, Seattle, WA, USA.
+(30)XDBio Program, Johns Hopkins University, Baltimore, MD, USA.
+(31)Department of Bioengineering, Department of Physics, Northeastern 
+University, Boston, MA, USA.
+(32)Human Genome Sequencing Center, Baylor College of Medicine, One Baylor 
+Plaza, Houston, TX, USA.
+(33)Department of Data Sciences, Dana-Farber Cancer Institute, Boston, MA, USA.
+(34)Department of Biomedical Informatics, Harvard Medical School, Boston, MA, 
+USA.
+(35)Genome Technology Access Center at the McDonnell Genome Institute, 
+Washington University, St. Louis, MO, USA.
+(36)Biosystems and Biomaterials Division, National Institute of Standards and 
+Technology, Gaithersburg, MD, USA.
+(37)Department of Computer Science and Engineering, Pennsylvania State 
+University, University Park, PA, USA.
+(38)Department of Biochemistry and Molecular Biology, Pennsylvania State 
+University, University Park, PA, USA.
+(39)Center for Computational Biology and Bioinformatics, Pennsylvania State 
+University, University Park, PA, USA.
+(40)UCL Queen Square Institute of Neurology, UCL, London, UK.
+(41)National Center for Biotechnology Information, National Library of Medicine, 
+National Institutes of Health, Bethesda, MD, USA.
+(42)Masters Program in National Research University Higher School of Economics, 
+Moscow, Russia.
+(43)Departments of Biomedical Engineering, Computer Science, and Biostatistics, 
+Johns Hopkins University, Baltimore, MD, USA.
+(44)Department of Computer Science, Rice University, Houston, TX, USA.
+(45)Google Inc., Mountain View, CA, USA.
+(46)Institute of Molecular Genetics, Moscow, Russia.
+(47)Center for Evolution and Medicine, School of Life Sciences, Arizona State 
+University, Tempe, AZ, USA.
+(48)Department of Biomedical Engineering, Pennsylvania State University, State 
+College, PA, USA.
+(49)Pacific Biosciences, Menlo Park, CA, USA.
+(50)Investigator, Howard Hughes Medical Institute, University of Washington, 
+Seattle, WA, USA.
+(51)Institute for Systems Genomics, University of Connecticut, Storrs, CT, USA.
+(52)Department of Genetics and Genome Sciences, UConn Health, Farmington, CT, 
+USA.
+(53)Genome Informatics Section, Computational and Statistical Genomics Branch, 
+National Human Genome Research Institute, National Institutes of Health, 
+Bethesda, MD, USA. adam.phillippy@nih.gov.
+(#)Contributed equally
+
+The human Y chromosome has been notoriously difficult to sequence and assemble 
+because of its complex repeat structure that includes long palindromes, tandem 
+repeats and segmental duplications1-3. As a result, more than half of the Y 
+chromosome is missing from the GRCh38 reference sequence and it remains the last 
+human chromosome to be finished4,5. Here, the Telomere-to-Telomere (T2T) 
+consortium presents the complete 62,460,029-base-pair sequence of a human Y 
+chromosome from the HG002 genome (T2T-Y) that corrects multiple errors in 
+GRCh38-Y and adds over 30 million base pairs of sequence to the reference, 
+showing the complete ampliconic structures of gene families TSPY, DAZ and RBMY; 
+41 additional protein-coding genes, mostly from the TSPY family; and an 
+alternating pattern of human satellite 1 and 3 blocks in the heterochromatic 
+Yq12 region. We have combined T2T-Y with a previous assembly of the CHM13 
+genome4 and mapped available population variation, clinical variants and 
+functional genomics data to produce a complete and comprehensive reference 
+sequence for all 24 human chromosomes.
+
+© 2023. This is a U.S. Government work and not under copyright protection in the 
+US; foreign copyright protection may apply.
+
+DOI: 10.1038/s41586-023-06457-y
+PMCID: PMC10752217
+PMID: 37612512 [Indexed for MEDLINE]
+
+Conflict of interest statement: S.N. is now an employee of Oxford Nanopore 
+Technologies; S.K. has received travel funds to speak at events hosted by Oxford 
+Nanopore Technologies; A.F. is an employee of DNAnexus; C.-S.C. is an employee 
+of GeneDX Holdings Corp.; N.-C.C. is an employee of Exai Bio; L.F.P. receives 
+research support from Genetech; F.J.S. receives research support from Pacific 
+Biosciences, Oxford Nanopore Technologies, Illumina, and Genetech; K.S. is an 
+employee of Google LLC and owns Alphabet stock as part of the standard 
+compensation package; W.T. has two patents (8,748,091 and 8,394,584) licensed to 
+Oxford Nanopore Technologies; E.E.E. is a scientific advisory board member of 
+Variant Bio, Inc. All other authors declare no competing interests.
+
+
+20. bioRxiv [Preprint]. 2023 Jun 13:2023.06.13.544219. doi: 
+10.1101/2023.06.13.544219.
+
+New T2T assembly of Cryptosporidium parvum IOWA annotated with reference genome 
+gene identifiers.
+
+Baptista RP(1)(2)(3), Xiao R(2), Li Y(2), Glenn TC(2)(4)(5), Kissinger 
+JC(1)(2)(5).
+
+Author information:
+(1)Center for tropical and emerging global diseases, University of Georgia, 
+Athens, GA 30602 USA.
+(2)Institute of Bioinformatics, University of Georgia, Athens, GA 30602 USA.
+(3)Houston Methodist Research Institute, Houston, TX 77030 USA.
+(4)Environmental Health Science, University of Georgia, Athens, GA 30602 USA.
+(5)Department of Genetics, University of Georgia, Athens, GA 30602 USA.
+
+Update in
+    Sci Data. 2025 Jun 19;12(1):1039. doi: 10.1038/s41597-025-05364-3.
+
+Cryptosporidium parvum is a significant pathogen causing gastrointestinal 
+infections in humans and animals, that is spread through the ingestion of 
+contaminated food and water. Despite its global impact on public health, 
+generating a C. parvum genome sequence has always been challenging due to a lack 
+of in vitro cultivation systems and challenging sub-telomeric gene families. A 
+gapless telomere to telomere genome assembly has been created for 
+Cryptosporidium parvum IOWA obtained from Bunch Grass Farms, named here as 
+CpBGF. There are 8 chromosomes that total 9,259,183 bp. The new hybrid assembly 
+which was generated with Illumina and Oxford Nanopore resolves complex 
+sub-telomeric regions of chromosomes 1, 7 and 8. To facilitate ease of use and 
+consistency with the literature, whenever possible, chromosomes have been 
+oriented and genes in this annotation have been given the same gene IDs used in 
+the current reference genome sequence generated in 2004. The annotation of this 
+assembly utilized considerable RNA expression evidence, thus, untranslated 
+regions, long noncoding RNAs and antisense RNAs are annotated. The CpBGF genome 
+assembly serves as a valuable resource for understanding the biology, 
+pathogenesis, and transmission of C. parvum, and it facilitates the development 
+of diagnostics, drugs, and vaccines against cryptosporidiosis.
+
+DOI: 10.1101/2023.06.13.544219
+PMCID: PMC10312629
+PMID: 37398184
+
+Conflict of interest statement: Competing interests The authors declare no 
+competing interests.
+
+
+21. Nature. 2022 Nov;611(7936):519-531. doi: 10.1038/s41586-022-05325-5. Epub
+2022  Oct 19.
+
+Semi-automated assembly of high-quality diploid human reference genomes.
+
+Jarvis ED(#)(1)(2), Formenti G(#)(3), Rhie A(4), Guarracino A(5), Yang C(6), 
+Wood J(7), Tracey A(7), Thibaud-Nissen F(8), Vollger MR(9), Porubsky D(9), Cheng 
+H(10)(11), Asri M(12), Logsdon GA(9), Carnevali P(13), Chaisson MJP(14), Chin 
+CS(15), Cody S(16), Collins J(7), Ebert P(17), Escalona M(18), Fedrigo O(19), 
+Fulton RS(16), Fulton LL(16), Garg S(20), Gerton JL(21), Ghurye J(22), Granat 
+A(23), Green RE(12), Harvey W(9), Hasenfeld P(24), Hastie A(25), Haukness M(12), 
+Jaeger EB(23), Jain M(12), Kirsche M(26), Kolmogorov M(27), Korbel JO(24), Koren 
+S(4), Korlach J(28), Lee J(25), Li D(29)(30), Lindsay T(16), Lucas J(12), Luo 
+F(31), Marschall T(17), Mitchell MW(32), McDaniel J(33), Nie F(34), Olsen 
+HE(12), Olson ND(33), Pesout T(12), Potapova T(21), Puiu D(35), Regier A(36), 
+Ruan J(37), Salzberg SL(35), Sanders AD(38), Schatz MC(26), Schmitt A(39), 
+Schneider VA(8), Selvaraj S(39), Shafin K(12), Shumate A(35), Stitziel 
+NO(16)(29)(40), Stober C(24), Torrance J(7), Wagner J(33), Wang J(34), Wenger 
+A(28), Xiao C(41), Zimin AV(35), Zhang G(42), Wang T(16)(29)(30), Li H(10), 
+Garrison E(43), Haussler D(44)(45), Hall I(46), Zook JM(33), Eichler EE(44)(9), 
+Phillippy AM(4), Paten B(12), Howe K(47), Miga KH(48); Human Pangenome Reference 
+Consortium.
+
+Author information:
+(1)Vertebrate Genome Laboratory, The Rockefeller University, New York, NY, USA. 
+ejarvis@rockefeller.edu.
+(2)Howard Hughes Medical Institute, Chevy Chase, MD, USA. 
+ejarvis@rockefeller.edu.
+(3)Vertebrate Genome Laboratory, The Rockefeller University, New York, NY, USA. 
+gformenti@rockefeller.edu.
+(4)Genome Informatics Section, Computational and Statistical Genomics Branch, 
+National Human Genome Research Institute, National Institutes of Health, 
+Bethesda, MD, USA.
+(5)Genomics Research Centre, Human Technopole, Viale Rita Levi-Montalcini, 
+Milan, Italy.
+(6)BGI-Shenzhen, Shenzhen, China.
+(7)Tree of Life, Wellcome Sanger Institute, Cambridge, UK.
+(8)National Center for Biotechnology Information, National Library of Medicine, 
+National Institutes of Health, Bethesda, MD, USA.
+(9)Department of Genome Sciences, University of Washington School of Medicine, 
+Seattle, WA, USA.
+(10)Department of Data Sciences, Dana-Farber Cancer Institute, Boston, MA, USA.
+(11)Department of Biomedical Informatics, Harvard Medical School, Boston, MA, 
+USA.
+(12)UC Santa Cruz Genomics Institute, University of California, Santa Cruz, CA, 
+USA.
+(13)Chan Zuckerberg Initiative, Redwood City, CA, USA.
+(14)Quantitative and Computational Biology, University of Southern California, 
+Los Angeles, CA, USA.
+(15)Foundation for Biological Data Science, Belmont, CA, USA.
+(16)McDonnell Genome Institute, Washington University School of Medicine, St. 
+Louis, MO, USA.
+(17)Institute for Medical Biometry and Bioinformatics, Medical Faculty, Heinrich 
+Heine University, Düsseldorf, Germany.
+(18)Department of Biomolecular Engineering, University of California Santa Cruz, 
+Santa Cruz, CA, USA.
+(19)Vertebrate Genome Laboratory, The Rockefeller University, New York, NY, USA.
+(20)Department of Biology, University of Copenhagen, Copenhagen, Denmark.
+(21)Stowers Institute for Medical Research, Kansas City, MO, USA.
+(22)Dovetail Genomics, Scotts Valley, CA, USA.
+(23)Illumina, Inc., San Diego, CA, USA.
+(24)European Molecular Biology Laboratory, Genome Biology Unit, Heidelberg, 
+Germany.
+(25)Bionano Genomics, San Diego, CA, USA.
+(26)Department of Computer Science, Johns Hopkins University, Baltimore, MD, 
+USA.
+(27)Department of Computer Science and Engineering, University of California San 
+Diego, La Jolla, CA, USA.
+(28)Pacific Biosciences, Menlo Park, CA, USA.
+(29)Department of Genetics, Washington University School of Medicine, St. Louis, 
+MO, USA.
+(30)The Edison Family Center for Genome Sciences and Systems Biology, Washington 
+University School of Medicine, St. Louis, MO, USA.
+(31)School of Computing, Clemson University, Clemson, SC, USA.
+(32)Coriell Institute for Medical Research, Camden, NJ, USA.
+(33)Material Measurement Laboratory, National Institute of Standards and 
+Technology, Gaithersburg, MD, USA.
+(34)Hunan Provincial Key Lab on Bioinformatics, School of Computer Science and 
+Engineering, Central South University, Changsha, China.
+(35)Department of Biomedical Engineering, Johns Hopkins University, Baltimore, 
+MD, USA.
+(36)DNAnexus, Mountain View, CA, USA.
+(37)Agricultural Genomics Institute, Chinese Academy of Agricultural Sciences, 
+Shenzhen, China.
+(38)Berlin Institute for Medical Systems Biology, Max Delbrück Center for 
+Molecular Medicine in the Helmholtz Association (MDC), Berlin, Germany.
+(39)Arima Genomics, San Diego, CA, USA.
+(40)Cardiovascular Division, John T. Milliken Department of Internal Medicine, 
+Washington University School of Medicine, St. Louis, USA.
+(41)State Key Laboratory of Ophthalmology, Zhongshan Ophthalmic Center, Sun 
+Yat-sen University, Guangzhou, China.
+(42)Center for Evolutionary & Organismal Biology, Zhejiang University School of 
+Medicine, Hangzhou, China.
+(43)Department of Genetics, Genomics and Informatics, University of Tennessee 
+Health Science Center, Memphis, TN, USA.
+(44)Howard Hughes Medical Institute, Chevy Chase, MD, USA.
+(45)Department of Ecology and Evolutionary Biology, University of California 
+Santa Cruz, Santa Cruz, CA, USA.
+(46)Yale School of Medicine, New Haven, CT, USA.
+(47)Tree of Life, Wellcome Sanger Institute, Cambridge, UK. kj2@sanger.ac.uk.
+(48)UC Santa Cruz Genomics Institute, University of California, Santa Cruz, CA, 
+USA. khmiga@ucsc.edu.
+(#)Contributed equally
+
+The current human reference genome, GRCh38, represents over 20 years of effort 
+to generate a high-quality assembly, which has benefitted society1,2. However, 
+it still has many gaps and errors, and does not represent a biological genome as 
+it is a blend of multiple individuals3,4. Recently, a high-quality 
+telomere-to-telomere reference, CHM13, was generated with the latest long-read 
+technologies, but it was derived from a hydatidiform mole cell line with a 
+nearly homozygous genome5. To address these limitations, the Human Pangenome 
+Reference Consortium formed with the goal of creating high-quality, 
+cost-effective, diploid genome assemblies for a pangenome reference that 
+represents human genetic diversity6. Here, in our first scientific report, we 
+determined which combination of current genome sequencing and assembly 
+approaches yield the most complete and accurate diploid genome assembly with 
+minimal manual curation. Approaches that used highly accurate long reads and 
+parent-child data with graph-based haplotype phasing during assembly 
+outperformed those that did not. Developing a combination of the top-performing 
+methods, we generated our first high-quality diploid reference assembly, 
+containing only approximately four gaps per chromosome on average, with most 
+chromosomes within ±1% of the length of CHM13. Nearly 48% of protein-coding 
+genes have non-synonymous amino acid changes between haplotypes, and centromeric 
+regions showed the highest diversity. Our findings serve as a foundation for 
+assembling near-complete diploid human genomes at scale for a pangenome 
+reference to capture global genetic variation from single nucleotides to 
+structural rearrangements.
+
+© 2022. The Author(s).
+
+DOI: 10.1038/s41586-022-05325-5
+PMCID: PMC9668749
+PMID: 36261518 [Indexed for MEDLINE]
+
+Conflict of interest statement: E.E.E. was a scientific advisory board member of 
+Variant Bio, Inc. J.K. and A.W. were full-time employees at Pacific Biosciences, 
+a company developing single-molecule sequencing technologies. A.H. and J. Lee. 
+were employees of Bionano Genomics, a company developing optical maps for genome 
+assembly. J.G. and R.E.G. were affiliated with Dovetail Genomics, a company 
+developing genome assembly tools, including Hi-C. A. Granat and E.B.J. were 
+employees of Ilumina, Inc., a genome company generating short reads. A. Schmitt 
+and S.S. were employees of Arima Genomics, a company developing Hi-C data for 
+genome assemblies. All other authors declare no competing interests.
+
+
+22. Science. 2022 Apr;376(6588):eabk3112. doi: 10.1126/science.abk3112. Epub 2022
+ Apr 1.
+
+From telomere to telomere: The transcriptional and epigenetic state of human 
+repeat elements.
+
+Hoyt SJ(1), Storer JM(#)(2), Hartley GA(#)(1), Grady PGS(#)(1), Gershman 
+A(#)(3), de Lima LG(4), Limouse C(5), Halabian R(6), Wojenski L(1), Rodriguez 
+M(6), Altemose N(7), Rhie A(8), Core LJ(1)(9), Gerton JL(4), Makalowski W(6), 
+Olson D(10), Rosen J(2), Smit AFA(2), Straight AF(5), Vollger MR(11), Wheeler 
+TJ(10), Schatz MC(12), Eichler EE(11)(13), Phillippy AM(8), Timp W(3)(14), Miga 
+KH(15), O'Neill RJ(1)(9)(16).
+
+Author information:
+(1)Department of Molecular and Cell Biology, University of Connecticut, Storrs, 
+CT, USA.
+(2)Institute for Systems Biology, Seattle, WA, USA.
+(3)Department of Molecular Biology and Genetics, Johns Hopkins University, 
+Baltimore, MD, USA.
+(4)Stowers Institute for Medical Research, Kansas City, MO, USA.
+(5)Department of Biochemistry, Stanford University, Stanford, CA, USA.
+(6)Institute of Bioinformatics, Faculty of Medicine, University of Münster, 
+Münster, Germany.
+(7)Department of Bioengineering, University of California, Berkeley, Berkeley, 
+CA, USA.
+(8)Genome Informatics Section, Computational and Statistical Genomics Branch, 
+National Human Genome Research Institute, National Institutes of Health, 
+Bethesda, MD, USA.
+(9)Institute for Systems Genomics, University of Connecticut, Storrs, CT, USA.
+(10)Department of Computer Science, University of Montana, Missoula, MT, USA.
+(11)Department of Genome Sciences, University of Washington School of Medicine, 
+Seattle, WA, USA.
+(12)Department of Computer Science and Department of Biology, Johns Hopkins 
+University, Baltimore, MD, USA.
+(13)Howard Hughes Medical Institute, University of Washington, Seattle, WA, USA.
+(14)Department of Biomedical Engineering, Johns Hopkins University, Baltimore, 
+MD, USA.
+(15)UC Santa Cruz Genomics Institute, University of California, Santa Cruz, 
+Santa Cruz, CA, USA.
+(16)Department of Genetics and Genome Sciences, UConn Health, Farmington, CT, 
+USA.
+(#)Contributed equally
+
+Comment in
+    Nat Rev Genet. 2022 Jun;23(6):321. doi: 10.1038/s41576-022-00494-5.
+
+Mobile elements and repetitive genomic regions are sources of lineage-specific 
+genomic innovation and uniquely fingerprint individual genomes. Comprehensive 
+analyses of such repeat elements, including those found in more complex regions 
+of the genome, require a complete, linear genome assembly. We present a de novo 
+repeat discovery and annotation of the T2T-CHM13 human reference genome. We 
+identified previously unknown satellite arrays, expanded the catalog of variants 
+and families for repeats and mobile elements, characterized classes of complex 
+composite repeats, and located retroelement transduction events. We detected 
+nascent transcription and delineated CpG methylation profiles to define the 
+structure of transcriptionally active retroelements in humans, including those 
+in centromeres. These data expand our insight into the diversity, distribution, 
+and evolution of repetitive regions that have shaped the human genome.
+
+DOI: 10.1126/science.abk3112
+PMCID: PMC9301658
+PMID: 35357925 [Indexed for MEDLINE]
+
+Conflict of interest statement: Competing interests: K.H.M. has received travel 
+funds to speak at symposia organized by Oxford Nanopore. K.H.M. is a scientific 
+advisory board (SAB) member of Centaura, Inc. E.E.E. is a SAB member of Variant 
+Bio, Inc. W.T. has two patents (8,748,091 and 8,394,584) licensed to Oxford 
+Nanopore Technologies. All other authors declare that they have no competing 
+interests.
+
+
+23. Am J Hum Genet. 2022 Apr 7;109(4):631-646. doi: 10.1016/j.ajhg.2022.02.014.
+Epub  2022 Mar 14.
+
+Familial long-read sequencing increases yield of de novo mutations.
+
+Noyes MD(1), Harvey WT(1), Porubsky D(1), Sulovari A(1), Li R(1), Rose NR(1), 
+Audano PA(1), Munson KM(1), Lewis AP(1), Hoekzema K(1), Mantere T(2), 
+Graves-Lindsay TA(3), Sanders AD(4), Goodwin S(5), Kramer M(5), Mokrab Y(6), 
+Zody MC(7), Hoischen A(8), Korbel JO(4), McCombie WR(5), Eichler EE(9).
+
+Author information:
+(1)Department of Genome Sciences, University of Washington School of Medicine, 
+Seattle, WA 98195, USA.
+(2)Department of Human Genetics, Radboud University Medical Center, 6500 
+Nijmegen, the Netherlands; Laboratory of Cancer Genetics and Tumor Biology, 
+Cancer and Translational Medicine Research Unit and Biocenter Oulu, University 
+of Oulu, 90220 Oulu, Finland.
+(3)McDonnell Genome Institute, Washington University, St. Louis, MO 63108, USA.
+(4)European Molecular Biology Laboratory, Genome Biology Unit, 69117 Heidelberg, 
+Germany.
+(5)Stanley Institute for Cognitive Genomics, Cold Spring Harbor Laboratory, Cold 
+Spring Harbor, NY 11724, USA.
+(6)Department of Human Genetics, Sidra Medicine, PO Box 26999, Doha, Qatar; 
+Weill Cornell Medicine, PO Box 24144, Doha, Qatar; College of Health and Life 
+Sciences, Hamad Bin Khalifa University, PO Box 34110, Doha, Qatar.
+(7)New York Genome Center, New York, NY 10013, USA.
+(8)Department of Human Genetics, Radboud University Medical Center, 6500 
+Nijmegen, the Netherlands; Radboud Institute of Medical Life Sciences and 
+Department of Internal Medicine and Radboud Center for Infectious Diseases, 
+Radboud University Medical Center, 6500 Nijmegen, the Netherlands.
+(9)Department of Genome Sciences, University of Washington School of Medicine, 
+Seattle, WA 98195, USA; Howard Hughes Medical Institute, University of 
+Washington, Seattle, WA 98195, USA. Electronic address: eee@gs.washington.edu.
+
+Studies of de novo mutation (DNM) have typically excluded some of the most 
+repetitive and complex regions of the genome because these regions cannot be 
+unambiguously mapped with short-read sequencing data. To better understand the 
+genome-wide pattern of DNM, we generated long-read sequence data from an autism 
+parent-child quad with an affected female where no pathogenic variant had been 
+discovered in short-read Illumina sequence data. We deeply sequenced all four 
+individuals by using three sequencing platforms (Illumina, Oxford Nanopore, and 
+Pacific Biosciences) and three complementary technologies (Strand-seq, optical 
+mapping, and 10X Genomics). Using long-read sequencing, we initially discovered 
+and validated 171 DNMs across two children-a 20% increase in the number of de 
+novo single-nucleotide variants (SNVs) and indels when compared to short-read 
+callsets. The number of DNMs further increased by 5% when considering a more 
+complete human reference (T2T-CHM13) because of the recovery of events in 
+regions absent from GRCh38 (e.g., three DNMs in heterochromatic satellites). In 
+total, we validated 195 de novo germline mutations and 23 potential post-zygotic 
+mosaic mutations across both children; the overall true substitution rate based 
+on this integrated callset is at least 1.41 × 10-8 substitutions per nucleotide 
+per generation. We also identified six de novo insertions and deletions in 
+tandem repeats, two of which represent structural variants. We demonstrate that 
+long-read sequencing and assembly, especially when combined with a more complete 
+reference genome, increases the number of DNMs by >25% compared to previous 
+studies, providing a more complete catalog of DNM compared to short-read data 
+alone.
+
+Copyright © 2022 American Society of Human Genetics. Published by Elsevier Inc. 
+All rights reserved.
+
+DOI: 10.1016/j.ajhg.2022.02.014
+PMCID: PMC9069071
+PMID: 35290762 [Indexed for MEDLINE]
+
+Conflict of interest statement: Declaration of interests E.E.E. is a scientific 
+advisory board (SAB) member of Variant Bio, Inc.
+
+
+24. Microbiol Spectr. 2022 Feb 23;10(1):e0203221. doi: 10.1128/spectrum.02032-21.
+ Epub 2022 Feb 23.
+
+Sexual Crossing, Chromosome-Level Genome Sequences, and Comparative Genomic 
+Analyses for the Medicinal Mushroom Taiwanofungus Camphoratus (Syn. Antrodia 
+Cinnamomea, Antrodia Camphorata).
+
+Chen CL(1), Li WC(1), Chuang YC(1), Liu HC(1), Huang CH(1), Lo KY(1), Chen 
+CY(2), Chang FM(3), Chang GA(4), Lin YL(5), Yang WD(5), Su CH(6), Yeh TM(2), 
+Wang TF(1).
+
+Author information:
+(1)Institute of Molecular Biology, Academia Sinicagrid.28665.3f, Taipei, Taiwan.
+(2)Shen Nong Fungal Biotechnology Co. Ltd., Taoyuan City, Taiwan.
+(3)School of Dentistry, College of Oral Medicine, Taipei Medical 
+Universitygrid.412896.0, Taipei, Taiwan.
+(4)KFK Biotech Co. Ltd., Kaohsiung, Taiwan.
+(5)HIMA Foundation, Taipei, Taiwan.
+(6)Department of Microbiology and Immunology, Taipei Medical 
+Universitygrid.412896.0, Taipei, Taiwan.
+
+Taiwanofungus camphoratus mushrooms are a complementary and alternative medicine 
+for hangovers, cancer, hypertension, obesity, diabetes, and inflammation. Though 
+Taiwanofungus camphoratus has attracted considerable biotechnological and 
+pharmacological attention, neither classical genetic nor genomic approaches have 
+been properly established for it. We isolated four sexually competent 
+monokaryons from two T. camphoratus dikaryons used for the commercial 
+cultivation of orange-red (HC1) and milky-white (SN1) mushrooms, respectively. 
+We also sequenced, annotated, and comparatively analyzed high-quality and 
+chromosome-level genome sequences of these four monokaryons. These genomic 
+resources represent a valuable basis for understanding the biology, evolution, 
+and secondary metabolite biosynthesis of this economically important mushrooms. 
+We demonstrate that T. camphoratus has a tetrapolar mating system and that HC1 
+and SN1 represent two intraspecies isolates displaying karyotypic variation. 
+Compared with several edible mushroom model organisms, T. camphoratus underwent 
+a significant contraction in the gene family and individual gene numbers, most 
+notably for plant, fungal, and bacterial cell-wall-degrading enzymes, explaining 
+why T. camphoratus mushrooms are rare in natural environments, are difficult and 
+time-consuming to artificially cultivate, and are susceptible to fungal and 
+bacterial infections. Our results lay the foundation for an in-depth T. 
+camphoratus study, including precise genetic manipulation, improvements to 
+mushroom fruiting, and synthetic biology applications for producing natural 
+medicinal products. IMPORTANCETaiwanofungus camphoratus (Tc) is a basidiomycete 
+fungus that causes brown heart rot of the aromatic tree Cinnamomum kanehirae. 
+The Tc fruiting bodies have been used to treat hangovers, abdominal pain, 
+diarrhea, hypertension, and other diseases first by aboriginal Taiwanese and 
+later by people in many countries. To establish classical genetic and genomic 
+approaches for this economically important medicinal mushroom, we first isolated 
+and characterized four sexually competent monokaryons from two dikaryons wildly 
+used for commercial production of Tc mushrooms. We applied PacBio single 
+molecule, real-time sequencing technology to determine the near-completed genome 
+sequences of four monokaryons. These telomere-to-telomere and gapless haploid 
+genome sequences reveal all genomic variants needed to be studied and 
+discovered, including centromeres, telomeres, retrotransposons, mating type 
+loci, biosynthetic, and metabolic gene clusters. Substantial interspecies 
+diversities are also discovered between Tc and several other mushroom model 
+organisms, including Agrocybe aegerita, Coprinopsis cinerea, and Schizophyllum 
+commune, and Ganoderma lucidum.
+
+DOI: 10.1128/spectrum.02032-21
+PMCID: PMC8865532
+PMID: 35196809 [Indexed for MEDLINE]
+
+Conflict of interest statement: The authors declare no conflict of interest.
+
+
+25. Gene. 2022 Feb 5;810:146058. doi: 10.1016/j.gene.2021.146058. Epub 2021 Nov
+1.
+
+New telomere to telomere assembly of human chromosome 8 reveals a previous 
+underestimation of G-quadruplex forming sequences and inverted repeats.
+
+Brázda V(1), Bohálová N(2), Bowater RP(3).
+
+Author information:
+(1)Institute of Biophysics of the Czech Academy of Sciences, Královopolská 135, 
+Brno 612 65, Czech Republic. Electronic address: vaclav@ibp.cz.
+(2)Institute of Biophysics of the Czech Academy of Sciences, Královopolská 135, 
+Brno 612 65, Czech Republic; Department of Experimental Biology, Faculty of 
+Science, Masaryk University, Kamenice 5, Brno 62500, Czech Republic.
+(3)School of Biological Sciences, University of East Anglia, Norwich Research 
+Park, Norwich NR4 7TJ, United Kingdom. Electronic address: R.Bowater@uea.ac.uk.
+
+Taking advantage of evolving and improving sequencing methods, human chromosome 
+8 is now available as a gapless, end-to-end assembly. Thanks to advances in 
+long-read sequencing technologies, its centromere, telomeres, duplicated gene 
+families and repeat-rich regions are now fully sequenced. We were interested to 
+assess if the new assembly altered our understanding of the potential impact of 
+non-B DNA structures within this completed chromosome sequence. It has been 
+shown that non-B secondary structures, such as G-quadruplexes, hairpins and 
+cruciforms, have important regulatory functions and potential as targeted 
+therapeutics. Therefore, we analysed the presence of putative G-quadruplex 
+forming sequences and inverted repeats in the current human reference genome 
+(GRCh38) and in the new end-to-end assembly of chromosome 8. The comparison 
+revealed that the new assembly contains significantly more inverted repeats and 
+G-quadruplex forming sequences compared to the current reference sequence. This 
+observation can be explained by improved accuracy of the new sequencing methods, 
+particularly in regions that contain extensive repeats of bases, as is preferred 
+by many non-B DNA structures. These results show a significant underestimation 
+of the prevalence of non-B DNA secondary structure in previous assembly versions 
+of the human genome and point to their importance being not fully appreciated. 
+We anticipate that similar observations will occur as the improved sequencing 
+technologies fill in gaps across the genomes of humans and other organisms.
+
+Copyright © 2021 Elsevier B.V. All rights reserved.
+
+DOI: 10.1016/j.gene.2021.146058
+PMID: 34737002 [Indexed for MEDLINE]
+
+
+26. Nature. 2020 Sep;585(7823):79-84. doi: 10.1038/s41586-020-2547-7. Epub 2020
+Jul  14.
+
+Telomere-to-telomere assembly of a complete human X chromosome.
+
+Miga KH(#)(1), Koren S(#)(2), Rhie A(2), Vollger MR(3), Gershman A(4), Bzikadze 
+A(5), Brooks S(6), Howe E(7), Porubsky D(3), Logsdon GA(3), Schneider VA(8), 
+Potapova T(7), Wood J(9), Chow W(9), Armstrong J(10), Fredrickson J(11), Pak 
+E(12), Tigyi K(10), Kremitzki M(13), Markovic C(13), Maduro V(14), Dutra A(12), 
+Bouffard GG(6), Chang AM(2), Hansen NF(15), Wilfert AB(3), Thibaud-Nissen F(8), 
+Schmitt AD(16), Belton JM(16), Selvaraj S(16), Dennis MY(17), Soto DC(17), 
+Sahasrabudhe R(18), Kaya G(17), Quick J(19), Loman NJ(19), Holmes N(20), Loose 
+M(20), Surti U(21), Risques RA(11), Graves Lindsay TA(13), Fulton R(13), Hall 
+I(13), Paten B(10), Howe K(9), Timp W(4), Young A(6), Mullikin JC(6), Pevzner 
+PA(22), Gerton JL(7), Sullivan BA(23), Eichler EE(3)(24), Phillippy AM(25).
+
+Author information:
+(1)UC Santa Cruz Genomics Institute, University of California Santa Cruz, Santa 
+Cruz, CA, USA. khmiga@ucsc.edu.
+(2)Genome Informatics Section, Computational and Statistical Genomics Branch, 
+National Human Genome Research Institute, National Institutes of Health, 
+Bethesda, MD, USA.
+(3)Department of Genome Sciences, University of Washington School of Medicine, 
+Seattle, WA, USA.
+(4)Department of Molecular Biology and Genetics, Department of Biomedical 
+Engineering, Johns Hopkins University, Baltimore, MD, USA.
+(5)Graduate Program in Bioinformatics and Systems Biology, University of 
+California San Diego, San Diego, CA, USA.
+(6)NIH Intramural Sequencing Center, National Human Genome Research Institute, 
+National Institutes of Health, Rockville, MD, USA.
+(7)Stowers Institute for Medical Research, Kansas City, MO, USA.
+(8)National Center for Biotechnology Information, National Library of Medicine, 
+National Institutes of Health, Bethesda, MD, USA.
+(9)Wellcome Sanger Institute, Hinxton, UK.
+(10)UC Santa Cruz Genomics Institute, University of California Santa Cruz, Santa 
+Cruz, CA, USA.
+(11)Department of Pathology, University of Washington, Seattle, WA, USA.
+(12)Cytogenetic and Microscopy Core, National Human Genome Research Institute, 
+National Institutes of Health, Bethesda, MD, USA.
+(13)McDonnell Genome Institute at Washington University, St Louis, MO, USA.
+(14)Undiagnosed Diseases Program, National Human Genome Research Institute, 
+National Institutes of Health, Bethesda, MD, USA.
+(15)Comparative Genomics Analysis Unit, Cancer Genetics and Comparative Genomics 
+Branch, National Human Genome Research Institute, National Institutes of Health, 
+Bethesda, MD, USA.
+(16)Arima Genomics, San Diego, CA, USA.
+(17)Department of Biochemistry and Molecular Medicine, Genome Center, MIND 
+Institute, University of California Davis, Davis, CA, USA.
+(18)DNA Technologies Core, Genome Center, University of California Davis, Davis, 
+CA, USA.
+(19)Institute of Microbiology and Infection, University of Birmingham, 
+Birmingham, UK.
+(20)DeepSeq, School of Life Sciences, University of Nottingham, Nottingham, UK.
+(21)Department of Pathology, University of Pittsburgh, Pittsburgh, PA, USA.
+(22)Department of Computer Science and Engineering, University of California San 
+Diego, San Diego, CA, USA.
+(23)Department of Molecular Genetics and Microbiology, Division of Human 
+Genetics, Duke University Medical Center, Durham, NC, USA.
+(24)Howard Hughes Medical Institute, University of Washington, Seattle, WA, USA.
+(25)Genome Informatics Section, Computational and Statistical Genomics Branch, 
+National Human Genome Research Institute, National Institutes of Health, 
+Bethesda, MD, USA. adam.phillippy@nih.gov.
+(#)Contributed equally
+
+Comment in
+    Nat Rev Genet. 2020 Oct;21(10):577. doi: 10.1038/s41576-020-0273-5.
+
+After two decades of improvements, the current human reference genome (GRCh38) 
+is the most accurate and complete vertebrate genome ever produced. However, no 
+single chromosome has been finished end to end, and hundreds of unresolved gaps 
+persist1,2. Here we present a human genome assembly that surpasses the 
+continuity of GRCh382, along with a gapless, telomere-to-telomere assembly of a 
+human chromosome. This was enabled by high-coverage, ultra-long-read nanopore 
+sequencing of the complete hydatidiform mole CHM13 genome, combined with 
+complementary technologies for quality improvement and validation. Focusing our 
+efforts on the human X chromosome3, we reconstructed the centromeric satellite 
+DNA array (approximately 3.1 Mb) and closed the 29 remaining gaps in the current 
+reference, including new sequences from the human pseudoautosomal regions and 
+from cancer-testis ampliconic gene families (CT-X and GAGE). These sequences 
+will be integrated into future human reference genome releases. In addition, the 
+complete chromosome X, combined with the ultra-long nanopore data, allowed us to 
+map methylation patterns across complex tandem repeats and satellite arrays. Our 
+results demonstrate that finishing the entire human genome is now within reach, 
+and the data presented here will facilitate ongoing efforts to complete the 
+other human chromosomes.
+
+DOI: 10.1038/s41586-020-2547-7
+PMCID: PMC7484160
+PMID: 32663838 [Indexed for MEDLINE]
+
+Conflict of interest statement: E.E.E. is on the scientific advisory board of 
+DNAnexus. K.H.M., S.K. and W.T. have received travel funds to speak at symposia 
+organized by Oxford Nanopore. W.T. has two patents licensed to Oxford Nanopore 
+(US patent 8,748,091 and US patent 8,394,584). A.D.S., J.-M.B. and S.S. are 
+employees of Arima Genomics. R.R. shares equity in NanoString Technologies and 
+is the principal investigator on an NIH SBIR subcontract research agreement with 
+TwinStrand Biosciences. All other authors have no competing interests to 
+declare.

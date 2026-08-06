@@ -1,0 +1,1083 @@
+﻿1. medRxiv [Preprint]. 2026 Jul 4:2026.07.01.26356476. doi: 
+10.64898/2026.07.01.26356476.
+
+Complex structural variation, phylogeny, and disease associations of the mucin 
+pangenome.
+
+Plender EG, Prodanov T, Lin J, Wong I, Wertz J, Gordon WW, Bamshad MJ, Munson 
+KM, O'Neal WK, Bloom JD; Human Pangenome Reference Consortium; Marschall T, 
+Eichler EE.
+
+Mucins are large glycoproteins that provide hydration and barrier function to 
+epithelial tissues. Although genetically heterogeneous, all mucins harbor a 
+large exon composed of variable number tandem repeats (VNTRs). Short-read 
+sequencing has limited our understanding of mucin VNTR diversity and makes 
+disease association studies challenging. We leverage 296 long-read phased genome 
+assemblies to characterize 14 mucin family members, achieving ≥97% accuracy 
+across 572 haplotypes. Phylogenetic haplogroup analysis reveals extraordinary 
+structural heterozygosity, with MUC4 harboring the greatest allelic diversity 
+(n=240 distinct lengths) and MUC12 the greatest size range (Δ = 55,233 bp; 
+23,080 amino acids). Ten mucins show significant population stratification (pFDR 
+< 0.05). At the MUC4/MUC20 locus, we characterize higher-order structural 
+variation, including a recurrent inversion, copy number variation, and 
+interlocus gene conversion. Optimized genotyping achieves ≥95% haplogroup 
+concordance across 10 loci. We apply this to 4,637 deeply phenotyped cystic 
+fibrosis patients and identify a significant association between short MUC1 
+VNTRs and severe disease (p=0.0056), demonstrating the pangenome's utility for 
+complex locus genotyping and disease discovery.
+
+DOI: 10.64898/2026.07.01.26356476
+PMCID: PMC13345508
+PMID: 42428052
+
+
+2. Proc Biol Sci. 2026 Apr 22;293(2069):20252899. doi: 10.1098/rspb.2025.2899.
+
+Population-scale long-read DNA sequencing: peering under the hood of the new 
+evolutionary genomics.
+
+Edwards SV(1)(2), Li H(3).
+
+Author information:
+(1)Department of Organismic and Evolutionary Biology, Harvard University, 
+Cambridge, MA, USA.
+(2)Museum of Comparative Zoology, Harvard University , Cambridge, MA, USA.
+(3)Dana-Farber Cancer Institute , Boston, MA, USA.
+
+Population-scale long-read DNA sequencing (PLRS) is rapidly reshaping our 
+understanding of genomic variation in humans and non-model species. In this 
+Darwin Review, we first recount the expansion of the PLRS concept and its twin 
+paradigm, the pangenome, over the past 20 years, emphasizing recent results from 
+non-human vertebrates. Using recent PLRS studies in birds as test cases, we 
+probe three aspects of PLRS studies-diploid genome assembly, characterization 
+and annotation of the repeatome, and detection of gene copy number variants-that 
+are being re-shaped by new data types and computational tools. We argue that, in 
+the absence of data from family trios, partially phased haplotypes provide a 
+natural substrate for pangenome analysis, especially when quantifying structural 
+variants directly from pangenome graphs. We identify gaps and discrepancies in 
+the annotation of the repeatome of long-read assemblies, especially for 
+satellite and low-complexity DNA, that are being ameliorated by new 
+computational tools. Finally, we discuss and evaluate the surprising extent of 
+gene copy number variation exposed in recent PLRS studies. The current 
+methodological heterogeneity of pangenome studies may soon coalesce around a few 
+core protocols to the extent allowed by rapidly changing sequencing 
+technologies, allowing greater consistency among studies.
+
+© 2026 The Authors.
+
+DOI: 10.1098/rspb.2025.2899
+PMID: 42014088 [Indexed for MEDLINE]
+
+
+3. bioRxiv [Preprint]. 2025 Dec 16:2025.12.14.693655. doi: 
+10.64898/2025.12.14.693655.
+
+Complete genomes of a multi-generational pedigree to expand studies of genetic 
+and epigenetic inheritance.
+
+Cechova M(1)(2), Potapova TA(3), Rechtsteiner A(4), Hickey G(1), Mari RS(5)(6), 
+Mastoras M(1), Menendez J(1), Poláková N(2), Hebbar P(1), Ryabov F(1)(7), Loucks 
+H(1), Groot A(4), Pavlík T(2), Asri M(1), Dong S(8), Yan SM(9), Lucas JK(1), 
+Solar SJ(10), Borchers M(3), Mattingly M(3), McKinney S(3), Krátká M(2)(11), 
+Mikhailova C(1), Hanák O(2), Saha ST(1), Xu E(1), Antipov D(10), Koren S(10), 
+Eizenga JM(1), McNulty B(1), Gardner JMV(1), Hillaker T(1), Violich I(1), 
+Markovic C(12), Kruglyak S(13), Levy S(13), Wolf T(13), Mitchell MW(14), 
+Scheinfeldt L(14), Cheng H(15), Alexandrov IA(16), McCoy RC(9), Paten B(1), 
+Phillippy AM(10), Zook JM(17), Gerton JL(3), Fulton RS(13), Stitziel NO(18), 
+Wang T(8), Marschall T(5)(6), Greider CW(4), Miga KH(1).
+
+Author information:
+(1)UC Santa Cruz Genomics Institute, University of California, Santa Cruz, CA, 
+USA.
+(2)Faculty of Informatics, Masaryk University, Brno, Czech Republic.
+(3)Stowers Institute for Medical Research, Kansas City, MO, 64110, USA.
+(4)Department of Molecular Cell and Developmental Biology, University of 
+California, Santa Cruz, CA, USA.
+(5)Institute for Medical Biometry and Bioinformatics, Medical Faculty, Heinrich 
+Heine University Düsseldorf, Düsseldorf, Germany.
+(6)Center for Digital Medicine, Heinrich Heine University Düsseldorf, 
+Düsseldorf, Germany.
+(7)International Laboratory of Bioinformatics, HSE University, Moscow, Russia.
+(8)Department of Genetics, Washington University School of Medicine, St. Louis, 
+MO 63110, USA.
+(9)Department of Biology, Johns Hopkins University, Baltimore, MD, USA 21218.
+(10)Genome Informatics Section, Center for Genomics and Data Science Research, 
+National Human Genome Research Institute, National Institutes of Health, 
+Bethesda, MD 20892, USA.
+(11)National Centre for Biomolecular Research, Faculty of Science, Masaryk 
+University, Kamenice 5, Brno, 62500, Czech Republic.
+(12)McDonnell Genome Institute, Washington University School of Medicine, St. 
+Louis, MO 63108, USA.
+(13)Element Biosciences, San Diego, CA 92121, USA.
+(14)Coriell Institute for Medical Research, Camden, NJ 08103, USA.
+(15)Department of Biomedical Informatics and Data Science, Yale School of 
+Medicine, New Haven, CT, USA.
+(16)Department of Anatomy and Anthropology & Department of Human Molecular 
+Genetics and Biochemistry, Faculty of Medical and Health Sciences, Tel Aviv 
+University, Tel Aviv, Israel.
+(17)Biosystems and Biomaterials Division, National Institute of Standards and 
+Technology, Gaithersburg, MD, 20899, USA.
+(18)Department of Medicine, Washington University School of Medicine, St. Louis, 
+MO 63110, USA.
+
+Pedigree analysis remains the gold standard for rare disease diagnostics, yet 
+whole genome sequencing studies typically omit critical regions like 
+centromeres, telomeres, and acrocentric chromosome p-arms. Here, we present 
+telomere-to-telomere (T2T) reference genomes for four self-identified African 
+American individuals of admixed ancestry spanning three generations. Our 
+parent-of-origin assigned, chromosome-level assemblies revealed precise meiotic 
+recombination breakpoints in previously inaccessible regions, including 
+recombination events across acrocentric and subtelomeric sequences. Centromeric 
+regions were highly stable, with multi-megabase arrays inherited intact across 
+three generations, while the position of kinetochore assembly sites remained 
+consistent and predominantly associated with the p-arm proximal region. The 
+relative lengths of telomeres on individual chromosomes were maintained across 
+generations. Using a targeted rDNA assembly approach, we reconstructed a 
+complete megabase-scale ribosomal DNA (rDNA) array corresponding to the paternal 
+chromosome 14. This openly available pedigree provides a benchmark dataset for 
+studying recombination and genetic and epigenetic variation across the complete 
+genome.
+
+DOI: 10.64898/2025.12.14.693655
+PMCID: PMC12746033
+PMID: 41473289
+
+Conflict of interest statement: Competing Interests MC is related to individuals 
+owning Oxford Nanopore shares. SK has received travel funds to speak at events 
+hosted by Oxford Nanopore Technologies. Declaration of generative AI and 
+AI-assisted technologies in the writing process. During the preparation of this 
+work the authors used LLMs in order to assist with specific programming tasks, 
+and on rare occassions to improve the language of the manuscript. After using 
+these services, the authors reviewed and edited the content as needed and take 
+full responsibility for the content of the published article.
+
+
+4. Methods Mol Biol. 2025;2955:51-70. doi: 10.1007/978-1-0716-4702-8_4.
+
+Current Progress in Phased Genome Assembly from Long-Read DNA Sequencing Data.
+
+Diaz-Riaño JI(1), Duitama J(2).
+
+Author information:
+(1)Systems and computing Engineering Department, Universidad de los Andes, 
+Bogotá, Colombia.
+(2)Systems and computing Engineering Department, Universidad de los Andes, 
+Bogotá, Colombia. ja.duitama@uniandes.edu.co.
+
+Genome assembly is a core task in the field of genomics. The availability of 
+long-read sequencing technologies enabled the construction of high-quality 
+complex genomes, including phasing of heterozygous contigs. This chapter 
+provides an overview of the main algorithmic techniques for genome assembly. It 
+starts revisiting the two main data structures used for unphased genome 
+assembly, namely, the overlap graph and the de Bruijn graph. Then, it describes 
+current protocols and sequencing alternatives such as trio data and Hi-C to 
+provide long-range information for scaffolding and phasing. Next, it describes 
+the metrics that have been developed to evaluate completeness accuracy and base 
+pair quality. Finally, this chapter provides detailed information on the core 
+algorithmic ideas of four different tools to perform phased genome assemblies 
+(FALCON, HiCanu, Hifiasm, and NGSEP). A review of classic techniques for phasing 
+based on aligned reads is included to provide a context of basic concepts needed 
+to understand the algorithms implemented in the genome assemblers.
+
+© 2025. The Author(s), under exclusive license to Springer Science+Business 
+Media, LLC, part of Springer Nature.
+
+DOI: 10.1007/978-1-0716-4702-8_4
+PMID: 40736893 [Indexed for MEDLINE]
+
+
+5. Bioinformatics. 2025 Mar 29;41(4):btaf136. doi:
+10.1093/bioinformatics/btaf136.
+
+Sawfish: improving long-read structural variant discovery and genotyping with 
+local haplotype modeling.
+
+Saunders CT(1), Holt JM(1), Baker DN(1), Lake JA(1), Belyeu JR(1), Kronenberg 
+Z(1), Rowell WJ(1), Eberle MA(1).
+
+Author information:
+(1)Computational Biology, PacBio, Menlo Park, CA 94025, United States.
+
+MOTIVATION: Structural variants (SVs) play an important role in evolutionary and 
+functional genomics but are challenging to characterize. High-accuracy, 
+long-read sequencing can substantially improve SV characterization when coupled 
+with effective calling methods. While state-of-the-art long-read SV callers are 
+highly accurate, further improvements are achievable by systematically modeling 
+local haplotypes during SV discovery and genotyping.
+RESULTS: We describe sawfish, an SV caller for mapped high-quality long reads 
+incorporating systematic SV haplotype modeling to improve accuracy and 
+resolution. Assessment against the draft Genome in a Bottle (GIAB) SV benchmark 
+from the T2T-HG002-Q100 diploid assembly shows that sawfish has the highest 
+accuracy among state-of-the-art long-read SV callers across every tested SV size 
+group. Additionally, sawfish maintains the highest accuracy at every tested 
+depth level from 10- to 32-fold coverage, such that other callers required at 
+least 30-fold coverage to match sawfish accuracy at 15-fold coverage. Sawfish 
+also shows the highest accuracy in the GIAB challenging medically relevant genes 
+benchmark, demonstrating improvements in both comprehensive and medically 
+relevant contexts.When joint-genotyping seven samples from CEPH-1463, sawfish 
+has over 9000 more pedigree-concordant calls than other state-of-the-art SV 
+callers, with the highest proportion of concordant SVs (81%). Sawfish's quality 
+model enables selection for an even higher proportion of concordant SVs (88%), 
+while still calling nearly 5000 more pedigree-concordant SVs than other callers. 
+These results demonstrate that sawfish improves on the state-of-the-art for 
+long-read SV calling accuracy across both individual and joint-sample analyses.
+AVAILABILITY AND IMPLEMENTATION: Sawfish source code, pre-compiled Linux 
+binaries, and documentation are released on GitHub: 
+https://github.com/PacificBiosciences/sawfish.
+
+© The Author(s) 2025. Published by Oxford University Press.
+
+DOI: 10.1093/bioinformatics/btaf136
+PMCID: PMC12000528
+PMID: 40203061 [Indexed for MEDLINE]
+
+
+6. bioRxiv [Preprint]. 2024 Aug 5:2024.08.05.606142. doi: 
+10.1101/2024.08.05.606142.
+
+A familial, telomere-to-telomere reference for human de novo mutation and 
+recombination from a four-generation pedigree.
+
+Porubsky D(1), Dashnow H(2)(3), Sasani TA(2), Logsdon GA(1)(4), Hallast P(5), 
+Noyes MD(1), Kronenberg ZN(6), Mokveld T(6), Koundinya N(1), Nolan C(6), Steely 
+CJ(2)(7), Guarracino A(8), Dolzhenko E(6), Harvey WT(1), Rowell WJ(7), Grigorev 
+K(9)(10), Nicholas TJ(2), Oshima KK(4), Lin J(1), Ebert P(10)(11), Watkins 
+WS(2), Leung TY(12), Hanlon VCT(13), McGee S(1), Pedersen BS(2), Goldberg ME(2), 
+Happ HC(2), Jeong H(1)(13), Munson KM(1), Hoekzema K(1), Chan DD(12), Wang 
+Y(12), Knuth J(1), Garcia GH(1), Fanslow C(6), Lambert C(6), Lee C(5), Smith 
+JD(1), Levy S(14), Mason CE(15)(16)(17), Garrison E(8), Lansdorp PM(12), 
+Neklason DW(2), Jorde LB(2), Quinlan AR(2), Eberle MA(6), Eichler EE(1)(18).
+
+Author information:
+(1)Department of Genome Sciences, University of Washington School of Medicine, 
+Seattle, WA, USA.
+(2)Department of Human Genetics, University of Utah, Salt Lake City, UT, USA.
+(3)Department of Biomedical Informatics, University of Colorado Anschutz Medical 
+Campus, Aurora, CO, USA.
+(4)Present address: Department of Genetics, Epigenetics Institute, Perelman 
+School of Medicine, University of Pennsylvania, Philadelphia, PA, USA.
+(5)The Jackson Laboratory for Genomic Medicine, Farmington, CT, USA.
+(6)PacBio, Menlo Park, CA, USA.
+(7)Department of Internal Medicine, University of Kentucky College of Medicine, 
+Lexington, KY, USA.
+(8)Genetics, Genomics and Informatics, University of Tennessee Health Science 
+Center, Memphis, TN, USA.
+(9)Blue Marble Space Institute of Science, Seattle, WA, USA.
+(10)Core Unit Bioinformatics, Medical Faculty and University Hospital 
+Düsseldorf, Heinrich Heine University, Düsseldorf, Germany.
+(11)Center for Digital Medicine, Heinrich Heine University, Düsseldorf, Germany.
+(12)Terry Fox Laboratory, BC Cancer Agency, Vancouver, BC, Canada.
+(13)Present address: Altos Labs, San Diego, CA, USA.
+(14)HudsonAlpha Institute for Biotechnology, Huntsville, AL, USA.
+(15)Department of Physiology and Biophysics, Weill Cornell Medicine, New York, 
+NY, USA.
+(16)The HRH Prince Alwaleed Bin Talal Bin Abdulaziz Alsaud Institute for 
+Computational Biomedicine, Weill Cornell Medicine, New York, NY, USA.
+(17)The WorldQuant Initiative for Quantitative Prediction, Weill Cornell 
+Medicine, New York, NY, USA.
+(18)Howard Hughes Medical Institute, University of Washington, Seattle, WA, USA.
+
+Update in
+    Nature. 2025 Jul;643(8071):427-436. doi: 10.1038/s41586-025-08922-2.
+
+Using five complementary short- and long-read sequencing technologies, we phased 
+and assembled >95% of each diploid human genome in a four-generation, 28-member 
+family (CEPH 1463) allowing us to systematically assess de novo mutations (DNMs) 
+and recombination. From this family, we estimate an average of 192 DNMs per 
+generation, including 75.5 de novo single-nucleotide variants (SNVs), 7.4 
+non-tandem repeat indels, 79.6 de novo indels or structural variants (SVs) 
+originating from tandem repeats, 7.7 centromeric de novo SVs and SNVs, and 12.4 
+de novo Y chromosome events per generation. STRs and VNTRs are the most mutable 
+with 32 loci exhibiting recurrent mutation through the generations. We 
+accurately assemble 288 centromeres and six Y chromosomes across the 
+generations, documenting de novo SVs, and demonstrate that the DNM rate varies 
+by an order of magnitude depending on repeat content, length, and sequence 
+identity. We show a strong paternal bias (75-81%) for all forms of germline DNM, 
+yet we estimate that 17% of de novo SNVs are postzygotic in origin with no 
+paternal bias. We place all this variation in the context of a high-resolution 
+recombination map (~3.5 kbp breakpoint resolution). We observe a strong maternal 
+recombination bias (1.36 maternal:paternal ratio) with a consistent reduction in 
+the number of crossovers with increasing paternal (r=0.85) and maternal (r=0.65) 
+age. However, we observe no correlation between meiotic crossover locations and 
+de novo SVs, arguing against non-allelic homologous recombination as a 
+predominant mechanism. The use of multiple orthogonal technologies, 
+near-telomere-to-telomere phased genome assemblies, and a multi-generation 
+family to assess transmission has created the most comprehensive, publicly 
+available "truth set" of all classes of genomic variants. The resource can be 
+used to test and benchmark new algorithms and technologies to understand the 
+most fundamental processes underlying human genetic variation.
+
+DOI: 10.1101/2024.08.05.606142
+PMCID: PMC11326147
+PMID: 39149261
+
+Conflict of interest statement: Conflicts of interest E.E.E. is a scientific 
+advisory board (SAB) member of Variant Bio, Inc. C.Lee is an SAB member of 
+Nabsys and Genome Insight. D.P. has previously disclosed a patent application 
+(no. EP19169090) relevant to Strand-seq. Z.K., C.N., E.D., C.F., C.Lambert, 
+T.M., W.J.R., and M.A.E. are employees and shareholders of PacBio. Z.K. is a 
+private shareholder in Phase Genomics. The other authors declare no competing 
+interests.
+
+
+7. Cell Discov. 2024 Jul 9;10(1):74. doi: 10.1038/s41421-024-00694-9.
+
+Simultaneous de novo calling and phasing of genetic variants at chromosome-scale 
+using NanoStrand-seq.
+
+Bai X(#)(1)(2)(3), Chen Z(#)(1)(3)(4), Chen K(#)(1)(5), Wu Z(#)(1)(4), Wang 
+R(6), Liu J(1)(2)(3)(5), Chang L(7)(8)(9)(10), Wen L(1)(2)(3), Tang 
+F(11)(12)(13)(14)(15).
+
+Author information:
+(1)Biomedical Pioneering Innovation Center (BIOPIC), Peking University, Beijing, 
+China.
+(2)Beijing Advanced Innovation Center for Genomics (ICG), Ministry of Education 
+Key Laboratory of Cell Proliferation and Differentiation, Beijing, China.
+(3)Changping Laboratory, Beijing, China.
+(4)Peking-Tsinghua Center for Life Sciences, Academy for Advanced 
+Interdisciplinary Studies, Peking University, Beijing, China.
+(5)School of Life Sciences, Peking University, Beijing, China.
+(6)Department of Medicine, Cancer Institute, Stanford University, Stanford, CA, 
+USA.
+(7)State Key Laboratory of Female Fertility Promotion, Center for Reproductive 
+Medicine, Department of Obstetrics and Gynecology, Peking University Third 
+Hospital, Beijing, China.
+(8)National Clinical Research Center for Obstetrics and Gynecology (Peking 
+University Third Hospital), Beijing, China.
+(9)Key Laboratory of Assisted Reproduction (Peking University), Ministry of 
+Education Beijing, Beijing, China.
+(10)Key Laboratory of Reproductive Endocrinology and Assisted Reproductive 
+Technology, Beijing, China.
+(11)Biomedical Pioneering Innovation Center (BIOPIC), Peking University, 
+Beijing, China. tangfuchou@pku.edu.cn.
+(12)Beijing Advanced Innovation Center for Genomics (ICG), Ministry of Education 
+Key Laboratory of Cell Proliferation and Differentiation, Beijing, China. 
+tangfuchou@pku.edu.cn.
+(13)Changping Laboratory, Beijing, China. tangfuchou@pku.edu.cn.
+(14)Peking-Tsinghua Center for Life Sciences, Academy for Advanced 
+Interdisciplinary Studies, Peking University, Beijing, China. 
+tangfuchou@pku.edu.cn.
+(15)School of Life Sciences, Peking University, Beijing, China. 
+tangfuchou@pku.edu.cn.
+(#)Contributed equally
+
+The successful accomplishment of the first telomere-to-telomere human genome 
+assembly, T2T-CHM13, marked a milestone in achieving completeness of the human 
+reference genome. The upcoming era of genome study will focus on fully phased 
+diploid genome assembly, with an emphasis on genetic differences between 
+individual haplotypes. Most existing sequencing approaches only achieved 
+localized haplotype phasing and relied on additional pedigree information for 
+further whole-chromosome scale phasing. The short-read-based Strand-seq method 
+is able to directly phase single nucleotide polymorphisms (SNPs) at 
+whole-chromosome scale but falls short when it comes to phasing structural 
+variations (SVs). To shed light on this issue, we developed a Nanopore 
+sequencing platform-based Strand-seq approach, which we named NanoStrand-seq. 
+This method allowed for de novo SNP calling with high precision (99.52%) and 
+acheived a superior phasing accuracy (0.02% Hamming error rate) at 
+whole-chromosome scale, a level of performance comparable to Strand-seq for 
+haplotype phasing of the GM12878 genome. Importantly, we demonstrated that 
+NanoStrand-seq can efficiently resolve the MHC locus, a highly polymorphic 
+genomic region. Moreover, NanoStrand-seq enabled independent direct calling and 
+phasing of deletions and insertions at whole-chromosome level; when applied to 
+long genomic regions of SNP homozygosity, it outperformed the strategy that 
+combined Strand-seq with bulk long-read sequencing. Finally, we showed that, 
+like Strand-seq, NanoStrand-seq was also applicable to primary cultured cells. 
+Together, here we provided a novel methodology that enabled interrogation of a 
+full spectrum of haplotype-resolved SNPs and SVs at whole-chromosome scale, with 
+broad applications for species with diploid or even potentially polypoid 
+genomes.
+
+© 2024. The Author(s).
+
+DOI: 10.1038/s41421-024-00694-9
+PMCID: PMC11231365
+PMID: 38977679
+
+Conflict of interest statement: The authors declare no competing interests.
+
+
+8. Nucleic Acids Res. 2023 Dec 11;51(22):e114. doi: 10.1093/nar/gkad1010.
+
+BLR: a flexible pipeline for haplotype analysis of multiple linked-read 
+technologies.
+
+Höjer P(1), Frick T(1), Siga H(1), Pourbozorgi P(1), Aghelpasand H(1), Martin 
+M(2), Ahmadian A(1).
+
+Author information:
+(1)Royal Institute of Technology (KTH), School of Engineering Sciences in 
+Chemistry, Biotechnology and Health, Department of Gene Technology, Science for 
+Life Laboratory, SE-171 65, Solna, Sweden.
+(2)Stockholm University, Department of Biochemistry and Biophysics, National 
+Bioinformatics Infrastructure Sweden, Science for Life Laboratory, SE-171 65, 
+Solna, Sweden.
+
+Linked-read sequencing promises a one-method approach for genome-wide insights 
+including single nucleotide variants (SNVs), structural variants, and 
+haplotyping. We introduce Barcode Linked Reads (BLR), an open-source haplotyping 
+pipeline capable of handling millions of barcodes and data from multiple 
+linked-read technologies including DBS, 10× Genomics, TELL-seq and stLFR. 
+Running BLR on DBS linked-reads yielded megabase-scale phasing with low (<0.2%) 
+switch error rates. Of 13616 protein-coding genes phased in the GIAB benchmark 
+set (v4.2.1), 98.6% matched the BLR phasing. In addition, large structural 
+variants showed concordance with HPRC-HG002 reference assembly calls. Compared 
+to diploid assembly with PacBio HiFi reads, BLR phasing was more continuous when 
+considering switch errors. We further show that integrating long reads at low 
+coverage (∼10×) can improve phasing contiguity and reduce switch errors in 
+tandem repeats. When compared to Long Ranger on 10× Genomics data, BLR showed an 
+increase in phase block N50 with low switch-error rates. For TELL-Seq and stLFR 
+linked reads, BLR generated longer or similar phase block lengths and low switch 
+error rates compared to results presented in the original publications. In 
+conclusion, BLR provides a flexible workflow for comprehensive haplotype 
+analysis of linked reads from multiple platforms.
+
+© The Author(s) 2023. Published by Oxford University Press on behalf of Nucleic 
+Acids Research.
+
+DOI: 10.1093/nar/gkad1010
+PMCID: PMC10711428
+PMID: 37941142 [Indexed for MEDLINE]
+
+
+9. Genome Res. 2023 Apr;33(4):496-510. doi: 10.1101/gr.277334.122. Epub 2023 May 
+10.
+
+Gaps and complex structurally variant loci in phased genome assemblies.
+
+Porubsky D(1), Vollger MR(1), Harvey WT(1), Rozanski AN(1), Ebert P(2)(3), 
+Hickey G(4), Hasenfeld P(5), Sanders AD(6)(7)(8), Stober C(5); Human Pangenome 
+Reference Consortium; Korbel JO(5)(9), Paten B(4), Marschall T(2)(3), Eichler 
+EE(10)(11).
+
+Collaborators: Abel HJ, Antonacci-Fulton LL, Asri M, Baid G, Baker CA, Belyaeva 
+A, Billis K, Bourque G, Buonaiuto S, Carroll A, Chaisson MJP, Chang PC, Chang 
+XH, Cheng H, Chu J, Cody S, Colonna V, Cook DE, Cook-Deegan RM, Cornejo OE, 
+Diekhans M, Doerr D, Ebert P, Ebler J, Eichler EE, Eizenga JM, Fairley S, 
+Fedrigo O, Felsenfeld AL, Feng X, Fischer C, Flicek P, Formenti G, Frankish A, 
+Fulton RS, Gao Y, Garg S, Garrison E, Garrison NA, Giron CG, Green RE, Groza C, 
+Guarracino A, Haggerty L, Hall IM, Harvey WT, Haukness M, Haussler D, Heumos S, 
+Hickey G, Hoekzema K, Hourlier T, Howe K, Jain M, Jarvis ED, Ji HP, Kenny EE, 
+Koenig BA, Kolesnikov A, Korbel JO, Kordosky J, Koren S, Lee H, Lewis AP, Li H, 
+Liao WW, Lu S, Lu TY, Lucas JK, Magalhães H, Marco-Sola S, Marijon P, Markello 
+C, Marschall T, Martin FJ, McCartney A, McDaniel J, Miga KH, Mitchell MW, 
+Monlong J, Mountcastle J, Munson KM, Mwaniki MN, Nattestad M, Novak AM, Nurk S, 
+Olsen HE, Olson ND, Paten B, Pesout T, Phillippy AM, Popejoy AB, Porubsky D, 
+Prins P, Puiu D, Rautiainen M, Regier AA, Rhie A, Sacco S, Sanders AD, Schneider 
+VA, Schultz BI, Shafin K, Sibbesen JA, Sirén J, Smith MW, Sofia HJ, Abou Tayoun 
+AN, Thibaud-Nissen F, Tomlinson C, Tricomi FF, Villani F, Vollger MR, Wagner J, 
+Walenz B, Wang T, Wood JMD, Zimin AV, Zook JM.
+
+Author information:
+(1)Department of Genome Sciences, University of Washington School of Medicine, 
+Seattle, Washington 98195, USA.
+(2)Institute for Medical Biometry and Bioinformatics, Medical Faculty, Heinrich 
+Heine University, 40225 Düsseldorf, Germany.
+(3)Center for Digital Medicine, Heinrich Heine University, 40225 Düsseldorf, 
+Germany.
+(4)UC Santa Cruz Genomics Institute, University of California Santa Cruz, Santa 
+Cruz, California 95064, USA.
+(5)European Molecular Biology Laboratory (EMBL), Genome Biology Unit, 69117 
+Heidelberg, Germany.
+(6)Berlin Institute for Medical Systems Biology, Max Delbrück Center for 
+Molecular Medicine in the Helmholtz Association, 10115 Berlin, Germany.
+(7)Berlin Institute of Health (BIH), 10178 Berlin, Germany.
+(8)Charité-Universitätsmedizin, 10117 Berlin, Germany.
+(9)European Molecular Biology Laboratory, European Bioinformatics Institute, 
+Wellcome Genome Campus, Hinxton, Cambridge, CB10 1SD, United Kingdom.
+(10)Department of Genome Sciences, University of Washington School of Medicine, 
+Seattle, Washington 98195, USA; eee@gs.washington.edu.
+(11)Howard Hughes Medical Institute, University of Washington, Seattle, 
+Washington 98195, USA.
+
+There has been tremendous progress in phased genome assembly production by 
+combining long-read data with parental information or linked-read data. 
+Nevertheless, a typical phased genome assembly generated by trio-hifiasm still 
+generates more than 140 gaps. We perform a detailed analysis of gaps, assembly 
+breaks, and misorientations from 182 haploid assemblies obtained from a 
+diversity panel of 77 unique human samples. Although trio-based approaches using 
+HiFi are the current gold standard, chromosome-wide phasing accuracy is 
+comparable when using Strand-seq instead of parental data. Importantly, the 
+majority of assembly gaps cluster near the largest and most identical repeats 
+(including segmental duplications [35.4%], satellite DNA [22.3%], or regions 
+enriched in GA/AT-rich DNA [27.4%]). Consequently, 1513 protein-coding genes 
+overlap assembly gaps in at least one haplotype, and 231 are recurrently 
+disrupted or missing from five or more haplotypes. Furthermore, we estimate that 
+6-7 Mbp of DNA are misorientated per haplotype irrespective of whether trio-free 
+or trio-based approaches are used. Of these misorientations, 81% correspond to 
+bona fide large inversion polymorphisms in the human species, most of which are 
+flanked by large segmental duplications. We also identify large-scale alignment 
+discontinuities consistent with 11.9 Mbp of deletions and 161.4 Mbp of 
+insertions per haploid genome. Although 99% of this variation corresponds to 
+satellite DNA, we identify 230 regions of euchromatic DNA with frequent 
+expansions and contractions, nearly half of which overlap with 197 
+protein-coding genes. Such variable and incompletely assembled regions are 
+important targets for future algorithmic development and pangenome 
+representation.
+
+© 2023 Porubsky et al.; Published by Cold Spring Harbor Laboratory Press.
+
+DOI: 10.1101/gr.277334.122
+PMCID: PMC10234299
+PMID: 37164484 [Indexed for MEDLINE]
+
+
+10. Nature. 2022 Nov;611(7936):519-531. doi: 10.1038/s41586-022-05325-5. Epub
+2022  Oct 19.
+
+Semi-automated assembly of high-quality diploid human reference genomes.
+
+Jarvis ED(#)(1)(2), Formenti G(#)(3), Rhie A(4), Guarracino A(5), Yang C(6), 
+Wood J(7), Tracey A(7), Thibaud-Nissen F(8), Vollger MR(9), Porubsky D(9), Cheng 
+H(10)(11), Asri M(12), Logsdon GA(9), Carnevali P(13), Chaisson MJP(14), Chin 
+CS(15), Cody S(16), Collins J(7), Ebert P(17), Escalona M(18), Fedrigo O(19), 
+Fulton RS(16), Fulton LL(16), Garg S(20), Gerton JL(21), Ghurye J(22), Granat 
+A(23), Green RE(12), Harvey W(9), Hasenfeld P(24), Hastie A(25), Haukness M(12), 
+Jaeger EB(23), Jain M(12), Kirsche M(26), Kolmogorov M(27), Korbel JO(24), Koren 
+S(4), Korlach J(28), Lee J(25), Li D(29)(30), Lindsay T(16), Lucas J(12), Luo 
+F(31), Marschall T(17), Mitchell MW(32), McDaniel J(33), Nie F(34), Olsen 
+HE(12), Olson ND(33), Pesout T(12), Potapova T(21), Puiu D(35), Regier A(36), 
+Ruan J(37), Salzberg SL(35), Sanders AD(38), Schatz MC(26), Schmitt A(39), 
+Schneider VA(8), Selvaraj S(39), Shafin K(12), Shumate A(35), Stitziel 
+NO(16)(29)(40), Stober C(24), Torrance J(7), Wagner J(33), Wang J(34), Wenger 
+A(28), Xiao C(41), Zimin AV(35), Zhang G(42), Wang T(16)(29)(30), Li H(10), 
+Garrison E(43), Haussler D(44)(45), Hall I(46), Zook JM(33), Eichler EE(44)(9), 
+Phillippy AM(4), Paten B(12), Howe K(47), Miga KH(48); Human Pangenome Reference 
+Consortium.
+
+Author information:
+(1)Vertebrate Genome Laboratory, The Rockefeller University, New York, NY, USA. 
+ejarvis@rockefeller.edu.
+(2)Howard Hughes Medical Institute, Chevy Chase, MD, USA. 
+ejarvis@rockefeller.edu.
+(3)Vertebrate Genome Laboratory, The Rockefeller University, New York, NY, USA. 
+gformenti@rockefeller.edu.
+(4)Genome Informatics Section, Computational and Statistical Genomics Branch, 
+National Human Genome Research Institute, National Institutes of Health, 
+Bethesda, MD, USA.
+(5)Genomics Research Centre, Human Technopole, Viale Rita Levi-Montalcini, 
+Milan, Italy.
+(6)BGI-Shenzhen, Shenzhen, China.
+(7)Tree of Life, Wellcome Sanger Institute, Cambridge, UK.
+(8)National Center for Biotechnology Information, National Library of Medicine, 
+National Institutes of Health, Bethesda, MD, USA.
+(9)Department of Genome Sciences, University of Washington School of Medicine, 
+Seattle, WA, USA.
+(10)Department of Data Sciences, Dana-Farber Cancer Institute, Boston, MA, USA.
+(11)Department of Biomedical Informatics, Harvard Medical School, Boston, MA, 
+USA.
+(12)UC Santa Cruz Genomics Institute, University of California, Santa Cruz, CA, 
+USA.
+(13)Chan Zuckerberg Initiative, Redwood City, CA, USA.
+(14)Quantitative and Computational Biology, University of Southern California, 
+Los Angeles, CA, USA.
+(15)Foundation for Biological Data Science, Belmont, CA, USA.
+(16)McDonnell Genome Institute, Washington University School of Medicine, St. 
+Louis, MO, USA.
+(17)Institute for Medical Biometry and Bioinformatics, Medical Faculty, Heinrich 
+Heine University, Düsseldorf, Germany.
+(18)Department of Biomolecular Engineering, University of California Santa Cruz, 
+Santa Cruz, CA, USA.
+(19)Vertebrate Genome Laboratory, The Rockefeller University, New York, NY, USA.
+(20)Department of Biology, University of Copenhagen, Copenhagen, Denmark.
+(21)Stowers Institute for Medical Research, Kansas City, MO, USA.
+(22)Dovetail Genomics, Scotts Valley, CA, USA.
+(23)Illumina, Inc., San Diego, CA, USA.
+(24)European Molecular Biology Laboratory, Genome Biology Unit, Heidelberg, 
+Germany.
+(25)Bionano Genomics, San Diego, CA, USA.
+(26)Department of Computer Science, Johns Hopkins University, Baltimore, MD, 
+USA.
+(27)Department of Computer Science and Engineering, University of California San 
+Diego, La Jolla, CA, USA.
+(28)Pacific Biosciences, Menlo Park, CA, USA.
+(29)Department of Genetics, Washington University School of Medicine, St. Louis, 
+MO, USA.
+(30)The Edison Family Center for Genome Sciences and Systems Biology, Washington 
+University School of Medicine, St. Louis, MO, USA.
+(31)School of Computing, Clemson University, Clemson, SC, USA.
+(32)Coriell Institute for Medical Research, Camden, NJ, USA.
+(33)Material Measurement Laboratory, National Institute of Standards and 
+Technology, Gaithersburg, MD, USA.
+(34)Hunan Provincial Key Lab on Bioinformatics, School of Computer Science and 
+Engineering, Central South University, Changsha, China.
+(35)Department of Biomedical Engineering, Johns Hopkins University, Baltimore, 
+MD, USA.
+(36)DNAnexus, Mountain View, CA, USA.
+(37)Agricultural Genomics Institute, Chinese Academy of Agricultural Sciences, 
+Shenzhen, China.
+(38)Berlin Institute for Medical Systems Biology, Max Delbrück Center for 
+Molecular Medicine in the Helmholtz Association (MDC), Berlin, Germany.
+(39)Arima Genomics, San Diego, CA, USA.
+(40)Cardiovascular Division, John T. Milliken Department of Internal Medicine, 
+Washington University School of Medicine, St. Louis, USA.
+(41)State Key Laboratory of Ophthalmology, Zhongshan Ophthalmic Center, Sun 
+Yat-sen University, Guangzhou, China.
+(42)Center for Evolutionary & Organismal Biology, Zhejiang University School of 
+Medicine, Hangzhou, China.
+(43)Department of Genetics, Genomics and Informatics, University of Tennessee 
+Health Science Center, Memphis, TN, USA.
+(44)Howard Hughes Medical Institute, Chevy Chase, MD, USA.
+(45)Department of Ecology and Evolutionary Biology, University of California 
+Santa Cruz, Santa Cruz, CA, USA.
+(46)Yale School of Medicine, New Haven, CT, USA.
+(47)Tree of Life, Wellcome Sanger Institute, Cambridge, UK. kj2@sanger.ac.uk.
+(48)UC Santa Cruz Genomics Institute, University of California, Santa Cruz, CA, 
+USA. khmiga@ucsc.edu.
+(#)Contributed equally
+
+The current human reference genome, GRCh38, represents over 20 years of effort 
+to generate a high-quality assembly, which has benefitted society1,2. However, 
+it still has many gaps and errors, and does not represent a biological genome as 
+it is a blend of multiple individuals3,4. Recently, a high-quality 
+telomere-to-telomere reference, CHM13, was generated with the latest long-read 
+technologies, but it was derived from a hydatidiform mole cell line with a 
+nearly homozygous genome5. To address these limitations, the Human Pangenome 
+Reference Consortium formed with the goal of creating high-quality, 
+cost-effective, diploid genome assemblies for a pangenome reference that 
+represents human genetic diversity6. Here, in our first scientific report, we 
+determined which combination of current genome sequencing and assembly 
+approaches yield the most complete and accurate diploid genome assembly with 
+minimal manual curation. Approaches that used highly accurate long reads and 
+parent-child data with graph-based haplotype phasing during assembly 
+outperformed those that did not. Developing a combination of the top-performing 
+methods, we generated our first high-quality diploid reference assembly, 
+containing only approximately four gaps per chromosome on average, with most 
+chromosomes within ±1% of the length of CHM13. Nearly 48% of protein-coding 
+genes have non-synonymous amino acid changes between haplotypes, and centromeric 
+regions showed the highest diversity. Our findings serve as a foundation for 
+assembling near-complete diploid human genomes at scale for a pangenome 
+reference to capture global genetic variation from single nucleotides to 
+structural rearrangements.
+
+© 2022. The Author(s).
+
+DOI: 10.1038/s41586-022-05325-5
+PMCID: PMC9668749
+PMID: 36261518 [Indexed for MEDLINE]
+
+Conflict of interest statement: E.E.E. was a scientific advisory board member of 
+Variant Bio, Inc. J.K. and A.W. were full-time employees at Pacific Biosciences, 
+a company developing single-molecule sequencing technologies. A.H. and J. Lee. 
+were employees of Bionano Genomics, a company developing optical maps for genome 
+assembly. J.G. and R.E.G. were affiliated with Dovetail Genomics, a company 
+developing genome assembly tools, including Hi-C. A. Granat and E.B.J. were 
+employees of Ilumina, Inc., a genome company generating short reads. A. Schmitt 
+and S.S. were employees of Arima Genomics, a company developing Hi-C data for 
+genome assemblies. All other authors declare no competing interests.
+
+
+11. Nucleic Acids Res. 2023 Jan 11;51(1):17-28. doi: 10.1093/nar/gkac510.
+
+De novo sequencing, diploid assembly, and annotation of the black carpenter ant, 
+Camponotus pennsylvanicus, and its symbionts by one person for $1000, using 
+nanopore sequencing.
+
+Faulk C(1).
+
+Author information:
+(1)Department of Animal Science, University of Minnesota, College of Food, 
+Agricultural and Natural Resource Sciences, 1334 Eckles Ave, 350 ABLMS, St. 
+Paul, MN 55108, USA.
+
+The black carpenter ant (Camponotus pennsylvanicus) is a pest species found 
+widely throughout North America. From a single individual I used long-read 
+nanopore sequencing to assemble a phased diploid genome of 306 Mb and 60X 
+coverage, with quality assessed by a 97.0% BUSCO score, improving upon other ant 
+assemblies. The mitochondrial genome reveals minor rearrangements from other 
+ants. The reads also allowed assembly of parasitic and symbiont genomes. I 
+include a complete Wolbachia bacterial assembly with a size of 1.2 Mb, as well 
+as a commensal symbiont Blochmannia pennsylvanicus, at 791 kb. DNA methylation 
+and hydroxymethylation were measured at base-pair resolution level from the same 
+reads and confirmed extremely low levels seen in the Formicidae family. There 
+was moderate heterozygosity, with 0.16% of bases being biallelic from the 
+parental haplotypes. Protein prediction yielded 14 415 amino acid sequences with 
+95.8% BUSCO score and 86% matching to previously known proteins. All assemblies 
+were derived from a single MinION flow cell generating 20 Gb of sequence for a 
+cost of $1047 including consumable reagents. Adding fixed costs for equipment 
+brings the total for an ant-sized genome to less than $5000. All analyses were 
+performed in 1 week on a single desktop computer.
+
+Plain Language Summary: Creating reference animal genomes is typically a large, 
+expensive process. Here I sequenced the genome of the black carpenter ant for 
+only $1000 as a sole researcher in just one week. Along with the nuclear genome, 
+I assembled the mitochondrial genome and two commensal bacteria species living 
+within the ant. Nanopore technology also enabled epigenetic measurements from 
+the same ant and replicated other studies showing very low DNA methylation. The 
+reference genome compared favorably to other ant species in continuity and 
+protein prediction accuracy. This method will allow other low-resource labs to 
+create high quality genome assemblies with a low cost.
+
+© The Author(s) 2022. Published by Oxford University Press on behalf of Nucleic 
+Acids Research.
+
+DOI: 10.1093/nar/gkac510
+PMCID: PMC9841434
+PMID: 35724982 [Indexed for MEDLINE]
+
+
+12. Bioinformatics. 2021 Aug 9;37(15):2095-2102. doi: 
+10.1093/bioinformatics/btab068.
+
+Accurate haplotype-resolved assembly reveals the origin of structural variants 
+for human trios.
+
+Xu M(1)(2), Guo L(1)(3), Du X(1)(2), Li L(1)(4), Peters BA(2)(5), Deng L(1), 
+Wang O(2), Chen F(6), Wang J(1), Jiang Z(1), Han J(1), Ni M(1)(2), Yang H(2), Xu 
+X(2), Liu X(1)(2)(7), Huang J(8), Fan G(1)(2)(7).
+
+Author information:
+(1)BGI-QingDao, Qingdao 266555, China.
+(2)BGI-Shenzhen, Shenzhen 518083, China.
+(3)BGI Education Center, University of Chinese Academy of Sciences, Shenzhen 
+518083, China.
+(4)School of Future Technology, University of Chinese Academy of Sciences, 
+Beijing 101408, China.
+(5)Complete Genomics Inc., 2904 Orchard Pkwy, San Jose, CA 95134, USA.
+(6)MGI, BGI-Shenzhen, Shenzhen 518083, China.
+(7)State Key Laboratory of Agricultural Genomics, BGI-Shenzhen, Shenzhen 518083, 
+China.
+(8)National Institutes for food and drug Control (NIFDC), No. 2 Tiantan Xili, 
+Dongcheng District, Beijing 10050, China.
+
+MOTIVATION: Achieving a near complete understanding of how the genome of an 
+individual affects the phenotypes of that individual requires deciphering the 
+order of variations along homologous chromosomes in species with diploid 
+genomes. However, true diploid assembly of long-range haplotypes remains 
+challenging.
+RESULTS: To address this, we have developed Haplotype-resolved Assembly for 
+Synthetic long reads using a Trio-binning strategy, or HAST, which uses parental 
+information to classify reads into maternal or paternal. Once sorted, these 
+reads are used to independently de novo assemble the parent-specific haplotypes. 
+We applied HAST to cobarcoded second-generation sequencing data from an Asian 
+individual, resulting in a haplotype assembly covering 94.7% of the reference 
+genome with a scaffold N50 longer than 11 Mb. The high haplotyping precision 
+(∼99.7%) and recall (∼95.9%) represents a substantial improvement over the 
+commonly used tool for assembling cobarcoded reads (Supernova), and is 
+comparable to a trio-binning-based third generation long-read-based assembly 
+method (TrioCanu) but with a significantly higher single-base accuracy [up to 
+99.99997% (Q65)]. This makes HAST a superior tool for accurate haplotyping and 
+future haplotype-based studies.
+AVAILABILITY AND IMPLEMENTATION: The code of the analysis is available at 
+https://github.com/BGI-Qingdao/HAST.
+SUPPLEMENTARY INFORMATION: Supplementary data are available at Bioinformatics 
+online.
+
+© The Author(s) 2021. Published by Oxford University Press.
+
+DOI: 10.1093/bioinformatics/btab068
+PMCID: PMC8613828
+PMID: 33538292
+
+
+13. Nat Biotechnol. 2021 Mar;39(3):309-312. doi: 10.1038/s41587-020-0711-0. Epub 
+2020 Dec 7.
+
+Chromosome-scale, haplotype-resolved assembly of human genomes.
+
+Garg S(1)(2)(3), Fungtammasan A(4), Carroll A(5), Chou M(6), Schmitt A(7), Zhou 
+X(7), Mac S(7), Peluso P(8), Hatas E(8), Ghurye J(9), Maguire J(9), Mahmoud 
+M(10), Cheng H(11)(12), Heller D(13), Zook JM(14), Moemke T(15), Marschall 
+T(15)(16), Sedlazeck FJ(10), Aach J(6), Chin CS(17), Church GM(18), Li 
+H(19)(20).
+
+Author information:
+(1)Department of Genetics, Harvard Medical School, Boston, MA, USA. 
+shilpa_garg@hms.harvard.edu.
+(2)Department of Data Sciences, Dana-Farber Cancer Institute, Boston, MA, USA. 
+shilpa_garg@hms.harvard.edu.
+(3)Department of Biomedical Informatics, Harvard Medical School, Boston, MA, 
+USA. shilpa_garg@hms.harvard.edu.
+(4)DNAnexus, Mountain View, CA, USA.
+(5)Google, Mountain View, CA, USA.
+(6)Department of Genetics, Harvard Medical School, Boston, MA, USA.
+(7)Arima Genomics, San Diego, CA, USA.
+(8)Pacific Biosciences, Menlo Park, CA, USA.
+(9)Dovetail Genomics, Scotts Valley, CA, USA.
+(10)Human Genome Sequencing Center, Baylor College of Medicine, Houston, TX, 
+USA.
+(11)Department of Data Sciences, Dana-Farber Cancer Institute, Boston, MA, USA.
+(12)Department of Biomedical Informatics, Harvard Medical School, Boston, MA, 
+USA.
+(13)Max Planck Institute for Molecular Genetics, Berlin, Germany.
+(14)Material Measurement Laboratory, National Institute of Standards and 
+Technology, Gaithersburg, MD, USA.
+(15)Saarland University, Saarbrücken, Germany.
+(16)Max Planck Institute for Informatics, Saarbrücken, Germany.
+(17)DNAnexus, Mountain View, CA, USA. jchin@dnanexus.com.
+(18)Department of Genetics, Harvard Medical School, Boston, MA, USA. 
+gchurch@genetics.med.harvard.edu.
+(19)Department of Data Sciences, Dana-Farber Cancer Institute, Boston, MA, USA. 
+hli@ds.dfci.harvard.edu.
+(20)Department of Biomedical Informatics, Harvard Medical School, Boston, MA, 
+USA. hli@ds.dfci.harvard.edu.
+
+Haplotype-resolved or phased genome assembly provides a complete picture of 
+genomes and their complex genetic variations. However, current algorithms for 
+phased assembly either do not generate chromosome-scale phasing or require 
+pedigree information, which limits their application. We present a method named 
+diploid assembly (DipAsm) that uses long, accurate reads and long-range 
+conformation data for single individuals to generate a chromosome-scale phased 
+assembly within 1 day. Applied to four public human genomes, PGP1, HG002, 
+NA12878 and HG00733, DipAsm produced haplotype-resolved assemblies with minimum 
+contig length needed to cover 50% of the known genome (NG50) up to 25 Mb and 
+phased ~99.5% of heterozygous sites at 98-99% accuracy, outperforming other 
+approaches in terms of both contiguity and phasing completeness. We demonstrate 
+the importance of chromosome-scale phased assemblies for the discovery of 
+structural variants (SVs), including thousands of new transposon insertions, and 
+of highly polymorphic and medically important regions such as the human 
+leukocyte antigen (HLA) and killer cell immunoglobulin-like receptor (KIR) 
+regions. DipAsm will facilitate high-quality precision medicine and studies of 
+individual haplotype variation and population diversity.
+
+DOI: 10.1038/s41587-020-0711-0
+PMCID: PMC7954703
+PMID: 33288905 [Indexed for MEDLINE]
+
+Conflict of interest statement: F.J.S. obtained a Pacbio SMRT grant in 2019 and 
+had multiple travels sponsored by Pacific Biosciences and Oxford Nanopore 
+Technologies. E.H. and P.P. are employees of Pacific Biosciences. C.-S.C. and 
+A.F. are employees of DNAnexus. A.S., X.Z. and S.M. are employees of Arima 
+Genomics. J.G. and J.M. are employees of Dovetail Genomics. A.C. is an employee 
+of Google. H.L. is a consultant of Integrated DNA Technologies, Inc. and on the 
+Scientific Advisory Boards of Sentieon, Inc., BGI and OrigiMed. G.M.C. is a 
+cofounder of Editas Medicine and has other financial interests, listed at 
+http://arep.med.harvard.edu/gmc/tech.html.
+
+
+14. G3 (Bethesda). 2020 Oct 5;10(10):3467-3478. doi: 10.1534/g3.120.401345.
+
+Reference Genome for the Highly Transformable Setaria viridis ME034V.
+
+Thielen PM(1), Pendleton AL(2)(3), Player RA(1), Bowden KV(1), Lawton TJ(1), 
+Wisecaver JH(4)(3).
+
+Author information:
+(1)Johns Hopkins University Applied Physics Laboratory, Laurel, Maryland 20723.
+(2)Department of Biochemistry, Purdue University, West Lafayette, Indiana 47907.
+(3)Purdue Center for Plant Biology, Purdue University, West Lafayette, Indiana 
+47907.
+(4)Department of Biochemistry, Purdue University, West Lafayette, Indiana 47907 
+jwisecav@purdue.edu.
+
+Setaria viridis (green foxtail) is an important model system for improving 
+cereal crops due to its diploid genome, ease of cultivation, and use of C4 
+photosynthesis. The S. viridis accession ME034V is exceptionally transformable, 
+but the lack of a sequenced genome for this accession has limited its utility. 
+We present a 397 Mb highly contiguous de novo assembly of ME034V using 
+ultra-long nanopore sequencing technology (read N50 = 41kb). We estimate that 
+this genome is largely complete based on our updated k-mer based genome size 
+estimate of 401 Mb for S. viridis Genome annotation identified 37,908 
+protein-coding genes and >300k repetitive elements comprising 46% of the genome. 
+We compared the ME034V assembly with two other previously sequenced Setaria 
+genomes as well as to a diversity panel of 235 S. viridis accessions. We found 
+the genome assemblies to be largely syntenic, but numerous unique polymorphic 
+structural variants were discovered. Several ME034V deletions may be associated 
+with recent retrotransposition of copia and gypsy LTR repeat families, as 
+evidenced by their low genotype frequencies in the sampled population. Lastly, 
+we performed a phylogenomic analysis to identify gene families that have 
+expanded in Setaria, including those involved in specialized metabolism and 
+plant defense response. The high continuity of the ME034V genome assembly 
+validates the utility of ultra-long DNA sequencing to improve genetic resources 
+for emerging model organisms. Structural variation present in Setaria 
+illustrates the importance of obtaining the proper genome reference for genetic 
+experiments. Thus, we anticipate that the ME034V genome will be of significant 
+utility for the Setaria research community.
+
+Copyright © 2020 Thielen et al.
+
+DOI: 10.1534/g3.120.401345
+PMCID: PMC7534418
+PMID: 32694197 [Indexed for MEDLINE]
+
+
+15. Nat Biotechnol. 2020 Nov;38(11):1347-1355. doi: 10.1038/s41587-020-0538-8.
+Epub  2020 Jun 15.
+
+A robust benchmark for detection of germline large deletions and insertions.
+
+Zook JM(1), Hansen NF(2), Olson ND(3), Chapman L(3), Mullikin JC(2), Xiao C(4), 
+Sherry S(4), Koren S(2), Phillippy AM(2), Boutros PC(5), Sahraeian SME(6), Huang 
+V(7), Rouette A(8), Alexander N(9), Mason CE(10)(11)(12)(13), Hajirasouliha 
+I(10), Ricketts C(10), Lee J(14), Tearle R(15), Fiddes IT(16), Barrio AM(16), 
+Wala J(17), Carroll A(18), Ghaffari N(19), Rodriguez OL(20), Bashir A(20), 
+Jackman S(21), Farrell JJ(22), Wenger AM(23), Alkan C(24), Soylev A(25), Schatz 
+MC(26), Garg S(27), Church G(27), Marschall T(28), Chen K(29), Fan X(30), 
+English AC(31), Rosenfeld JA(32)(33), Zhou W(34), Mills RE(34), Sage JM(35), 
+Davis JR(35), Kaiser MD(35), Oliver JS(35), Catalano AP(35), Chaisson MJP(36), 
+Spies N(37), Sedlazeck FJ(38), Salit M(37).
+
+Author information:
+(1)Material Measurement Laboratory, National Institute of Standards and 
+Technology, Gaithersburg, MD, USA. jzook@nist.gov.
+(2)National Human Genome Research Institute, National Institutes of Health, 
+Rockville, MD, USA.
+(3)Material Measurement Laboratory, National Institute of Standards and 
+Technology, Gaithersburg, MD, USA.
+(4)National Center for Biotechnology Information, National Library of Medicine, 
+National Institutes of Health, Bethesda, MD, USA.
+(5)Department of Human Genetics, University of California, Los Angeles, Los 
+Angeles, CA, USA.
+(6)Roche Sequencing Solutions, Belmont, CA, USA.
+(7)Ontario Institute for Cancer Research, Toronto, Ontario, Canada.
+(8)Charles-Bruneau Cancer Centre, Division of Hematology-Oncology, CHU 
+Sainte-Justine, Montreal, Quebec, Canada.
+(9)Molecular Biology Institute, University of California, Los Angeles, Los 
+Angeles CA, USA.
+(10)Department of Physiology and Biophysics, Institute for Computational 
+Biomedicine, Weill Cornell Medicine, New York, NY, USA.
+(11)The HRH Prince Alwaleed Bin Talal Bin Abdulaziz Alsaud Institute for 
+Computational Biomedicine, Weill Cornell Medicine, New York, NY, USA.
+(12)The WorldQuant Initiative for Quantitative Prediction, Weill Cornell 
+Medicine, New York, NY, USA.
+(13)The Feil Family Brain and Mind Research Institute, Weill Cornell Medicine, 
+New York, NY, USA.
+(14)Bionano Genomics, Inc., San Diego, CA, USA.
+(15)Davies Research Centre, School of Animal and Veterinary Sciences, University 
+of Adelaide, Roseworthy, SA, Australia.
+(16)10× Genomics, Pleasanton, CA, USA.
+(17)Broad Institute of Harvard and MIT, Cambridge, MA, USA.
+(18)Google, Mountain View, CA, USA.
+(19)Department of Computer Science, Roy G. Perry College of Engineering, Prairie 
+View A&M University, Prairie View, TX, USA.
+(20)Department of Genetics and Genomic Sciences, Icahn School of Medicine at 
+Mount Sinai, New York, NY, USA.
+(21)BC Cancer Genome Sciences Centre, Vancouver, British Columbia, Canada.
+(22)Biomedical Genetics, Department of Medicine, Boston University Medical 
+School, Boston, MA, USA.
+(23)Pacific Biosciences, Menlo Park, CA, USA.
+(24)Department of Computer Engineering, Bilkent University, Ankara, Turkey.
+(25)Department of Computer Engineering, Konya Food and Agriculture University, 
+Konya, Turkey.
+(26)Departments of Computer Science and Biology, Johns Hopkins University, 
+Baltimore, MD, USA.
+(27)Department of Genetics, Harvard Medical School, Boston, MA, USA.
+(28)Heinrich Heine University, Medical Faculty, Düsseldorf, Germany.
+(29)Department of Bioinformatics and Computational Biology, MD Anderson Cancer 
+Center, Houston, TX, USA.
+(30)Department of Computer Science, Rice University, Houston, TX, USA.
+(31)Bioinformatics R&D, Spiral Genetics, Seattle, WA, USA.
+(32)Rutgers Cancer Institute of New Jersey, New Brunswick, NJ, USA.
+(33)Department of Pathology, Robert Wood Johnson Medical School, New Brunswick, 
+NJ, USA.
+(34)Department of Computational Medicine and Bioinformatics, University of 
+Michigan Medical School, Ann Arbor, MI, USA.
+(35)Nabsys 2.0, LLC, Providence, RI, USA.
+(36)Quantitative and Computational Biology, University of Southern California, 
+Los Angeles, CA, USA.
+(37)Joint Initiative for Metrology in Biology, SLAC National Accelerator Lab, 
+Stanford University, Stanford, CA, USA.
+(38)Human Genome Sequencing Center, Baylor College of Medicine, Houston, TX, 
+USA.
+
+Erratum in
+    Nat Biotechnol. 2020 Nov;38(11):1357. doi: 10.1038/s41587-020-0640-y.
+
+New technologies and analysis methods are enabling genomic structural variants 
+(SVs) to be detected with ever-increasing accuracy, resolution and 
+comprehensiveness. To help translate these methods to routine research and 
+clinical practice, we developed a sequence-resolved benchmark set for 
+identification of both false-negative and false-positive germline large 
+insertions and deletions. To create this benchmark for a broadly consented son 
+in a Personal Genome Project trio with broadly available cells and DNA, the 
+Genome in a Bottle Consortium integrated 19 sequence-resolved variant calling 
+methods from diverse technologies. The final benchmark set contains 12,745 
+isolated, sequence-resolved insertion (7,281) and deletion (5,464) calls ≥50 
+base pairs (bp). The Tier 1 benchmark regions, for which any extra calls are 
+putative false positives, cover 2.51 Gbp and 5,262 insertions and 4,095 
+deletions supported by ≥1 diploid assembly. We demonstrate that the benchmark 
+set reliably identifies false negatives and false positives in high-quality SV 
+callsets from short-, linked- and long-read sequencing and optical mapping.
+
+DOI: 10.1038/s41587-020-0538-8
+PMCID: PMC8454654
+PMID: 32541955 [Indexed for MEDLINE]
+
+
+16. Bioinformatics. 2020 Apr 15;36(8):2385-2392. doi:
+10.1093/bioinformatics/btz942.
+
+A haplotype-aware de novo assembly of related individuals using pedigree 
+sequence graph.
+
+Garg S(1)(2), Aach J(1), Li H(3), Sebenius I(4), Durbin R(5), Church G(1)(2).
+
+Author information:
+(1)Department of Genetics, Harvard Medical School.
+(2)Wyss Institute for Biologically Inspired Engineering, Harvard University.
+(3)Department of Biomedical Informatics, Harvard Medical School, Boston.
+(4)Department of Molecular and Cellular Biology, Harvard University, Cambridge, 
+MA, USA.
+(5)Department of Genetics, University of Cambridge, Cambridge, UK.
+
+MOTIVATION: Reconstructing high-quality haplotype-resolved assemblies for 
+related individuals has important applications in Mendelian diseases and 
+population genomics. Through major genomics sequencing efforts such as the 
+Personal Genome Project, the Vertebrate Genome Project (VGP) and the Genome in a 
+Bottle project (GIAB), a variety of sequencing datasets from trios of diploid 
+genomes are becoming available. Current trio assembly approaches are not 
+designed to incorporate long- and short-read data from mother-father-child 
+trios, and therefore require relatively high coverages of costly long-read data 
+to produce high-quality assemblies. Thus, building a trio-aware assembler 
+capable of producing accurate and chromosomal-scale diploid genomes of all 
+individuals in a pedigree, while being cost-effective in terms of sequencing 
+costs, is a pressing need of the genomics community.
+RESULTS: We present a novel pedigree sequence graph based approach to diploid 
+assembly using accurate Illumina data and long-read Pacific Biosciences (PacBio) 
+data from all related individuals, thereby generalizing our previous work on 
+single individuals. We demonstrate the effectiveness of our pedigree approach on 
+a simulated trio of pseudo-diploid yeast genomes with different heterozygosity 
+rates, and real data from human chromosome. We show that we require as little as 
+30× coverage Illumina data and 15× PacBio data from each individual in a trio to 
+generate chromosomal-scale phased assemblies. Additionally, we show that we can 
+detect and phase variants from generated phased assemblies.
+AVAILABILITY AND IMPLEMENTATION: https://github.com/shilpagarg/WHdenovo.
+
+© The Author(s) 2019. Published by Oxford University Press. All rights reserved. 
+For permissions, please e-mail: journals.permissions@oup.com.
+
+DOI: 10.1093/bioinformatics/btz942
+PMCID: PMC7759745
+PMID: 31860070 [Indexed for MEDLINE]
+
+
+17. Nucleic Acids Res. 2019 Nov 4;47(19):e115. doi: 10.1093/nar/gkz661.
+
+Targeted short read sequencing and assembly of re-arrangements and candidate 
+gene loci provide megabase diplotypes.
+
+Shin G(1), Greer SU(1), Xia LC(1), Lee H(1), Zhou J(2), Boles TC(2), Ji 
+HP(1)(3).
+
+Author information:
+(1)Division of Oncology, Department of Medicine, Stanford University School of 
+Medicine, Stanford, CA 94305, USA.
+(2)Sage Science, Inc., Beverly, MA 01915, USA.
+(3)Stanford Genome Technology Center, Stanford University, Palo Alto, CA 94304, 
+USA.
+
+The human genome is composed of two haplotypes, otherwise called diplotypes, 
+which denote phased polymorphisms and structural variations (SVs) that are 
+derived from both parents. Diplotypes place genetic variants in the context of 
+cis-related variants from a diploid genome. As a result, they provide valuable 
+information about hereditary transmission, context of SV, regulation of gene 
+expression and other features which are informative for understanding human 
+genetics. Successful diplotyping with short read whole genome sequencing 
+generally requires either a large population or parent-child trio samples. To 
+overcome these limitations, we developed a targeted sequencing method for 
+generating megabase (Mb)-scale haplotypes with short reads. One selects specific 
+0.1-0.2 Mb high molecular weight DNA targets with custom-designed Cas9-guide RNA 
+complexes followed by sequencing with barcoded linked reads. To test this 
+approach, we designed three assays, targeting the BRCA1 gene, the entire 4-Mb 
+major histocompatibility complex locus and 18 well-characterized SVs, 
+respectively. Using an integrated alignment- and assembly-based approach, we 
+generated comprehensive variant diplotypes spanning the entirety of the targeted 
+loci and characterized SVs with exact breakpoints. Our results were comparable 
+in quality to long read sequencing.
+
+© The Author(s) 2019. Published by Oxford University Press on behalf of Nucleic 
+Acids Research.
+
+DOI: 10.1093/nar/gkz661
+PMCID: PMC6821272
+PMID: 31350896 [Indexed for MEDLINE]

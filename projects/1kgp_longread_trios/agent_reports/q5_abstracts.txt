@@ -1,0 +1,125 @@
+﻿1. Genome Med. 2026 Jan 26;18(1):11. doi: 10.1186/s13073-025-01506-9.
+
+Genome-wide methylation detection and episignature analysis using PacBio 
+long-read sequencing.
+
+Ivashchenko V(1)(2), de Groot M(1), Derks R(1)(3), den Ouden A(1), Khazeeva 
+G(1)(3), van den Heuvel S(1), Timmermans R(1), Corominas Galbany J(1), Pfundt 
+R(1), Hofste T(1), Yntema H(1), Vissers L(1)(3), Hoischen A(1)(3)(4), Hampstead 
+J(#)(1)(3), Gilissen C(#)(5)(6).
+
+Author information:
+(1)Department of Human Genetics, Radboud University Medical Center, Geert 
+Grooteplein Zuid 10, Nijmegen, GA, 6525, The Netherlands.
+(2)Département de Génétique Médicale, Institut Fédératif de Biologie, Hôpital 
+Purpan, Toulouse, 31000, France.
+(3)Radboudumc Research Institute for Medical Innovation, Radboud University 
+Medical Center, Nijmegen, The Netherlands.
+(4)Department of Laboratory Medicine, Translational Metabolic Laboratory, 
+Radboud University Medical Center, Nijmegen, The Netherlands.
+(5)Department of Human Genetics, Radboud University Medical Center, Geert 
+Grooteplein Zuid 10, Nijmegen, GA, 6525, The Netherlands. 
+christian.gilissen@radboudumc.nl.
+(6)Radboudumc Research Institute for Medical Innovation, Radboud University 
+Medical Center, Nijmegen, The Netherlands. christian.gilissen@radboudumc.nl.
+(#)Contributed equally
+
+BACKGROUND: The detection of 5-methylcytosine (5mC) patterns in the human genome 
+is relevant for the diagnosis of various genetic conditions. Genome-wide 
+methylation episignatures provide a new approach for resolving variants of 
+uncertain significance. Whole-genome DNA methylation detection is usually 
+performed using short-read bisulfite sequencing procedures or methylation 
+arrays. Pacific Biosciences (PacBio) long-read sequencing (LRS) is a technology 
+that can detect 5mC on native DNA. Here we assessed the ability of PacBio HiFi 
+LRS to robustly identify genome-wide methylation for medical purposes. We 
+assessed the ability to identify differentially methylated imprinted regions and 
+genome-wide epigenetic signatures for genetic disorders.
+METHODS: PacBio LRS methylation detection was compared to two conventional 
+genome-wide DNA methylation sequencing techniques. We used 30 PacBio LRS samples 
+(10 trios at ~ 30× coverage) and assessed the ability to detect differential 
+methylation using 25 known parentally imprinted regions with different 
+genome-wide sequence coverage. Finally, we evaluated two published epigenetic 
+signatures for KMT2A gene defects using PacBio LRS data from 12 KMT2A patients, 
+2 patients with a variant of uncertain significance, and 39 control samples.
+RESULTS: PacBio methylation calls on the HG002 cell line were highly comparable 
+to short-read protocols, providing 5% additional calls, predominantly in regions 
+that are difficult to assess using short-read technologies. Among the 10 trios, 
+correct haplotype-resolved methylation patterns were found for 24 out of 25 
+(96%) imprinted regions and all of the methylated alleles showed the expected 
+parental origin. Downsampling analysis showed that these imprinted regions can 
+robustly be detected using a minimum of 15× genome-wide coverage. Finally, we 
+found that although the two published KMT2A episignatures are significantly 
+different, both are successfully able to distinguish KMT2A patients from 
+controls and classify the two KMT2A VUS samples as control samples.
+CONCLUSIONS: Overall, our results indicate that PacBio LRS can reliably detect 
+specific medically relevant methylation changes as well as genome-wide 
+episignatures in rare disease patients.
+
+© 2025. The Author(s).
+
+DOI: 10.1186/s13073-025-01506-9
+PMCID: PMC12836926
+PMID: 41588467 [Indexed for MEDLINE]
+
+Conflict of interest statement: Declarations. Ethics approval and consent to 
+participate: Diagnostic laboratories can use (de-identified) samples from 
+archived clinical samples to validate and optimize diagnostic assays as approved 
+by the institutional review board “Commissie Mensgebonden Onderzoek Regio 
+Arnhem-Nijmegen” under number (2020-7142). Therefore, the individuals in this 
+study are shown without information about age or other identifiers besides 
+biological sex. These methods are also in accordance with relevant guidelines 
+and regulations of the Declaration of Helsinki. Consent for publication: Patient 
+samples, together with a basic phenotype description, were anonymized. The study 
+was approved by the institutional review board “Commissie Mensgebonden Onderzoek 
+Regio Arnhem-Nijmegen” under number 2011/188. All patients in this study have 
+consented to their anonymized data being made available for research use. 
+Competing interests: Part of the reagents for this study were provided by 
+Pacific Biosciences. The authors declare that they have no competing interests
+
+
+2. Nucleic Acids Res. 2022 Sep 23;50(17):e97. doi: 10.1093/nar/gkac511.
+
+DeNovoCNN: a deep learning approach to de novo variant calling in next 
+generation sequencing data.
+
+Khazeeva G(1), Sablauskas K(2), van der Sanden B(3), Steyaert W(1), Kwint M(1), 
+Rots D(3), Hinne M(4), van Gerven M(4), Yntema H(3), Vissers L(3), Gilissen 
+C(1).
+
+Author information:
+(1)Department of Human Genetics, Radboud Institute for Molecular Life Sciences, 
+Radboud University Medical Center, Geert Grooteplein 10, 6525 GA Nijmegen, The 
+Netherlands.
+(2)Institute of Clinical Medicine, Faculty of Medicine, Vilnius University, 
+Vilnius, Lithuania.
+(3)Department of Human Genetics, Donders Centre for Neuroscience, Radboud 
+University Medical Center, Geert Grooteplein 10, 6525 GA Nijmegen, The 
+Netherlands.
+(4)Donders Institute for Brain, Cognition and Behaviour, Radboud University 
+Nijmegen, The Netherlands.
+
+De novo mutations (DNMs) are an important cause of genetic disorders. The 
+accurate identification of DNMs from sequencing data is therefore fundamental to 
+rare disease research and diagnostics. Unfortunately, identifying reliable DNMs 
+remains a major challenge due to sequence errors, uneven coverage, and mapping 
+artifacts. Here, we developed a deep convolutional neural network (CNN) DNM 
+caller (DeNovoCNN), that encodes the alignment of sequence reads for a trio as 
+160$ \times$164 resolution images. DeNovoCNN was trained on DNMs of 5616 whole 
+exome sequencing (WES) trios achieving total 96.74% recall and 96.55% precision 
+on the test dataset. We find that DeNovoCNN has increased recall/sensitivity and 
+precision compared to existing DNM calling approaches (GATK, DeNovoGear, 
+DeepTrio, Samtools) based on the Genome in a Bottle reference dataset and 
+independent WES and WGS trios. Validations of DNMs based on Sanger and PacBio 
+HiFi sequencing confirm that DeNovoCNN outperforms existing methods. Most 
+importantly, our results suggest that DeNovoCNN is likely robust against 
+different exome sequencing and analyses approaches, thereby allowing the 
+application on other datasets. DeNovoCNN is freely available as a Docker 
+container and can be run on existing alignment (BAM/CRAM) and variant calling 
+(VCF) files from WES and WGS without a need for variant recalling.
+
+© The Author(s) 2022. Published by Oxford University Press on behalf of Nucleic 
+Acids Research.
+
+DOI: 10.1093/nar/gkac511
+PMCID: PMC9508836
+PMID: 35713566 [Indexed for MEDLINE]
