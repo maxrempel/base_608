@@ -1,7 +1,12 @@
-﻿// Shared expense summary component, version 02.
-// Injects the four tracker data files as <script> tags (script tags work on
-// file:// where fetch/XHR do not), then renders one 4-row snapshot table on
-// every tracker page: DeepSeek, Claude, Codex, Quen.
+﻿// Shared expense summary component, version 03.
+// Injects the tracker data files as <script> tags (script tags work on
+// file:// where fetch/XHR do not), then renders one snapshot table on every
+// tracker page: DeepSeek, Claude, Codex, WAN video, Qwen text.
+//
+// Version 03 (2026-08-06): Alibaba is now TWO rows, not one. WAN video
+// generation and Qwen text share one Alibaba account and one bill, but they
+// are different beasts and are never summed together here. Both come from
+// alibaba_spend.js, which reads the real bill instead of estimating.
 
 (function() {
   "use strict";
@@ -10,7 +15,7 @@
     "../deepseek_cost_projector/deepseek_balance.js",
     "../claude_cost_projector/claude_readings.js",
     "../codex_cost_projector/allowance_history.js",
-    "../quen_cost_projector/quen_balance.js"
+    "../quen_cost_projector/alibaba_spend.js"
   ];
 
   function money(v) {
@@ -64,20 +69,25 @@
     };
   }
 
-  function quenRow() {
-    var q = window.QUEN_BALANCE;
-    if (!q || !q.qwen) return null;
+  function alibabaRow(bucketKey, label) {
+    var a = window.ALIBABA_SPEND;
+    var b = a && a[bucketKey];
+    if (!b) return null;
     return {
-      name: "Quen (Qwen)", link: "../quen_cost_projector/quen_tracker.html",
-      lifetime: q.qwen.lifetime_usd, today: q.qwen.today_usd, week: q.qwen.last_7_days_usd,
-      status: "estimated from session logs"
+      name: label, link: "../quen_cost_projector/quen_tracker.html",
+      lifetime: b.lifetime_usd, today: b.today_usd, week: b.last_7_days_usd,
+      status: a.live ? "real Alibaba bill" : "real bill, last read " +
+        new Date((a.updated || 0) * 1000).toLocaleDateString()
     };
   }
+
+  function wanRow() { return alibabaRow("video", "WAN video (Alibaba)"); }
+  function qwenRow() { return alibabaRow("qwen", "Qwen text (Alibaba)"); }
 
   function render() {
     var tbody = document.getElementById("summaryBody");
     if (!tbody) return;
-    var rows = [deepseekRow(), claudeRow(), codexRow(), quenRow()].filter(Boolean);
+    var rows = [deepseekRow(), claudeRow(), codexRow(), wanRow(), qwenRow()].filter(Boolean);
     if (!rows.length) {
       tbody.innerHTML = "<tr><td colspan='5'>No data available</td></tr>";
       return;

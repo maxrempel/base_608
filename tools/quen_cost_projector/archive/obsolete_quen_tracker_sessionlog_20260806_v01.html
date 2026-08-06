@@ -1,0 +1,294 @@
+﻿<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta http-equiv="refresh" content="60">
+  <title>Quen (Qwen) Spend Tracker</title>
+  <style>
+    :root { color-scheme: light; --ink:#17202a; --muted:#65717d; --line:#dce3e8; --paper:#fff; --wash:#f4f7f9; --blue:#1769e0; --green:#11845b; --amber:#b36500; --red:#c0372b; --purple:#6f42c1; }
+    * { box-sizing:border-box }
+    body { margin:0; background:var(--wash); color:var(--ink); font:16px/1.45 system-ui,-apple-system,"Segoe UI",sans-serif }
+    main { max-width:1040px; margin:auto; padding:34px 22px 50px }
+    header { display:flex; justify-content:space-between; gap:24px; align-items:end; margin-bottom:22px }
+    .monitors { display:flex; gap:10px; margin-top:14px; flex-wrap:wrap }
+    .monitors a { color:var(--ink); text-decoration:none; font-weight:700; font-size:13.5px; border:1px solid var(--line); background:var(--paper); border-radius:999px; padding:6px 13px }
+    .monitors a:hover { border-color:var(--purple); color:var(--purple) }
+    .monitors .here { background:var(--purple); color:var(--paper); border-color:var(--purple); pointer-events:none }
+    h1 { font-size:clamp(28px,4vw,46px); line-height:1.05; margin:0 0 8px; letter-spacing:-.04em }
+    .sub,.note { color:var(--muted) }
+    .live { white-space:nowrap; color:var(--green); font-weight:700 }
+    .live:before { content:""; display:inline-block; width:9px; height:9px; margin-right:7px; border-radius:50%; background:var(--green) }
+    .card,.chartCard { background:var(--paper); border:1px solid var(--line); border-radius:18px; box-shadow:0 3px 14px #1825360a }
+    .chartCard { padding:24px; margin-bottom:16px }
+    .chartHead { display:flex; justify-content:space-between; gap:20px; align-items:end; margin-bottom:16px }
+    .chartHead h2 { margin:0; font-size:22px }
+    .zoomRow { display:flex; align-items:center; gap:14px; margin:14px 0 2px; color:var(--muted); font-size:14px }
+    .zoomRow input { flex:1; accent-color:var(--purple) }
+    .zoomRow .zoomValue { font-weight:700; color:var(--ink); white-space:nowrap }
+    .chartWrapLinear { position:relative; width:min(100%,760px); margin:auto; aspect-ratio:100/60; border-left:2px solid var(--ink); border-bottom:2px solid var(--ink); background:linear-gradient(to right,transparent 24.8%,var(--line) 25%,transparent 25.2%,transparent 49.8%,var(--line) 50%,transparent 50.2%,transparent 74.8%,var(--line) 75%,transparent 75.2%),linear-gradient(to top,transparent 24.8%,var(--line) 25%,transparent 25.2%,transparent 49.8%,var(--line) 50%,transparent 50.2%,transparent 74.8%,var(--line) 75%,transparent 75.2%) }
+    .chartWrapLinear svg { display:block; width:100%; height:100%; overflow:visible }
+    .linearLine { stroke-width:1.5 }
+    .linearNow { stroke:var(--amber); stroke-width:.7; stroke-dasharray:1.2 1.2; opacity:.8 }
+    line.linearDateTick { stroke:var(--ink); stroke-width:.5 }
+    .linearDateTick text { fill:var(--muted); font-size:2.8px }
+    line.linearYGrid { stroke:var(--line); stroke-width:.3 }
+    text.linearYGrid { fill:var(--muted); font-size:2.6px }
+    .actualLine { stroke:var(--purple); stroke-width:.7; fill:none; stroke-linecap:round; stroke-linejoin:round }
+    .actualDot { fill:var(--paper); stroke:var(--purple); stroke-width:.45 }
+    .axisLabel { position:absolute; color:var(--muted); font-size:11px }
+    .axisTop { top:0; left:-8px; transform:translate(-100%,-50%) }
+    .axisBottom { left:-8px; bottom:0; transform:translate(-100%,50%) }
+    .grid { display:grid; grid-template-columns:repeat(4,1fr); gap:16px; margin-bottom:16px }
+    .card { padding:20px; min-height:142px }
+    .label { color:var(--muted); font-size:14px; font-weight:650; text-transform:uppercase; letter-spacing:.06em }
+    .value { margin:10px 0 4px; font-size:clamp(20px,2.5vw,28px); line-height:1.05; font-weight:750; letter-spacing:-.03em }
+    .small { font-size:14px; color:var(--muted) }
+    .context { background:var(--wash); border:1px dashed var(--line); border-radius:12px; padding:10px 14px; margin:0 0 16px; font-size:14px; color:var(--muted) }
+    .schedule { background:var(--paper); border:1px solid var(--line); border-radius:18px; padding:20px; margin-bottom:16px }
+    .schedule h3 { margin:0 0 12px; font-size:18px }
+    .scheduleItem { display:flex; justify-content:space-between; gap:10px; padding:8px 0; border-bottom:1px solid var(--line) }
+    .scheduleItem:last-child { border-bottom:none }
+    .scheduleActive { background:var(--purple); color:var(--paper); padding:2px 8px; border-radius:4px; font-size:12px; font-weight:700 }
+    footer { margin-top:18px; font-size:13px; color:var(--muted) }
+    @media (max-width:800px) { .grid { grid-template-columns:repeat(2,1fr) } header { align-items:start; flex-direction:column } }
+    @media (max-width:480px) { .grid { grid-template-columns:1fr } main { padding:22px 14px } }
+  </style>
+</head>
+<body>
+<main>
+  <header>
+    <div>
+      <h1>Quen (Qwen) spend tracker</h1>
+      <div class="sub">Pure Qwen chat usage, estimated from local Codex session logs (model qwen3.8-max). MoMA video spend is excluded and shown only as a context line.</div>
+      <div class="monitors">
+        <a href="../deepseek_cost_projector/deepseek_tracker.html">DeepSeek tracker</a>
+        <a href="../claude_cost_projector/tracker.html">Claude tracker</a>
+        <a href="../codex_cost_projector/projector.html">Codex tracker</a>
+        <a class="here" href="quen_tracker.html">Quen tracker</a>
+      </div>
+    </div>
+    <div class="live">Auto-updating <span id="refreshNote"></span></div>
+  </header>
+
+  <div class="grid">
+    <div class="card"><div class="label">Qwen lifetime (est.)</div><div class="value" id="lifetimeValue">$0.00</div><div class="small" id="lifetimeTokens">0 tokens</div></div>
+    <div class="card"><div class="label">Today (est.)</div><div class="value" id="todayValue">$0.00</div><div class="small">Pacific time</div></div>
+    <div class="card"><div class="label">Last 7 days (est.)</div><div class="value" id="weekValue">$0.00</div><div class="small" id="weekTokens">0 tokens</div></div>
+    <div class="card"><div class="label">Burn rate</div><div class="value" id="rateValue">$0.00/day</div><div class="small">from polling snapshots</div></div>
+  </div>
+
+  <div class="context" id="contextLine">DashScope ledger context (includes MoMA video generation, not part of the cards above): loading…</div>
+
+  <section class="chartCard">
+    <div class="chartHead">
+      <div>
+        <h2>Cumulative Qwen spend</h2>
+        <div class="sub" id="deltaReport">-</div>
+      </div>
+      <div class="sub" id="sampleStatus">-</div>
+    </div>
+    <div class="zoomRow">
+      <label for="zoomRange">Zoom time scale</label>
+      <span class="zoomValue" id="zoomLabel">Full history</span>
+      <input type="range" id="zoomRange" min="1" max="40" step="1" value="40" aria-label="How far back the time axis extends">
+    </div>
+    <div class="chartWrapLinear">
+      <span class="axisLabel axisTop" id="axisTop" style="font-size:11px">$0</span>
+      <span class="axisLabel axisBottom" id="axisBottom" style="font-size:11px">$0</span>
+      <svg viewBox="0 0 100 60" role="img" aria-label="Cumulative Qwen spend over time">
+        <line class="linearNow" id="nowLine" x1="0" y1="0" x2="0" y2="60"></line>
+        <g id="yTicks"></g>
+        <polyline class="actualLine linearLine" id="actualLine" points=""></polyline>
+        <g id="dots"></g>
+        <g id="dateTicks"></g>
+      </svg>
+    </div>
+  </section>
+
+  <section class="schedule">
+    <h3>Polling schedule</h3>
+    <div class="scheduleItem"><span>Every 5 minutes</span><span>Aug 5 (baseline phase)</span><span id="schedule1"></span></div>
+    <div class="scheduleItem"><span>Every 20 minutes</span><span>Aug 6 to Aug 7</span><span id="schedule2"></span></div>
+    <div class="scheduleItem"><span>Every 30 minutes</span><span>Aug 8 onward</span><span id="schedule3"></span></div>
+  </section>
+
+  <footer>
+    <div class="note">Data source: local Codex session logs where model_provider=qwen, priced at DashScope qwen3.8-max International list rates (input $2/1M, cache hits $0.20/1M, output $6/1M). All dollar figures are estimates. Updated by a Windows Scheduled Task; page reloads every 60 seconds.</div>
+    <div>Last update: <span id="lastUpdate">-</span></div>
+  </footer>
+</main>
+<script src="quen_balance.js"></script>
+<script>
+(function() {
+  "use strict";
+  var SVG = "http://www.w3.org/2000/svg";
+  var loadTime = Date.now();
+
+  function el(id) { return document.getElementById(id); }
+  function money(v) { return "$" + (Number(v) || 0).toFixed(2); }
+
+  var d = new Date();
+  var key = d.getFullYear() * 10000 + (d.getMonth() + 1) * 100 + d.getDate();
+  var phase = key <= 20260805 ? 1 : (key <= 20260807 ? 2 : 3);
+  el("schedule" + phase).innerHTML = '<span class="scheduleActive">ACTIVE</span>';
+
+  setInterval(function() {
+    var left = Math.max(0, 60 - Math.round((Date.now() - loadTime) / 1000));
+    el("refreshNote").textContent = "(reloads in " + left + "s)";
+  }, 1000);
+
+  var data = window.QUEN_BALANCE;
+  var qwen = (data && data.qwen) || null;
+  var series = (qwen && qwen.series && qwen.series.length) ? qwen.series
+             : ((data && data.snapshots) ? data.snapshots.map(function(s){ return [s.t, s.lifetime]; }) : []);
+
+  if (!data || series.length === 0) {
+    el("deltaReport").textContent = "No Qwen usage recorded yet. The collector runs every few minutes; data appears after the first run.";
+    el("contextLine").textContent = "DashScope ledger context (includes MoMA video generation): not reachable yet.";
+    return;
+  }
+
+  el("lifetimeValue").textContent = money(qwen.lifetime_usd);
+  el("todayValue").textContent = money(qwen.today_usd);
+  el("weekValue").textContent = money(qwen.last_7_days_usd);
+  var tk = qwen.tokens || {};
+  el("lifetimeTokens").textContent = ((tk.input || 0) + (tk.output || 0)).toLocaleString() + " tokens (in+out)";
+  el("weekTokens").textContent = qwen.sessions + " sessions, " + qwen.events + " API calls";
+
+  var ledger = data.dashscope_ledger;
+  el("contextLine").textContent = ledger
+    ? "DashScope ledger context (MoMA video generation, excluded above): lifetime " + money(ledger.lifetime) + ", today " + money(ledger.today) + ", 7 days " + money(ledger.last_7_days) + "."
+    : "DashScope ledger context: unreachable right now.";
+
+  var updateTime = new Date(data.updated * 1000);
+  el("lastUpdate").textContent = updateTime.toLocaleString();
+
+  var snapshots = data.snapshots || [];
+  var curSource = snapshots.length ? snapshots[snapshots.length - 1].source : null;
+  var dayAgo = Math.floor(Date.now() / 1000) - 86400;
+  var recent = snapshots.filter(function(s){ return s.t >= dayAgo && s.source === curSource; });
+  var rate = 0;
+  if (recent.length >= 2) {
+    var dt = (recent[recent.length - 1].t - recent[0].t) / 86400;
+    if (dt > 0) rate = Math.max(0, (recent[recent.length - 1].lifetime - recent[0].lifetime) / dt);
+  }
+  el("rateValue").textContent = "$" + rate.toFixed(2) + "/day";
+
+  var zoomRange = el("zoomRange"), zoomLabel = el("zoomLabel");
+  var actualLine = el("actualLine"), dotsGroup = el("dots");
+  var dateTicksGroup = el("dateTicks"), yTicksGroup = el("yTicks");
+  var nowLine = el("nowLine"), axisTop = el("axisTop"), axisBottom = el("axisBottom");
+  var deltaReport = el("deltaReport"), sampleStatus = el("sampleStatus");
+  var L = 4, R = 98, T = 2, B = 58, W = R - L, H = B - T;
+
+  function fmtDur(sec) {
+    if (sec < 3600) return Math.round(sec / 60) + " min";
+    if (sec < 86400) return (sec / 3600).toFixed(1) + " hours";
+    return (sec / 86400).toFixed(1) + " days";
+  }
+  function fmtTick(ts) {
+    var x = new Date(ts * 1000);
+    var h = x.getHours(), ampm = h >= 12 ? "PM" : "AM";
+    h = h % 12 || 12;
+    return (x.getMonth() + 1) + "/" + x.getDate() + " " + h + ":" + String(x.getMinutes()).padStart(2, "0") + " " + ampm;
+  }
+
+  function renderChart() {
+    var zoomValue = parseInt(zoomRange.value, 10);
+    var maxZoom = 40;
+    var now = Math.floor(Date.now() / 1000);
+    var timeRange = zoomValue === maxZoom ? null : 3600 * Math.pow(2, (maxZoom - zoomValue) / 4);
+    var visible = series;
+    if (timeRange !== null) {
+      var cutoff = now - timeRange;
+      visible = series.filter(function(p){ return p[0] >= cutoff; });
+      if (visible.length < 2) visible = series.slice(-2);
+      zoomLabel.textContent = fmtDur(Math.min(timeRange, now - series[0][0]));
+    } else {
+      zoomLabel.textContent = "Full history";
+    }
+    if (visible.length < 2) return;
+
+    var tMin = visible[0][0], tMax = visible[visible.length - 1][0];
+    var tRange = Math.max(tMax - tMin, 1);
+    var vals = visible.map(function(p){ return p[1]; });
+    var yMin = Math.min.apply(null, vals), yMax = Math.max.apply(null, vals);
+    var yPad = Math.max(yMax - yMin, 0.01) * 0.08;
+    var yLow = Math.max(yMin - yPad, 0), yHigh = yMax + yPad, ySpan = yHigh - yLow;
+    axisTop.textContent = "$" + yHigh.toFixed(2);
+    axisBottom.textContent = "$" + yLow.toFixed(2);
+
+    function sx(t) { return L + ((t - tMin) / tRange) * W; }
+    function sy(v) { return B - ((v - yLow) / ySpan) * H; }
+
+    actualLine.setAttribute("points", visible.map(function(p){
+      return sx(p[0]).toFixed(2) + "," + sy(p[1]).toFixed(2);
+    }).join(" "));
+    nowLine.setAttribute("x1", sx(tMax)); nowLine.setAttribute("x2", sx(tMax));
+
+    dotsGroup.innerHTML = "";
+    if (visible.length <= 160) {
+      visible.forEach(function(p) {
+        var c = document.createElementNS(SVG, "circle");
+        c.setAttribute("class", "actualDot");
+        c.setAttribute("cx", sx(p[0]).toFixed(2));
+        c.setAttribute("cy", sy(p[1]).toFixed(2));
+        c.setAttribute("r", "0.6");
+        dotsGroup.appendChild(c);
+      });
+    }
+
+    yTicksGroup.innerHTML = "";
+    for (var i = 0; i <= 5; i++) {
+      var val = yLow + i * (ySpan / 5);
+      var y = sy(val);
+      var grid = document.createElementNS(SVG, "line");
+      grid.setAttribute("class", "linearYGrid");
+      grid.setAttribute("x1", L); grid.setAttribute("x2", R);
+      grid.setAttribute("y1", y.toFixed(2)); grid.setAttribute("y2", y.toFixed(2));
+      yTicksGroup.appendChild(grid);
+      var lab = document.createElementNS(SVG, "text");
+      lab.setAttribute("class", "linearYGrid");
+      lab.setAttribute("font-size", "2.6");
+      lab.setAttribute("x", L - 1); lab.setAttribute("y", y.toFixed(2));
+      lab.setAttribute("text-anchor", "end");
+      lab.setAttribute("dominant-baseline", "middle");
+      lab.textContent = "$" + val.toFixed(2);
+      yTicksGroup.appendChild(lab);
+    }
+
+    dateTicksGroup.innerHTML = "";
+    var tickCount = 6;
+    for (var j = 0; j < tickCount; j++) {
+      var t = tMin + (j / (tickCount - 1)) * tRange;
+      var x = sx(t);
+      var tick = document.createElementNS(SVG, "g");
+      tick.setAttribute("class", "linearDateTick");
+      var tl = document.createElementNS(SVG, "line");
+      tl.setAttribute("x1", x.toFixed(2)); tl.setAttribute("x2", x.toFixed(2));
+      tl.setAttribute("y1", B); tl.setAttribute("y2", B + 1.5);
+      tick.appendChild(tl);
+      var tt = document.createElementNS(SVG, "text");
+      tt.setAttribute("font-size", "2.8");
+      tt.setAttribute("x", x.toFixed(2)); tt.setAttribute("y", B + 4);
+      tt.setAttribute("text-anchor", "middle");
+      tt.textContent = fmtTick(t);
+      tick.appendChild(tt);
+      dateTicksGroup.appendChild(tick);
+    }
+
+    var spendDelta = visible[visible.length - 1][1] - visible[0][1];
+    var timeDelta = tMax - tMin;
+    var perHour = timeDelta > 0 ? spendDelta / (timeDelta / 3600) : 0;
+    deltaReport.textContent = "This zoom: $" + spendDelta.toFixed(4) + " over " + fmtDur(timeDelta) + " ($" + perHour.toFixed(4) + "/hr, $" + (perHour * 24).toFixed(2) + "/day)";
+    sampleStatus.textContent = visible.length + " points";
+  }
+
+  zoomRange.addEventListener("input", renderChart);
+  renderChart();
+})();
+</script>
+<script src="../shared_expense_summary.js"></script>
+</body>
+</html>

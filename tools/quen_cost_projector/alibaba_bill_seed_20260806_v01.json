@@ -1,0 +1,74 @@
+{
+  "_comment": "Real Alibaba Cloud Model Studio bill, read from the console Cost Overview page (Billing Overview -> List, Group By Model) on 2026-08-06 by Claude Opus 5. Account 4320188, region China (Beijing), workspace Default. Dates are Alibaba BILLING dates, which follow China Standard Time (UTC+8), not Pacific. Amounts are USD 'Amount Due' including rounding adjustments and tax. This file is the historical floor for the tracker: the collector merges live BSS OpenAPI data on top of it and never lets a total fall below what is recorded here.",
+  "source": "Alibaba Cloud Model Studio console, Cost Overview, months 2026-04 through 2026-08",
+  "read_on": "2026-08-06",
+  "account_id": "4320188",
+  "region": "China (Beijing)",
+  "months": {
+    "2026-04": {"video": 15.04, "qwen": 0.0, "other": 0.0},
+    "2026-05": {"video": 7.44, "qwen": 0.0, "other": 0.0},
+    "2026-06": {"video": 66.3, "qwen": 0.0, "other": 0.0},
+    "2026-07": {"video": 128.35, "qwen": 0.0, "other": 0.0},
+    "2026-08": {"video": 0.0, "qwen": 28.373, "other": 0.001}
+  },
+  "video_daily": [
+    ["2026-04-01", 2.73720285],
+    ["2026-04-05", 0.43006],
+    ["2026-04-06", 0.0997803],
+    ["2026-04-07", 0.2328207],
+    ["2026-04-08", 1.93080615],
+    ["2026-04-19", 0.33237162],
+    ["2026-04-20", 0.07925079],
+    ["2026-04-21", 0.68676372],
+    ["2026-04-22", 1.87020858],
+    ["2026-04-23", 5.35601847],
+    ["2026-04-24", 1.07900352],
+    ["2026-04-25", 0.10585887],
+    ["2026-04-26", 0.11629566],
+    ["2026-05-28", 2.752384],
+    ["2026-05-29", 3.096394],
+    ["2026-05-30", 1.29018],
+    ["2026-05-31", 0.301042],
+    ["2026-06-01", 1.548216],
+    ["2026-06-04", 0.602084],
+    ["2026-06-09", 4.171582],
+    ["2026-06-10", 2.537354],
+    ["2026-06-11", 0.21503],
+    ["2026-06-18", 27.127436],
+    ["2026-06-19", 7.82119],
+    ["2026-06-20", 6.149858],
+    ["2026-06-24", 9.203284],
+    ["2026-06-25", 0.946132],
+    ["2026-06-26", 5.332744],
+    ["2026-06-30", 0.64509],
+    ["2026-07-02", 13.74563],
+    ["2026-07-05", 12.385728],
+    ["2026-07-06", 2.838396],
+    ["2026-07-16", 12.68677],
+    ["2026-07-18", 4.558636],
+    ["2026-07-27", 3.741522],
+    ["2026-07-28", 38.440744],
+    ["2026-07-29", 23.954342],
+    ["2026-07-30", 14.708052],
+    ["2026-07-31", 1.29018]
+  ],
+  "qwen_daily": [
+    ["2026-08-06", 28.373]
+  ],
+  "qwen_model_split_2026_08": {
+    "qwen3.8-max": 24.92546032,
+    "qwen3.7-plus": 3.4474510736,
+    "kimi-and-other-traces": 0.00086
+  },
+  "video_model_split": {
+    "wan2.6-i2v-flash": "bulk of May through July",
+    "videoretalk": "10.85 in April (lip-sync)",
+    "wan2.6-i2v / wan2.5-i2v-preview / wan2.2-s2v / wan2.6-r2v-flash": "small April and May amounts"
+  },
+  "notes": [
+    "July total 128.35 includes 9.23 of tax, folded into the 2026-07-02 daily row.",
+    "April includes videoretalk lip-sync, which is video work and is counted as video.",
+    "No month mixes video and text: video ran April through July, Qwen text only on billing day 2026-08-06.",
+    "MoMA's own ds_ledger reported only 108.75 lifetime for DashScope against a real 217.13 of video, so the ledger under-reports by roughly half and must not be used as the video source."
+  ]
+}
