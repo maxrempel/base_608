@@ -53,3 +53,22 @@ run is a clean no-op. The watcher covers every project: it reads the global
 Codex thread database, and the new xg1 downloads session was tagged from the
 start. Committed to both repos (claude_base 42434488 + follow-up, base_608
 3661b96 + follow-up).
+
+## Third pass (same day, ~14:22 PDT): no-churn fix
+
+The first normalization pass churned: 21 threads whose cleaned title already
+equalled their display were still planned (backup per run), and the raw-title
+shortener was about to rewrite weeks-old GPT-era names. Two fixes:
+
+- Raw-title shortening is limited to threads created in the last 7 days; old
+  names are left alone.
+- `build_plan` now skips entries where the new title equals both the DB title
+  and the display index entry, and when only the DB lags behind a correct
+  index title it syncs the DB without appending another index line. Result:
+  one final apply synced 79 DB titles (backup run_20260806-142241), pending
+  dropped to 0, and the hidden watcher run is a true no-op with no new
+  backup.
+
+Final state 14:22 PDT: 224 threads, 0 untagged, 0 double-tagged, watcher
+quiet. The app's own titler may still rename active sessions later (its
+lowercase-tagged titles are normalized by the next 5-minute sweep).

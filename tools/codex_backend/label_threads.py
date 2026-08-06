@@ -85,7 +85,7 @@ BARE_TAG_ALIASES = {
 # Dictation-style openers that usually precede the actual topic of a message.
 FILLER_RE = re.compile(
     r"^(okay|ok|so|well|hey|hi|hello|yes|no|roger|right|great|good|thanks|"
-    r"thank you|please|look|listen|also|now)[,:\s]+",
+    r"thank you|please|also|now)[,:\s]+",
     re.I,
 )
 OPENER_PATTERNS = [
@@ -192,7 +192,7 @@ def clean_text(s: str) -> str:
 
 
 def desired_title(
-    tag: str, display: str | None, first_message: str | None
+    tag: str, display: str | None, first_message: str | None, recent: bool = True
 ) -> str | None:
     """Return the full title this thread should have, or None if unchanged."""
     display = (display or "").strip() or (first_message or "").strip()
@@ -206,11 +206,18 @@ def desired_title(
             base = base2
         if not base:
             return None  # tag-only title; nothing to build on
-        if display.startswith("[") and existing_tag == tag and inner_tag is None:
+        raw = recent and looks_raw(base, first_message)
+        if (
+            display.startswith("[")
+            and existing_tag == tag
+            and inner_tag is None
+            and not raw
+        ):
             return None  # already canonical with the right tag
-        base = clean_text(base) if looks_raw(base, first_message) else base
+        base = clean_text(base) if raw else base
         return f"[{tag}] {base}"
-    base = clean_text(display) if looks_raw(display, first_message) else display
+    raw = recent and looks_raw(display, first_message)
+    base = clean_text(display) if raw else display
     return f"[{tag}] {base}"
 
 
@@ -218,7 +225,8 @@ def read_threads(db_path: str):
     con = sqlite3.connect(db_path, timeout=15)
     try:
         cur = con.execute(
-            "SELECT id, title, model, model_provider, first_user_message "
+            "SELECT id, title, model, model_provider, first_user_message, "
+            "created_at_ms "
             "FROM threads"
         )
         return cur.fetchall()
@@ -255,15 +263,24 @@ def build_plan(db_path: str, index_path: str):
     plan = []
     skipped_unknown = 0
     skipped_already = 0
-    for tid, title, model, provider, first_message in threads:
+    cutoff = (datetime.now().timestamp() - 7 * 24 * 3600) * 1000
+    for tid, title, model, provider, first_message, created_at_ms in threads:
         tag = tag_for(model, provider)
         if not tag:
             skipped_unknown += 1
             continue
         index_name = index_latest.get(tid)
         display = index_name or title
-        new_title = desired_title(tag, display, first_message)
+        recent = bool(created_at_ms) and created_at_ms >= cutoff
+        new_title = desired_title(tag, display, first_message, recent)
         if new_title is None:
+            if title == display or not title:
+                skipped_already += 1
+                continue
+            # Index already shows the right title; bring the DB in line
+            # without appending another identical index entry.
+            new_title = display
+        if new_title == display and new_title == title:
             skipped_already += 1
             continue
         plan.append(
@@ -274,7 +291,7 @@ def build_plan(db_path: str, index_path: str):
                 "new_db_title": new_title,
                 "in_index": tid in index_latest,
                 "old_index_name": index_name,
-                "new_index_name": new_title,
+                "new_index_name": new_title if new_title != display else None,
             }
         )
     return plan, skipped_unknown, skipped_already
@@ -443,7 +460,7 @@ def cmd_status(args):
     index_latest = read_index_latest(args.index)
     tag_counts = {}
     untagged = 0
-    for tid, title, model, provider, _first_message in threads:
+    for tid, title, model, provider, _first_message, _created_at_ms in threads:
         name = index_latest.get(tid) or title or ""
         m = PREFIX_RE.match(name)
         if m:

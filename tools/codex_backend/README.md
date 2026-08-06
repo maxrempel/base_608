@@ -179,4 +179,7 @@ tags (`ds ...`, `deepseek ...`, `qw ...`). The labeler treats those as
 already-tagged, normalizes them to the standard `[DS] ...` form, strips
 nested tags (`[DS] ds ...` becomes `[DS] ...`), and shortens raw
 dictation-style first-message titles, so the sidebar never shows double tags
-or full message dumps. The app's own informative renames are preserved.
+or full message dumps. The app's own informative renames are preserved;
+raw-title shortening is limited to threads created in the last 7 days, and
+`apply` writes only when something actually changes (no index churn, no
+duplicate lines), so the watcher stays quiet when there is nothing new.
