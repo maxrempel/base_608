@@ -20,3 +20,36 @@ Verified 2026-08-06 13:18 PDT: installer ran, labeled the 3 untagged threads
 (backup run_20260806-131832), task LastTaskResult 0, status shows 0 untagged
 out of 228 threads. Reinstall anytime with:
 `powershell -ExecutionPolicy Bypass -File C:\claude_base\tools\codex_backend\install_thread_label_watcher.ps1`
+
+## Second pass (same day, ~14:17 PDT): stop fighting the app's own titler
+
+Max reported new sessions still not renamed and worried the watcher was
+project-scoped. Investigation showed two real issues:
+
+1. The Codex desktop app (v0.146.0-alpha.3.1) auto-names active sessions with
+   informative titles and stamps its own lowercase model tags ("ds ...",
+   "deepseek ...", "qw ..."). The old labeler did not recognize those and
+   double-stamped them ("[DS] ds Adding a prefix to a session name,
+   model-prefix"), and it could overwrite the app's better names with raw
+   first messages (it built from the DB title instead of the newest display
+   index entry).
+2. Threads whose first message was dictation-style ("Okay, name yourself
+   Typer2 ...") kept raw first-message titles because the app's one-shot
+   titler gave up on them.
+
+Fix in label_threads.py:
+- Build from the newest display index entry, falling back to the DB title.
+- Recognize the app's native bare tags and normalize to the standard
+  "[TAG] " form; strip nested tags ("[DS] ds X" -> "[DS] X").
+- Shorten raw dictation-style titles from the first user message
+  ("Okay, name yourself Typer2 and here is the task. We start i..." ->
+  "[DS] Name yourself Typer2 and here is the task.").
+- Preserve the app's informative titles, only fixing the tag format.
+
+Verified 14:17 PDT: 9 double/mismatched tags normalized (backup
+run_20260806-141721), current session now "[DS] Adding a prefix to a session
+name, model-prefix", 0 untagged / 0 double-tagged out of 224 threads, watcher
+run is a clean no-op. The watcher covers every project: it reads the global
+Codex thread database, and the new xg1 downloads session was tagged from the
+start. Committed to both repos (claude_base 42434488 + follow-up, base_608
+3661b96 + follow-up).

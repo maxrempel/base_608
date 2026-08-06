@@ -4,6 +4,14 @@
 Prefixes every saved Codex thread title with a short model tag so Max can see
 which backend ran each session, e.g. "[Q3.8] Fix login bug".
 
+The Codex desktop app also manages titles itself: for active sessions it
+generates informative names and stamps them with its own lowercase tag
+("ds Build resumable downloads system", "deepseek ...", "qw ..."). This
+labeler treats those native tags as already-present and normalizes them to the
+standard "[TAG] " form, so we never create "[DS] ds ..." double tags. For
+threads the app left with raw dictation-style first-message titles, it derives
+a short informative title from the first user message.
+
 Tags:
   GPT   -> OpenAI / ChatGPT models (gpt-*, o1/o3/o4, chatgpt, provider=openai)
   DS    -> DeepSeek models (deepseek-*)
@@ -49,6 +57,51 @@ DEFAULT_INDEX = os.path.join(CODEX_HOME, "session_index.jsonl")
 BACKUP_ROOT = os.path.join(CODEX_HOME, "backups", "thread_labels")
 
 PREFIX_RE = re.compile(r"^\[[^\]]+\]\s")
+CANON_PREFIX_RE = re.compile(r"^\[([^\]]+)\]\s*(.*)$", re.S)
+BARE_PREFIX_RE = re.compile(r"^([A-Za-z0-9][A-Za-z0-9._-]*)\s+(.*)$", re.S)
+
+# The app's native lowercase tags, mapped to our standard tags. Plain "qwen"
+# is deliberately excluded so titles like "Qwen graph to 3 trackers" are not
+# mistaken for a tag.
+BARE_TAG_ALIASES = {
+    "ds": "DS",
+    "deepseek": "DS",
+    "gpt": "GPT",
+    "openai": "GPT",
+    "chatgpt": "GPT",
+    "qw": "QW",
+    "q3.8": "Q3.8",
+    "qwen3.8": "Q3.8",
+    "q3.7": "Q3.7",
+    "qwen3.7": "Q3.7",
+    "q3.5": "Q3.5",
+    "qwen3.5": "Q3.5",
+    "q3": "Q3",
+    "qwen3-max": "Q3",
+    "q3c": "Q3C",
+    "qwen3-coder": "Q3C",
+}
+
+# Dictation-style openers that usually precede the actual topic of a message.
+FILLER_RE = re.compile(
+    r"^(okay|ok|so|well|hey|hi|hello|yes|no|roger|right|great|good|thanks|"
+    r"thank you|please|look|listen|also|now)[,:\s]+",
+    re.I,
+)
+OPENER_PATTERNS = [
+    r"^you are\s+",
+    r"^you're\s+",
+    r"^your task is to\s+",
+    r"^your task[:;]?\s*",
+    r"^your job is to\s+",
+    r"^i need you to\s+",
+    r"^we need to\s+",
+    r"^i want you to\s+",
+    r"^we want to\s+",
+    r"^please\s+",
+    r"^can you\s+",
+    r"^could you\s+",
+]
 
 
 def tag_for(model: str | None, provider: str | None) -> str | None:
@@ -79,18 +132,95 @@ def tag_for(model: str | None, provider: str | None) -> str | None:
     return None
 
 
-def make_prefixed(name: str | None, tag: str) -> str | None:
-    if name is None:
+def split_tag(name: str) -> tuple[str | None, str]:
+    """Return (canonical tag, base title) for a display name.
+
+    Handles both our "[TAG] base" form and the app's native bare form
+    ("ds base", "deepseek base", "qw base"). A non-tag leading word is left
+    untouched (tag=None, base=whole name).
+    """
+    name = (name or "").strip()
+    if not name:
+        return None, name
+    m = CANON_PREFIX_RE.match(name)
+    if m:
+        return m.group(1).upper(), m.group(2).strip()
+    m = BARE_PREFIX_RE.match(name)
+    if m and m.group(1).lower() in BARE_TAG_ALIASES:
+        return BARE_TAG_ALIASES[m.group(1).lower()], m.group(2).strip()
+    return None, name
+
+
+def looks_raw(base: str, first_message: str | None) -> bool:
+    base = (base or "").strip()
+    if not base:
+        return False
+    if len(base) > 45:
+        return True
+    if FILLER_RE.match(base):
+        return True
+    if first_message and len(base) > 25 and base == first_message[: len(base)]:
+        return True
+    return False
+
+
+def clean_text(s: str) -> str:
+    """Turn a raw dictation-style fragment into a short readable title."""
+    s = (s or "").replace("…", " ").replace("...", " ").strip()
+    prev = None
+    while prev != s:
+        prev = s
+        s = FILLER_RE.sub("", s).strip()
+    for pattern in OPENER_PATTERNS:
+        s = re.sub(pattern, "", s, flags=re.I).strip()
+    if not s:
+        return ""
+    s = s[0].upper() + s[1:]
+    if len(s) <= 64:
+        return s
+    cut = s[:64]
+    for sep in (".", "!", "?", ";", ","):
+        i = cut.rfind(sep)
+        if i > 20:
+            cut = cut[:i]
+            break
+    else:
+        i = cut.rfind(" ")
+        if i > 20:
+            cut = cut[:i]
+    return cut.strip(" ,;:") + "…"
+
+
+def desired_title(
+    tag: str, display: str | None, first_message: str | None
+) -> str | None:
+    """Return the full title this thread should have, or None if unchanged."""
+    display = (display or "").strip() or (first_message or "").strip()
+    if not display:
         return None
-    if PREFIX_RE.match(name):
-        return None
-    return f"[{tag}] {name}"
+    existing_tag, base = split_tag(display)
+    if existing_tag is not None:
+        # Peel a nested tag too, e.g. "[DS] ds ..." or "ds [DS] ...".
+        inner_tag, base2 = split_tag(base) if base else (None, base)
+        if inner_tag is not None:
+            base = base2
+        if not base:
+            return None  # tag-only title; nothing to build on
+        if display.startswith("[") and existing_tag == tag and inner_tag is None:
+            return None  # already canonical with the right tag
+        base = clean_text(base) if looks_raw(base, first_message) else base
+        return f"[{tag}] {base}"
+    base = clean_text(display) if looks_raw(display, first_message) else display
+    return f"[{tag}] {base}"
 
 
 def read_threads(db_path: str):
     con = sqlite3.connect(db_path, timeout=15)
     try:
-        cur = con.execute("SELECT id, title, model, model_provider FROM threads")
+        cur = con.execute(
+            "SELECT id, title, model, model_provider, first_user_message "
+            "FROM threads"
+        )
         return cur.fetchall()
     finally:
         con.close()
@@ -125,15 +255,15 @@ def build_plan(db_path: str, index_path: str):
     plan = []
     skipped_unknown = 0
     skipped_already = 0
-    for tid, title, model, provider in threads:
+    for tid, title, model, provider, first_message in threads:
         tag = tag_for(model, provider)
         if not tag:
             skipped_unknown += 1
             continue
         index_name = index_latest.get(tid)
-        new_db_title = make_prefixed(title, tag)
-        new_index_name = make_prefixed(index_name, tag) if index_name else None
-        if new_db_title is None and new_index_name is None:
+        display = index_name or title
+        new_title = desired_title(tag, display, first_message)
+        if new_title is None:
             skipped_already += 1
             continue
         plan.append(
@@ -141,10 +271,10 @@ def build_plan(db_path: str, index_path: str):
                 "id": tid,
                 "tag": tag,
                 "old_db_title": title,
-                "new_db_title": new_db_title if new_db_title else title,
+                "new_db_title": new_title,
                 "in_index": tid in index_latest,
                 "old_index_name": index_name,
-                "new_index_name": new_index_name,
+                "new_index_name": new_title,
             }
         )
     return plan, skipped_unknown, skipped_already
@@ -313,7 +443,7 @@ def cmd_status(args):
     index_latest = read_index_latest(args.index)
     tag_counts = {}
     untagged = 0
-    for tid, title, model, provider in threads:
+    for tid, title, model, provider, _first_message in threads:
         name = index_latest.get(tid) or title or ""
         m = PREFIX_RE.match(name)
         if m:

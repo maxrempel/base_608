@@ -172,3 +172,11 @@ overlapping instances, writes a backup + undo manifest before any change, and
 logs each run to `~/.codex/logs/thread_label_watcher.log`. The canonical
 committed copy of the labeler also lives at
 `C:\claude_base\tools\codex_backend\label_threads.py`; keep both in sync.
+
+The labeler also reconciles with the app's own title management: the Codex
+desktop app auto-names active sessions and stamps them with lowercase native
+tags (`ds ...`, `deepseek ...`, `qw ...`). The labeler treats those as
+already-tagged, normalizes them to the standard `[DS] ...` form, strips
+nested tags (`[DS] ds ...` becomes `[DS] ...`), and shortens raw
+dictation-style first-message titles, so the sidebar never shows double tags
+or full message dumps. The app's own informative renames are preserved.
