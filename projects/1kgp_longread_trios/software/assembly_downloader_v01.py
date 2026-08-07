@@ -21,6 +21,7 @@ Normally launched by kgp-assembly-dl-v01@.service or kgp-aligned-dl-v01@.service
 import argparse
 import concurrent.futures
 import fcntl
+import gzip
 import hashlib
 import json
 import os
@@ -124,6 +125,34 @@ def md5_of(path):
     return digest.hexdigest()
 
 
+def fa_structure_ok(path):
+    """FASTA starts with '>' and ends with a newline.
+
+    For gzip-compressed FASTA, decompress the full stream so integrity
+    (CRC) is checked too, not just the container bytes.
+    """
+    try:
+        if path.lower().endswith(".gz"):
+            with gzip.open(path, "rb") as handle:
+                first = handle.read(1)
+                if first != b">":
+                    return False
+                last = b""
+                while True:
+                    block = handle.read(8 * CHUNK)
+                    if not block:
+                        break
+                    last = block[-1:]
+                return last in (b"\n", b"\r")
+        with open(path, "rb") as handle:
+            first = handle.read(1)
+            handle.seek(-1, 2)
+            last = handle.read(1)
+        return first == b">" and last in (b"\n", b"\r")
+    except (OSError, EOFError, ValueError):
+        return False
+
+
 def verify(entry, log):
     path = entry["local_path"]
     if not os.path.exists(path):
@@ -140,16 +169,9 @@ def verify(entry, log):
                       % (entry["member"], os.path.basename(path), actual, entry["expected_md5"]))
             return False
     if not entry["expected_md5"] and path.lower().endswith((".fasta", ".fa", ".fa.gz", ".fasta.gz", ".fas")):
-        try:
-            with open(path, "rb") as handle:
-                first = handle.read(1)
-                handle.seek(-1, 2)
-                last = handle.read(1)
-            if first != b">" or last not in (b"\n", b"\r"):
-                log.write("VERIFY FAIL structure %s %s: not a complete FASTA (first=%r last=%r)"
-                          % (entry["member"], os.path.basename(path), first, last))
-                return False
-        except OSError:
+        if not fa_structure_ok(path):
+            log.write("VERIFY FAIL structure %s %s: not a complete FASTA (gzip+FASTA check failed)"
+                      % (entry["member"], os.path.basename(path)))
             return False
     entry["verified"] = True
     entry["status"] = "verified"
