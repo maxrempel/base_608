@@ -76,6 +76,12 @@ New Windows scheduled task `Q38DownloadWatch` (hidden, every 30 minutes, survive
 
 Assembly phase: 18 of 33 family units complete (all 7 original trios + 11 Platinum units). Remaining: pp_200100 (finishing), pp_NA12877/78/79/81/82/85/86/89/90/91/92 (Platinum Verkko members), then pan027_HG06803/04/07/08. Supervisor auto-advances 3 concurrent families. After all assemblies, the supervisor switches to the Vienna aligned-reads manifest (8-13). Bandwidth policy as reported: day 7000 KiB/s per family x 3 = ~168 Mbps total; night 9000 KiB/s per family.
 
+### Watch cadence (Max, 2026-08-06 20:40 PDT)
+
+- Session wakes armed via wakeup skill: recurring every 20 min (id 383ef0ac, first 21:00 PDT) to check progress and push the queue; one-time wake at 23:35 PDT (id 81fc36d7) to switch the session cadence to every 45 min.
+- Windows task Q38DownloadWatch runs every 20 min until 23:36 PDT, when one-time task Q38DownloadWatchCadence45 re-creates it with 45 min and removes itself (script `switch_watch_cadence.ps1`).
+- Live state: 3 families at full concurrency (pp_NA12877/78/79), rest queued; supervisor auto-advances.
+
 ### Open items (from handoff)
 
 - T2T-CQ (F16): GWH API returns nulls; try the GWH browse page / download.cncb.ac.cn path, verify parents' v2.0 accessions.
