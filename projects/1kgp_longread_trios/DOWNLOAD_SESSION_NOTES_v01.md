@@ -89,3 +89,12 @@ Assembly phase: 18 of 33 family units complete (all 7 original trios + 11 Platin
 - HG002 T2T (F14): human-pangenomics S3 path is a delete-marker; find current T2T-HG002 v2.7/v1.x FASTAs.
 - Vienna reads: get exact sizes for the 5 members missing from vienna_manifest_full.tsv from the FTP listing.
 - Migration prep: confirm all durable state on Green24 + GitHub before Taygeta 1 return; recheck Green24 USB speed on Taygeta 2 (aim 5000M/10000M).
+
+## Update 2026-08-07 morning (after Pine slept ~7 hours)
+
+- Overnight the queue finished the whole assembly phase (all 34 units) and auto-advanced to the aligned-reads phase. Reads are the HGSVC3 20250307 HiFi T2T BAM alignments for all 13 read-families (r1-r13), ~3.4 TB total, from EBI. Census v04 (32 families / 34 trios, T2T-CQ removed) is in the sibling census branch; REPORT.md updated.
+- r1 and r2 ran overnight at EBI-limited speed (~1.5 MB/s per family, ~40 GB each in 7.5 h). PROGRESS.md showed stale byte counts during long files, so the watcher logged false STALLED alerts at 00:21. Root cause: the downloader only persisted state when a file finished.
+- Fixes deployed and committed:
+  - downloader now persists downloaded_bytes every 60 s during transfer, so PROGRESS.md and the report show live bytes (verified: PROGRESS now matches du).
+  - resume_aligned MAX_ACTIVE raised 2 -> 4; r1-r5 are now downloading concurrently (r4 had failed to auto-start, started manually). Watch task already on 45-min cadence (OS switch ran 23:36); session wake 27779eae now 45-min recurring (20-min wake 383ef0ac cancelled).
+- ETA for the 3.4 TB reads at current EBI speeds: several days. Concurrency is capped by the 250 Mbps day policy at 4 families on paper; actual usage stays near 60-100 Mbps because EBI is the bottleneck.

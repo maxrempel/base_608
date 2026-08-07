@@ -209,7 +209,7 @@ def publish_fleet(family, state_name, progress_value):
         pass
 
 
-def download(entry, rate_bps, log):
+def download(entry, rate_bps, log, state=None, state_lock=None):
     url = entry["url"]
     path = entry["local_path"]
     os.makedirs(os.path.dirname(path), exist_ok=True)
@@ -264,8 +264,11 @@ def download(entry, rate_bps, log):
                         wait = start + (have - base) / float(rate_bps) - time.monotonic()
                         if wait > 0:
                             time.sleep(wait)
-                    if time.monotonic() - last_state_write > 10:
+                    if time.monotonic() - last_state_write > 60:
                         entry["downloaded_bytes"] = have
+                        if state is not None and state_lock is not None:
+                            with state_lock:
+                                save_state(state)
                         last_state_write = time.monotonic()
         except Exception as exc:
             log.write("attempt %d: transfer interrupted at %d bytes: %s" % (attempt, have, exc))
@@ -347,7 +350,7 @@ def main():
             if entry.get("verified") or verify(entry, log):
                 save_state(state)
                 return True
-        ok = download(entry, stream_rate, log)
+        ok = download(entry, stream_rate, log, state, state_lock)
         with state_lock:
             if ok and verify(entry, log):
                 save_state(state)

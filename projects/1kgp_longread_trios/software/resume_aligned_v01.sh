@@ -4,7 +4,7 @@
 set -u
 ROOT="${KGTRIO_ROOT:-/home/maxre/1kgp_longread_trios}"
 GREEN="${KGTRIO_GREEN:-/mnt/green24/1kgp_longread_trios}"
-MAX_ACTIVE="${MAX_ACTIVE:-2}"
+MAX_ACTIVE="${MAX_ACTIVE:-4}"
 UNIT="kgp-aligned-dl-v01"
 MANIFEST="$ROOT/ALIGNED_READS_MANIFEST_v01.tsv"
 
