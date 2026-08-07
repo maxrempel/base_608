@@ -119,6 +119,45 @@ NEW OPEN FAMILY for the download queue (F33, assembly-first Tier 1):
   via Supplementary Table 1 before pulling (only the trio is needed, not the
   50 unrelated panel members).
 
+## WAVE-3 DELTA (appended 2026-08-06, census v04, branch codex/q38-longread-census)
+
+Wave-3 (direct verification by the DeepSeek takeover session, no subagents)
+re-verified every open lead and found ZERO new open families. It also made one
+correction, so the download queue changes:
+
+1. CENSUS NOW 32 FAMILIES / 34 TRIOS (was 33/36 in v03). T2T-CQ (F16) is
+   REMOVED: the parents (LCL7/LCL8) have short-read Illumina only. Verified in
+   the GPB paper methods (PMC13075991: "Parental datasets, consisting of
+   Illumina PCR-free paired-end sequences, were obtained from LCL7 (father) and
+   LCL8 (mother)") and in live GSA-Human records: HRA010594 = LCL5+LCL6 only
+   (ONT ultralong + Hi-C, controlled); HRA003188 = LCL5 only (ONT WGS);
+   HRA001859 = all four members but all short-read multi-omics; NCBI SRA has no
+   parent long reads. CQ v2.0 and CQ v3.2 are BOTH the twins' combined diploid
+   genome (GWHFQEY00000000.1 mat / GWHFQEX00000000.1 pat, open at GWH) - there
+   are no parent assemblies. DO NOT download T2T-CQ as a family; the twins-only
+   T2T diploid remains open at GWH if the reference genome itself is wanted.
+
+2. No new families join the download queue. Verified controlled near-misses
+   (for the record, not downloadable): duoNovo/GREGoR AJHG 2026 (38 trios + 2
+   quads, dbGaP phs003047); Quartet PGT BMC Genomics 2026 (13 quartets, ONT,
+   GSA-Human HRA009786, DAC HDAC005180); autism methylome Sci Adv 2026 (31
+   quartets, HiFi, OMIX004763 application-gated); REACH autism Cell Genomics
+   2026 (63 families, HiFi+ONT, NIMH Data Archive DOI 10.15154/qpjh-dk51);
+   Central Asian GVM000900 medRxiv 2025 (166 unrelated individuals, controlled,
+   release 2026-11-11). Short-read-only dead ends: PRJNA477862 (8 trios, all
+   Illumina HiSeq X Ten), paternal-age HGG Advances 2026.
+
+3. CQ-chrY preprint (bioRxiv 10.64898/2026.04.13.718326) announces the Chinese
+   Quartet father's chrY T2T (61.88 Mb, ONT + HiFi + Hi-C) but no public
+   deposit was found; even if it appears, the Quartet stays excluded as a
+   family (parents short-read only, twins' reads controlled). Assembly-only
+   scope is unaffected.
+
+4. Downloads are untouched and remain the other branch's duty. Updated
+   assembly-first priority unchanged: PAN027, Platinum Pedigree, HGSVC3,
+   LRSC, HG002 T2T, Vienna/GIAB-Chinese reads if later needed, plus F33 APR.
+   Estimated payload remains roughly 250-350 GB.
+
 Platinum Pedigree refinement: G1-G3 members have Verkko near-T2T assemblies;
 G4 members (200081-200087, 200101-200106) have hifiasm diploid assemblies only
 (verified in the S3 assemblies/ tree).
