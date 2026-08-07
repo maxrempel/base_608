@@ -52,10 +52,10 @@ Last refreshed: $stamp (auto-updates every 3 hours)
 
 ## TLDR
 
-- Census total: **33 unique open-access complete families, 36 trios** (v03, saturated 2026-08-06).
-- Download plan covers all 33: **assemblies first** (19 families have assemblies for all members; 1 partial), reads later for the rest.
+- Census total: **32 unique open-access complete families, 34 trios** (v04, wave-3 verified 2026-08-06; T2T-CQ removed because the parents have short-read only).
+- Download plan covers all 32: **assemblies first**, reads for the rest.
 - Assembly payload: **~250-300 GB**. Optional Vienna reads add ~162 GB.
-- Original 13 trios: **1-7 assemblies COMPLETE**, **8-13 (Vienna reads) queued after the assembly phase (~1 day)**.
+- Original 13 trios: **assemblies COMPLETE for 1-7**, **reads for all 13 now downloading** (HiFi alignments, ~3.4 TB total).
 - Green24 free space: $disk
 
 ## Progress (live from Green24 state)
@@ -73,14 +73,14 @@ Checksum-repair job (families 1-2, EBI ground truth): $md5tail
 | Vienna (F08-F13) | 6 trios | 3 each (18) | Reads only: hg38 CRAM + .crai + GAF per member | ~23-33 GB per family (~162 GB total) | ONT ~17x | Yes (LCL) | queued after assemblies |
 | Platinum Pedigree (F18-F32 + F08/F09 overlap) | 15 new units / 17 trios | 23 open | Near-T2T Verkko FASTAs (11 members) + hifiasm diploid FASTAs (12 members), 2 haplotypes each | 120.5 GB | HiFi/Illumina from blood + UL-ONT/Strand-seq from LCL | Partial (blood + LCL) | not started |
 | PAN027 / WashU (F17) | 1 trio + 1 extra | 4 | v1.3.1 polished FASTAs, 2 haplotypes each | 24.6 GB | HiFi from blood + ONT/Omni-C from LCL | Partial (blood + LCL) | not started |
-| T2T-CQ Chinese Quartet (F16) | 2 trios (MZ twin daughters) | 4 | Twins' combined T2T diploid genome: 2 haplotypes via GWH; parents' v2.0 assemblies to verify | Unknown (GWH) | ONT ultralong + PacBio HiFi | Yes (LCL) | not started |
+| T2T-CQ Chinese Quartet (F16) | removed from census v04 | 2 (twins only) | Twins' combined T2T genome; parents are short-read Illumina only, so not a complete long-read family | Unknown (GWH) | ONT ultralong + PacBio HiFi | Yes (LCL) | do not download as a family |
 | Arab Pangenome trio (F33) | 1 trio | 3 | Phased assemblies, 2 haplotypes each (GenBank / mbru.ac.ae) | Est. ~18 GB (exact to resolve) | PacBio HiFi + ONT + Hi-C | **No - blood, first fully non-cultured** | not started |
 | GIAB Ashkenazi (F14) | 1 trio (partial) | 3 | HG002 T2T assembly (child); HG003/HG004 reads later | TBD | HiFi + ONT | Yes (LCL) | not started |
 | GIAB Chinese (F15) | 1 trio | 3 | Reads only | Deferred | HiFi + ONT | Yes (LCL) | deferred |
 
 ## When we will have 13
 
-- **1-7 (all assemblies): COMPLETE.** 8-13 (Vienna reads) can start once the current assembly queue (Platinum + PAN027 extensions) finishes or if started in parallel.
+- **1-7 assemblies: COMPLETE.** Reads phase running now: 13 read-families of HiFi alignments, about 3.4 TB total (roughly 3 days at the current speed cap). The smaller ONT read set for the Vienna trios is an option if a faster path to 13 is preferred.
 - **8-13 (Vienna reads, ~162 GB): within about a day** if Vienna runs right after 1-7.
 
 ## Bandwidth policy (Max, 2026-08-06)
