@@ -1,13 +1,15 @@
 #!/usr/bin/env python3
-"""Reversible Codex backend switch: DeepSeek <-> Qwen (Alibaba DashScope).
+"""Reversible Codex backend switch: ChatGPT defaults <-> DeepSeek <-> Qwen.
 
 Created 2026-08-05 by Codex for Max. The interactive Codex app on Pine was
 switched from the ChatGPT backend to DeepSeek (2026-08-03), and is now being
 tried on Alibaba's Qwen models (2026-08-05), currently the newest flagship
-Qwen 3.8 Max. This tool flips the Codex config.toml between the two providers
-and always keeps a backup, so the experiment can be undone with one command:
+Qwen 3.8 Max. This tool flips the Codex config.toml between ChatGPT defaults
+and the custom providers, and always keeps a backup, so every state can be
+undone with one command:
 
-    python switch_codex_backend.py qwen       # Qwen 3.8 Max (current default)
+    python switch_codex_backend.py chatgpt    # back to ChatGPT defaults
+    python switch_codex_backend.py qwen       # Qwen 3.8 Max
     python switch_codex_backend.py qwen --model qwen3.7-plus  # Qwen variant
     python switch_codex_backend.py deepseek   # go back to DeepSeek
     python switch_codex_backend.py deepseek --model deepseek-v4-pro  # smart tier
@@ -20,13 +22,17 @@ DEEPSEEK_MODELS below), so stepping between Qwen versions, or from DeepSeek
 Flash to DeepSeek Pro, is also one command and stays reversible.
 
 What the tool changes (all inside ~/.codex, outside the git repository):
-- config.toml: model, model_provider, model_auto_compact_token_limit, and the
-  [model_providers.<name>] block (base_url, wire_api, bearer token).
+- config.toml: model, model_provider, model_auto_compact_token_limit,
+  model_reasoning_effort, model_catalog_json, the API-key auth overrides, and
+  the [model_providers.<name>] block (base_url, wire_api, bearer token).
 - A timestamped backup of config.toml is written to ~/.codex/backups before
   every edit, and a per-provider snapshot to ~/.codex/backup-<provider>/.
 
-The model catalog (~/.codex/models.json) keeps entries for BOTH providers, so
-no catalog rewrite is needed when switching.
+The `chatgpt` action removes every backend override the tool writes, so the
+app returns to stock defaults: the built-in `openai` provider with ChatGPT
+OAuth sign-in and the app-managed default model. The model catalog
+(~/.codex/models.json) keeps entries for the custom providers, so switching
+back to DeepSeek or Qwen from ChatGPT defaults is still one command.
 
 Safety: the API keys are read from the documented Nextcloud credential files
 and written into config.toml only when that provider is activated. Nothing here
@@ -61,6 +67,7 @@ PROVIDERS = {
         "key_file": os.path.join(SSH_CRED_DIR, "deepseek_api_key_20260226.txt"),
         "model": "deepseek-v4-flash",
         "auto_compact_token_limit": 350000,
+        "reasoning_effort": "high",
     },
     "qwen": {
         "label": "Qwen 3.8 Max (Alibaba DashScope)",
@@ -69,6 +76,7 @@ PROVIDERS = {
         "key_file": os.path.join(SSH_CRED_DIR, "dashscope_beijing_api_key_20260329.txt"),
         "model": "qwen3.8-max",
         "auto_compact_token_limit": 350000,
+        "reasoning_effort": "high",
     },
 }
 
@@ -117,7 +125,11 @@ def _fmt_value(value):
 
 
 def rewrite_top_level(text, key, value):
-    """Replace the first top-level `key = ...` line in a TOML document."""
+    """Replace the first top-level `key = ...` line, inserting it if missing.
+
+    ChatGPT-default configs omit the backend keys entirely, so switching to a
+    custom provider from defaults must insert them instead of failing.
+    """
     new_line = f"{key} = {_fmt_value(value)}"
     lines = text.splitlines()
     for index, line in enumerate(lines):
@@ -125,7 +137,36 @@ def rewrite_top_level(text, key, value):
         if stripped.startswith(key + " =") or stripped.startswith(key + "="):
             lines[index] = new_line
             return "\n".join(lines) + "\n"
-    raise RuntimeError(f"top-level key {key!r} was not found in config.toml")
+    return "\n".join([new_line] + lines) + "\n"
+
+
+def remove_top_level_keys(text, keys):
+    """Remove the given top-level `key = ...` lines from config text."""
+    wanted = set(keys)
+    lines = text.splitlines()
+    kept = []
+    removed = set()
+    for line in lines:
+        stripped = line.strip()
+        hit = next(
+            (
+                key
+                for key in wanted
+                if stripped.startswith(key + " =")
+                or stripped.startswith(key + "=")
+            ),
+            None,
+        )
+        if hit is not None:
+            removed.add(hit)
+        else:
+            kept.append(line)
+    cleaned = []
+    for line in kept:
+        if line.strip() == "" and cleaned and cleaned[-1].strip() == "":
+            continue
+        cleaned.append(line)
+    return "\n".join(cleaned).rstrip("\n") + "\n", removed
 
 
 def provider_block(name, spec):
@@ -366,6 +407,18 @@ def switch(provider, config_path=None, catalog_path=None, model=None, force=Fals
     text = rewrite_top_level(
         text, "model_auto_compact_token_limit", spec["auto_compact_token_limit"]
     )
+    text = rewrite_top_level(
+        text, "model_reasoning_effort", spec["reasoning_effort"]
+    )
+    # Custom models live in the local catalog, and the API-key auth overrides
+    # keep the app from falling back to ChatGPT OAuth while a custom provider
+    # is active. ChatGPT defaults remove all of these.
+    for top_key, top_value in (
+        ("model_catalog_json", catalog_path.replace("\\", "/")),
+        ("preferred_auth_method", "apikey"),
+        ("forced_login_method", "api"),
+    ):
+        text = rewrite_top_level(text, top_key, top_value)
     text = upsert_provider_block(text, provider, {**spec, "key": key})
 
     fd, tmp_path = tempfile.mkstemp(
@@ -484,6 +537,80 @@ def enable_qwen(config_path=None, catalog_path=None):
     print("Activate it with: python switch_codex_backend.py qwen")
 
 
+CHATGPT_DEFAULT_KEYS_TO_REMOVE = (
+    "model",
+    "model_provider",
+    "model_auto_compact_token_limit",
+    "model_reasoning_effort",
+    "preferred_auth_method",
+    "forced_login_method",
+    "model_catalog_json",
+)
+
+
+def restore_chatgpt(config_path=None, catalog_path=None):
+    """Restore the built-in ChatGPT defaults in the interactive Codex app.
+
+    Removes every backend override the switch tool ever writes, so the app
+    goes back to stock defaults: the built-in `openai` provider with ChatGPT
+    OAuth sign-in and the app-managed default model (gpt-5.6-sol as of
+    2026-08-07). Custom provider blocks are removed too; the API key files in
+    Nextcloud are never touched.
+    """
+    config_path = config_path or DEFAULT_CONFIG
+    if not os.path.isfile(config_path):
+        raise RuntimeError(f"config.toml not found at {config_path}")
+    backup_path = backup_config(config_path)
+
+    with open(config_path, "r", encoding="utf-8") as handle:
+        text = handle.read()
+
+    text, removed = remove_top_level_keys(text, CHATGPT_DEFAULT_KEYS_TO_REMOVE)
+    for name in list(load_config(config_path).get("model_providers", {})):
+        text = remove_provider_block(text, name)
+
+    fd, tmp_path = tempfile.mkstemp(
+        dir=os.path.dirname(config_path), suffix=".tmp"
+    )
+    with os.fdopen(fd, "w", encoding="utf-8") as handle:
+        handle.write(text)
+    os.replace(tmp_path, config_path)
+
+    data = load_config(config_path)
+    if "model_provider" in data:
+        raise RuntimeError("verification failed: model_provider still present")
+    if "model" in data:
+        raise RuntimeError("verification failed: model override still present")
+    if data.get("model_providers"):
+        raise RuntimeError(
+            "verification failed: custom provider blocks still present"
+        )
+    for key in (
+        "preferred_auth_method",
+        "forced_login_method",
+        "model_catalog_json",
+        "model_reasoning_effort",
+        "model_auto_compact_token_limit",
+    ):
+        if key in data:
+            raise RuntimeError(f"verification failed: {key} still present")
+
+    snapshot_provider(
+        config_path,
+        "chatgpt",
+        {
+            "model": "app default (gpt-5.6-sol)",
+            "base_url": "built-in openai provider",
+        },
+        data.get("model_provider"),
+    )
+    print(f"Backup written to {backup_path}")
+    print(
+        "OK: Codex backend is back on ChatGPT defaults (built-in openai "
+        "provider, app-managed model). Restart the Codex app for new tasks."
+    )
+
+
 def status(config_path=None, catalog_path=None):
     config_path = config_path or DEFAULT_CONFIG
     catalog_path = catalog_path or DEFAULT_CATALOG
@@ -514,7 +641,9 @@ def main():
         "action",
         nargs="?",
         default="status",
-        help="qwen | deepseek | disable-qwen | enable-qwen | status",
+        help=(
+            "chatgpt | qwen | deepseek | disable-qwen | enable-qwen | status"
+        ),
     )
     parser.add_argument(
         "--model",
@@ -533,6 +662,8 @@ def main():
     try:
         if args.action == "status":
             status(args.config, args.catalog)
+        elif args.action == "chatgpt":
+            restore_chatgpt(args.config, args.catalog)
         elif args.action == "disable-qwen":
             disable_qwen(args.config, args.catalog)
         elif args.action == "enable-qwen":

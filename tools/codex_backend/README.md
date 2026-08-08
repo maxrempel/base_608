@@ -1,36 +1,41 @@
-# Codex Backend Switch: DeepSeek <-> Qwen (Alibaba DashScope)
+# Codex Backend Switch: ChatGPT defaults <-> DeepSeek <-> Qwen
 
 Operational reference for the interactive Codex backend on Pine.
 
-Last edited: 2026-08-06 by Codex
+Last edited: 2026-08-07 by Codex
 
 ## 1. Purpose
 
 The interactive Codex app normally talks to a model backend defined in
 `C:\Users\maxre\.codex\config.toml`. It ran on ChatGPT, was moved to DeepSeek on
 2026-08-03, was trialed on Alibaba's Qwen 3.8 Max (2026-08-05), and was
-switched back to DeepSeek the same evening at Max's request. This folder holds
-the reversible switch between backends: the inactive provider stays fully
-configured, and switching is one command. Nothing in this experiment touches
-the headless agent route or the DeepSeek offload runner, which remain pinned to
-DeepSeek per the shared rules.
+switched back to DeepSeek the same evening at Max's request. On 2026-08-07,
+after Max's ChatGPT weekly limit refreshed, the app was restored to its stock
+ChatGPT defaults. This folder holds the reversible switch between ChatGPT
+defaults and the custom providers, and switching is one command. Nothing in
+this experiment touches the headless agent route or the DeepSeek offload
+runner, which remain pinned to DeepSeek per the shared rules.
 
-## 2. Current status (2026-08-06)
+## 2. Current status (2026-08-07)
 
-- Active provider: `deepseek` (DeepSeek, official API).
-- Active model: `deepseek-v4-flash` (fast tier). DeepSeek V4 Pro is expected
-  to support Codex integration in early August 2026 and is rejected by the API
-  until then, so Pro is one command away but not yet active.
+- Active backend: ChatGPT defaults. `config.toml` carries no backend overrides,
+  so the app uses the built-in `openai` provider with ChatGPT OAuth sign-in and
+  the app-managed default model (`gpt-5.6-sol` as of 2026-08-07).
+- `~/.codex/auth.json` is absent (deleted during the DeepSeek/Qwen trials), so
+  the app may ask Max to sign in with ChatGPT once after the restart that
+  activates the new config. That is expected and one-time.
 - Qwen: DISABLED 2026-08-06 at Max's request. The Alibaba DashScope API key
   stays valid for other uses. Re-enable with
   `switch_codex_backend.py enable-qwen`, then `switch_codex_backend.py qwen`.
+- DeepSeek and Qwen remain one command away for a future switch; the local
+  model catalog `C:\Users\maxre\.codex\models.json` still carries their
+  entries.
 - Config file: `C:\Users\maxre\.codex\config.toml`.
-- Model catalog: `C:\Users\maxre\.codex\models.json` (entries for both
-  providers).
 - Terminal title: `[tui] terminal_title = ["spinner", "project", "model"]`,
   so the active model is visible in the embedded terminal title of the Codex
   app (official Codex setting, applied 2026-08-05).
-- Status verified end to end with a real `codex exec` run.
+- Config verified by parsing and by `codex doctor` (reports `default model
+  provider openai`, `model <default>`, `reachability mode ChatGPT auth`).
 
 ## 3. Quick start
 
@@ -38,7 +43,12 @@ Show the active provider:
 
     python C:\claude_base\tools\codex_backend\switch_codex_backend.py status
 
-Switch to Qwen (the current trial):
+Restore ChatGPT defaults (removes every backend override; the app-managed
+model and ChatGPT sign-in take over):
+
+    python C:\claude_base\tools\codex_backend\switch_codex_backend.py chatgpt
+
+Switch to Qwen:
 
     python C:\claude_base\tools\codex_backend\switch_codex_backend.py qwen
 
@@ -65,7 +75,7 @@ Re-enable Qwen later:
     python C:\claude_base\tools\codex_backend\switch_codex_backend.py qwen
 
 The change applies to NEW Codex tasks. A task already running keeps the backend
-it started with.
+it started with, so restart the Codex app after a switch.
 
 ## 4. How the switch works
 
@@ -77,15 +87,29 @@ git repository):
 - `model_provider = "qwen"` or `"deepseek"`.
 - `model_auto_compact_token_limit` (350000 for both, matching the 1M-token
   context of each model).
+- `model_reasoning_effort = "high"` (the setting both custom providers used
+  before the ChatGPT restore).
+- `model_catalog_json = "<codex home>\models.json"` so the app loads the local
+  catalog that contains the custom models.
+- `preferred_auth_method = "apikey"` and `forced_login_method = "api"` so the
+  app stays on API-key auth while a custom provider is active.
 - The `[model_providers.<name>]` block: base URL, wire API, and the bearer
   token read fresh from the canonical credential file.
 
-`models.json` is never rewritten by a switch: it keeps catalog entries for both
-backends. The active model must exist in the catalog, and the switch verifies
-this before writing. `--model` accepts only variants in the `QWEN_MODELS` and
-`DEEPSEEK_MODELS` whitelists (models verified working on the respective
-accounts), so stepping between Qwen versions, or from DeepSeek Flash to
-DeepSeek Pro, is itself a one-command, reversible operation.
+The backend keys are inserted (not just replaced) when missing, so switching
+from a ChatGPT-default config works the same as switching between custom
+providers. `models.json` is never rewritten by a switch: it keeps catalog
+entries for both custom backends. The active model must exist in the catalog,
+and the switch verifies this before writing. `--model` accepts only variants
+in the `QWEN_MODELS` and `DEEPSEEK_MODELS` whitelists (models verified working
+on the respective accounts), so stepping between Qwen versions, or from
+DeepSeek Flash to DeepSeek Pro, is itself a one-command, reversible operation.
+
+`chatgpt` is the inverse: it backs up first, then removes every key above and
+every `[model_providers.*]` block, so `config.toml` returns to stock defaults
+(built-in `openai` provider, ChatGPT OAuth, app-managed model). It never
+touches the API key files in Nextcloud. A snapshot is written to
+`~/.codex\backup-chatgpt\` alongside the timestamped backup.
 
 Before every edit the tool writes:
 
@@ -129,9 +153,14 @@ the changed config and catalog immediately.
 
 | Provider | Model | Base URL | Wire API | Key file |
 | --- | --- | --- | --- | --- |
-| `deepseek` (active) | `deepseek-v4-flash` | `https://api.deepseek.com/` | responses | `Nextcloud\zSyncMain\ssh\deepseek_api_key_20260226.txt` |
+| `openai` (ChatGPT defaults, active) | app-managed default (`gpt-5.6-sol`) | built-in | responses | none (ChatGPT OAuth sign-in) |
+| `deepseek` (one command away) | `deepseek-v4-flash` | `https://api.deepseek.com/` | responses | `Nextcloud\zSyncMain\ssh\deepseek_api_key_20260226.txt` |
 | `deepseek` (pending) | `deepseek-v4-pro` | `https://api.deepseek.com/` | responses | `Nextcloud\zSyncMain\ssh\deepseek_api_key_20260226.txt` |
-| `qwen` (trialed) | `qwen3.8-max` | `https://dashscope.aliyuncs.com/compatible-mode/v1` | responses | `Nextcloud\zSyncMain\ssh\dashscope_beijing_api_key_20260329.txt` |
+| `qwen` (disabled) | `qwen3.8-max` | `https://dashscope.aliyuncs.com/compatible-mode/v1` | responses | `Nextcloud\zSyncMain\ssh\dashscope_beijing_api_key_20260329.txt` |
+
+`deepseek` and `qwen` are custom providers with bearer-token auth; the
+`openai` provider is the built-in ChatGPT provider used during normal ChatGPT
+operation.
 
 DeepSeek V4 Pro (`deepseek-v4-pro`) is whitelisted and present in `models.json`,
 but the DeepSeek API currently rejects it for Codex integration with "will be
@@ -175,11 +204,14 @@ CLI run.
 
 - `wire_api = "chat" is no longer supported`: the provider block must use
   `wire_api = "responses"`. The switch tool always writes the correct value.
+- `no Codex credentials were found` after a `chatgpt` restore: expected when
+  `~/.codex/auth.json` is missing. Sign in with ChatGPT in the desktop app
+  (one-time) and the credentials are recreated. Until then the custom
+  providers are the only ones that can run without a sign-in.
 - `API key login is required, but ChatGPT is currently being used`: this
-  machine is API-key-only by design (`forced_login_method = "api"`). The CLI
-  logs out a stale ChatGPT login record when it conflicts. Model access is not
-  affected because each provider carries its own bearer token. If the desktop
-  app asks Max to sign in again for account features, he signs in with ChatGPT.
+  conflict only appears while a custom provider is active with the API-key
+  auth overrides (`forced_login_method = "api"`). Under ChatGPT defaults the
+  overrides are absent and ChatGPT sign-in is the normal path.
 - Streaming disconnects with `stream disconnected - retrying sampling request`:
   observed once on Alibaba's Responses endpoint. Codex retries up to 5 times and
   completed the run. If this becomes frequent on real tasks, re-evaluate the
@@ -299,6 +331,8 @@ Install or reinstall the watcher (also labels the current backlog):
 
 - Handover record:
   `C:\claude_base\deepseek_to_qwen_switch_20260805_v01_tomemex.md`.
+- ChatGPT restore record (2026-08-07):
+  `C:\base_608\worklog\codex_backend_chatgpt_restore_20260807_v01.md`.
 - Work-log entry:
   `C:\claude_base\worklog\codex_qwen_switch_20260805_v01.md` (local only, the
   `worklog` folder is gitignored by design).

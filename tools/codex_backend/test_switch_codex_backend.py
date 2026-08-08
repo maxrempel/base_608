@@ -144,6 +144,41 @@ class SwitchTests(unittest.TestCase):
         data = sw.load_config(self.config)
         self.assertEqual(data["model_provider"], "qwen")
 
+    def test_restore_chatgpt_removes_backend_keys(self):
+        sw.restore_chatgpt(self.config, self.catalog)
+        data = sw.load_config(self.config)
+        for key in (
+            "model",
+            "model_provider",
+            "model_auto_compact_token_limit",
+            "model_reasoning_effort",
+            "preferred_auth_method",
+            "forced_login_method",
+            "model_catalog_json",
+        ):
+            self.assertNotIn(key, data)
+        self.assertNotIn("model_providers", data)
+        self.assertEqual(data["approval_policy"], "never")
+        snapshot = os.path.join(sw.CODEX_HOME, "backup-chatgpt", "config.toml")
+        self.assertTrue(os.path.isfile(snapshot))
+
+    def test_switch_from_chatgpt_defaults_upserts_keys(self):
+        sw.restore_chatgpt(self.config, self.catalog)
+        sw.switch("deepseek", self.config, self.catalog)
+        data = sw.load_config(self.config)
+        self.assertEqual(data["model_provider"], "deepseek")
+        self.assertEqual(data["model"], "deepseek-v4-flash")
+        self.assertEqual(data["model_reasoning_effort"], "high")
+        self.assertEqual(
+            data["model_catalog_json"], self.catalog.replace("\\", "/")
+        )
+        self.assertEqual(data["preferred_auth_method"], "apikey")
+        self.assertEqual(data["forced_login_method"], "api")
+        self.assertEqual(
+            data["model_providers"]["deepseek"]["experimental_bearer_token"],
+            "sk-deepseek-test-key",
+        )
+
 
 if __name__ == "__main__":
     unittest.main()
