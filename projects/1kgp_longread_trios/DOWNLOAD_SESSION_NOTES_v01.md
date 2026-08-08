@@ -98,3 +98,15 @@ Assembly phase: 18 of 33 family units complete (all 7 original trios + 11 Platin
   - downloader now persists downloaded_bytes every 60 s during transfer, so PROGRESS.md and the report show live bytes (verified: PROGRESS now matches du).
   - resume_aligned MAX_ACTIVE raised 2 -> 4; r1-r5 are now downloading concurrently (r4 had failed to auto-start, started manually). Watch task already on 45-min cadence (OS switch ran 23:36); session wake 27779eae now 45-min recurring (20-min wake 383ef0ac cancelled).
 - ETA for the 3.4 TB reads at current EBI speeds: several days. Concurrency is capped by the 250 Mbps day policy at 4 families on paper; actual usage stays near 60-100 Mbps because EBI is the bottleneck.
+
+## Incident 2026-08-07 afternoon: Green24 USB re-enumeration (resolved)
+
+At ~15:46 PDT the downloads stopped with I/O errors. Root cause: the Green24 USB drive re-enumerated on the USB bus and its device letter changed from /dev/sdi to /dev/sdj, so the old mount at /mnt/green24 (still pointing at sdi) went stale. All reads/writes returned "Input/output error", the downloader services crashed with OSError Errno 5, hit their restart limits (StartLimitBurst), and went failed. The data itself was never lost.
+
+Recovery (with Taygeta sudo password from Bitwarden "Taygeta administrator login", never printed):
+1. Stopped the supervisor to stop retry churn against the dead mount.
+2. `sudo umount /mnt/green24`, then `sudo mount /mnt/green24` (reads fstab, which uses UUID=7B5F-D16C and uid=1000,gid=1000,umask=022). A plain `mount -U` without fstab options mounted as root and caused PermissionError on the state lock files; the second mount fixed ownership (state dir now maxre:maxre, write OK).
+3. `systemctl --user reset-failed kgp-aligned-dl-v01@r1..r9` then started r1-r5 (r6-r9 came back too); all 9 read families active and resuming partials via HTTP Range.
+4. Partial files resumed normally; EBI-truncated files (r4/r5 had verify_failed) are re-downloaded by the downloader's quarantine loop.
+
+Hardening notes for migration: fstab already uses UUID + nofail, so a reboot auto-mounts correctly; the failure mode is a mid-run USB re-enumeration, which no mount option prevents. A udev/systemd automount rule for /mnt/green24 by UUID would make this self-healing on Taygeta 2. Keep the watcher's "watch failed" alert as the tripwire.

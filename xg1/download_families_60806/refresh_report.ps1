@@ -90,6 +90,10 @@ Checksum-repair job (families 1-2, EBI ground truth): $md5tail
 ## Machine / storage facts
 
 - Taygeta 1 live; Green24 at /mnt/green24. Taygeta 2 arrives 2026-08-07 night; 3 days for migration. All data/state on Green24; software committed to GitHub as backup.
+
+## Recent incident (2026-08-07 afternoon, resolved)
+
+- Green24's USB drive re-enumerated (device letter sdi -> sdj), the old mount went stale, and downloads stopped with I/O errors until remounted. No data lost. Remounted by UUID with correct ownership (maxre), restart limits cleared, all 9 read families resumed and are downloading again. Full details in DOWNLOAD_SESSION_NOTES_v01.md.
 "@
 
 [System.IO.File]::WriteAllText($report, $content, (New-Object System.Text.UTF8Encoding($false)))
