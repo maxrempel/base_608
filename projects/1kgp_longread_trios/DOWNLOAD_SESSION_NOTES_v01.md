@@ -110,3 +110,9 @@ Recovery (with Taygeta sudo password from Bitwarden "Taygeta administrator login
 4. Partial files resumed normally; EBI-truncated files (r4/r5 had verify_failed) are re-downloaded by the downloader's quarantine loop.
 
 Hardening notes for migration: fstab already uses UUID + nofail, so a reboot auto-mounts correctly; the failure mode is a mid-run USB re-enumeration, which no mount option prevents. A udev/systemd automount rule for /mnt/green24 by UUID would make this self-healing on Taygeta 2. Keep the watcher's "watch failed" alert as the tripwire.
+
+## Bandwidth throttle 2026-08-07 evening (Max)
+
+- Ookla speed test on Taygeta measured the line at 459.3 Mbps down (server INFINITUM Tijuana). Max asked to throttle downloads at 70% of maximum.
+- New caps (run_aligned_v01.sh, applied to the aligned-reads unit via bash wrapper): per family 3390 KiB/s day (07:00-23:00, keeps Max's earlier 250 Mbps ceiling) and 4360 KiB/s night (70% of 459 = ~322 Mbps total, 9 families). Before the cap aggregate was ~180 Mbps; after the cap ~139 Mbps.
+- Wrapper bug note: first version used an unquoted heredoc, so $(date) and $1 were expanded at write time and the services failed with empty family names; rewritten with <<'EOF'. All 9 read families active under the new caps.

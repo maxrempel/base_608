@@ -85,7 +85,7 @@ Checksum-repair job (families 1-2, EBI ground truth): $md5tail
 
 ## Bandwidth policy (Max, 2026-08-06)
 
-- Home line measured 500 Mbps. Caps: daytime (07:00-23:00) total 250 Mbps, nighttime total 350 Mbps, split across two concurrent family streams. If the source server is slower, no extra limiting is applied.
+- Updated 2026-08-07: Ookla speed test measured the line at 459 Mbps down. Throttle target = 70% = ~322 Mbps total at night; daytime keeps the earlier 250 Mbps ceiling. Per-family caps: 3390 KiB/s day, 4360 KiB/s night, 9 families concurrent. Actual aggregate measured ~139 Mbps after the cap (source-limited).
 
 ## Machine / storage facts
 
