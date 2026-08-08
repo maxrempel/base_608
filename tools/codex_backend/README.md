@@ -2,7 +2,7 @@
 
 Operational reference for the interactive Codex backend on Pine.
 
-Last edited: 2026-08-07 by Codex
+Last edited: 2026-08-08 by Claude Opus 5
 
 ## 1. Purpose
 
@@ -16,14 +16,18 @@ defaults and the custom providers, and switching is one command. Nothing in
 this experiment touches the headless agent route or the DeepSeek offload
 runner, which remain pinned to DeepSeek per the shared rules.
 
-## 2. Current status (2026-08-07)
+## 2. Current status (2026-08-08)
 
-- Active backend: ChatGPT defaults. `config.toml` carries no backend overrides,
-  so the app uses the built-in `openai` provider with ChatGPT OAuth sign-in and
-  the app-managed default model (`gpt-5.6-sol` as of 2026-08-07).
-- `~/.codex/auth.json` is absent (deleted during the DeepSeek/Qwen trials), so
-  the app may ask Max to sign in with ChatGPT once after the restart that
-  activates the new config. That is expected and one-time.
+- Active backend: ChatGPT defaults, SIGNED IN AND VERIFIED WORKING. `config.toml`
+  carries no backend overrides, so the app uses the built-in `openai` provider
+  with ChatGPT OAuth sign-in and the app-managed default model, `gpt-5.6-sol`.
+- `~/.codex/auth.json` was recreated on 2026-08-08 by Max's ChatGPT sign-in (see
+  section 7a). Before that the file was absent and the desktop app was stuck on
+  its sign-in screen with nothing to sign in with. `codex doctor` now reports
+  `stored auth mode chatgpt`, `stored ChatGPT tokens true`, and a successful
+  WebSocket handshake to the ChatGPT backend.
+- End-to-end smoke test 2026-08-08: `codex exec` ran on `model: gpt-5.6-sol,
+  provider: openai` and answered correctly.
 - Qwen: DISABLED 2026-08-06 at Max's request. The Alibaba DashScope API key
   stays valid for other uses. Re-enable with
   `switch_codex_backend.py enable-qwen`, then `switch_codex_backend.py qwen`.
@@ -205,9 +209,9 @@ CLI run.
 - `wire_api = "chat" is no longer supported`: the provider block must use
   `wire_api = "responses"`. The switch tool always writes the correct value.
 - `no Codex credentials were found` after a `chatgpt` restore: expected when
-  `~/.codex/auth.json` is missing. Sign in with ChatGPT in the desktop app
-  (one-time) and the credentials are recreated. Until then the custom
-  providers are the only ones that can run without a sign-in.
+  `~/.codex/auth.json` is missing. See section 7a for the recovery that is
+  known to work. Until the sign-in is restored, the custom providers are the
+  only ones that can run.
 - `API key login is required, but ChatGPT is currently being used`: this
   conflict only appears while a custom provider is active with the API-key
   auth overrides (`forced_login_method = "api"`). Under ChatGPT defaults the
@@ -222,6 +226,55 @@ CLI run.
 - Missing or empty key file: the switch fails closed with a clear message.
   Restore a known-good config from `~/.codex\backups\` if a manual edit ever
   goes wrong, then re-run the switch.
+
+## 7a. Desktop app stuck on a blocked sign-in screen (2026-08-08)
+
+Symptom Max reported the morning after the ChatGPT restore: the Codex desktop
+app starts, shows its sign-in screen, and the sign-in does not go through. The
+app looks broken and a reinstall looks tempting.
+
+It is not a broken install and a reinstall does NOT fix it. A reinstall lands
+on the same screen and additionally costs the MCP server definitions, plugin
+list, trusted-project list, appearance settings, and the Codex++ patch layer
+with the session-board tweak, all of which live in `~/.codex/config.toml` and
+`%APPDATA%\codex-plusplus`. Check the config and the credential file first:
+
+    python C:\base_608\tools\codex_backend\switch_codex_backend.py status
+    <codex.exe> login status
+
+If `status` shows ChatGPT defaults and `login status` says `Not logged in`,
+the only missing piece is `~/.codex/auth.json`. Recreate it from a shell
+instead of fighting the app's own screen:
+
+    <codex.exe> login
+
+That starts a local login server on `http://localhost:1455`, prints an
+`auth.openai.com` authorization URL, and opens it in the default browser. Max
+approves in the browser with his existing ChatGPT Pro session; no password is
+typed by an agent. On success the command prints `Successfully logged in` and
+writes `~/.codex/auth.json`.
+
+The desktop app and the command line share one `CODEX_HOME`
+(`C:\Users\maxre\.codex`), so this single sign-in serves both. The app's
+`codex.exe` app-server child reads `auth.json` at startup and does not pick up
+a new one while running, so the app must be fully closed and relaunched:
+
+    <app>\ChatGPT.exe --user-data-dir=C:\Users\maxre\AppData\Local\codex-plusplus\profile
+
+Relaunch through that exact target (the Start Menu `Codex++.lnk` shortcut uses
+it) so the Codex++ patched entry point loads and the session-board tweak comes
+back. Confirm in `%APPDATA%\codex-plusplus\log\main.log` that the run logged
+`started main tweak: com.maxrempel.session-board`.
+
+Verify with `codex doctor`: `stored auth mode chatgpt`, `stored ChatGPT tokens
+true`, `model provider openai`, and `handshake result HTTP 101 Switching
+Protocols`. Then run one `codex exec` smoke test.
+
+Note on the app-server: the desktop app's backend `codex.exe` is started once
+with `app-server` and keeps running for the life of the app. Any change to
+`config.toml`, `auth.json`, or `models.json` reaches it only after an app
+restart. That is why every backend switch in this document ends with "restart
+the Codex app".
 
 ## 8. Security
 
